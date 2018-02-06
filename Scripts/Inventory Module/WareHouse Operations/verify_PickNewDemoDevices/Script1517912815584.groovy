@@ -22,7 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Inventory Module/WareHouses/step_WarehouseOperation'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/WareHouses/step_Warehouse'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : code]))
 
