@@ -23,5 +23,5 @@ WebUI.callTestCase(findTestCase('Inventory Module/Common/List WareHouses'), [:],
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_Operations', [('code') : wareHouseCode]))
+WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : wareHouseCode]))
 

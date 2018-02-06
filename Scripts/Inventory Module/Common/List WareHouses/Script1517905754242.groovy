@@ -30,9 +30,9 @@ WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Configuratio
 
 WebUI.delay(3)
 
-WebUI.mouseOver(findTestObject('Inventory Module/WareHouses/link_warehouses'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_warehouses'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Inventory Module/WareHouses/link_listWarehouses'))
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_listWarehouses'))
 
