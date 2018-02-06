@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_AddWareHouseOperations</name>
+   <name>link_AddWareHouses</name>
    <tag></tag>
    <elementGuidId>900525c1-c63b-4265-bc8d-76cbdc62a7e4</elementGuidId>
    <selectorCollection>
