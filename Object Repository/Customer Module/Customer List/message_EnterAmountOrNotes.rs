@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_EnterAmountOrNotes</name>
+   <tag></tag>
+   <elementGuidId>74dcc086-8b18-4857-a3db-6bec25310600</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='addRefundDiv']/div[1]/div/ul/li[text()='${error}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='addRefundDiv']/div[1]/div/ul/li[text()='${error}']</value>
+   </webElementProperties>
+</WebElementEntity>

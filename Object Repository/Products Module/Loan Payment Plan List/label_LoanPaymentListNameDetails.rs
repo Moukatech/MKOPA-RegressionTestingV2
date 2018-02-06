@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_LoanPaymentListNameDetails</name>
+   <tag></tag>
+   <elementGuidId>cb8e744a-912d-4403-b093-9ee81e50801e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='LoanPaymentPlansGrid']/table/tbody/tr[td[text()='${plan_toApprove}']]/td/a[text()='Details']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='LoanPaymentPlansGrid']/table/tbody/tr[td[text()='${plan_toApprove}']]/td/a[text()='Details']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+File Upload Center,Chrome 63.0.3239.132,Test Suite for all Test Cases Depending on File Upload Center,2018-01-29 11:19:25,2018-01-29 11:22:19,2m - 54.831s,ERROR
+,,,,,,
+Test Cases/File Upload Center Module/Verify-User is able to Upload Payment File,Chrome 63.0.3239.132,Steps\n\nFile Upload Center\nFormat the MPESA payment File Appropriately\nUpload the Payment file andd it should be in CSV Format,2018-01-29 11:19:25,2018-01-29 11:19:55,29.897s,PASSED
+callTestCase,Chrome 63.0.3239.132,,2018-01-29 11:19:25,2018-01-29 11:19:51,25.402s,PASSED
+refresh,Chrome 63.0.3239.132,,2018-01-29 11:19:51,2018-01-29 11:19:52,0.813s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:19:52,2018-01-29 11:19:54,2.004s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-29 11:19:54,2018-01-29 11:19:54,0.244s,PASSED
+getText,Chrome 63.0.3239.132,,2018-01-29 11:19:54,2018-01-29 11:19:54,0.109s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-01-29 11:19:54,2018-01-29 11:19:54,0.009s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-01-29 11:19:54,2018-01-29 11:19:55,0.697s,PASSED
+,,,,,,
+Test Cases/Payments/Makeover Overpayment/verify_Make overpayment,Chrome 63.0.3239.132,ID:16589 make overpayment,2018-01-29 11:19:55,2018-01-29 11:19:55,0.206s,ERROR
+callTestCase,Chrome 63.0.3239.132,,2018-01-29 11:19:55,2018-01-29 11:19:55,0.001s,PASSED
+,,,,,,
+Test Cases/Payments/Confirm Customer Payment/Verify-Customer Payment,Chrome 63.0.3239.132,Steps\n\n1. Upload mpesa Payment File \n2. Payments\n3. Verify if Payment is Visible to Recent Customer Payments,2018-01-29 11:19:55,2018-01-29 11:20:53,57.956s,PASSED
+callTestCase,Chrome 63.0.3239.132,,2018-01-29 11:19:55,2018-01-29 11:20:34,38.985s,PASSED
+mouseOver,Chrome 63.0.3239.132,,2018-01-29 11:20:34,2018-01-29 11:20:39,5.125s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:20:39,2018-01-29 11:20:41,2.002s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-29 11:20:41,2018-01-29 11:20:47,5.790s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:20:47,2018-01-29 11:20:52,5.003s,PASSED
+getText,Chrome 63.0.3239.132,,2018-01-29 11:20:52,2018-01-29 11:20:52,0.248s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-01-29 11:20:52,2018-01-29 11:20:52,0.001s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-01-29 11:20:52,2018-01-29 11:20:53,0.675s,PASSED
+,,,,,,
+Test Cases/Payments/Confirm Dealer Payment/Verify- Dealer Payment,Chrome 63.0.3239.132,Verify if a dealer Payment has been made after uploading the payment File,2018-01-29 11:20:53,2018-01-29 11:21:30,36.739s,PASSED
+callTestCase,Chrome 63.0.3239.132,,2018-01-29 11:20:53,2018-01-29 11:21:17,23.796s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:21:17,2018-01-29 11:21:19,2.001s,PASSED
+mouseOver,Chrome 63.0.3239.132,,2018-01-29 11:21:19,2018-01-29 11:21:19,0.113s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:21:19,2018-01-29 11:21:21,2.002s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-29 11:21:21,2018-01-29 11:21:24,2.743s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:21:24,2018-01-29 11:21:29,5.002s,PASSED
+getText,Chrome 63.0.3239.132,,2018-01-29 11:21:29,2018-01-29 11:21:29,0.133s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-01-29 11:21:29,2018-01-29 11:21:29,0.002s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-01-29 11:21:29,2018-01-29 11:21:30,0.691s,PASSED
+,,,,,,
+Test Cases/Payments/Edit Cash payment plan name and display name/Verify- Payment Plan name and Display Name are Editable,Chrome 63.0.3239.132,Editing the Payment Plan's Name and display Name.\n\nSteps\n1. Products On the Dashboard\n2. List Cash Payment Plan\n3. Edit \n4. Update\n5. Approve The Changes in the Approver's Account,2018-01-29 11:21:30,2018-01-29 11:22:19,49.400s,PASSED
+"Statement - displayNameGenerator = generateName(""QWRTYPeuioasdFghjklMnbvcxz"", 5)",Chrome 63.0.3239.132,,2018-01-29 11:21:30,2018-01-29 11:21:30,0.002s,PASSED
+Statement - rand = new java.util.Random(),Chrome 63.0.3239.132,,2018-01-29 11:21:30,2018-01-29 11:21:30,0.001s,PASSED
+Statement - sb = new java.lang.StringBuilder(),Chrome 63.0.3239.132,,2018-01-29 11:21:30,2018-01-29 11:21:30,0.000s,PASSED
+"Statement - For ([i = 0, i < length, (i++)])",Chrome 63.0.3239.132,,2018-01-29 11:21:30,2018-01-29 11:21:30,0.004s,PASSED
+Statement - return sb.toString(),Chrome 63.0.3239.132,,2018-01-29 11:21:30,2018-01-29 11:21:30,0.001s,PASSED
+callTestCase,Chrome 63.0.3239.132,,2018-01-29 11:21:30,2018-01-29 11:21:40,10.362s,PASSED
+mouseOver,Chrome 63.0.3239.132,,2018-01-29 11:21:40,2018-01-29 11:21:41,0.110s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:21:41,2018-01-29 11:21:43,2.004s,PASSED
+mouseOver,Chrome 63.0.3239.132,,2018-01-29 11:21:43,2018-01-29 11:21:43,0.110s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:21:43,2018-01-29 11:21:45,2.001s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-29 11:21:45,2018-01-29 11:21:46,0.969s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-29 11:21:46,2018-01-29 11:21:48,2.090s,PASSED
+setText,Chrome 63.0.3239.132,,2018-01-29 11:21:48,2018-01-29 11:21:48,0.103s,PASSED
+setText,Chrome 63.0.3239.132,,2018-01-29 11:21:48,2018-01-29 11:21:48,0.131s,PASSED
+setText,Chrome 63.0.3239.132,,2018-01-29 11:21:48,2018-01-29 11:21:48,0.187s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-29 11:21:48,2018-01-29 11:21:50,1.703s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-01-29 11:21:50,2018-01-29 11:21:51,0.685s,PASSED
+callTestCase,Chrome 63.0.3239.132,,2018-01-29 11:21:51,2018-01-29 11:22:11,20.781s,PASSED
+mouseOver,Chrome 63.0.3239.132,,2018-01-29 11:22:11,2018-01-29 11:22:11,0.102s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:22:11,2018-01-29 11:22:13,2.002s,PASSED
+mouseOver,Chrome 63.0.3239.132,,2018-01-29 11:22:13,2018-01-29 11:22:14,0.106s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:22:14,2018-01-29 11:22:16,2.003s,PASSED
+click,Chrome 63.0.3239.132,,2018-01-29 11:22:16,2018-01-29 11:22:16,0.937s,PASSED
+delay,Chrome 63.0.3239.132,,2018-01-29 11:22:16,2018-01-29 11:22:18,2.003s,PASSED
+getText,Chrome 63.0.3239.132,,2018-01-29 11:22:18,2018-01-29 11:22:19,0.093s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-01-29 11:22:19,2018-01-29 11:22:19,0.001s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-01-29 11:22:19,2018-01-29 11:22:19,0.707s,PASSED

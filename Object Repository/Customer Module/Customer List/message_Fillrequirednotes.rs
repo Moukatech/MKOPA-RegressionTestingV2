@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_Fillrequirednotes</name>
+   <tag></tag>
+   <elementGuidId>3025e0d6-22c2-4d4d-a040-c05c771fc58d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='addRefundDiv']/div[1]/div/ul/li[text()='${error}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='addRefundDiv']/div[1]/div/ul/li[text()='${error}']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The test case:
+1. Refunds a customer
+2. Approves a refunded account</description>
+   <name>Step_Refund Payments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca526f66-ac62-47b5-8fde-7240ed34a379</testCaseGuid>
+   <variable>
+      <defaultValue>'27360571'</defaultValue>
+      <description></description>
+      <id>64e4587f-29ba-457f-ba74-4134fd4ff478</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'KDG2J25T4I'</defaultValue>
+      <description></description>
+      <id>098207ac-5405-4451-808d-2163001176f7</id>
+      <masked>false</masked>
+      <name>depositReceipt</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>95dfbfc6-0642-4494-8b4f-44d678803a41</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'30990522'</defaultValue>
+      <description></description>
+      <id>51999154-1767-442b-b6b7-083292e176e5</id>
+      <masked>false</masked>
+      <name>customerSearch</name>
+   </variable>
+</TestCaseEntity>

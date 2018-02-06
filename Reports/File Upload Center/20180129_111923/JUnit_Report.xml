@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="File Upload Center" time="174" tests="4" failures="0" errors="1">
+   <testsuite name="File Upload Center" tests="4" failures="0" errors="1" time="174" timestamp="2018-01-29 11:19:25" hostname="dennis.gituto - KE-HQ-001711.M-KOPA.local" id="Test Suites/File Upload Center">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dennis.gituto\\git\\MKOPA-REGRESSION-REPOSITORY\\Reports\\File Upload Center\\20180129_111923"/>
+         <property name="logFiles" value="C:\\Users\\dennis.gituto\\git\\MKOPA-REGRESSION-REPOSITORY\\Reports\\File Upload Center\\20180129_111923\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dennis.gituto - KE-HQ-001711.M-KOPA.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.160.202"/>
+         <property name="sessionId" value="884dcb1a4cda8a73f3dad13008d10741"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/File Upload Center Module/Verify-User is able to Upload Payment File" classname="Test Cases/File Upload Center Module/Verify-User is able to Upload Payment File" status="PASSED">
+         <system-out><![CDATA[2018-01-29 11:19:25 - [TEST_CASE][PASSED] - Test Cases/File Upload Center Module/Verify-User is able to Upload Payment File: Test Cases/File Upload Center Module/Verify-User is able to Upload Payment File
+
+2018-01-29 11:19:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/File Upload Center Module/Steps-Upload Payments File' successfully
+
+2018-01-29 11:19:26 - [TEST_CASE][PASSED] - Test Cases/File Upload Center Module/Steps-Upload Payments File: Test Cases/File Upload Center Module/Steps-Upload Payments File
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - tagged = tagGenerator("QWERTYUIOP1234567890LKJHGFDSAZXCVBNM", 5): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - rand = new java.util.Random(): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - sb = new java.lang.StringBuilder(): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < length, (i++)]): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - Statement - return sb.toString(): null
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - csvCreatorPackage.paymentFileGenerator.paymentFileGenerator: csvCreatorPackage.paymentFileGenerator.paymentFileGenerator is PASSED
+
+2018-01-29 11:19:26 - [MESSAGE][PASSED] - csvCreatorPackage.paymentFileGenerator.paymentFileGenerator is PASSED
+
+2018-01-29 11:19:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 11:19:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 11:19:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Login' successfully
+
+2018-01-29 11:19:31 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2018-01-29 11:19:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:19:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:19:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-29 11:19:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-29 11:19:39 - [TEST_STEP][PASSED] - setText: Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:19:39 - [MESSAGE][PASSED] - Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:19:39 - [TEST_STEP][PASSED] - setText: Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:19:39 - [MESSAGE][PASSED] - Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:19:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:19:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login' successfully
+
+2018-01-29 11:19:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/FileUploadCenter/Link-FileUploadMenu' is clicked on
+
+2018-01-29 11:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/FileUploadCenter/Link-FileUploadMenu' is clicked on
+
+2018-01-29 11:19:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/File Upload Center/button_MPESA' is clicked on
+
+2018-01-29 11:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/File Upload Center/button_MPESA' is clicked on
+
+2018-01-29 11:19:45 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\dennis.gituto\git\MKOPA-REGRESSION-REPOSITORY\Payment Files\payments.csv' sent to object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'
+
+2018-01-29 11:19:45 - [MESSAGE][PASSED] - File 'C:\Users\dennis.gituto\git\MKOPA-REGRESSION-REPOSITORY\Payment Files\payments.csv' sent to object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'
+
+2018-01-29 11:19:45 - [TEST_STEP][PASSED] - Statement - If (blankComment == true): null
+
+2018-01-29 11:19:45 - [TEST_STEP][PASSED] - Statement - If (blankTag == true): null
+
+2018-01-29 11:19:45 - [TEST_STEP][PASSED] - setText: Text 'Nice and paid on time' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_COMMENT'
+
+2018-01-29 11:19:45 - [MESSAGE][PASSED] - Text 'Nice and paid on time' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_COMMENT'
+
+2018-01-29 11:19:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 11:19:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 11:19:48 - [TEST_STEP][PASSED] - setText: Text '3A2DL' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_Tag'
+
+2018-01-29 11:19:49 - [MESSAGE][PASSED] - Text '3A2DL' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_Tag'
+
+2018-01-29 11:19:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_UPLOAD' is clicked on
+
+2018-01-29 11:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_UPLOAD' is clicked on
+
+2018-01-29 11:19:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:19:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:19:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_Close Window Button' is clicked on
+
+2018-01-29 11:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_Close Window Button' is clicked on
+
+2018-01-29 11:19:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/File Upload Center Module/Steps-Upload Payments File' successfully
+
+2018-01-29 11:19:51 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-01-29 11:19:52 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-01-29 11:19:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:19:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:19:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/File Upload Center/link_ViewUploadedFile' is clicked on
+
+2018-01-29 11:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/File Upload Center/link_ViewUploadedFile' is clicked on
+
+2018-01-29 11:19:54 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/File Upload Center Module/File Upload Center/label-TagForUploadedFile' is: ''
+
+2018-01-29 11:19:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/File Upload Center Module/File Upload Center/label-TagForUploadedFile' is: ''
+
+2018-01-29 11:19:54 - [TEST_STEP][PASSED] - verifyEqual: Actual object '' and expected object '' are equal
+
+2018-01-29 11:19:54 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2018-01-29 11:19:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-29 11:19:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/Makeover Overpayment/verify_Make overpayment" classname="Test Cases/Payments/Makeover Overpayment/verify_Make overpayment" status="ERROR">
+         <error type="ERROR" message="Test Cases/Payments/Makeover Overpayment/verify_Make overpayment FAILED because (of) java.lang.IllegalArgumentException: Cannot find test case with id 'Test Cases/File Upload Center Module/Steps-Upload Payments Files'"/>
+         <system-out><![CDATA[2018-01-29 11:19:55 - [TEST_CASE][ERROR] - Test Cases/Payments/Makeover Overpayment/verify_Make overpayment: Test Cases/Payments/Makeover Overpayment/verify_Make overpayment FAILED because (of) java.lang.IllegalArgumentException: Cannot find test case with id 'Test Cases/File Upload Center Module/Steps-Upload Payments Files'
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - callTestCase: null]]></system-out>
+         <system-err><![CDATA[2018-01-29 11:19:55 - [TEST_CASE][ERROR] - Test Cases/Payments/Makeover Overpayment/verify_Make overpayment: Test Cases/Payments/Makeover Overpayment/verify_Make overpayment FAILED because (of) java.lang.IllegalArgumentException: Cannot find test case with id 'Test Cases/File Upload Center Module/Steps-Upload Payments Files']]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/Confirm Customer Payment/Verify-Customer Payment" classname="Test Cases/Payments/Confirm Customer Payment/Verify-Customer Payment" status="PASSED">
+         <system-out><![CDATA[2018-01-29 11:19:55 - [TEST_CASE][PASSED] - Test Cases/Payments/Confirm Customer Payment/Verify-Customer Payment: Test Cases/Payments/Confirm Customer Payment/Verify-Customer Payment
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/File Upload Center Module/Steps-Upload Payments File' successfully
+
+2018-01-29 11:19:55 - [TEST_CASE][PASSED] - Test Cases/File Upload Center Module/Steps-Upload Payments File: Test Cases/File Upload Center Module/Steps-Upload Payments File
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - tagged = tagGenerator("QWERTYUIOP1234567890LKJHGFDSAZXCVBNM", 5): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - rand = new java.util.Random(): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - sb = new java.lang.StringBuilder(): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < length, (i++)]): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - Statement - return sb.toString(): null
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - csvCreatorPackage.paymentFileGenerator.paymentFileGenerator: csvCreatorPackage.paymentFileGenerator.paymentFileGenerator is PASSED
+
+2018-01-29 11:19:55 - [MESSAGE][PASSED] - csvCreatorPackage.paymentFileGenerator.paymentFileGenerator is PASSED
+
+2018-01-29 11:19:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 11:20:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 11:20:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Login' successfully
+
+2018-01-29 11:20:00 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2018-01-29 11:20:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:20:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:20:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-29 11:20:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-29 11:20:07 - [TEST_STEP][PASSED] - setText: Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:20:07 - [MESSAGE][PASSED] - Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:20:07 - [TEST_STEP][PASSED] - setText: Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:20:08 - [MESSAGE][PASSED] - Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:20:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:20:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login' successfully
+
+2018-01-29 11:20:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/FileUploadCenter/Link-FileUploadMenu' is clicked on
+
+2018-01-29 11:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/FileUploadCenter/Link-FileUploadMenu' is clicked on
+
+2018-01-29 11:20:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/File Upload Center/button_MPESA' is clicked on
+
+2018-01-29 11:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/File Upload Center/button_MPESA' is clicked on
+
+2018-01-29 11:20:18 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\dennis.gituto\git\MKOPA-REGRESSION-REPOSITORY\Payment Files\payments.csv' sent to object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'
+
+2018-01-29 11:20:18 - [MESSAGE][PASSED] - File 'C:\Users\dennis.gituto\git\MKOPA-REGRESSION-REPOSITORY\Payment Files\payments.csv' sent to object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'
+
+2018-01-29 11:20:18 - [TEST_STEP][PASSED] - Statement - If (blankComment == true): null
+
+2018-01-29 11:20:18 - [TEST_STEP][PASSED] - Statement - If (blankTag == true): null
+
+2018-01-29 11:20:18 - [TEST_STEP][PASSED] - setText: Text 'Nice and paid on time' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_COMMENT'
+
+2018-01-29 11:20:19 - [MESSAGE][PASSED] - Text 'Nice and paid on time' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_COMMENT'
+
+2018-01-29 11:20:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 11:20:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 11:20:22 - [TEST_STEP][PASSED] - setText: Text '64TR4' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_Tag'
+
+2018-01-29 11:20:22 - [MESSAGE][PASSED] - Text '64TR4' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_Tag'
+
+2018-01-29 11:20:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_UPLOAD' is clicked on
+
+2018-01-29 11:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_UPLOAD' is clicked on
+
+2018-01-29 11:20:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:20:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:20:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_Close Window Button' is clicked on
+
+2018-01-29 11:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_Close Window Button' is clicked on
+
+2018-01-29 11:20:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/File Upload Center Module/Steps-Upload Payments File' successfully
+
+2018-01-29 11:20:34 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Payments/Link-Payments' is hovered
+
+2018-01-29 11:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Payments/Link-Payments' is hovered
+
+2018-01-29 11:20:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:20:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:20:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Payments/Link-RecentCustomerPayments' is clicked on
+
+2018-01-29 11:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Payments/Link-RecentCustomerPayments' is clicked on
+
+2018-01-29 11:20:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 11:20:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 11:20:52 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Payments Module/Recent Customer Payments/text_Receipt Number' is: '8GZSV5OVF1'
+
+2018-01-29 11:20:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payments Module/Recent Customer Payments/text_Receipt Number' is: '8GZSV5OVF1'
+
+2018-01-29 11:20:52 - [TEST_STEP][PASSED] - verifyEqual: Actual object '' and expected object '' are equal
+
+2018-01-29 11:20:52 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2018-01-29 11:20:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-29 11:20:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/Confirm Dealer Payment/Verify- Dealer Payment" classname="Test Cases/Payments/Confirm Dealer Payment/Verify- Dealer Payment" status="PASSED">
+         <system-out><![CDATA[2018-01-29 11:20:53 - [TEST_CASE][PASSED] - Test Cases/Payments/Confirm Dealer Payment/Verify- Dealer Payment: Test Cases/Payments/Confirm Dealer Payment/Verify- Dealer Payment
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/File Upload Center Module/Steps-Upload Payments File' successfully
+
+2018-01-29 11:20:53 - [TEST_CASE][PASSED] - Test Cases/File Upload Center Module/Steps-Upload Payments File: Test Cases/File Upload Center Module/Steps-Upload Payments File
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - tagged = tagGenerator("QWERTYUIOP1234567890LKJHGFDSAZXCVBNM", 5): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - rand = new java.util.Random(): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - sb = new java.lang.StringBuilder(): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < length, (i++)]): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - Statement - return sb.toString(): null
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - csvCreatorPackage.paymentFileGenerator.paymentFileGenerator: csvCreatorPackage.paymentFileGenerator.paymentFileGenerator is PASSED
+
+2018-01-29 11:20:53 - [MESSAGE][PASSED] - csvCreatorPackage.paymentFileGenerator.paymentFileGenerator is PASSED
+
+2018-01-29 11:20:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 11:20:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 11:20:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Login' successfully
+
+2018-01-29 11:20:58 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2018-01-29 11:20:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:21:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:21:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-29 11:21:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-29 11:21:05 - [TEST_STEP][PASSED] - setText: Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:21:05 - [MESSAGE][PASSED] - Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:21:05 - [TEST_STEP][PASSED] - setText: Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:21:06 - [MESSAGE][PASSED] - Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:21:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:21:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login' successfully
+
+2018-01-29 11:21:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/FileUploadCenter/Link-FileUploadMenu' is clicked on
+
+2018-01-29 11:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/FileUploadCenter/Link-FileUploadMenu' is clicked on
+
+2018-01-29 11:21:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/File Upload Center/button_MPESA' is clicked on
+
+2018-01-29 11:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/File Upload Center/button_MPESA' is clicked on
+
+2018-01-29 11:21:11 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\dennis.gituto\git\MKOPA-REGRESSION-REPOSITORY\Payment Files\payments.csv' sent to object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'
+
+2018-01-29 11:21:11 - [MESSAGE][PASSED] - File 'C:\Users\dennis.gituto\git\MKOPA-REGRESSION-REPOSITORY\Payment Files\payments.csv' sent to object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'
+
+2018-01-29 11:21:11 - [TEST_STEP][PASSED] - Statement - If (blankComment == true): null
+
+2018-01-29 11:21:11 - [TEST_STEP][PASSED] - Statement - If (blankTag == true): null
+
+2018-01-29 11:21:11 - [TEST_STEP][PASSED] - setText: Text 'Nice and paid on time' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_COMMENT'
+
+2018-01-29 11:21:12 - [MESSAGE][PASSED] - Text 'Nice and paid on time' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_COMMENT'
+
+2018-01-29 11:21:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-29 11:21:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-29 11:21:15 - [TEST_STEP][PASSED] - setText: Text 'O75M0' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_Tag'
+
+2018-01-29 11:21:15 - [MESSAGE][PASSED] - Text 'O75M0' is set on object 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/input_Tag'
+
+2018-01-29 11:21:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_UPLOAD' is clicked on
+
+2018-01-29 11:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_UPLOAD' is clicked on
+
+2018-01-29 11:21:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:21:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:21:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_Close Window Button' is clicked on
+
+2018-01-29 11:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/File Upload Center Module/Upload Payment File (MPESA)/button_Close Window Button' is clicked on
+
+2018-01-29 11:21:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/File Upload Center Module/Steps-Upload Payments File' successfully
+
+2018-01-29 11:21:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:21:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:21:19 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Payments/Link-Payments' is hovered
+
+2018-01-29 11:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Payments/Link-Payments' is hovered
+
+2018-01-29 11:21:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:21:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:21:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Payments/Link_Dealers Payments List' is clicked on
+
+2018-01-29 11:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Payments/Link_Dealers Payments List' is clicked on
+
+2018-01-29 11:21:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-29 11:21:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-29 11:21:29 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Payments Module/Dealer Payments/text_Receipt Number' is: 'No records to display.'
+
+2018-01-29 11:21:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payments Module/Dealer Payments/text_Receipt Number' is: 'No records to display.'
+
+2018-01-29 11:21:29 - [TEST_STEP][PASSED] - verifyEqual: Actual object '' and expected object '' are equal
+
+2018-01-29 11:21:29 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2018-01-29 11:21:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-29 11:21:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/Edit Cash payment plan name and display name/Verify- Payment Plan name and Display Name are Editable" classname="Test Cases/Payments/Edit Cash payment plan name and display name/Verify- Payment Plan name and Display Name are Editable" status="PASSED">
+         <system-out><![CDATA[2018-01-29 11:21:30 - [TEST_CASE][PASSED] - Test Cases/Payments/Edit Cash payment plan name and display name/Verify- Payment Plan name and Display Name are Editable: Test Cases/Payments/Edit Cash payment plan name and display name/Verify- Payment Plan name and Display Name are Editable
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - displayNameGenerator = generateName("QWRTYPeuioasdFghjklMnbvcxz", 5): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - rand = new java.util.Random(): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - sb = new java.lang.StringBuilder(): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < length, (i++)]): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - Statement - return sb.toString(): null
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Login' successfully
+
+2018-01-29 11:21:30 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2018-01-29 11:21:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:21:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:21:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-29 11:21:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-29 11:21:37 - [TEST_STEP][PASSED] - setText: Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:21:38 - [MESSAGE][PASSED] - Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:21:38 - [TEST_STEP][PASSED] - setText: Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:21:38 - [MESSAGE][PASSED] - Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:21:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:21:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login' successfully
+
+2018-01-29 11:21:40 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Products/Link-Products' is hovered
+
+2018-01-29 11:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/Link-Products' is hovered
+
+2018-01-29 11:21:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:21:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:21:43 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Products/Link-PaymentPlans' is hovered
+
+2018-01-29 11:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/Link-PaymentPlans' is hovered
+
+2018-01-29 11:21:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:21:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:21:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Products/Link-ListCashPaymentPlans' is clicked on
+
+2018-01-29 11:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/Link-ListCashPaymentPlans' is clicked on
+
+2018-01-29 11:21:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments Module/Cash Payment Plan/Link_Edit Cash Payment Plan' is clicked on
+
+2018-01-29 11:21:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments Module/Cash Payment Plan/Link_Edit Cash Payment Plan' is clicked on
+
+2018-01-29 11:21:48 - [TEST_STEP][PASSED] - setText: Text 'Moran' is set on object 'Object Repository/Payments Module/Edit Cash Payment Plan/input_Plan Name'
+
+2018-01-29 11:21:48 - [MESSAGE][PASSED] - Text 'Moran' is set on object 'Object Repository/Payments Module/Edit Cash Payment Plan/input_Plan Name'
+
+2018-01-29 11:21:48 - [TEST_STEP][PASSED] - setText: Text 'YTgeY' is set on object 'Object Repository/Payments Module/Edit Cash Payment Plan/input_Plan Display Name'
+
+2018-01-29 11:21:48 - [MESSAGE][PASSED] - Text 'YTgeY' is set on object 'Object Repository/Payments Module/Edit Cash Payment Plan/input_Plan Display Name'
+
+2018-01-29 11:21:48 - [TEST_STEP][PASSED] - setText: Text 'I have changed the name, Kindly check' is set on object 'Object Repository/Payments Module/Edit Cash Payment Plan/input_Requestor Notes'
+
+2018-01-29 11:21:48 - [MESSAGE][PASSED] - Text 'I have changed the name, Kindly check' is set on object 'Object Repository/Payments Module/Edit Cash Payment Plan/input_Requestor Notes'
+
+2018-01-29 11:21:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments Module/Edit Cash Payment Plan/button_Save' is clicked on
+
+2018-01-29 11:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments Module/Edit Cash Payment Plan/button_Save' is clicked on
+
+2018-01-29 11:21:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-29 11:21:51 - [MESSAGE][PASSED] - Browser is closed
+
+2018-01-29 11:21:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Payments/Edit Cash payment plan name and display name/Approve-Approve Payment Name and Display Name Edit' successfully
+
+2018-01-29 11:21:51 - [TEST_CASE][PASSED] - Test Cases/Payments/Edit Cash payment plan name and display name/Approve-Approve Payment Name and Display Name Edit: Test Cases/Payments/Edit Cash payment plan name and display name/Approve-Approve Payment Name and Display Name Edit
+
+2018-01-29 11:21:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/MarkerCheckerLogin' successfully
+
+2018-01-29 11:21:51 - [TEST_CASE][PASSED] - Test Cases/Common/MarkerCheckerLogin: Test Cases/Common/MarkerCheckerLogin
+
+2018-01-29 11:21:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:21:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-01-29 11:21:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-29 11:21:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-29 11:21:57 - [TEST_STEP][PASSED] - setText: Text 'gideon.arita@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:21:58 - [MESSAGE][PASSED] - Text 'gideon.arita@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-01-29 11:21:58 - [TEST_STEP][PASSED] - setText: Text 'Mikhitaryan16?' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:21:58 - [MESSAGE][PASSED] - Text 'Mikhitaryan16?' is set on object 'Object Repository/Login/input_Password'
+
+2018-01-29 11:21:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-01-29 11:22:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/MarkerCheckerLogin' successfully
+
+2018-01-29 11:22:00 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Products/Link-Products' is hovered
+
+2018-01-29 11:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/Link-Products' is hovered
+
+2018-01-29 11:22:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:22:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:22:03 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Products/Link-PaymentPlans' is hovered
+
+2018-01-29 11:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/Link-PaymentPlans' is hovered
+
+2018-01-29 11:22:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:22:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:22:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Products/link_PaymentPlansApproval' is clicked on
+
+2018-01-29 11:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/link_PaymentPlansApproval' is clicked on
+
+2018-01-29 11:22:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments Module/Payment Plans Pending Approval/Link-Approve' is clicked on
+
+2018-01-29 11:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments Module/Payment Plans Pending Approval/Link-Approve' is clicked on
+
+2018-01-29 11:22:09 - [TEST_STEP][PASSED] - setText: Text 'I find it necessary and fair enough to approve the change of name and display name. Reason being the current name is way too much 'bulk'' is set on object 'Object Repository/Payments Module/Approve Cash Payment Plan Update/input-Approvers Notes'
+
+2018-01-29 11:22:09 - [MESSAGE][PASSED] - Text 'I find it necessary and fair enough to approve the change of name and display name. Reason being the current name is way too much 'bulk'' is set on object 'Object Repository/Payments Module/Approve Cash Payment Plan Update/input-Approvers Notes'
+
+2018-01-29 11:22:09 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Payments Module/Approve Cash Payment Plan Update/checkBox-Is Approved' is checked
+
+2018-01-29 11:22:09 - [MESSAGE][PASSED] - Object 'Object Repository/Payments Module/Approve Cash Payment Plan Update/checkBox-Is Approved' is checked
+
+2018-01-29 11:22:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments Module/Approve Cash Payment Plan Update/button-Save' is clicked on
+
+2018-01-29 11:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments Module/Approve Cash Payment Plan Update/button-Save' is clicked on
+
+2018-01-29 11:22:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Payments/Edit Cash payment plan name and display name/Approve-Approve Payment Name and Display Name Edit' successfully
+
+2018-01-29 11:22:11 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Products/Link-Products' is hovered
+
+2018-01-29 11:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/Link-Products' is hovered
+
+2018-01-29 11:22:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:22:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:22:13 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Products/Link-PaymentPlans' is hovered
+
+2018-01-29 11:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/Link-PaymentPlans' is hovered
+
+2018-01-29 11:22:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:22:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:22:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Products/Link-ListCashPaymentPlans' is clicked on
+
+2018-01-29 11:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Products/Link-ListCashPaymentPlans' is clicked on
+
+2018-01-29 11:22:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-01-29 11:22:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-29 11:22:18 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Payments Module/Cash Payment Plan/label-Cash Payment Plan Name' is: 'Edit'
+
+2018-01-29 11:22:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payments Module/Cash Payment Plan/label-Cash Payment Plan Name' is: 'Edit'
+
+2018-01-29 11:22:19 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Moran' and expected object 'Moran' are equal
+
+2018-01-29 11:22:19 - [MESSAGE][PASSED] - Actual object 'Moran' and expected object 'Moran' are equal
+
+2018-01-29 11:22:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-29 11:22:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-29 11:19:25 - [TEST_SUITE][ERROR] - File Upload Center: Test Cases/Payments/Makeover Overpayment/verify_Make overpayment FAILED because (of) java.lang.IllegalArgumentException: Cannot find test case with id 'Test Cases/File Upload Center Module/Steps-Upload Payments Files']]></system-out>
+      <system-err><![CDATA[2018-01-29 11:19:25 - [TEST_SUITE][ERROR] - File Upload Center: Test Cases/Payments/Makeover Overpayment/verify_Make overpayment FAILED because (of) java.lang.IllegalArgumentException: Cannot find test case with id 'Test Cases/File Upload Center Module/Steps-Upload Payments Files']]></system-err>
+   </testsuite>
+</testsuites>

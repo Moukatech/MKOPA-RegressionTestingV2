@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_CashPaymentListNameDetails</name>
+   <tag></tag>
+   <elementGuidId>ab801847-cde7-4538-ad7f-a96f9d8445ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='ListCashPaymentPlans']/table/tbody/tr[td[text()='${plan_toApprove}']]/td/a[text()='Details']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='ListCashPaymentPlans']/table/tbody/tr[td[text()='${plan_toApprove}']]/td/a[text()='Details']</value>
+   </webElementProperties>
+</WebElementEntity>
