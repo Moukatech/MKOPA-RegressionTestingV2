@@ -25,3 +25,9 @@ WebUI.delay(delay)
 
 WebUI.click(findTestObject('Page Header and Menu/Inventory/link_WarehouseOperations'))
 
+WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : code]))
+
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('Inventory Module/Warehouse Operations/link_DemoDevices'))
+

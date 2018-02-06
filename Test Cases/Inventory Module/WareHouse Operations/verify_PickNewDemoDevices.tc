@@ -6,18 +6,4 @@ Test Case Description : Verify Request to Create Demo Device is placed successfu
    <tag></tag>
    <comment></comment>
    <testCaseGuid>46fb0327-ee31-4fa1-9823-e83d63854bb3</testCaseGuid>
-   <variable>
-      <defaultValue>'3'</defaultValue>
-      <description></description>
-      <id>b367a75f-7dde-411a-aa11-523e5b869fcd</id>
-      <masked>false</masked>
-      <name>delay</name>
-   </variable>
-   <variable>
-      <defaultValue>'PRD-LINE'</defaultValue>
-      <description></description>
-      <id>5d584fab-23e9-4d24-9560-0450a4c7dc61</id>
-      <masked>false</masked>
-      <name>code</name>
-   </variable>
 </TestCaseEntity>
