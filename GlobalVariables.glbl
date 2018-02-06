@@ -2,4 +2,9 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://nm.m-kopa.net/'</initValue>
+      <name>NewMarkets_Url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
