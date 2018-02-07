@@ -57,3 +57,5 @@ WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/select_Availa
 
 WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_AddDeviceToRequest'))
 
+WebUI.verifyAlertPresent(delay)
+
