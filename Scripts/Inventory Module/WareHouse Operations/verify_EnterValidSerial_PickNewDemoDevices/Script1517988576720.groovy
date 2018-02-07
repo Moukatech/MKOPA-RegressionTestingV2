@@ -51,9 +51,5 @@ WebUI.delay(delay)
 
 WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_LoadDevice'))
 
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/select_AvailableDevices'))
-
-WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_AddDeviceToRequest'))
+WebUI.verifyAlertPresent(delay)
 
