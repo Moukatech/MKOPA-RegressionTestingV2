@@ -4,32 +4,32 @@
    <name>Verify_A Refund Was Made</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f6843b12-aaf5-4dfa-a1aa-e330044d5efe</testCaseGuid>
+   <testCaseGuid>0069d7c1-0ce7-4575-877c-df428eae34a8</testCaseGuid>
    <variable>
       <defaultValue>'10'</defaultValue>
       <description></description>
-      <id>22c545c0-20d1-414c-b01f-3c54791b3dae</id>
+      <id>1eaf8cf6-fbd9-4df6-ab3d-8359918a995f</id>
       <masked>false</masked>
       <name>inputAmount</name>
    </variable>
    <variable>
       <defaultValue>'Testing Refund'</defaultValue>
       <description></description>
-      <id>bb806951-fcec-4a2f-9358-fe598e5ba966</id>
+      <id>e1fa797b-dcea-482e-a4e4-a0e2454a5f79</id>
       <masked>false</masked>
       <name>input_Notes</name>
    </variable>
    <variable>
       <defaultValue>'6'</defaultValue>
       <description></description>
-      <id>b2bce518-700e-4553-9806-de536f7ee9d3</id>
+      <id>4aab571f-1374-47b1-aedb-34c80aaf640e</id>
       <masked>false</masked>
       <name>delay</name>
    </variable>
    <variable>
       <defaultValue>' A refund of KES 10.00 has been queued for approval'</defaultValue>
       <description></description>
-      <id>20c878c7-a0ce-448e-a942-980be32b2789</id>
+      <id>2f9c4db6-4b57-4e88-b020-124421803ac8</id>
       <masked>false</masked>
       <name>success</name>
    </variable>
