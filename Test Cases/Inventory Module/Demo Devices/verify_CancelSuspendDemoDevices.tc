@@ -2,14 +2,14 @@
 <TestCaseEntity>
    <description>Test Case ID: 5503
 Test Case Description: Verify Demo Device is Suspended</description>
-   <name>verify_SuspendDemoDevices</name>
+   <name>verify_CancelSuspendDemoDevices</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d35ff46f-5a5b-4836-9ac6-d9a37c19e007</testCaseGuid>
+   <testCaseGuid>8f63ffd5-d6b1-40c1-9ec6-fcf48138c693</testCaseGuid>
    <variable>
       <defaultValue>'5'</defaultValue>
       <description></description>
-      <id>10f08fab-295f-4de9-9916-fd5e8557e224</id>
+      <id>9bc82a19-09df-4bf9-bef0-3f33de5c8394</id>
       <masked>false</masked>
       <name>delay</name>
    </variable>

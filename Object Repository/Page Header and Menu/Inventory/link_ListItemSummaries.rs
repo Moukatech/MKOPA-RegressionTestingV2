@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_ListItemSummaries</name>
+   <tag></tag>
+   <elementGuidId>3e454656-2908-48c7-a724-7772d9bac91c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='/Inventory/MeteredItem/ListMeteredItemSummaries']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='/Inventory/MeteredItem/ListMeteredItemSummaries']</value>
+   </webElementProperties>
+</WebElementEntity>

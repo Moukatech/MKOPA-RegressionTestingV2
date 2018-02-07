@@ -19,18 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : wareHousecode], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
-
-WebUI.delay(delay)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_DemoDevices'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_OutletDemoDevices'))
-
-WebUI.click(findTestObject('Inventory Module/Outlet Allocated Demos/link_DeviceManagement', [('device_serialNumber') : device_serialNumber]))
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_DispatchOrder'))
 

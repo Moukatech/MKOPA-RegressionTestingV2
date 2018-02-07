@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case: 3316
+
+Test Description: Verify the search returns filtered device using serial number</description>
+   <name>verify_OutletDemoDeviceAllocatedToSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4953308-7f5f-49f1-977c-ee0326a07451</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>b24d730c-b14a-44fd-86c4-061f741d4864</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA HOUSE'</defaultValue>
+      <description></description>
+      <id>e5bac7f9-57fd-4ea2-973c-586f7606a57a</id>
+      <masked>false</masked>
+      <name>filter_Input</name>
+   </variable>
+</TestCaseEntity>

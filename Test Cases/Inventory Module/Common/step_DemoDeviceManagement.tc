@@ -16,4 +16,11 @@
       <masked>false</masked>
       <name>delay</name>
    </variable>
+   <variable>
+      <defaultValue>'0517011501-001252'</defaultValue>
+      <description></description>
+      <id>d7fa0540-1ce2-46c4-8001-b2c80de4209f</id>
+      <masked>false</masked>
+      <name>device_serialNumber</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_SalesDemoDeviceAllocatedToSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04b9453a-f207-4fe7-a13d-5f0ec1c1ce05</testCaseGuid>
+   <variable>
+      <defaultValue>'Samson Saitoti'</defaultValue>
+      <description></description>
+      <id>0536023b-bbfc-4267-b761-25a236d4765a</id>
+      <masked>false</masked>
+      <name>filter_Input</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>581d57ed-052d-475e-a8cb-042fad07356f</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

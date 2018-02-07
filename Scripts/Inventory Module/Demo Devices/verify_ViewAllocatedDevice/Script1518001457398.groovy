@@ -19,18 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDeviceManagement'), [('delay') : '3', ('device_serialNumber') : '0517011501-001252'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
+WebUI.getText(findTestObject('Inventory Module/Demo Device Management/label_DeviceStatus', [('device_Status') : device_Status]))
 
-WebUI.delay(delay)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_DemoDevices'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_OutletDemoDevices'))
-
-WebUI.click(findTestObject('Inventory Module/Outlet Allocated Demos/link_DeviceManagement', [('device_serialNumber') : device_serialNumber]))
+WebUI.closeBrowser()
 

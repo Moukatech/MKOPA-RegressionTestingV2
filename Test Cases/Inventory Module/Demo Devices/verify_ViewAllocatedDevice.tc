@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 5516
+
+Test Description: Verifies suspended device status changes to Suspended</description>
+   <name>verify_ViewAllocatedDevice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>371f2b19-b66c-4b83-8aa3-8884c23b761a</testCaseGuid>
+   <variable>
+      <defaultValue>'Allocated'</defaultValue>
+      <description></description>
+      <id>f3c09d76-b05e-4d6f-91db-7d239f6feb1e</id>
+      <masked>false</masked>
+      <name>device_Status</name>
+   </variable>
+</TestCaseEntity>

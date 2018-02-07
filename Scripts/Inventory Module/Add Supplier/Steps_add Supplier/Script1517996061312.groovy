@@ -24,13 +24,19 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.delay(delay)
+WebUI.delay(3)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_DemoDevices'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Configurations'))
 
-WebUI.delay(delay)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_OutletDemoDevices'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Suppliers'))
 
-WebUI.click(findTestObject('Inventory Module/Outlet Allocated Demos/link_DeviceManagement', [('device_serialNumber') : device_serialNumber]))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Addsupplier'))
+
+WebUI.sendKeys(findTestObject('Inventory Module/Suppliers/Input_Description'), description)
+
+WebUI.click(findTestObject('Inventory Module/Suppliers/button_Save'))
 

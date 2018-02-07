@@ -3,7 +3,7 @@
    <description></description>
    <tag></tag>
    <GlobalVariableEntity>
-      <description></description>
+      <description>URL for New Markets</description>
       <initValue>'https://nm.m-kopa.net/'</initValue>
       <name>NewMarkets_Url</name>
    </GlobalVariableEntity>

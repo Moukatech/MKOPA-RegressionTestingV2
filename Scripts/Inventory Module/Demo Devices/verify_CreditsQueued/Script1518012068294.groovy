@@ -30,7 +30,7 @@ WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_DemoDevices'
 
 WebUI.delay(delay)
 
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_OutletDemoDevices'))
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_SendWeeklyCredit'))
 
-WebUI.click(findTestObject('Inventory Module/Outlet Allocated Demos/link_DeviceManagement', [('device_serialNumber') : device_serialNumber]))
+WebUI.verifyTextPresent('Demo Devices - Weekly Credit Send', true)
 

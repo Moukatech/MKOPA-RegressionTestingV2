@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test Case ID: 5503
-Test Case Description: Verify Demo Device is Suspended</description>
-   <name>verify_SuspendDemoDevices</name>
+   <description>Test Case ID: 5515
+Test Case Description: Verify Demo Device is UnSuspended</description>
+   <name>verify_UnSuspendDemoDevices</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d35ff46f-5a5b-4836-9ac6-d9a37c19e007</testCaseGuid>
+   <testCaseGuid>6a5bc0ff-7fcb-4d23-b0ce-fcd995d918b9</testCaseGuid>
    <variable>
       <defaultValue>'5'</defaultValue>
       <description></description>
-      <id>10f08fab-295f-4de9-9916-fd5e8557e224</id>
+      <id>524c1114-3c0b-456f-8701-bfdef9b9ba0e</id>
       <masked>false</masked>
       <name>delay</name>
    </variable>

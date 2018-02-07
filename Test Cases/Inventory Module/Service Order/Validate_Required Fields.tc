@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate_Required Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6406db4-ce04-477d-80e7-90d8159ce679</testCaseGuid>
+   <variable>
+      <defaultValue>'WAHo009'</defaultValue>
+      <description></description>
+      <id>a62aad9f-f0f8-4fb2-92d1-f8900445d9ee</id>
+      <masked>false</masked>
+      <name>warehousecode</name>
+   </variable>
+   <variable>
+      <defaultValue>'KE0375367-01'</defaultValue>
+      <description></description>
+      <id>a3381cf3-4940-4f15-9eac-d309995a896e</id>
+      <masked>false</masked>
+      <name>ordernumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f95fb41-af28-4c4b-bb7c-2fc7d7eb7af3</id>
+      <masked>false</masked>
+      <name>packaging</name>
+   </variable>
+</TestCaseEntity>
