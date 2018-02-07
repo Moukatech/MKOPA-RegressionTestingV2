@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 2359
+Test Case Description: Verifies Number of credits queed for Demo devices</description>
+   <name>verify_CreditsQueued</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42017ab7-ace2-443d-b9b6-38f0bbd26c11</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>3916773f-a668-4eb7-a83a-cf249f5416c3</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

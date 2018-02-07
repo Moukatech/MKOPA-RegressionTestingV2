@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 5516
+
+Test Description: Verifies suspended device status changes to Suspended</description>
+   <name>verify_ViewSuspendedDevice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9453351b-b0e1-4294-916d-0cded7ac4b85</testCaseGuid>
+   <variable>
+      <defaultValue>'Suspended'</defaultValue>
+      <description></description>
+      <id>cfc775aa-f09c-4bbc-b76a-27ba075d0cc0</id>
+      <masked>false</masked>
+      <name>device_Status</name>
+   </variable>
+</TestCaseEntity>

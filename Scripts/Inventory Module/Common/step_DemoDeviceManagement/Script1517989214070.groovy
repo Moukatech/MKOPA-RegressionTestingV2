@@ -24,5 +24,13 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
+WebUI.delay(delay)
+
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_DemoDevices'))
+
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_OutletDemoDevices'))
+
+WebUI.click(findTestObject('Inventory Module/Outlet Allocated Demos/link_DeviceManagement', [('device_serialNumber') : device_serialNumber]))
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 3317
+
+Test Case Description: Verifies filtering of Sales demo devices using serial number</description>
+   <name>verify_SalesDemoDeviceSerialSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1c7c8fb-e2cd-43bb-8440-f0b95eca3ff7</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>557db1c8-3fd7-46de-b725-8bb9e503aeba</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'1117003501-071953'</defaultValue>
+      <description></description>
+      <id>f758748e-3b87-4e89-ae62-21ce7a019545</id>
+      <masked>false</masked>
+      <name>filter_Input</name>
+   </variable>
+</TestCaseEntity>

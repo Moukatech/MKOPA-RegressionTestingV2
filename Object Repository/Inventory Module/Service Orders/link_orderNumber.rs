@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_orderNumber</name>
+   <tag></tag>
+   <elementGuidId>13ca83f3-fa7b-43dc-ade0-7faa6dba7724</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='InventoryOrders']//td[text()='${orderno}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='InventoryOrders']//td[text()='${orderno}']</value>
+   </webElementProperties>
+</WebElementEntity>

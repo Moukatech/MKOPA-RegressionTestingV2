@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case 16640</description>
+   <name>Verify_A Refund Was Made</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0069d7c1-0ce7-4575-877c-df428eae34a8</testCaseGuid>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>1eaf8cf6-fbd9-4df6-ab3d-8359918a995f</id>
+      <masked>false</masked>
+      <name>inputAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing Refund'</defaultValue>
+      <description></description>
+      <id>e1fa797b-dcea-482e-a4e4-a0e2454a5f79</id>
+      <masked>false</masked>
+      <name>input_Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>4aab571f-1374-47b1-aedb-34c80aaf640e</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>' A refund of KES 10.00 has been queued for approval'</defaultValue>
+      <description></description>
+      <id>2f9c4db6-4b57-4e88-b020-124421803ac8</id>
+      <masked>false</masked>
+      <name>success</name>
+   </variable>
+</TestCaseEntity>

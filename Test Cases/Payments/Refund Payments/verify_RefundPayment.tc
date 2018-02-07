@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID:16573
+This test case verifies customer payment refund</description>
+   <name>verify_RefundPayment</name>
+   <tag></tag>
+   <comment>Customer Refund Using Valid Credentials</comment>
+   <testCaseGuid>0708c31d-e420-47ec-8d01-d4f0161f4b3a</testCaseGuid>
+   <variable>
+      <defaultValue>'Refund Testing'</defaultValue>
+      <description></description>
+      <id>3db07901-6f4a-4c5d-a357-b4767529aa5e</id>
+      <masked>false</masked>
+      <name>input_Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please fill in the request notes'</defaultValue>
+      <description></description>
+      <id>3f40a7e9-a8ac-4c62-a8a7-9611924286a1</id>
+      <masked>false</masked>
+      <name>errormessage</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>af47b09c-f196-400f-9eca-7a0423edd9c0</id>
+      <masked>false</masked>
+      <name>inputNotes</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>64b2071b-9fe9-4f55-b1cc-d3a49a610a70</id>
+      <masked>false</masked>
+      <name>inputAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>'A value is required.'</defaultValue>
+      <description></description>
+      <id>e29fb953-63bf-4383-9edb-a71442660a2e</id>
+      <masked>false</masked>
+      <name>error</name>
+   </variable>
+   <variable>
+      <defaultValue>'KDG2J25T4I'</defaultValue>
+      <description></description>
+      <id>5ef2d485-d5cb-4acb-b8ad-ecd993eb5301</id>
+      <masked>false</masked>
+      <name>depositReceipt</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>eed2c7e3-c7de-4624-a831-178826c8aead</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'30990522'</defaultValue>
+      <description></description>
+      <id>53ae05ca-86d3-49bc-9512-4a6a1895b7df</id>
+      <masked>false</masked>
+      <name>customerSearch</name>
+   </variable>
+</TestCaseEntity>
