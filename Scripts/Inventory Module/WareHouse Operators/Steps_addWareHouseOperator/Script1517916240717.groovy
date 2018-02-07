@@ -23,3 +23,15 @@ WebUI.callTestCase(findTestCase('Inventory Module/Common/Steps_Warehouse Operato
 
 WebUI.click(findTestObject('Inventory Module/WareHouse Operators/Link_AddwareHouseOperator'))
 
+WebUI.click(findTestObject('Inventory Module/WareHouse Operators/dropdown_Warehouse Operator'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/WareHouse Operators/Select_Operator', [('operator') : operator]))
+
+WebUI.delay(2)
+
+WebUI.check(findTestObject('Inventory Module/WareHouse Operators/checkbox_warehouse'))
+
+WebUI.click(findTestObject('Inventory Module/WareHouse Operators/Button_CreateWareHouse Operator'))
+
