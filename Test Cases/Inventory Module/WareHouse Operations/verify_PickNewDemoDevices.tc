@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID : 414
+Test Case Description : Verify Request to Create Demo Device is placed successfully</description>
+   <name>verify_PickNewDemoDevices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46fb0327-ee31-4fa1-9823-e83d63854bb3</testCaseGuid>
+   <variable>
+      <defaultValue>'QA Testing'</defaultValue>
+      <description></description>
+      <id>27de75b5-a924-4533-b240-1b5b0e9e02a0</id>
+      <masked>false</masked>
+      <name>request_Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>6df8887a-ec6f-43ce-b0ab-b8199887b072</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'0416010902-000005'</defaultValue>
+      <description></description>
+      <id>a8025260-f2b7-445e-8a40-e7f5dca066b4</id>
+      <masked>false</masked>
+      <name>serial_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA 400'</defaultValue>
+      <description></description>
+      <id>2043e814-f65d-475a-a2ca-65a2bf06bef5</id>
+      <masked>false</masked>
+      <name>device_type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Unit'</defaultValue>
+      <description></description>
+      <id>aa03d6a8-dda3-4a1f-8169-d7cb38ccb033</id>
+      <masked>false</masked>
+      <name>packaging</name>
+   </variable>
+</TestCaseEntity>
