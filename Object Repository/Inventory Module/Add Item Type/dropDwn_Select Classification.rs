@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>input_Value</name>
+   <description>selecting a classification for the item type to add</description>
+   <name>dropDwn_Select Classification</name>
    <tag></tag>
-   <elementGuidId>2922c682-8419-405d-b59c-d301b1ddacf9</elementGuidId>
+   <elementGuidId>289b579d-0052-4f63-92b7-33870e8a10e6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='txtValue']</value>
+      <value>.//*[@id='divBodyMain']/fieldset/div[1]/div[2]/div/div/span[2]/span</value>
    </webElementProperties>
 </WebElementEntity>

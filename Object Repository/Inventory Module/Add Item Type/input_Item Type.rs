@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Value</name>
+   <name>input_Item Type</name>
    <tag></tag>
-   <elementGuidId>2922c682-8419-405d-b59c-d301b1ddacf9</elementGuidId>
+   <elementGuidId>fb35d200-4e9b-4f8e-aa7a-6c50dedc2968</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='txtValue']</value>
+      <value>.//*[@id='item-type-input']</value>
    </webElementProperties>
 </WebElementEntity>

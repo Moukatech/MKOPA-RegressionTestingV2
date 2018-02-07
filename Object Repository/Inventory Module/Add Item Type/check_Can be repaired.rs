@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>input_Value</name>
+   <description>can the item be repaired</description>
+   <name>check_Can be repaired</name>
    <tag></tag>
-   <elementGuidId>2922c682-8419-405d-b59c-d301b1ddacf9</elementGuidId>
+   <elementGuidId>7733e304-a6fc-4064-bb46-5b742d06c975</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='IsRepairable']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='txtValue']</value>
+      <value>.//*[@id='IsRepairable']</value>
    </webElementProperties>
 </WebElementEntity>
