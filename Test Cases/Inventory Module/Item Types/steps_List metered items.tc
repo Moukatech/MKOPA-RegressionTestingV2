@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID:123
+listing all the metered items</description>
+   <name>steps_List metered items</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b20016d1-dd48-4493-9edb-b1827de9db33</testCaseGuid>
+</TestCaseEntity>

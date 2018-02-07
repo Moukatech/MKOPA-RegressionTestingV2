@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_blank fields(Add item types)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>178bdd30-56b1-4708-930e-a48b2f4a51c3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc75c4ed-6f39-4c61-b3cc-bf387f8bf3a6</id>
+      <masked>false</masked>
+      <name>partDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c790226-496a-4672-9d2e-d764c890cb1b</id>
+      <masked>false</masked>
+      <name>partNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27eb959e-10ff-4c2e-8943-3c5eb702829b</id>
+      <masked>false</masked>
+      <name>itemDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bundled'</defaultValue>
+      <description></description>
+      <id>a85b7a05-a8ee-4870-8f7e-6319d3d6fe75</id>
+      <masked>false</masked>
+      <name>classification</name>
+   </variable>
+</TestCaseEntity>

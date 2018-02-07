@@ -19,12 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Payments/Transfer Payment/verify_Payment transfer(Customer-Dealer)'), [('customerAccount') : customerAccount
-        , ('paymentReceipt') : paymentReceipt, ('dealerAccountNumber') : dealerAccountNumber, ('comment') : comments, ('row') : row
-        , ('account') : dealerAccountNumber], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Payments/Transfer Payment/verify_Payment transfer(Customer-Dealer)'), [('customerAccount') : '12517586'
+        , ('paymentReceipt') : 'QWRTE67T12189hdfffr', ('dealerAccountNumber') : '00046', ('comment') : 'Transferr has been requested'
+        , ('row') : '1', ('account') : 'K0877'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
