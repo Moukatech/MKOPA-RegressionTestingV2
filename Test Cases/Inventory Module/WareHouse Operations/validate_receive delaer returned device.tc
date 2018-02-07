@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking validations when receiving a dealer returned device</description>
+   <name>validate_receive delaer returned device</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c23d2e87-b703-483c-afa6-be14442d4ad7</testCaseGuid>
+   <variable>
+      <defaultValue>'SC004'</defaultValue>
+      <description></description>
+      <id>a2fd0a36-9c71-491f-9e38-1485a5f3b15d</id>
+      <masked>false</masked>
+      <name>wareHouseCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'1215010701-002805'</defaultValue>
+      <description></description>
+      <id>fafe16ee-de13-4a22-8350-317c61dfa9bc</id>
+      <masked>false</masked>
+      <name>itemSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'recieved'</defaultValue>
+      <description></description>
+      <id>0b026346-185d-4844-9f12-b9b3a19ea56e</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'-- Select --'</defaultValue>
+      <description></description>
+      <id>1d1d804a-9122-4703-90a6-4bf18c09aec3</id>
+      <masked>false</masked>
+      <name>conditionReceivedIn</name>
+   </variable>
+</TestCaseEntity>
