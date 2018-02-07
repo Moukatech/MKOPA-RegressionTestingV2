@@ -19,10 +19,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page Header and Menu/Logout/message_Logged User', [('name') : fullname]), 5)
+WebUI.callTestCase(findTestCase('Inventory Module/Item Types/steps_Item Types'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Add Item Type'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Add Item Type/dropDwn_Select Classification'))
+
+WebUI.click(findTestObject('Inventory Module/Add Item Type/select_Classification', [('classification') : classification]))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Inventory Module/Add Item Type/input_Part Number'), partNumber)
+
+WebUI.setText(findTestObject('Inventory Module/Add Item Type/input_Part Description'), partDescription)
+
+WebUI.setText(findTestObject('Inventory Module/Add Item Type/input_Item Description'), itemDescription)
+
+WebUI.click(findTestObject('Inventory Module/Add Item Type/button_Cretate'))
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Add Item Type/Error message'), 2)
 

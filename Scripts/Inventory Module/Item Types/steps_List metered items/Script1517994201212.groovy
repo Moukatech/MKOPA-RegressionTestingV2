@@ -19,10 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page Header and Menu/Logout/message_Logged User', [('name') : fullname]), 5)
+WebUI.callTestCase(findTestCase('Inventory Module/Item Types/steps_Item Types'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_List Item Types'))
 
