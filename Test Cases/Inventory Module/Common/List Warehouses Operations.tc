@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>List Warehouses Operations</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9846259f-d2a2-4f31-8deb-72857e29cb96</testCaseGuid>
+   <variable>
+      <defaultValue>'DLR001'</defaultValue>
+      <description></description>
+      <id>3397fbdc-5d67-42dd-b77c-9555d1d44e12</id>
+      <masked>false</masked>
+      <name>wareHouseCode</name>
+   </variable>
+</TestCaseEntity>
