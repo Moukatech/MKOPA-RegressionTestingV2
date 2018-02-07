@@ -26,6 +26,6 @@ WebUI.delay(3)
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : 'M-KOPA + : M-KOPA +'
-        , ('supplier') : 'Universal', ('manifestType') : 'Meterable'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
+        , ('manifestType') : manifestType], FailureHandling.STOP_ON_FAILURE)
 

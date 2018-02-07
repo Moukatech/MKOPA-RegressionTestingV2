@@ -40,11 +40,4 @@
       <masked>false</masked>
       <name>loanDraw</name>
    </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>eee1131c-0a7c-4714-9d12-be5e7fa463c2</id>
-      <masked>false</masked>
-      <name>variable_0</name>
-   </variable>
 </TestCaseEntity>
