@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A step to access demo device management dashboard that contains
+1.Send Credits
+2.Return device
+3.Suspend Device
+4.Device Voltage History</description>
+   <name>step_DemoDeviceManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f20ebc1c-73d7-470d-9aee-7fd76b4ffb35</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>4b904fe4-7f34-42e3-b6d9-e7f0076b08e2</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

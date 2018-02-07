@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>step_DemoDevices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a419b92-45c3-4f4d-804c-8c5c5f014053</testCaseGuid>
+   <variable>
+      <defaultValue>'QA Testing'</defaultValue>
+      <description></description>
+      <id>60fd7ad1-566e-4270-b1d4-3c5d84b58b5b</id>
+      <masked>false</masked>
+      <name>request_Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>80f545a0-65cb-46a4-bc10-a2836a066f23</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'0416010902-000005'</defaultValue>
+      <description></description>
+      <id>a0a84990-c36e-4a0f-9653-a5424feabc84</id>
+      <masked>false</masked>
+      <name>serial_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'PRD-LINE\t'</defaultValue>
+      <description></description>
+      <id>d522ea08-b062-4ac4-b4ec-72f71336d76b</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+</TestCaseEntity>
