@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_add Supplier</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>019af1ba-2ff7-4907-a25d-6d12437e774b</testCaseGuid>
+   <variable>
+      <defaultValue>'Main supplier'</defaultValue>
+      <description></description>
+      <id>6b9514bd-b86d-4f4c-86eb-a0e433e65958</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>
