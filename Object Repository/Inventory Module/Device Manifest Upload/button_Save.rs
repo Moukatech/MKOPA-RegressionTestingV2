@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Item Type Select Options. The Xpath is Parameterized</description>
-   <name>label_itemType</name>
+   <description></description>
+   <name>button_Save</name>
    <tag></tag>
-   <elementGuidId>5518248b-4f58-48ba-8d2f-b546a907bbf9</elementGuidId>
+   <elementGuidId>de3ded4b-0864-44d2-8f22-0841f70fd42e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(.,'${itemType}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(.,'${itemType}')]</value>
+      <value>.//*[@id='btn-close-consignment']</value>
    </webElementProperties>
 </WebElementEntity>

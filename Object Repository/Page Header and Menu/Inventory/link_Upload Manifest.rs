@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Item Type Select Options. The Xpath is Parameterized</description>
-   <name>label_itemType</name>
+   <description></description>
+   <name>link_Upload Manifest</name>
    <tag></tag>
-   <elementGuidId>5518248b-4f58-48ba-8d2f-b546a907bbf9</elementGuidId>
+   <elementGuidId>167d8222-683e-4848-adac-2e20f377d6a1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(.,'${itemType}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(.,'${itemType}')]</value>
+      <value>//a[contains(.,'Upload Manifest')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Item Type Select Options. The Xpath is Parameterized</description>
-   <name>label_itemType</name>
+   <description></description>
+   <name>link_Inventory Items</name>
    <tag></tag>
-   <elementGuidId>5518248b-4f58-48ba-8d2f-b546a907bbf9</elementGuidId>
+   <elementGuidId>0ef7b1e1-66d8-4e85-9b77-48feb868faf8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(.,'${itemType}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(.,'${itemType}')]</value>
+      <value>//span[contains(.,'Inventory Items')]</value>
    </webElementProperties>
 </WebElementEntity>

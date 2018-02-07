@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to Upload a manifest</description>
+   <name>steps_manifest Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01a69b4b-e2dd-4022-875f-593db90cfcc7</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA + : M-KOPA +'</defaultValue>
+      <description></description>
+      <id>3ac4e0a2-d5a8-4288-ab6f-c260b01d37d2</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Universal'</defaultValue>
+      <description></description>
+      <id>35cb0a28-ac3d-4fc6-bead-d633838b0b43</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Meterable'</defaultValue>
+      <description></description>
+      <id>b8a7c2b2-fd7f-48d6-bf1f-cf217681e8e7</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>eb82b664-b6db-443e-8de7-9b75f80f48f6</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'12098'</defaultValue>
+      <description></description>
+      <id>3d9b723b-66ab-4eb4-bb88-669abf116b9f</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eee1131c-0a7c-4714-9d12-be5e7fa463c2</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+</TestCaseEntity>
