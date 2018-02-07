@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_An Operator is Successfully allocated to a Warehouse</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb741808-45ae-4fc9-aa79-d99ac38e826b</testCaseGuid>
+   <variable>
+      <defaultValue>'Stella Maseki'</defaultValue>
+      <description></description>
+      <id>5e8e240f-d85c-4b97-90f8-351cb6f094e9</id>
+      <masked>false</masked>
+      <name>operator</name>
+   </variable>
+</TestCaseEntity>

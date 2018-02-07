@@ -22,17 +22,6 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
-
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Configurations'))
-
-WebUI.delay(3)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_warehouses'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_listWarehouses'))
+WebUI.callTestCase(findTestCase('Inventory Module/WareHouses/step_DemoDevices'), [('delay') : '3', ('code') : 'PRD-LINE'], 
+    FailureHandling.STOP_ON_FAILURE)
 

@@ -26,7 +26,7 @@ WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
 WebUI.delay(3)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Configurations'))
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Configurations'))
 
 WebUI.delay(3)
 
@@ -34,5 +34,7 @@ WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_warehouses')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_listWarehouses'))
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_wareHouse Operators'))
+
+WebUI.click(findTestObject('Inventory Module/WareHouse Operators/Link_AddwareHouseOperator'))
 

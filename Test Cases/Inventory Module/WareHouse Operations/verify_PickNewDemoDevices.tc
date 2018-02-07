@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID : 414
+Test Case Description : Verify Request to Create Demo Device is placed successfully</description>
+   <name>verify_PickNewDemoDevices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46fb0327-ee31-4fa1-9823-e83d63854bb3</testCaseGuid>
+</TestCaseEntity>

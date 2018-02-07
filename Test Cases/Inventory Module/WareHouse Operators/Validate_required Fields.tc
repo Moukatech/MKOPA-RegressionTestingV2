@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate_required Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a076c0aa-312e-4404-a146-5cd43d62a5ff</testCaseGuid>
+   <variable>
+      <defaultValue>'-- Select --'</defaultValue>
+      <description></description>
+      <id>71353c1e-4a6e-4f6a-b1ea-530906eec7c3</id>
+      <masked>false</masked>
+      <name>operator</name>
+   </variable>
+</TestCaseEntity>
