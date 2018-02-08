@@ -9,7 +9,6 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
-import com.kms.katalon.core.testcase.Variable as Variable
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
@@ -20,46 +19,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-String tagged = tagGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
+CustomKeywords.'manifestUploads.PrimaryDevice.primaryDevice'()
 
-location = System.getenv('USERPROFILE')
-
-String filePath = location + '/git/MKOPA-REGRESSION-REPOSITORY/Payment Files/payments.csv'
-
-CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(Account, Phone, Amount, receiptNumber)
-
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page Header and Menu/FileUploadCenter/Link-FileUploadMenu'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
+        , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw, ('selectId') : selectId], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('File Upload Center Module/File Upload Center/button_MPESA'))
+WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/radio_Close Consignment', [('condition') : condition]))
 
-WebUI.delay(2)
-
-WebUI.uploadFile(findTestObject('File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'), filePath)
-
-WebUI.setText(findTestObject('File Upload Center Module/Upload Payment File (MPESA)/input_COMMENT'), Comment)
-
-WebUI.setText(findTestObject('File Upload Center Module/Upload Payment File (MPESA)/input_Tag'), tagged)
-
-WebUI.click(findTestObject('File Upload Center Module/Upload Payment File (MPESA)/button_UPLOAD'))
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('File Upload Center Module/Upload Payment File (MPESA)/button_Close Window Button'))
+successMessage = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/section_Manifest Details'))
 
-String tagGenerator(String chars, Integer length) {
-    Random rand = new Random()
+WebUI.verifyTextPresent(successMessage, false)
 
-    StringBuilder sb = new StringBuilder()
+WebUI.delay(2)
 
-    for (int i = 0; i < length; i++) {
-        sb.append(chars.charAt(rand.nextInt(chars.length())))
-    }
-    
-    return sb.toString()
-}
+WebUI.closeBrowser()
 

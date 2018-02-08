@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Select Item Type Drop Down</description>
-   <name>dropdown_Select Item Type</name>
+   <description></description>
+   <name>button_Cancel</name>
    <tag></tag>
-   <elementGuidId>01ee68a3-3314-45fd-bd62-1685be64f029</elementGuidId>
+   <elementGuidId>f45883a2-f2bd-4e28-b5c2-30c3573a040a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='frm-upload-manifest']/div[5]/div[1]/div[2]/div/div/span[2]/span</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='frm-upload-manifest']/div[5]/div[1]/div[2]/div/div/span[2]/span</value>
+      <value>.//*[@id='btnCancelConsignmentReceipt']</value>
    </webElementProperties>
 </WebElementEntity>

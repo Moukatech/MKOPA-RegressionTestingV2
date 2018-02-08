@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Select Item Type Drop Down</description>
-   <name>dropdown_Select Item Type</name>
+   <description>Has two Conditions that is Existing = False and new = True.
+
+Its is a parameterized xpath with value as the variable</description>
+   <name>radio_Consignment Types</name>
    <tag></tag>
-   <elementGuidId>01ee68a3-3314-45fd-bd62-1685be64f029</elementGuidId>
+   <elementGuidId>8c43706e-b079-4d7c-838d-55f90ff315d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='frm-upload-manifest']/div[5]/div[1]/div[2]/div/div/span[2]/span</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +19,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='frm-upload-manifest']/div[5]/div[1]/div[2]/div/div/span[2]/span</value>
+      <value>.//*[@id='IsNewConsignment' AND @value='${value}']</value>
    </webElementProperties>
 </WebElementEntity>

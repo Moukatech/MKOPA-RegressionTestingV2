@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Select Item Type Drop Down</description>
-   <name>dropdown_Select Item Type</name>
+   <description></description>
+   <name>input_Receipt Carton Count</name>
    <tag></tag>
-   <elementGuidId>01ee68a3-3314-45fd-bd62-1685be64f029</elementGuidId>
+   <elementGuidId>2a2219de-16f0-476c-b0c3-75e9514c40b6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='frm-upload-manifest']/div[5]/div[1]/div[2]/div/div/span[2]/span</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='frm-upload-manifest']/div[5]/div[1]/div[2]/div/div/span[2]/span</value>
+      <value>.//*[@id='ReceivedCartonCount']</value>
    </webElementProperties>
 </WebElementEntity>

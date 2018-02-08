@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Value</name>
+   <name>button_Receive</name>
    <tag></tag>
-   <elementGuidId>2922c682-8419-405d-b59c-d301b1ddacf9</elementGuidId>
+   <elementGuidId>090a5c38-ecd8-4728-a991-8cc5449ea8f8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='txtValue']</value>
+      <value>.//*[@id='btnRecieveConsignmentGeneral']</value>
    </webElementProperties>
 </WebElementEntity>

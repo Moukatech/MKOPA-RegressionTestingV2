@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Is new Consignment Radio Button</description>
-   <name>radio_IsNewConsignment</name>
+   <description></description>
+   <name>button_Receive Selected Cartons</name>
    <tag></tag>
-   <elementGuidId>62c2cc9d-d201-4d0b-ae70-46c205adaac6</elementGuidId>
+   <elementGuidId>eff5d574-7381-41ca-8843-8618ef477c60</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@checked='checked']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@checked='checked']</value>
+      <value>.//*[@id='btnReceiveSelectedBoxes']</value>
    </webElementProperties>
 </WebElementEntity>

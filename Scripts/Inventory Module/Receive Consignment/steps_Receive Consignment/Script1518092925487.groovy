@@ -19,27 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'manifestUploads.meteredItem.meteredItem'()
-
-WebUI.delay(3)
-
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
-        , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/radio_Close Consignment', [('condition') : condition]))
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
 WebUI.delay(2)
 
-successMessage = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/section_Manifest Details'))
-
-WebUI.verifyTextPresent(successMessage, false)
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_WarehouseOperations'))
 
 WebUI.delay(2)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : code]))
+
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_Receive Consignment', [('receiptId') : receiptId]))
+
+WebUI.setText(findTestObject('Inventory Module/Receive Consignment/input_Consignment Number'), consignmentNo)
+
+WebUI.setText(findTestObject('Inventory Module/Receive Consignment/input_Receipt Date'), receiptDate)
+
+WebUI.setText(findTestObject('Inventory Module/Receive Consignment/input_Receipt Carton Count'), receiptCartonUnit)
 

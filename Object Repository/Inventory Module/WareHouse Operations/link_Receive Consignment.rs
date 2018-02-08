@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>radio_Existing</name>
+   <description>Parameterized Xpath. Thre variable is receiptId and it keeps on chaniging.  Add the value to the Variable</description>
+   <name>link_Receive Consignment</name>
    <tag></tag>
-   <elementGuidId>90589087-17ad-48c5-9a73-1dbd101e3484</elementGuidId>
+   <elementGuidId>bbd24af8-f489-49b9-92d0-bb50564e201d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='False']</value>
+      <value>//a[@href='/Inventory/Consignment/ReceiveConsignmentGeneral?WarId=${receiptId}']</value>
    </webElementProperties>
 </WebElementEntity>
