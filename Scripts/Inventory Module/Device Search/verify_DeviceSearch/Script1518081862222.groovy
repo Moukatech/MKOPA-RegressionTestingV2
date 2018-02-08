@@ -19,30 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDeviceManagement'), [('delay') : '3', ('device_serialNumber') : '0517011501-001252'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/Demo Device Management/tab_CreditsSent'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.delay(delay)
+WebUI.delay(2)
 
-WebUI.getText(findTestObject('Inventory Module/Demo Device Management/label_LastCreditsSent'))
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_DeviceSearch'))
 
-WebUI.click(findTestObject('Inventory Module/Demo Device Management/tab_StatesSent'))
+WebUI.click(findTestObject('Inventory Module/Device Search/dropdown_SearchBy'))
 
-WebUI.getText(findTestObject('Inventory Module/Demo Device Management/label_States'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Demo Device Management/link_SuspendDevice'))
+WebUI.click(findTestObject('Inventory Module/Device Search/select_SearchBy', [('searchBy') : searchBy]))
 
-WebUI.click(findTestObject('Inventory Module/Demo Device Management/button_ConfirmSuspend'))
+WebUI.setText(findTestObject('Inventory Module/Device Search/input_serialnumber'), serialnumber)
 
-WebUI.acceptAlert()
-
-WebUI.refresh()
-
-WebUI.getText(findTestObject('Inventory Module/Demo Device Management/link_UnsuspendLink'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextPresent('Unsuspend device', true)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Inventory Module/Device Search/button_Search'))
 
