@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>ID:123
 listing all the metered items</description>
-   <name>steps_List metered items</name>
+   <name>List metered items types</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b20016d1-dd48-4493-9edb-b1827de9db33</testCaseGuid>
