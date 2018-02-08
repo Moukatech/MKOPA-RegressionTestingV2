@@ -19,18 +19,41 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/1Common/step_Assign Floating Payment'), [('receiptNumber') : receiptNumber, ('payerReference') : payerReference
-        , ('comments') : comments], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Customer Module/Input-SearchForCustomer'), payerReference)
-
-WebUI.click(findTestObject('Customer Module/IconBtn-Search'))
+WebUI.click(findTestObject('Page Header and Menu/Payments/Link-Payments'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Customer Module/Customer List/Radio_Paymentlist'))
+WebUI.click(findTestObject('Page Header and Menu/Payments/Link-CustomerPayments'))
 
-WebUI.click(findTestObject('Customer Module/Customer Profile/drop_CustomerPaymentHistoryLog_paymentDetails'))
+WebUI.delay(5)
 
-WebUI.verifyElementVisible(findTestObject('Customer Module/Customer Profile/msg_CustomerPaymentHistoryLog_Payments', [('receiptID') : receiptNumber]))
+WebUI.click(findTestObject('Page Header and Menu/Payments/Link-FloatingPayments'))
+
+'change in the xpath and put anothe reference number after the test case is complete\r\n'
+WebUI.click(findTestObject('Payments Module/Floating Payer Payments/link_AssignFloatingPayer', [('ReciptNo') : receiptNumber]))
+
+WebUI.click(findTestObject('Payments Module/Assign Floating Payer Payments/Input-PayerReference'))
+
+WebUI.delay(2)
+
+WebUI.setMaskedText(findTestObject('Payments Module/Assign Floating Payer Payments/Input-PayerReference'), payerReference)
+
+WebUI.setText(findTestObject('Payments Module/Assign Floating Payer Payments/Input-Comments'), comments)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Payments Module/Assign Floating Payer Payments/DropDown-ProductAccount'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Payments Module/Assign Floating Payer Payments/Input-ProductAccount'))
+
+WebUI.doubleClick(findTestObject('Payments Module/Assign Floating Payer Payments/SelectingProductAccount'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Payments Module/Assign Floating Payer Payments/Button-Assign'))
 

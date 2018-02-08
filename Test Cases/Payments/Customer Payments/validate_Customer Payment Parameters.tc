@@ -3,7 +3,7 @@
    <description>Pick a customer In Payment
 Note his Credits
 Make A payment via Mpesa</description>
-   <name>Steps-Payment For an existing Customer or existing Phone Number Via Mpesa</name>
+   <name>validate_Customer Payment Parameters</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>16ac745e-d923-4660-96f8-60968c6d41d4</testCaseGuid>
@@ -48,5 +48,12 @@ Make A payment via Mpesa</description>
       <id>d3fdde35-7285-459a-ad29-749eed802236</id>
       <masked>false</masked>
       <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>943a95a5-a827-4fc6-ac36-bb0ac03e1ceb</id>
+      <masked>false</masked>
+      <name>searchAccount</name>
    </variable>
 </TestCaseEntity>

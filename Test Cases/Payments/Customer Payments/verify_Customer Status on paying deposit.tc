@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Steps_Deposit Payment For Loan Customer</name>
+   <name>verify_Customer Status on paying deposit</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>94b70e9a-6439-4c6a-9e49-69d57af6df75</testCaseGuid>

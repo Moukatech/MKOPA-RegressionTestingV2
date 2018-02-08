@@ -14,7 +14,7 @@
       <guid>6b7da3f1-88be-4bdf-9a36-54b6b0f00ae8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/Customer Payments/Steps-Payment For an existing Customer or existing Phone Number Via Mpesa</testCaseId>
+      <testCaseId>Test Cases/Payments/Customer Payments/validate_Customer Payment Parameters</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>581428b5-6942-4f6a-9023-a24ba110f66c</id>
@@ -60,41 +60,11 @@
          <value>phone</value>
          <variableId>d3fdde35-7285-459a-ad29-749eed802236</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>31962ec2-3a7c-4e55-aace-cb81bf97fb14</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/Customer Payments/Verify-Payment for an existing Customer or Phone Number via M-pesa updates the credits</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>eb22da64-8342-4f46-9dbc-9d7dee51e94a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>02748518-f01b-4fc5-9ab8-86314c1e2522</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>537c8b5b-bf42-4454-9695-b8146f196ea7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8fee8cec-d97c-4b34-943a-dfc1b6ad478c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>85ecd7a6-c949-468d-a10c-045f0bb440cc</variableId>
+         <variableId>943a95a5-a827-4fc6-ac36-bb0ac03e1ceb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

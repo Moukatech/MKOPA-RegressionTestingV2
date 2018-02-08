@@ -40,5 +40,3 @@ WebUI.click(findTestObject('Payments Module/Approve Payments Transfers/button_Sa
 
 WebUI.verifyAlertPresent(10)
 
-WebUI.acceptAlert()
-
