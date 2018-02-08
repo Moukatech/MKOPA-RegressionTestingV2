@@ -19,9 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/Customer SMS(s)/Steps_Deposit Payment For Loan Customer'), 
-    [('amount') : amount, ('account') : account, ('phoneNo') : phoneNo, ('filepath') : filepath, ('comment') : comment], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Payments/Customer SMS(s)/Steps_Deposit Payment For Loan Customer'), [('amount') : amount
+        , ('account') : account, ('phoneNo') : phoneNo, ('comment') : comment], FailureHandling.STOP_ON_FAILURE)
 
 amountPaid = WebUI.getText(findTestObject('Customer Module/Customer Profile/lastAmountpaid'))
 

@@ -20,8 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import csvCreatorPackage.generate as generate
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : account
-        , ('Phone') : phone, ('filePath') : 'C:\\Users\\dennis.gituto\\git\\MKOPA-REGRESSION-REPOSITORY\\Payment Files\\payments.csv'
+WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : account, ('Phone') : phone
         , ('Comment') : 'Nice and paid on time', ('receiptNumber') : receiptNumber], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Payments/Link-Payments'))

@@ -7,4 +7,9 @@
       <initValue>'https://nm.m-kopa.net/'</initValue>
       <name>NewMarkets_Url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://keuat.kopasolar.net'</initValue>
+      <name>UAT</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

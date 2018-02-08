@@ -62,5 +62,11 @@ The Test Suite is for verify_credit Purchase and verify_Credit Sent Test Cases</
          <value>receiptNumber</value>
          <variableId>b577dd30-366b-4467-80d7-d25b976adbc4</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69690d49-7fa5-4ecf-b098-1be8090fca8d</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

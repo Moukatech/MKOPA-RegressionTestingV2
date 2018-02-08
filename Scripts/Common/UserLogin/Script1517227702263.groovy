@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 //This step calls the loadind application class
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+WebUI.openBrowser(GlobalVariable.UAT)
 
 WebUI.maximizeWindow()
 

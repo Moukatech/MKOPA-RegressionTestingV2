@@ -20,11 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : account
-        , ('Phone') : phoneNo, ('filePath') : 'C:\\Users\\lewis.mocha\\git\\MKOPA-REGRESSION-REPOSITORY\\Payment Files\\payments.csv'
-        , ('Comment') : comment, ('tagged') : '', ('blankComment') : '', ('blankTag') : ''], FailureHandling.STOP_ON_FAILURE)
+        , ('Phone') : phoneNo, ('Comment') : comment, ('receiptNumber') : null], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Customer Module/Input-SearchForCustomer'))
 
