@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Test Suite for Customer Payments Test Cases</description>
-   <name>Customer Payments</name>
+   <description></description>
+   <name>Manage Payments</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-08T14:10:20</lastRun>
+   <lastRun>2018-02-08T14:44:40</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>e60c1404-6775-48a9-8785-6dd5e21d82a7</testSuiteGuid>
+   <testSuiteGuid>65d3925e-8d52-4237-a4d0-61ddb9b112d6</testSuiteGuid>
    <testCaseLink>
-      <guid>35c5e234-80d6-41a3-9719-e02ccdd162a2</guid>
+      <guid>6fa66e93-0973-43ec-89a2-7263edb9bebb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Payments/Customer Payments/verify_Customer Payment</testCaseId>
@@ -42,7 +42,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9762f7f5-9287-4118-8e20-e73139e05b46</guid>
+      <guid>d3a1123b-425a-4a32-ac71-b01ba886f95d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Payments/Customer Payment Notitfication (SMS)/verify_Sms sent on correct amount deposited</testCaseId>
@@ -78,7 +78,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c0972a4c-ade9-4a60-945c-e6b2bf488d24</guid>
+      <guid>d7b25927-685f-4b2f-b8da-5f9e5a79037a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Payments/Search For Payments/Search For Payment Using a Receipt Number</testCaseId>

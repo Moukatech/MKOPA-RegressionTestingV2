@@ -19,16 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : account
-        , ('Phone') : phoneNo, ('Comment') : 'Nice and paid on time', ('receiptNumber') : null], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Customer Module/Input-SearchForCustomer'))
-
-WebUI.setText(findTestObject('Customer Module/Input-SearchForCustomer'), account)
-
-WebUI.click(findTestObject('Customer Module/IconBtn-Search'))
-
-WebUI.verifyTextPresent('Deposit Paid', false)
-
