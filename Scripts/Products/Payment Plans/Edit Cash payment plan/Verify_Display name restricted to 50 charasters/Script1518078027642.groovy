@@ -19,39 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page Header and Menu/Payments/Link-Payments'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page Header and Menu/Payments/Link-CustomerPayments'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page Header and Menu/Payments/Link-FloatingPayments'))
-
-'change in the xpath and put anothe reference number after the test case is complete\r\n'
-WebUI.click(findTestObject('Payments Module/Floating Payer Payments/link_AssignFloatingPayer', [('ReciptNo') : receiptNumber]))
-
-WebUI.click(findTestObject('Payments Module/Assign Floating Payer Payments/Input-PayerReference'))
-
-WebUI.delay(2)
-
-WebUI.setMaskedText(findTestObject('Payments Module/Assign Floating Payer Payments/Input-PayerReference'), payerReference)
-
-WebUI.setText(findTestObject('Payments Module/Assign Floating Payer Payments/Input-Comments'), comments)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Payments Module/Assign Floating Payer Payments/DropDown-ProductAccount'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Payments Module/Assign Floating Payer Payments/Input-ProductAccount'))
-
-WebUI.doubleClick(findTestObject('Payments Module/Assign Floating Payer Payments/SelectingProductAccount'))
-
-WebUI.click(findTestObject('Payments Module/Assign Floating Payer Payments/Button-Assign'))
-
