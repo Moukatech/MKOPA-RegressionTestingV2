@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Link that Opens Demo Devices List</description>
-   <name>link_DemoDevices</name>
+   <description>Lists Metered Item Summaries</description>
+   <name>link_List Item Summaries</name>
    <tag></tag>
-   <elementGuidId>f973019d-6326-4d59-8a34-5fb49b644015</elementGuidId>
+   <elementGuidId>202256f5-1127-4555-b49e-2067d5d80bf2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@href='/Inventory/DemoDevices/DemoDevices/${demo_device}']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@href='/Inventory/DemoDevices/DemoDevices/${demo_device}']</value>
+      <value>//a[contains(.,'List Item Summaries')]</value>
    </webElementProperties>
 </WebElementEntity>

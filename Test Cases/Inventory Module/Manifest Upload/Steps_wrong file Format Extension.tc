@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps when Uploading a wrong File Format</description>
+   <name>Steps_wrong file Format Extension</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d272c773-35d3-402b-9033-9ec58ef72535</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA + : M-KOPA +'</defaultValue>
+      <description></description>
+      <id>1c9b920b-f9e2-4b6e-8898-64ac54d08757</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Universal'</defaultValue>
+      <description></description>
+      <id>27cda8b1-8e7e-4af9-b426-aa1a1f9009ec</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Meterable'</defaultValue>
+      <description></description>
+      <id>3a7d6d20-f24f-4aa2-89aa-65402424170b</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>7d4a93e5-b693-4db2-8962-168ac4fa3024</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'12098'</defaultValue>
+      <description></description>
+      <id>221666cc-d259-4e90-a413-fcb46f97b55e</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+</TestCaseEntity>

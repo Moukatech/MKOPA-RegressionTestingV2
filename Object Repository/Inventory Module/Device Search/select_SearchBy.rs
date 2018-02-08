@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Link that Opens Demo Devices List</description>
-   <name>link_DemoDevices</name>
+   <description></description>
+   <name>select_SearchBy</name>
    <tag></tag>
-   <elementGuidId>f973019d-6326-4d59-8a34-5fb49b644015</elementGuidId>
+   <elementGuidId>f57cf7c3-9d01-4e5d-aebe-04214a1d2030</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@href='/Inventory/DemoDevices/DemoDevices/${demo_device}']</value>
+         <value>//div/ul/li[text()='${searchBy}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@href='/Inventory/DemoDevices/DemoDevices/${demo_device}']</value>
+      <value>//div/ul/li[text()='${searchBy}']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Link that Opens Demo Devices List</description>
-   <name>link_DemoDevices</name>
+   <description></description>
+   <name>link_Repair</name>
    <tag></tag>
-   <elementGuidId>f973019d-6326-4d59-8a34-5fb49b644015</elementGuidId>
+   <elementGuidId>8ac7c51d-58f6-4a70-be98-b4bb8edc5b7e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@href='/Inventory/DemoDevices/DemoDevices/${demo_device}']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@href='/Inventory/DemoDevices/DemoDevices/${demo_device}']</value>
+      <value>//span[contains(.,'Repairs')]</value>
    </webElementProperties>
 </WebElementEntity>

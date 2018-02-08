@@ -19,17 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//This step calls the loadind application class
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+location = System.getenv('USERPROFILE')
 
-WebUI.maximizeWindow()
+String fileLocation = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx'
 
-//Fills in the user Email
-WebUI.setText(findTestObject('Login/input_Username'), Email)
+CustomKeywords.'manifestUploads.wrongfileFormat.wrongfileFormat'()
 
-//Fills in the User Password
-WebUI.setText(findTestObject('Login/input_Password'), Password)
+WebUI.delay(2)
 
-//Clicks Sign In Button
-WebUI.click(findTestObject('Login/button_SignIn'))
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/Steps_wrong file Format Extension'), [('itemType') : itemType
+        , ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_The file extension for the uploaded file is not .csv'))
+
+WebUI.closeBrowser()
 

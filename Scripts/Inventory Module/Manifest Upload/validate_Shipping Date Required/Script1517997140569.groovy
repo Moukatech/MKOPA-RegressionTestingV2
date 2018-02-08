@@ -19,17 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//This step calls the loadind application class
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+CustomKeywords.'manifestUploads.meteredItem.meteredItem'()
 
-WebUI.maximizeWindow()
+WebUI.delay(2)
 
-//Fills in the user Email
-WebUI.setText(findTestObject('Login/input_Username'), Email)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-//Fills in the User Password
-WebUI.setText(findTestObject('Login/input_Password'), Password)
+WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
+        , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw], FailureHandling.STOP_ON_FAILURE)
 
-//Clicks Sign In Button
-WebUI.click(findTestObject('Login/button_SignIn'))
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select the Shipping Date'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

@@ -19,17 +19,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//This step calls the loadind application class
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : wareHouseCode], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_Repair pool'))
 
-//Fills in the user Email
-WebUI.setText(findTestObject('Login/input_Username'), Email)
+WebUI.click(findTestObject('Inventory Module/Repair pool devices/link_Repair', [('deviceSerial') : deviceSerial]))
 
-//Fills in the User Password
-WebUI.setText(findTestObject('Login/input_Password'), Password)
+WebUI.click(findTestObject('Inventory Module/Repair Device/input_Resolution'), FailureHandling.STOP_ON_FAILURE)
 
-//Clicks Sign In Button
-WebUI.click(findTestObject('Login/button_SignIn'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Repair Device/select_Resolution', [('resolution') : resolution]))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Repair Device/input_Resolution Reason'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Repair Device/select_Resoution Reason', [('resolutionReason') : resolutionReason]))
+
+WebUI.setText(findTestObject('Inventory Module/Repair Device/input_Repair Notes'), repairNotes)
+
+WebUI.click(findTestObject('Inventory Module/Repair Device/button_Save'))
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Repair Device/errorMsg_Enter repair notes'), 2)
 

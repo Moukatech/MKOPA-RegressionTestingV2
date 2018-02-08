@@ -23,7 +23,7 @@ String consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9
 
 location = System.getenv('USERPROFILE')
 
-String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/meteredManifest.csv'
+String fileLocation = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx'
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
@@ -67,19 +67,7 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_suppli
 
 WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
 
-WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select'), filePath)
+WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select'), fileLocation)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
-
-String randomGenerator(String chars, Integer length) {
-    Random rand = new Random()
-
-    StringBuilder sb = new StringBuilder()
-
-    for (int i = 0; i < length; i++) {
-        sb.append(chars.charAt(rand.nextInt(chars.length())))
-    }
-    
-    return sb.toString()
-}
 

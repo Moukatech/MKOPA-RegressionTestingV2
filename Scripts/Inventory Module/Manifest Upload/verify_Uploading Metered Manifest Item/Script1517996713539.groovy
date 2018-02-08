@@ -27,5 +27,19 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
-        , ('manifestType') : manifestType], FailureHandling.STOP_ON_FAILURE)
+        , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/radio_Close Consignment', [('condition') : condition]))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
+
+WebUI.delay(2)
+
+successMessage = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/section_Manifest Details'))
+
+WebUI.verifyTextPresent(successMessage, false)
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

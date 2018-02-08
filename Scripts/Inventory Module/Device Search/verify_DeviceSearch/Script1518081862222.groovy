@@ -19,17 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//This step calls the loadind application class
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-//Fills in the user Email
-WebUI.setText(findTestObject('Login/input_Username'), Email)
+WebUI.delay(2)
 
-//Fills in the User Password
-WebUI.setText(findTestObject('Login/input_Password'), Password)
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_DeviceSearch'))
 
-//Clicks Sign In Button
-WebUI.click(findTestObject('Login/button_SignIn'))
+WebUI.click(findTestObject('Inventory Module/Device Search/dropdown_SearchBy'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Device Search/select_SearchBy', [('searchBy') : searchBy]))
+
+WebUI.setText(findTestObject('Inventory Module/Device Search/input_serialnumber'), serialnumber)
+
+WebUI.click(findTestObject('Inventory Module/Device Search/button_Search'))
 

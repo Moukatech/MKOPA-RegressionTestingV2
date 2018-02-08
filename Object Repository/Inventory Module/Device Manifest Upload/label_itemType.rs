@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(.,'${itemType}')]</value>
+         <value>//li[contains(normalize-space(),'${itemType}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(.,'${itemType}')]</value>
+      <value>//li[contains(normalize-space(),'${itemType}')]</value>
    </webElementProperties>
 </WebElementEntity>

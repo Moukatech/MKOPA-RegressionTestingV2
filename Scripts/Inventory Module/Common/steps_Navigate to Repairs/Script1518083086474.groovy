@@ -19,17 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//This step calls the loadind application class
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.maximizeWindow()
+WebUI.delay(2)
 
-//Fills in the user Email
-WebUI.setText(findTestObject('Login/input_Username'), Email)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
 
-//Fills in the User Password
-WebUI.setText(findTestObject('Login/input_Password'), Password)
+WebUI.delay(2)
 
-//Clicks Sign In Button
-WebUI.click(findTestObject('Login/button_SignIn'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Repair'))
+
+WebUI.delay(2)
 

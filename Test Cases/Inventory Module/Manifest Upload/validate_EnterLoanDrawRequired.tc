@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Leave the Loan Draw Blank and an error message will be displayed</description>
+   <name>validate_EnterLoanDrawRequired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d6e53dc-74fc-4bdc-b79f-2279b3807d4f</testCaseGuid>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>3ed8a83f-ba87-4463-b972-6147db83703a</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'49 : qwerty'</defaultValue>
+      <description></description>
+      <id>7fdaa753-057e-41d8-9380-a06f44c53258</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Meterable'</defaultValue>
+      <description></description>
+      <id>ae8e4d15-62b4-41ae-9382-4a35f91bc55d</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>6f91d004-84b9-4cd8-a645-5884fd066807</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>15ac49f8-2494-4739-9101-1964295c3188</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+</TestCaseEntity>
