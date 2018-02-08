@@ -36,6 +36,10 @@ WebUI.click(findTestObject('Inventory Module/Demo Device Management/link_Suspend
 
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/button_ConfirmSuspend'))
 
+WebUI.acceptAlert()
+
+WebUI.refresh()
+
 WebUI.getText(findTestObject('Inventory Module/Demo Device Management/link_UnsuspendLink'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Unsuspend device', true)
