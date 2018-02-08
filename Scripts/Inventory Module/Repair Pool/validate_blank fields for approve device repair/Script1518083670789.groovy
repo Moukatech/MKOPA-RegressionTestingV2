@@ -19,13 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('Inventory Module/Common/steps_Navigate to Repairs'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Login/input_Username'), 'gideon.arita@m-kopa.com')
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Approve Repairs'))
 
-WebUI.setText(findTestObject('Login/input_Password'), 'Mikhitaryan16?')
+WebUI.click(findTestObject('Inventory Module/Approve Device Repairs/link_Approve', [('deviceSerial') : deviceSerial]))
 
-WebUI.click(findTestObject('Login/button_SignIn'))
+WebUI.click(findTestObject('Inventory Module/Approve Repair/input_Aprroval Status'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Approve Repair/select_Approval Status', [('approvalStatus') : approvalStatus]))
+
+WebUI.setText(findTestObject('Inventory Module/Approve Repair/input_Approval Notes'), approvalNotes)
+
+WebUI.click(findTestObject('Inventory Module/Approve Repair/button_Save'))
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Approve Repair/errorMsg_Approver Notes required'), 2)
 

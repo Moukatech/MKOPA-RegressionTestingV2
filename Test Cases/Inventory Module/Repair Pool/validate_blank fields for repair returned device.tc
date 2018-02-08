@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking for validations when repairng a retuned device</description>
+   <name>validate_blank fields for repair returned device</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>443df91c-63e6-4238-90c3-bc650438d3eb</testCaseGuid>
+   <variable>
+      <defaultValue>'0715010701000006'</defaultValue>
+      <description></description>
+      <id>ebb8a786-1fc0-4c2f-ba34-317f5f0424e5</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC003'</defaultValue>
+      <description></description>
+      <id>ae8ca94b-2ca6-4c5c-9748-014446e5f131</id>
+      <masked>false</masked>
+      <name>wareHouseCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fixed'</defaultValue>
+      <description></description>
+      <id>4a333905-aab4-424f-9508-dd6d0b44fb26</id>
+      <masked>false</masked>
+      <name>resolution</name>
+   </variable>
+   <variable>
+      <defaultValue>'Q5 Replaced'</defaultValue>
+      <description></description>
+      <id>a447fd32-e61a-4bac-af1e-3ed23ad2a592</id>
+      <masked>false</masked>
+      <name>resolutionReason</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eba9a7ed-0049-4617-86ef-5817df6e59ff</id>
+      <masked>false</masked>
+      <name>repairNotes</name>
+   </variable>
+</TestCaseEntity>

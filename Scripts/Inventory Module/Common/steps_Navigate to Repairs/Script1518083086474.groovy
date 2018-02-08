@@ -19,13 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.maximizeWindow()
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Login/input_Username'), 'gideon.arita@m-kopa.com')
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
 
-WebUI.setText(findTestObject('Login/input_Password'), 'Mikhitaryan16?')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Login/button_SignIn'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Repair'))
+
+WebUI.delay(2)
 

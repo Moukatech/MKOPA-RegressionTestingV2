@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking for validations when approving a repaired device</description>
+   <name>validate_blank fields for approve device repair</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22ab2799-2db7-4eea-a9ec-2c72d1fe2b9d</testCaseGuid>
+   <variable>
+      <defaultValue>'0415010101-012745'</defaultValue>
+      <description></description>
+      <id>e5b44311-0644-459a-90c3-19a92d831eac</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Approved'</defaultValue>
+      <description></description>
+      <id>c1912430-5a35-451d-aae0-214f583bffa5</id>
+      <masked>false</masked>
+      <name>approvalStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>61b2458d-ee4b-49e8-afee-44a0b4218ffb</id>
+      <masked>false</masked>
+      <name>approvalNotes</name>
+   </variable>
+</TestCaseEntity>
