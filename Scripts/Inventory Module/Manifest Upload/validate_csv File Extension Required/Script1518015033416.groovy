@@ -19,27 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'manifestUploads.meteredItem.meteredItem'()
+location = System.getenv('USERPROFILE')
 
-WebUI.delay(3)
+String fileLocation = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx'
+
+CustomKeywords.'manifestUploads.wrongfileFormat.wrongfileFormat'()
+
+WebUI.delay(2)
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
-        , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/Steps_wrong file Format Extension'), [('itemType') : itemType
+        , ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/radio_Close Consignment', [('condition') : condition]))
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
-
-WebUI.delay(2)
-
-successMessage = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/section_Manifest Details'))
-
-WebUI.verifyTextPresent(successMessage, false)
-
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_The file extension for the uploaded file is not .csv'))
 
 WebUI.closeBrowser()
 

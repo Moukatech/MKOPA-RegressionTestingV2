@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Item Type Select Options. The Xpath is Parameterized</description>
-   <name>label_itemType</name>
+   <description>Check to Close the 	Consignment</description>
+   <name>radio_Close Consignment</name>
    <tag></tag>
-   <elementGuidId>5518248b-4f58-48ba-8d2f-b546a907bbf9</elementGuidId>
+   <elementGuidId>0a0cb125-2820-4c30-80ce-03e05113036b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${itemType}')]</value>
+         <value>//input[@value='${condition}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${itemType}')]</value>
+      <value>//input[@value='${condition}']</value>
    </webElementProperties>
 </WebElementEntity>

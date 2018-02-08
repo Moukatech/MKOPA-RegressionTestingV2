@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Item Type Select Options. The Xpath is Parameterized</description>
-   <name>label_itemType</name>
+   <description>Details can be Consignment left open  OR  Consignment closed successfully!</description>
+   <name>section_Manifest Details</name>
    <tag></tag>
-   <elementGuidId>5518248b-4f58-48ba-8d2f-b546a907bbf9</elementGuidId>
+   <elementGuidId>2e1b5073-71ba-4155-8c8b-af377cb00cc9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${itemType}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${itemType}')]</value>
+      <value>.//*[@id='div-upload-manifest']</value>
    </webElementProperties>
 </WebElementEntity>
