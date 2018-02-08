@@ -23,7 +23,8 @@ import internal.GlobalVariable as GlobalVariable
 String tagged = tagGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
 
 location = System.getenv('USERPROFILE')
-String filePath=(location+"/git/MKOPA-REGRESSION-REPOSITORY/Payment Files/payments.csv")
+
+String filePath = location + '/git/MKOPA-REGRESSION-REPOSITORY/Payment Files/payments.csv'
 
 CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(Account, Phone, Amount, receiptNumber)
 
@@ -38,7 +39,7 @@ WebUI.click(findTestObject('File Upload Center Module/File Upload Center/button_
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'),  filePath)
+WebUI.uploadFile(findTestObject('File Upload Center Module/Upload Payment File (MPESA)/button_SELECT'), filePath)
 
 WebUI.setText(findTestObject('File Upload Center Module/Upload Payment File (MPESA)/input_COMMENT'), Comment)
 
@@ -61,7 +62,4 @@ String tagGenerator(String chars, Integer length) {
     
     return sb.toString()
 }
-
-
-
 

@@ -21,12 +21,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import sun.security.ssl.Alerts as Alerts
 
-WebUI.callTestCase(findTestCase('File Upload Center Module/Steps-Upload Payments File'), [('Amount') : amount, ('Account') : account
-        , ('Phone') : phoneNumber, ('Comment') : 'Nice and paid on time', ('receiptNumber') : receiptNumber], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : account, ('Phone') : phoneNumber
+        , ('Comment') : comment, ('receiptNumber') : receiptNumber], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : account], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 
 WebUI.refresh()
 

@@ -19,6 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/Search For Payments/Search For Payment Using a Receipt Number'), [('Receiptno') : 'KU87KDFUYDF'], 
+WebUI.callTestCase(findTestCase('Payments/Search For Payments/Search For Payment Using a Receipt Number'), [('Receiptno') : receiptNumber], 
     FailureHandling.STOP_ON_FAILURE)
 

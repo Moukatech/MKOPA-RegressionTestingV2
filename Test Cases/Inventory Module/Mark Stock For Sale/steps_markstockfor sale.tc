@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>steps_markstockfor sale</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04ec8461-6d01-4f71-b445-12f755e90a4f</testCaseGuid>
+   <variable>
+      <defaultValue>'DLR001'</defaultValue>
+      <description></description>
+      <id>4a5718fd-b020-4e20-b6f7-03ff4c33de20</id>
+      <masked>false</masked>
+      <name>warehousecode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Unit'</defaultValue>
+      <description></description>
+      <id>47e027ff-cad4-4e0a-b373-724991a2570b</id>
+      <masked>false</masked>
+      <name>packaging</name>
+   </variable>
+</TestCaseEntity>

@@ -10,4 +10,11 @@ TestCase ID: 16666</description>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8f78ce17-4af5-4ef3-aad2-460cadabdf8a</testCaseGuid>
+   <variable>
+      <defaultValue>'KU87KDFUYDF'</defaultValue>
+      <description></description>
+      <id>15ec3e60-547d-42e4-80f4-428b9c44c5f4</id>
+      <masked>false</masked>
+      <name>receiptNumber</name>
+   </variable>
 </TestCaseEntity>

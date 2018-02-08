@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Receive</name>
+   <tag></tag>
+   <elementGuidId>7a962539-bc65-4e0e-9d4e-3bd09448d891</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='DealerUnCollectedDevice']//tr[td[text()='${itemSerial}']]/td/a[text()='Receive']</value>
+   </webElementProperties>
+</WebElementEntity>

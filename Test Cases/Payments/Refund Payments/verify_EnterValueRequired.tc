@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test case Verifies if an error is displayed prompting user to enter Valid value during refund payment</description>
+   <name>verify_EnterValueRequired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12f6b033-8224-490a-b7ef-ee9e0e0e5bf6</testCaseGuid>
+   <variable>
+      <defaultValue>'A value is required.'</defaultValue>
+      <description></description>
+      <id>c1dca2a9-2537-407f-9190-61a13ab2b92d</id>
+      <masked>false</masked>
+      <name>error</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>70abdaee-43b0-423e-aa9b-8c6cdce7ace1</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

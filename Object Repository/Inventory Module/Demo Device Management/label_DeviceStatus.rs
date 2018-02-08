@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_DeviceStatus</name>
+   <tag></tag>
+   <elementGuidId>1ba31ce3-d7f3-4c59-8289-a1e5f385b8c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;divBodyForm&quot;]//tr/td[text()='${device_Status}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;divBodyForm&quot;]//tr/td[text()='${device_Status}']</value>
+   </webElementProperties>
+</WebElementEntity>
