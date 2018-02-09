@@ -19,18 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/verify_Uploading metered Item Manifest'), [('itemType') : itemType
-        , ('supplier') : supplier, ('manifestType') : manifestType, ('loanDraw') : loanDraw, ('shippingDate') : shippingDate
-        , ('condition') : condition, ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/dropdown_Select (Status)'))
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Receive Consignment'), [('code') : code, ('receiptId') : receiptId
-        , ('consignmentNo') : consignmentNo, ('receiptDate') : receiptDate, ('receiptCartonUnit') : receiptCartonUnit], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Receive Consignment/button_Receive'))
+WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/label_Fully Received'))
 
-WebUI.click(findTestObject('Inventory Module/Cartons Pending Receipt/button_Finish Receiving Consignment'))
+WebUI.setText(findTestObject('Inventory Module/Finishing Receiving Consingment/input_Comments'), '')
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Finish Receive Consignment'), [('comment') : ''], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/button_Declare Complete'))
 
