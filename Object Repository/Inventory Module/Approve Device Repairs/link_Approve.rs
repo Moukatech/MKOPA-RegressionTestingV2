@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Approve</name>
+   <tag></tag>
+   <elementGuidId>f28afc03-1ca8-4d2a-8bfc-cb410743ced9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='ApproveRepairDevices']/table/tbody/tr[td[text()='${deviceSerial}']]/td/a[text()='Approve']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='ApproveRepairDevices']/table/tbody/tr[td[text()='${deviceSerial}']]/td/a[text()='Approve']</value>
+   </webElementProperties>
+</WebElementEntity>

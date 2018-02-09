@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID:3557
+approving a repaired device</description>
+   <name>verify_Approve device repair</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0fec6b0-49bb-44c9-9f0a-e73a87a0ebf1</testCaseGuid>
+   <variable>
+      <defaultValue>'Declined'</defaultValue>
+      <description></description>
+      <id>fb67a162-75c7-4f53-8411-597641352122</id>
+      <masked>false</masked>
+      <name>approvalStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>'i have approved this repair'</defaultValue>
+      <description></description>
+      <id>dc182a92-a511-4c42-9787-2354e139150a</id>
+      <masked>false</masked>
+      <name>approvalNotes</name>
+   </variable>
+   <variable>
+      <defaultValue>'1214010101-014645'</defaultValue>
+      <description></description>
+      <id>53e77f96-98f5-46b7-8036-146cb6d9f1fb</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+</TestCaseEntity>

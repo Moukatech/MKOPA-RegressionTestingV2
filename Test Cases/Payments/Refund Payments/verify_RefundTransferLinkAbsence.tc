@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ID: 16601
+This test case verifies absence of Transfer/Refund link when refund has been made</description>
+   <name>verify_RefundTransferLinkAbsence</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebabe3a9-c2d1-4236-b250-4f5097e5d153</testCaseGuid>
+   <variable>
+      <defaultValue>'30990522'</defaultValue>
+      <description></description>
+      <id>40eda76a-d477-40b5-967f-9b96ff80175d</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'JIF43A7UMM'</defaultValue>
+      <description></description>
+      <id>4c5306dc-378c-46dc-807c-97087daf9c52</id>
+      <masked>false</masked>
+      <name>depositReceipt</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>90d279d4-afbe-493b-bcf9-06b4f3a32ad0</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

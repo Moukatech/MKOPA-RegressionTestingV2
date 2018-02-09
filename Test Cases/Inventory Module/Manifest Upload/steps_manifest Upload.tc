@@ -40,4 +40,18 @@
       <masked>false</masked>
       <name>loanDraw</name>
    </variable>
+   <variable>
+      <defaultValue>'meterableItemManifests'</defaultValue>
+      <description></description>
+      <id>7a757910-9520-493e-b798-58101a0b7f74</id>
+      <masked>false</masked>
+      <name>selectId</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234AASDSFDG'</defaultValue>
+      <description></description>
+      <id>a3f1dfa4-0eb9-4c4a-913a-0a6d545c1f63</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
 </TestCaseEntity>

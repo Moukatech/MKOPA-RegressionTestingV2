@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case: 3316
+
+Test Description: Verify the search returns filtered device using serial number</description>
+   <name>verify_OutletDemoDeviceSerialSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>640dc1d0-aedd-418f-95b8-f25ca9c5ec20</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>1b79e888-0676-4de9-ad88-b3330f6d4a72</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'0314020201-000290'</defaultValue>
+      <description></description>
+      <id>f0fa9416-7366-453c-bb74-f0215d71d2a7</id>
+      <masked>false</masked>
+      <name>filter_Input</name>
+   </variable>
+</TestCaseEntity>

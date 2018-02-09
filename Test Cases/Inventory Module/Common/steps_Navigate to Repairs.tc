@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>navigating to repairs</description>
+   <name>steps_Navigate to Repairs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3e536ad-104b-46a4-ac73-4e49fb466001</testCaseGuid>
+</TestCaseEntity>

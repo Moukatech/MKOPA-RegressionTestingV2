@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The File should be in csv format</description>
+   <name>validate_csv File Extension Required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>226b388e-2a75-4c6b-991d-501bf1624d55</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA + : M-KOPA +'</defaultValue>
+      <description></description>
+      <id>3ec7676a-5f9f-44e0-ac04-7dcf8ce21e5d</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Universal'</defaultValue>
+      <description></description>
+      <id>66a1a719-1bd6-4eeb-955d-a805a86db58c</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Meterable'</defaultValue>
+      <description></description>
+      <id>009f6356-dafe-4bf6-9912-f0c0655bbe6a</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>5a7595eb-d966-47a9-afe4-94f82e38f9df</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'12098'</defaultValue>
+      <description></description>
+      <id>d4d65c64-3bfc-4425-9beb-c7dcadba0d9f</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+</TestCaseEntity>

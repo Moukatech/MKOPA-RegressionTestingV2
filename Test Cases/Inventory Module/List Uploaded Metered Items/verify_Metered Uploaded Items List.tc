@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A list of Uploaded Metered Items</description>
+   <name>verify_Metered Uploaded Items List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a087734-a2da-4d26-a069-7c9eb60225fa</testCaseGuid>
+</TestCaseEntity>

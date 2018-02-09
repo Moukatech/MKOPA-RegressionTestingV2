@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case verifies if error is thrown when notes are not submitted during refund
+
+TestCaseID: 16573</description>
+   <name>verify_EnterNotesRequired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e6600ac-c834-47d7-83cb-6fdd27443e22</testCaseGuid>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>5c076577-85a3-4b2f-a18b-ec87e2fcd7b2</id>
+      <masked>false</masked>
+      <name>inputAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16c3db61-842b-465a-b13a-9799143238f0</id>
+      <masked>false</masked>
+      <name>inputNotes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Please fill in the request notes'</defaultValue>
+      <description></description>
+      <id>4ae98305-08dd-4bb7-ae67-e64a02ea53b2</id>
+      <masked>false</masked>
+      <name>error</name>
+   </variable>
+</TestCaseEntity>

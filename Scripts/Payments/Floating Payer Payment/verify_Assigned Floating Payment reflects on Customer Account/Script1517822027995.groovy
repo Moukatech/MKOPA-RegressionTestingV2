@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/Floating Payer Payment/step_Assign Floating Payment'), [('receiptNumber') : receiptNumber
-        , ('payerReference') : payerReference, ('comments') : comments], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Payments/1Common/step_Assign Floating Payment'), [('receiptNumber') : receiptNumber, ('payerReference') : payerReference
+        , ('comments') : comments], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Customer Module/Input-SearchForCustomer'), payerReference)
 
@@ -30,8 +30,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Customer Module/Customer List/Radio_Paymentlist'))
 
-not_run: WebUI.click(findTestObject('Customer Module/Customer Profile/drop_CustomerPaymentHistoryLog_paymentDetails'))
+WebUI.click(findTestObject('Customer Module/Customer Profile/drop_CustomerPaymentHistoryLog_paymentDetails'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('Customer Module/Customer Profile/msg_CustomerPaymentHistoryLog_Payments', 
-        [('receiptID') : receiptNumber]))
+WebUI.verifyElementVisible(findTestObject('Customer Module/Customer Profile/msg_CustomerPaymentHistoryLog_Payments', [('receiptID') : receiptNumber]))
 

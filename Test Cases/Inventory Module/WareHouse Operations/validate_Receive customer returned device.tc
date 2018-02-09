@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking fo validations when receiving a customer returned device</description>
+   <name>validate_Receive customer returned device</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a83feb2-bc03-415f-bebe-9d684f0723b3</testCaseGuid>
+   <variable>
+      <defaultValue>'SC006'</defaultValue>
+      <description></description>
+      <id>235eaab8-aee2-4bc8-a893-d4a26ce38424</id>
+      <masked>false</masked>
+      <name>wareHouseCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'012013-0038923'</defaultValue>
+      <description></description>
+      <id>f47f11aa-dfaf-46c4-95bc-2ca6d5fc9726</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e84de61-ba50-4c04-bcb2-da37e63b6e04</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+</TestCaseEntity>

@@ -56,7 +56,7 @@ a cutomer gets discount upon early payment of the loan amount aplicable</descrip
       <name>status</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>null</defaultValue>
       <description></description>
       <id>4a51342a-e9f6-4dcf-9d0a-bbb306d0de49</id>
       <masked>false</masked>

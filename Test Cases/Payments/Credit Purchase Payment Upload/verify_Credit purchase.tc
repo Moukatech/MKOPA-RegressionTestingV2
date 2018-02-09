@@ -7,45 +7,52 @@ credits increase proportionally upon making a payment</description>
    <comment></comment>
    <testCaseGuid>0f0752d0-1a64-4216-903b-636b9ee4ba27</testCaseGuid>
    <variable>
-      <defaultValue>'20884690'</defaultValue>
+      <defaultValue>'34372832'</defaultValue>
       <description></description>
       <id>fc54a1ab-a623-4f2d-b3dc-bb813910aa4c</id>
       <masked>false</masked>
       <name>account</name>
    </variable>
    <variable>
-      <defaultValue>'323'</defaultValue>
+      <defaultValue>'120'</defaultValue>
       <description></description>
       <id>d66a77e3-2528-4524-92bf-ba140412bd63</id>
       <masked>false</masked>
       <name>amount</name>
    </variable>
    <variable>
-      <defaultValue>'254714303857 '</defaultValue>
+      <defaultValue>'254717335752'</defaultValue>
       <description></description>
       <id>665b4789-e2f6-41c4-a27e-8021b7502426</id>
       <masked>false</masked>
       <name>phoneNumber</name>
    </variable>
    <variable>
-      <defaultValue>'49'</defaultValue>
+      <defaultValue>'20'</defaultValue>
       <description></description>
       <id>c824fc8e-d1a4-429e-85d0-b26216d62b07</id>
       <masked>false</masked>
       <name>previousCredits</name>
    </variable>
    <variable>
-      <defaultValue>' 1215010701-001554'</defaultValue>
+      <defaultValue>'0514010101-000904'</defaultValue>
       <description></description>
       <id>4559e515-f35e-4ba4-a997-0d615053ab34</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>null</defaultValue>
       <description></description>
       <id>b577dd30-366b-4467-80d7-d25b976adbc4</id>
       <masked>false</masked>
       <name>receiptNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Credit Purchase'</defaultValue>
+      <description></description>
+      <id>69690d49-7fa5-4ecf-b098-1be8090fca8d</id>
+      <masked>false</masked>
+      <name>comment</name>
    </variable>
 </TestCaseEntity>

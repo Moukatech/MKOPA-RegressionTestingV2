@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>gives a alist od either customer or dealer return tickets</description>
+   <name>verify_View Return Tickets</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ce4f24f-88f7-4484-8d5b-b3a070dd75a6</testCaseGuid>
+   <variable>
+      <defaultValue>'SC004'</defaultValue>
+      <description></description>
+      <id>54340856-6976-410f-8b61-94024cfd0a9b</id>
+      <masked>false</masked>
+      <name>wareHouseCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Customer Return Tickets'</defaultValue>
+      <description></description>
+      <id>d520bc47-ecf0-4ce7-84c9-83ca03ae8257</id>
+      <masked>false</masked>
+      <name>returnee</name>
+   </variable>
+</TestCaseEntity>

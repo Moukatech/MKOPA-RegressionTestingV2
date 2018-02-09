@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_CondtionReceived</name>
+   <tag></tag>
+   <elementGuidId>7d8aa452-28f3-4ea2-be23-cb566bc0a087</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body/div[5]/div/ul/li[contains(normalize-space(),'${conditionReceivedIn}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/div[5]/div/ul/li[contains(normalize-space(),'${conditionReceivedIn}')]</value>
+   </webElementProperties>
+</WebElementEntity>

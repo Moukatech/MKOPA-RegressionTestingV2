@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate the Shipping Date is Required</description>
+   <name>validate_Shipping Date Required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e38ef6ef-3d05-41d2-8c91-b2c894561e24</testCaseGuid>
+   <variable>
+      <defaultValue>'49 : qwerty'</defaultValue>
+      <description></description>
+      <id>64c328ac-8348-47b3-bb75-fbfe6143a60f</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>03bed94b-834f-4a14-8dd5-e3696382aa3b</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Meterable'</defaultValue>
+      <description></description>
+      <id>67999170-f7c0-42f5-a4ba-f50dfc368a1b</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18779ded-09d0-4ec6-a4f1-6032c9abd08a</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>300b01fe-2f05-4b8b-945f-9c9bc6779fee</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+</TestCaseEntity>
