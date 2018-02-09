@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180208_141020</name>
+   <tag></tag>
+   <displayName>20180208_141020</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Payments/Customer Payments/verify_Customer Payment</testCaseId>
+      <testCaseName>verify_Customer Payment</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Payments/Customer Payments/verify_Customer Status on paying deposit</testCaseId>
+      <testCaseName>verify_Customer Status on paying deposit</testCaseName>
+      <videoLocation>videos/test_2.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Payments/Customer Payment Notitfication (SMS)/verify_Sms sent on correct amount deposited</testCaseId>
+      <testCaseName>verify_Sms sent on correct amount deposited</testCaseName>
+      <videoLocation>videos/test_3.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Payments/Search For Payments/Search For Payment Using a Receipt Number</testCaseId>
+      <testCaseName>Search For Payment Using a Receipt Number</testCaseName>
+      <videoLocation>videos/test_4.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Payments/Credit Purchase Payment Upload/verify_Credit purchase</testCaseId>
+      <testCaseName>verify_Credit purchase</testCaseName>
+      <videoLocation>videos/test_5.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Payments/Credit Purchase Payment Upload/verify_credit sent</testCaseId>
+      <testCaseName>verify_credit sent</testCaseName>
+      <videoLocation>videos/test_6.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

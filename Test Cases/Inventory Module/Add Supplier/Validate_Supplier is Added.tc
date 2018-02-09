@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>1bf6b2a9-ec96-4b3c-8eed-4532a5c4f971</testCaseGuid>
    <variable>
-      <defaultValue>'Main Supplier'</defaultValue>
+      <defaultValue>'New Supplier'</defaultValue>
       <description></description>
       <id>6df85c5c-269e-4347-b4d8-8f162597d82f</id>
       <masked>false</masked>
