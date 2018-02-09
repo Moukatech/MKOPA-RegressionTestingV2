@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Itemtype</name>
+   <name>GetText_readyforsale</name>
    <tag></tag>
-   <elementGuidId>dfc95908-6d61-478c-beae-37c4f526039a</elementGuidId>
+   <elementGuidId>8f1e85e5-1044-4853-9190-eebc8a9148cc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+      <value>.//*[@id='main-content-panel']/div/div/div[2]/div[1]/span[10]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Itemtype</name>
+   <name>Checkbox_serialnumber</name>
    <tag></tag>
-   <elementGuidId>dfc95908-6d61-478c-beae-37c4f526039a</elementGuidId>
+   <elementGuidId>d408ef7d-83dd-4f65-a2a1-38d9d72f6420</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+         <value>.//*[@id='UnitsToMarkForSale']//tr[td[contains(normalize-space(),'0118033201-000474')]]//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+      <value>.//*[@id='UnitsToMarkForSale']//tr[td[contains(normalize-space(),'${serialnumber}')]]//input</value>
    </webElementProperties>
 </WebElementEntity>

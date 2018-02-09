@@ -22,9 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : warehousecode], 
     FailureHandling.STOP_ON_FAILURE)
 
-readyforsale = WebUI.getText(findTestObject('Inventory Module/Mark Stock For sale/GetText_readyforsale'))
-
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_markstockforsale'))
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
 
 WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_Itemtype'))
 
@@ -42,9 +40,9 @@ WebUI.click(findTestObject('Inventory Module/Service Orders/select_packaging', [
 
 WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/button_Load'))
 
-WebUI.verifyTextPresent(itemType, false)
+WebUI.delay(3)
 
-WebUI.check(findTestObject('Inventory Module/Mark Stock For sale/Checkbox_serialnumber', [('serialnumber') : serialNumber]))
+WebUI.check(findTestObject('Inventory Module/Check stock/Checkbox_MarkAsOk', [('serialnumber') : serialNumber]))
 
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/button_Make as ready'))
+WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
 
