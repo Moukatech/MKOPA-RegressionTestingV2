@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='frm-upload-manifest']/div[4]/div[1]/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='frm-upload-manifest']/div[4]/div[1]/div[2]/div/div/span[1]</value>
+      <value>.//*[@id='frm-upload-manifest']/div[4]/div[1]/div[2]/div/div</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Checkbox_MarkAsOk</name>
+   <tag></tag>
+   <elementGuidId>c0ec168c-d0aa-483a-8a53-da6dd702dde7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='StockCheckGrid']//tr[td[contains(normalize-space(),'${serialnumber}')]]//*[contains(@name,'itemok')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='StockCheckGrid']//tr[td[contains(normalize-space(),'${serialnumber}')]]//*[contains(@name,'itemok')]</value>
+   </webElementProperties>
+</WebElementEntity>

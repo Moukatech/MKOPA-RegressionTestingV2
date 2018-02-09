@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_check stock</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acbd26f0-6b58-4f17-be5e-2b13aa3b6f7f</testCaseGuid>
+   <variable>
+      <defaultValue>'PRD-LINE'</defaultValue>
+      <description></description>
+      <id>7aa5ebc5-c068-4142-9d0e-c62f43ced3e8</id>
+      <masked>false</masked>
+      <name>warehousecode</name>
+   </variable>
+   <variable>
+      <defaultValue>'20-Inch TV'</defaultValue>
+      <description></description>
+      <id>a6d17e22-4b40-420a-9f51-3faaee2fecdb</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Unit'</defaultValue>
+      <description></description>
+      <id>abdd946c-c42d-4f23-ab19-f25cc62b9418</id>
+      <masked>false</masked>
+      <name>packaging</name>
+   </variable>
+   <variable>
+      <defaultValue>'0118033201-000582'</defaultValue>
+      <description></description>
+      <id>b27f1914-ff6d-44ff-bfb5-52be8ba69349</id>
+      <masked>false</masked>
+      <name>serialNumber</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_Packaging</name>
+   <tag></tag>
+   <elementGuidId>9d96ad65-d8b5-4907-bec7-a6c59343c7f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='frmReceiveTransferItem']/div[2]/table/tbody/tr[3]/td[2]/div/div/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

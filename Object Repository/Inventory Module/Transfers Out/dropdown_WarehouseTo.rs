@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_WarehouseTo</name>
+   <tag></tag>
+   <elementGuidId>6fc03fb7-5cac-4c48-a042-7443f2c25b68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='frmAddTransfer']/div/table/tbody/tr[4]/td[2]/div/div/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

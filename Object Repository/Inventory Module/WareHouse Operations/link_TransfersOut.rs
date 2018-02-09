@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_TransfersOut</name>
+   <tag></tag>
+   <elementGuidId>846822cf-1aae-4404-a757-0302860d33d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@href=&quot;/Inventory/InventoryTransfer/InventoryTransfersOut/${transfers_out}&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@href=&quot;/Inventory/InventoryTransfer/InventoryTransfersOut/${transfers_out}&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
