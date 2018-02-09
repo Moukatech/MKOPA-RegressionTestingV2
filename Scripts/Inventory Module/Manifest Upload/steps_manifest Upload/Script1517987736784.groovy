@@ -19,17 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-
-def consignmentGenerator(String consignmentNo) {
 //String consignmentNo
-	if (consignmentNo == null) {
-		consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
-	}
-}
-
 location = System.getenv('USERPROFILE')
 
 String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/primaryDeviceManifest.csv'
@@ -91,7 +81,11 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Uploa
 
 WebUI.delay(3)
 
-
+def consignmentGenerator(String consignmentNo) {
+    if (consignmentNo == null) {
+        consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
+    }
+}
 
 String randomGenerator(String chars, Integer length) {
     Random rand = new Random()
