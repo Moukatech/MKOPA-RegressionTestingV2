@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Supplier option Values. The xpath is Parameterized</description>
-   <name>label_supplier</name>
+   <description>button to upload peripheral manifest</description>
+   <name>button_SelectPeripheralManifest</name>
    <tag></tag>
-   <elementGuidId>e2c96d55-a5d8-4580-8c88-82aeff4858da</elementGuidId>
+   <elementGuidId>1738b7fd-8b63-424a-8bef-69aa2006267b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/div/ul/li[text()='Season Group']</value>
+         <value>.//*[@id='peripheralItemManifests']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/div/ul/li[text()='Season Group']</value>
+      <value>.//*[@id='peripheralItemManifests']</value>
    </webElementProperties>
 </WebElementEntity>

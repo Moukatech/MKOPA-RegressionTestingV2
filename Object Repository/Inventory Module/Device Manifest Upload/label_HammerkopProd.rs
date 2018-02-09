@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Supplier option Values. The xpath is Parameterized</description>
-   <name>label_supplier</name>
+   <description>click on the hammerkopprod item type</description>
+   <name>label_HammerkopProd</name>
    <tag></tag>
-   <elementGuidId>e2c96d55-a5d8-4580-8c88-82aeff4858da</elementGuidId>
+   <elementGuidId>5eca0c46-0b1f-4e94-bc79-5d7d5aeafa37</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/div/ul/li[text()='Season Group']</value>
+         <value>//div/div/ul/li[text()='Hammerkop Prod : Hammerkop Prod']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/div/ul/li[text()='Season Group']</value>
+      <value>//div/div/ul/li[text()='Hammerkop Prod : Hammerkop Prod']</value>
    </webElementProperties>
 </WebElementEntity>

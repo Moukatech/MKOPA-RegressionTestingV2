@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Supplier option Values. The xpath is Parameterized</description>
-   <name>label_supplier</name>
+   <description>yes to close consgnment</description>
+   <name>radio_CloseConsignmentYes</name>
    <tag></tag>
-   <elementGuidId>e2c96d55-a5d8-4580-8c88-82aeff4858da</elementGuidId>
+   <elementGuidId>479cccf9-57ae-4903-b394-03936c8cd487</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/div/ul/li[text()='Season Group']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/div/ul/li[text()='Season Group']</value>
+      <value>//input[@value='True']</value>
    </webElementProperties>
 </WebElementEntity>

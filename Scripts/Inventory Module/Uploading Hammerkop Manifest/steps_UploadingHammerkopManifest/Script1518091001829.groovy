@@ -19,60 +19,72 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-String consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
+CustomKeywords.'manifestUploads.serializedPeripheral.serializedPeripheral'()
 
 location = System.getenv('USERPROFILE')
-
-String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/meteredManifest.csv'
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory Items'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Upload Manifest'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type '))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_Manifest Type', [('manifestType') : manifestType]))
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_SerializedPeriperal'))
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Shipping Date'), shippingDate)
 
-WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'), consignmentNo)
+String loanDraw = randomGenerator('123456789ABCDEFGHIJKLM', 7)
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
+String consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
 
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_itemType', [('itemType') : itemType]))
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Supplier'))
+WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'), consignmentNo)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier', [('supplier') : supplier]))
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
 
-WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
+WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select'), filePath)
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_HammerkopProd'))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Supplier'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier'))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
+
+location = System.getenv('USERPROFILE')
+
+String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/serializedPeripheral.csv'
+
+WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_SelectPeripheralManifest'), filePath)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/radio_CloseConsignmentYes'))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
 
 String randomGenerator(String chars, Integer length) {
     Random rand = new Random()
