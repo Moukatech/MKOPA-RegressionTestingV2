@@ -4,6 +4,7 @@
    <name>Customer Payments</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-02-08T14:10:20</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -11,64 +12,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>e60c1404-6775-48a9-8785-6dd5e21d82a7</testSuiteGuid>
    <testCaseLink>
-      <guid>6b7da3f1-88be-4bdf-9a36-54b6b0f00ae8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/Customer Payments/validate_Customer Payment Parameters</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>581428b5-6942-4f6a-9023-a24ba110f66c</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Payments/Customer Payments/Customer Payments</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>581428b5-6942-4f6a-9023-a24ba110f66c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>account</value>
-         <variableId>0006b14c-e2c2-4cc3-8c7b-fd7a72c51160</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>581428b5-6942-4f6a-9023-a24ba110f66c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>deviceSerialNumber</value>
-         <variableId>5feeeb63-090a-4afa-a717-237f862afdf1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>581428b5-6942-4f6a-9023-a24ba110f66c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>initialCustomerCredits</value>
-         <variableId>735c11e4-d403-4105-b904-eb21ebd178cb</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>581428b5-6942-4f6a-9023-a24ba110f66c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>latestDateCreated</value>
-         <variableId>4f714fc1-711c-4d44-a242-c823a4b2ae16</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>581428b5-6942-4f6a-9023-a24ba110f66c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>amount</value>
-         <variableId>a9475b9b-d26a-42cd-b883-07c0a607a36a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>581428b5-6942-4f6a-9023-a24ba110f66c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>phone</value>
-         <variableId>d3fdde35-7285-459a-ad29-749eed802236</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>943a95a5-a827-4fc6-ac36-bb0ac03e1ceb</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1c3c010d-9fa8-4bbf-adac-3975a45eb20b</guid>
+      <guid>35c5e234-80d6-41a3-9719-e02ccdd162a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Payments/Customer Payments/verify_Customer Payment</testCaseId>
@@ -98,33 +42,51 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d6d4e51e-d030-434d-ae54-185301fc05b9</guid>
+      <guid>9762f7f5-9287-4118-8e20-e73139e05b46</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/Customer Payments/verify_Dealer Payment</testCaseId>
+      <testCaseId>Test Cases/Payments/Customer Payment Notitfication (SMS)/verify_Sms sent on correct amount deposited</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5a200375-796e-4370-855f-c48151a0161d</variableId>
+         <variableId>85bb640e-291e-4c6b-b637-a7f626c12694</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>acb3661a-0dda-4dbb-b944-356623a7ae85</variableId>
+         <variableId>8cba0f0c-a789-42cf-a19e-e032cfd102f4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b437d42c-ae76-435f-a4cb-b94b1ca45656</variableId>
+         <variableId>837ea428-a633-4764-950c-5a29b18a4e27</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c0af5721-8572-4abd-ab37-0fd3f13c7cb2</variableId>
+         <variableId>f9ed97df-9eef-47cd-bd1d-24048598cb98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>62b0594d-d7b8-43e6-8ab5-dc701843d8e2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c0972a4c-ade9-4a60-945c-e6b2bf488d24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Payments/Search For Payments/Search For Payment Using a Receipt Number</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b4245c0a-e8cf-4c6e-8a35-b9cd38e0121d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

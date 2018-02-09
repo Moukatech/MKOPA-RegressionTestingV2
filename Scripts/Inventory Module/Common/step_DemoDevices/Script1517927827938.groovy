@@ -29,5 +29,5 @@ WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('cod
 
 WebUI.delay(delay)
 
-WebUI.click(findTestObject('Inventory Module/Warehouse Operations/link_DemoDevices'))
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_DemoDevices', [('demo_device') : demo_device]))
 

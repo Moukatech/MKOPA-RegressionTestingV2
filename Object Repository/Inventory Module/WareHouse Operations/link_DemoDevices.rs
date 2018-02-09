@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@href='/Inventory/DemoDevices/DemoDevices/${demo_device}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='DemoDevicesLink54ff0494-32c0-e511-8288-d4c9ef67fe6f']</value>
+      <value>.//*[@href='/Inventory/DemoDevices/DemoDevices/${demo_device}']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Repair</name>
+   <tag></tag>
+   <elementGuidId>f8afa420-e1bb-4fdc-bb89-738d4742f6e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='RepairPoolDevices']/table/tbody/tr[td[text()='${deviceSerial}']]/td/a[text()='Repair']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='RepairPoolDevices']/table/tbody/tr[td[text()='${deviceSerial}']]/td/a[text()='Repair']</value>
+   </webElementProperties>
+</WebElementEntity>

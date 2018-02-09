@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Receives a Consigment of an uploaded Manifest</description>
+   <name>verify_Receive Consignment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b592a06f-009a-4e6d-8cf1-1e40c2ef3b51</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <description></description>
+      <id>7af19fe4-5bcd-45f8-b571-97e20176b471</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>bf393b8d-429b-4982-8cb5-f98e76386dad</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Primary Device'</defaultValue>
+      <description></description>
+      <id>bec3fb62-681d-426e-ab46-a69df867c8e0</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA12209DKFF'</defaultValue>
+      <description></description>
+      <id>2030c5e4-e0da-47df-b37a-88886c3f1c02</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'1200'</defaultValue>
+      <description></description>
+      <id>42e631eb-6763-462a-8aaf-031dd96cb368</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'True'</defaultValue>
+      <description></description>
+      <id>5d081ce8-05e6-4419-b1e6-d49b018cd466</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+   <variable>
+      <defaultValue>'meteredItemManifests'</defaultValue>
+      <description></description>
+      <id>a94b1ae4-d919-418f-8a13-59d5a02cf6d9</id>
+      <masked>false</masked>
+      <name>selectId</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>93b8e4af-976c-4e1c-8a39-b9771521b399</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC004'</defaultValue>
+      <description></description>
+      <id>87722baf-aeb3-40c5-9aa1-1e468ff670d8</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'f12a2060-6d89-e311-942c-000c29c12997'</defaultValue>
+      <description></description>
+      <id>f9501bc5-49ce-4cd2-9fcb-1d63d477d71d</id>
+      <masked>false</masked>
+      <name>receiptId</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-02-08 00:00:00'</defaultValue>
+      <description></description>
+      <id>4e1737c4-34d1-4379-ad10-64073ee45eb3</id>
+      <masked>false</masked>
+      <name>receiptDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>ebb9b468-60b5-487b-be30-57ee87580261</id>
+      <masked>false</masked>
+      <name>receiptCartonUnit</name>
+   </variable>
+</TestCaseEntity>

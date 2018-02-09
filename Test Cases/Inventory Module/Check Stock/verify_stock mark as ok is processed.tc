@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>tes case id 153</description>
+   <name>verify_stock mark as ok is processed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f42d7870-b780-4bbe-a74d-91ec3e4cff53</testCaseGuid>
+   <variable>
+      <defaultValue>'PRD-LINE'</defaultValue>
+      <description></description>
+      <id>8e4220d0-1fd6-4563-92ca-b02c9d9de77a</id>
+      <masked>false</masked>
+      <name>warehousecode</name>
+   </variable>
+   <variable>
+      <defaultValue>'20-Inch TV'</defaultValue>
+      <description></description>
+      <id>4da1cb6d-5714-4003-9515-50d436a8c59e</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Unit'</defaultValue>
+      <description></description>
+      <id>0878b19d-904b-4ac4-9226-9cc029314187</id>
+      <masked>false</masked>
+      <name>packaging</name>
+   </variable>
+   <variable>
+      <defaultValue>'0118033201-001691'</defaultValue>
+      <description></description>
+      <id>1acad8df-a46d-41ed-bdb4-a7065e552e45</id>
+      <masked>false</masked>
+      <name>serialnumber</name>
+   </variable>
+</TestCaseEntity>

@@ -19,11 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-String consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+
+def consignmentGenerator(String consignmentNo) {
+//String consignmentNo
+	if (consignmentNo == null) {
+		consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
+	}
+}
 
 location = System.getenv('USERPROFILE')
 
-String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/meteredManifest.csv'
+String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/primaryDeviceManifest.csv'
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
@@ -42,8 +51,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Upload Manifest'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type '))
 
 WebUI.delay(2)
@@ -54,9 +61,15 @@ WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Ship
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'), consignmentNo)
 
+WebUI.delay(2)
+
+consignmentNumber = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'))
+
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType'))
 
 WebUI.delay(10)
 
@@ -64,15 +77,21 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_itemTy
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Supplier'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier', [('supplier') : supplier]))
 
 WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
 
-WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select'), filePath)
+WebUI.delay(2)
+
+WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select', [('selectId') : selectId]), filePath)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
+
+WebUI.delay(3)
+
+
 
 String randomGenerator(String chars, Integer length) {
     Random rand = new Random()
