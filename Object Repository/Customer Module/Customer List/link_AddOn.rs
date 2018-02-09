@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>message upon successful addition of an item</description>
-   <name>sucess message</name>
+   <description></description>
+   <name>link_AddOn</name>
    <tag></tag>
-   <elementGuidId>a4c568f6-bbda-45bf-a068-a7c4a6077b3f</elementGuidId>
+   <elementGuidId>ebb9166b-b5ff-455e-b8b8-21ef5511e833</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='div-create-item-type']/div[normalize-space()='New item type created successfully']</value>
+         <value>.//*[@id='panelbar']/li[contains(normalize-space(),'${addOnName}')]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='div-create-item-type']/div[normalize-space()='New item type created successfully']</value>
+      <value>.//*[@id='panelbar']/li[contains(normalize-space(),'${addOnName}')]/a</value>
    </webElementProperties>
 </WebElementEntity>
