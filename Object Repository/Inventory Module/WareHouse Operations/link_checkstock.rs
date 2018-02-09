@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Itemtype</name>
+   <name>link_checkstock</name>
    <tag></tag>
-   <elementGuidId>dfc95908-6d61-478c-beae-37c4f526039a</elementGuidId>
+   <elementGuidId>8fe32198-2096-4751-9b21-920dcdcfe0f7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+      <value>//*[contains(text(),'Check Stock')]</value>
    </webElementProperties>
 </WebElementEntity>

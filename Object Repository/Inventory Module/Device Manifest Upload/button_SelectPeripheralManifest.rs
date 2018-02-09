@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>select_Itemtype</name>
+   <description>button to upload peripheral manifest</description>
+   <name>button_SelectPeripheralManifest</name>
    <tag></tag>
-   <elementGuidId>dfc95908-6d61-478c-beae-37c4f526039a</elementGuidId>
+   <elementGuidId>1738b7fd-8b63-424a-8bef-69aa2006267b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+         <value>.//*[@id='peripheralItemManifests']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+      <value>.//*[@id='peripheralItemManifests']</value>
    </webElementProperties>
 </WebElementEntity>

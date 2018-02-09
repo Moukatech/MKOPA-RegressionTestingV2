@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Itemtype</name>
+   <name>Checkbox_MarkAsOk</name>
    <tag></tag>
-   <elementGuidId>dfc95908-6d61-478c-beae-37c4f526039a</elementGuidId>
+   <elementGuidId>c0ec168c-d0aa-483a-8a53-da6dd702dde7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+         <value>.//*[@id='StockCheckGrid']//tr[td[contains(normalize-space(),'${serialnumber}')]]//*[contains(@name,'itemok')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+      <value>.//*[@id='StockCheckGrid']//tr[td[contains(normalize-space(),'${serialnumber}')]]//*[contains(@name,'itemok')]</value>
    </webElementProperties>
 </WebElementEntity>

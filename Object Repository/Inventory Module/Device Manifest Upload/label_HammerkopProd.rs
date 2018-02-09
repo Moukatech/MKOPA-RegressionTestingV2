@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>select_Itemtype</name>
+   <description>click on the hammerkopprod item type</description>
+   <name>label_HammerkopProd</name>
    <tag></tag>
-   <elementGuidId>dfc95908-6d61-478c-beae-37c4f526039a</elementGuidId>
+   <elementGuidId>5eca0c46-0b1f-4e94-bc79-5d7d5aeafa37</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+         <value>//div/div/ul/li[text()='Hammerkop Prod : Hammerkop Prod']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${itemtype}')]</value>
+      <value>//div/div/ul/li[text()='Hammerkop Prod : Hammerkop Prod']</value>
    </webElementProperties>
 </WebElementEntity>

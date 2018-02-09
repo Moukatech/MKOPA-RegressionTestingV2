@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to recieve consignment</description>
+   <name>steps_UploadingHammerkopManifest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>858fdbda-3ba3-4f9d-89f4-7a591ab9b8a4</testCaseGuid>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>a86218a2-20ae-4c74-bc37-d4609edc9b12</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+</TestCaseEntity>

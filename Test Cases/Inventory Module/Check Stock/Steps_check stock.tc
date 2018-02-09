@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>test  case ID 16394</description>
-   <name>steps_markstockfor sale</name>
+   <description></description>
+   <name>Steps_check stock</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>04ec8461-6d01-4f71-b445-12f755e90a4f</testCaseGuid>
+   <testCaseGuid>acbd26f0-6b58-4f17-be5e-2b13aa3b6f7f</testCaseGuid>
    <variable>
       <defaultValue>'PRD-LINE'</defaultValue>
       <description></description>
-      <id>4a5718fd-b020-4e20-b6f7-03ff4c33de20</id>
+      <id>7aa5ebc5-c068-4142-9d0e-c62f43ced3e8</id>
       <masked>false</masked>
       <name>warehousecode</name>
    </variable>
    <variable>
-      <defaultValue>'Unit'</defaultValue>
-      <description></description>
-      <id>47e027ff-cad4-4e0a-b373-724991a2570b</id>
-      <masked>false</masked>
-      <name>packaging</name>
-   </variable>
-   <variable>
       <defaultValue>'20-Inch TV'</defaultValue>
       <description></description>
-      <id>dce6cfd2-fd5f-43cb-8240-82ebe76e0633</id>
+      <id>a6d17e22-4b40-420a-9f51-3faaee2fecdb</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
+      <defaultValue>'Unit'</defaultValue>
+      <description></description>
+      <id>abdd946c-c42d-4f23-ab19-f25cc62b9418</id>
+      <masked>false</masked>
+      <name>packaging</name>
+   </variable>
+   <variable>
       <defaultValue>'0118033201-000582'</defaultValue>
       <description></description>
-      <id>9c43a654-436a-4f48-88ee-b694dcf3c398</id>
+      <id>b27f1914-ff6d-44ff-bfb5-52be8ba69349</id>
       <masked>false</masked>
       <name>serialNumber</name>
    </variable>
