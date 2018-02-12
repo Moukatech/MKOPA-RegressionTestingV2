@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_required fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>034db121-1bad-45c3-9864-9211db7e7cea</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ab32d066-01a3-4677-8b75-7e1160b53029</id>
+      <masked>false</masked>
+      <name>dealernumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f896faa0-09f3-423d-8c6e-202a1ba8db3c</id>
+      <masked>false</masked>
+      <name>inputQuantity</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1867e395-3b7a-4380-b082-ee1a0aebc78d</id>
+      <masked>false</masked>
+      <name>inputOrderNotes</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>acfd8c52-9556-46a4-9d82-e0724c5934c0</id>
+      <masked>false</masked>
+      <name>outlet</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3df8c4c1-197b-4d2c-94e5-69ed843a7799</id>
+      <masked>false</masked>
+      <name>producttype</name>
+   </variable>
+</TestCaseEntity>
