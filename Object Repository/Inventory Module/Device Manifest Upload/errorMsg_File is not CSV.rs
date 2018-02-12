@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Select Supplier DropDown</description>
-   <name>dropdown_Select Supplier</name>
+   <description>Error message displayed when the file is not a CSV extension.</description>
+   <name>errorMsg_File is not CSV</name>
    <tag></tag>
-   <elementGuidId>6960b709-6bd0-4dcb-9a93-281247f721be</elementGuidId>
+   <elementGuidId>7d9d195e-c176-479a-ac73-aa627cb89877</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='frm-upload-manifest']/div[4]/div[2]/div[2]/div/div</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='frm-upload-manifest']/div[4]/div[2]/div[2]/div/div</value>
+      <value>.//*[@id='frm-upload-manifest']/div[1]/div/ul</value>
    </webElementProperties>
 </WebElementEntity>

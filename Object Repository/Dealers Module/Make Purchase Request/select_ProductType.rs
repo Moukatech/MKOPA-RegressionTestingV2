@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Select Supplier DropDown</description>
-   <name>dropdown_Select Supplier</name>
+   <description></description>
+   <name>select_ProductType</name>
    <tag></tag>
-   <elementGuidId>6960b709-6bd0-4dcb-9a93-281247f721be</elementGuidId>
+   <elementGuidId>a2780dbf-bdc4-42e2-8b40-fe6a58a8ec43</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='frm-upload-manifest']/div[4]/div[2]/div[2]/div/div</value>
+         <value>.//*//ul/li[text()='${producttype}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='frm-upload-manifest']/div[4]/div[2]/div[2]/div/div</value>
+      <value>.//*//ul/li[text()='${producttype}']</value>
    </webElementProperties>
 </WebElementEntity>
