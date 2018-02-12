@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Comments</name>
+   <name>dropdown_producttype</name>
    <tag></tag>
-   <elementGuidId>6731e40b-cf20-407e-bed2-9f62397f18b4</elementGuidId>
+   <elementGuidId>5e1def77-c8da-413a-bd6d-bf8fb5f3d243</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//textarea[@id='Comments']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//textarea[@id='Comments']</value>
+      <value>.//*[@id='editorRows']//span[text()='-- Select --']</value>
    </webElementProperties>
 </WebElementEntity>

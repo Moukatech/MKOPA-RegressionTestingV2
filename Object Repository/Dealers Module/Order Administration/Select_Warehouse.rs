@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Comments</name>
+   <name>Select_Warehouse</name>
    <tag></tag>
-   <elementGuidId>6731e40b-cf20-407e-bed2-9f62397f18b4</elementGuidId>
+   <elementGuidId>682c26e4-a1e6-45dd-b564-90e56f442eb9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//textarea[@id='Comments']</value>
+         <value>.//*/div/div/ul//li[contains(text(),'${warehousename}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//textarea[@id='Comments']</value>
+      <value>.//*/div/div/ul//li[contains(text(),'${warehousename}')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -19,18 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/verify_Uploading metered Item Manifest'), [('itemType') : itemType
-        , ('supplier') : supplier, ('manifestType') : manifestType, ('loanDraw') : loanDraw, ('shippingDate') : shippingDate
-        , ('condition') : condition, ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Receive Consignment'), [('code') : code, ('receiptId') : receiptId
-        , ('consignmentNo') : consignmentNo, ('receiptDate') : receiptDate, ('receiptCartonUnit') : receiptCartonUnit], 
+WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to particuler dealers page'), [('dealernumber') : dealernumber], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/Receive Consignment/button_Receive'))
+WebUI.click(findTestObject('Dealers Module/Dealers Page/Link_Purchase Request'))
 
-WebUI.click(findTestObject('Inventory Module/Cartons Pending Receipt/button_Finish Receiving Consignment'))
+WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Button_save'))
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Finish Receive Consignment'), [('comment') : ''], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('An outlet is required', false)
+
+WebUI.verifyTextPresent('The outlet product is required', false)
+
+WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Dropdowns_outlet'))
+
+WebUI.click(findTestObject('Dealers Module/Make Purchase Request/dropdown_producttype'))
+
+WebUI.verifyAlertPresent(3)
+
+WebUI.acceptAlert()
 

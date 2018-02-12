@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_Approval is Sucessfull</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ab4228a-c69e-4546-9e53-9d3cd9d0d76f</testCaseGuid>
+   <variable>
+      <defaultValue>'KE0400669'</defaultValue>
+      <description></description>
+      <id>9229e606-9fa1-4294-aff5-518b7432f10f</id>
+      <masked>false</masked>
+      <name>ordernumber</name>
+   </variable>
+</TestCaseEntity>

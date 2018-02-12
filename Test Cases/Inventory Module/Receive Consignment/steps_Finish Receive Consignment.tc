@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>7753c91f-2f5e-435f-bae1-a41048a17a5c</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'NIce and Easy'</defaultValue>
       <description></description>
       <id>b6e1553f-a0d2-47ab-9c9e-3fbe706a5e2c</id>
       <masked>false</masked>

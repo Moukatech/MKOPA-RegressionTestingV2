@@ -19,17 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/dropdown_Select (Status)'))
+WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps_to Purchase Requests Pending Approval'), [('orderNumber') : ordernumber], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.sendKeys(findTestObject('Dealers Module/Order Approvals/input_quantityGranted'), '1')
 
-WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/label_Fully Received'))
+WebUI.click(findTestObject('Dealers Module/Order Approvals/Dropdown_Priority'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Inventory Module/Finishing Receiving Consingment/input_Comments'), comment)
+WebUI.click(findTestObject('Dealers Module/Order Approvals/select_Priority'))
 
-WebUI.delay(2)
+WebUI.sendKeys(findTestObject('Dealers Module/Order Approvals/input_Notes'), 'For approvals Only')
 
-WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/button_Declare Complete'))
+WebUI.click(findTestObject('Dealers Module/Order Approvals/Button_Save'))
 

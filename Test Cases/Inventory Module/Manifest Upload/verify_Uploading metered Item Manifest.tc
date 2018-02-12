@@ -55,7 +55,7 @@
       <name>selectId</name>
    </variable>
    <variable>
-      <defaultValue>'1233QERTYUF223'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>a3a03ae6-101c-4f40-bff0-02c5664663d0</id>
       <masked>false</masked>

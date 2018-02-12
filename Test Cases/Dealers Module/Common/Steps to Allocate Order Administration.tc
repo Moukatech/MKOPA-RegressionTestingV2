@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps to Allocate Order Administration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>138c167a-7ad7-4c63-8e13-36257a5736fb</testCaseGuid>
+   <variable>
+      <defaultValue>'KE0401168-01'</defaultValue>
+      <description></description>
+      <id>c9c03882-e36e-4158-890d-78a8feecee1f</id>
+      <masked>false</masked>
+      <name>orderNumber</name>
+   </variable>
+</TestCaseEntity>

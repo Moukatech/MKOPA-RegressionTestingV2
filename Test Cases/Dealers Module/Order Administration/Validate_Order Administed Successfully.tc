@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Allocate an Approved Purchase order by a dealer</description>
+   <name>Validate_Order Administed Successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>968207b7-97b2-432a-a861-2e67964e3bd7</testCaseGuid>
+   <variable>
+      <defaultValue>'KE0401089-01'</defaultValue>
+      <description></description>
+      <id>0710cf7d-4d9d-4573-9c8c-0a256d553eea</id>
+      <masked>false</masked>
+      <name>orderNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-Kopa House'</defaultValue>
+      <description></description>
+      <id>d19b156c-e106-463d-afcb-133fd31f41b7</id>
+      <masked>false</masked>
+      <name>warehousename</name>
+   </variable>
+</TestCaseEntity>

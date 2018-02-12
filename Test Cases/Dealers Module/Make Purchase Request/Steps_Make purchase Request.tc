@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID 16401. Making a Purchase request by a dealer for approval</description>
+   <name>Steps_Make purchase Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75a344c5-f1dc-4558-bdb5-9a7cb7334cbd</testCaseGuid>
+   <variable>
+      <defaultValue>'01314'</defaultValue>
+      <description></description>
+      <id>b56089cb-dbe2-4b30-816c-5d888d8563ec</id>
+      <masked>false</masked>
+      <name>dealernumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>5e2cee84-5447-4cb3-b909-27bb86744d33</id>
+      <masked>false</masked>
+      <name>inputQuantity</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing'</defaultValue>
+      <description></description>
+      <id>c8e2e542-e8ef-497f-b52f-10b07dcab77c</id>
+      <masked>false</masked>
+      <name>inputOrderNotes</name>
+   </variable>
+   <variable>
+      <defaultValue>'AG Nobert Ochieng Sewe'</defaultValue>
+      <description></description>
+      <id>44d99ff8-c236-4eda-ab56-887b24f2bd3d</id>
+      <masked>false</masked>
+      <name>outlet</name>
+   </variable>
+   <variable>
+      <defaultValue>'Add-On (0.00)'</defaultValue>
+      <description></description>
+      <id>0222f677-5cd4-4e96-b1a2-4ea1d527af5b</id>
+      <masked>false</masked>
+      <name>producttype</name>
+   </variable>
+</TestCaseEntity>

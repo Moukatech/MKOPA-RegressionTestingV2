@@ -19,17 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/dropdown_Select (Status)'))
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('Page Header and Menu/Dealers/Link_Dealers'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/label_Fully Received'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Inventory Module/Finishing Receiving Consingment/input_Comments'), comment)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Dealers/Link_DealerOrders'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/button_Declare Complete'))
+WebUI.click(findTestObject('Page Header and Menu/Dealers/Link_Order Administration'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Dealers Module/Order Administration/Link_Allocate Order', [('orderNumber') : orderNumber]))
 
