@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_checkstock</name>
+   <name>check_MarkAsOk</name>
    <tag></tag>
-   <elementGuidId>8fe32198-2096-4751-9b21-920dcdcfe0f7</elementGuidId>
+   <elementGuidId>b875c36f-0f52-43b8-95ed-ff23430479b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(.,'Check Stock')]</value>
+         <value>.//*[@id='StockCheckGrid']//tr[td[contains(normalize-space(),'${serialNumber}')]]//*[contains(@name,'itemok')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'Check Stock')]</value>
+      <value>.//*[@id='StockCheckGrid']//tr[td[contains(normalize-space(),'${serialNumber}')]]//*[contains(@name,'itemok')]</value>
    </webElementProperties>
 </WebElementEntity>
