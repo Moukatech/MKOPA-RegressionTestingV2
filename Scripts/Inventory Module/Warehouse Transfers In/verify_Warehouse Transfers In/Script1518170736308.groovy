@@ -19,16 +19,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : customerAccount
-        , ('Phone') : phoneNumber, ('Comment') : 'Nice and paid on time', ('receiptNumber') : receiptNumber], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : 'WAHo009'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_TrasnfersIn', [('transfers_in') : transfers_in]))
 
-WebUI.refresh()
+WebUI.delay(1)
 
-WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Inventory Module/Transfers In/click_OrderInTransit'))
 
-WebUI.verifyElementText(findTestObject('Customer Module/Customer List/Label-In Payment', [('status') : status]), status)
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Customer Module/Customer List/label_incentives'), incentivesAwarded)
+WebUI.click(findTestObject('Inventory Module/Transfers In/click_SerialNumberToReceive'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Transfers In/dropdown_Status'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Transfers In/select_Status', [('select_status') : select_status]))
+
+WebUI.setText(findTestObject('Inventory Module/Transfers In/input_Comment'), input_comment)
+
+WebUI.click(findTestObject('Inventory Module/Transfers In/button_Receive'))
 

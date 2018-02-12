@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Customer Return ticket</name>
+   <name>button_AddTransferItem</name>
    <tag></tag>
-   <elementGuidId>f0a18147-122b-4e9a-b038-e98db6b57640</elementGuidId>
+   <elementGuidId>844ad10e-0cc3-45fa-ac32-492311317287</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'${returnee}')]</value>
+      <value>.//*[@id='btnAddTransferItem']</value>
    </webElementProperties>
 </WebElementEntity>

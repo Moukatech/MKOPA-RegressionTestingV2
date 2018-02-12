@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Customer Return ticket</name>
+   <name>label_incentives</name>
    <tag></tag>
-   <elementGuidId>f0a18147-122b-4e9a-b038-e98db6b57640</elementGuidId>
+   <elementGuidId>8738611f-b6e8-4b69-b9e0-6a4db6121e8f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'${returnee}')]</value>
+      <value>.//*[@id='div-account-info']/div[1]/div/div[8]/div[2]/div[2]</value>
    </webElementProperties>
 </WebElementEntity>

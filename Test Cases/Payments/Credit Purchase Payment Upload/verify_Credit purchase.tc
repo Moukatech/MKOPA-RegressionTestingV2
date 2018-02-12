@@ -28,7 +28,7 @@ credits increase proportionally upon making a payment</description>
       <name>phoneNumber</name>
    </variable>
    <variable>
-      <defaultValue>'20'</defaultValue>
+      <defaultValue>'28'</defaultValue>
       <description></description>
       <id>c824fc8e-d1a4-429e-85d0-b26216d62b07</id>
       <masked>false</masked>

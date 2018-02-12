@@ -60,7 +60,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_HammerkopProd'))
 

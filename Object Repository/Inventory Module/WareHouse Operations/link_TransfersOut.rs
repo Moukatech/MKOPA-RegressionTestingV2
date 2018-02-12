@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Customer Return ticket</name>
+   <name>link_TransfersOut</name>
    <tag></tag>
-   <elementGuidId>f0a18147-122b-4e9a-b038-e98db6b57640</elementGuidId>
+   <elementGuidId>846822cf-1aae-4404-a757-0302860d33d0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>.//*[@href=&quot;/Inventory/InventoryTransfer/InventoryTransfersOut/${transfers_out}&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'${returnee}')]</value>
+      <value>.//*[@href=&quot;/Inventory/InventoryTransfer/InventoryTransfersOut/${transfers_out}&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

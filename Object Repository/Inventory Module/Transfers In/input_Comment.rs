@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Customer Return ticket</name>
+   <name>input_Comment</name>
    <tag></tag>
-   <elementGuidId>f0a18147-122b-4e9a-b038-e98db6b57640</elementGuidId>
+   <elementGuidId>3f9d4d23-1c68-474e-8bd9-d9de1a17a37a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'${returnee}')]</value>
+      <value>.//*[@id='Comment']</value>
    </webElementProperties>
 </WebElementEntity>

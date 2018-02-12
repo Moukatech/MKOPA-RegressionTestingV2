@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Customer Return ticket</name>
+   <name>button_CancelAddon</name>
    <tag></tag>
-   <elementGuidId>f0a18147-122b-4e9a-b038-e98db6b57640</elementGuidId>
+   <elementGuidId>189a39a3-30c0-4b84-a74c-fd95ebc7b0c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'${returnee}')]</value>
+      <value>//input[contains(@id,'cancelQueueItem')]</value>
    </webElementProperties>
 </WebElementEntity>

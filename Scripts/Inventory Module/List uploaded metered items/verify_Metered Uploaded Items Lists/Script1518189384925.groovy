@@ -19,16 +19,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : customerAccount
-        , ('Phone') : phoneNumber, ('Comment') : 'Nice and paid on time', ('receiptNumber') : receiptNumber], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.refresh()
+WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
 
-WebUI.verifyElementText(findTestObject('Customer Module/Customer List/Label-In Payment', [('status') : status]), status)
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Customer Module/Customer List/label_incentives'), incentivesAwarded)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory Items'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_List Item Summaries'))
+
+WebUI.verifyElementVisible(findTestObject('Inventory Module/List Metered Items Upload Summaries/td_Listed Metered Item'))
+
+WebUI.closeBrowser()
 

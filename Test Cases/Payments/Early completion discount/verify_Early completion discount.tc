@@ -28,7 +28,7 @@ a cutomer gets discount upon early payment of the loan amount aplicable</descrip
       <name>phoneNumber</name>
    </variable>
    <variable>
-      <defaultValue>'16000'</defaultValue>
+      <defaultValue>'100'</defaultValue>
       <description></description>
       <id>0d0df3d9-a75f-4498-8efc-0a2d5d9d9ca7</id>
       <masked>false</masked>
@@ -61,5 +61,12 @@ a cutomer gets discount upon early payment of the loan amount aplicable</descrip
       <id>4a51342a-e9f6-4dcf-9d0a-bbb306d0de49</id>
       <masked>false</masked>
       <name>receiptNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'KES 4,000.00'</defaultValue>
+      <description></description>
+      <id>00261aa4-a294-48cd-80d3-db147a9e4c71</id>
+      <masked>false</masked>
+      <name>incentivesAwarded</name>
    </variable>
 </TestCaseEntity>

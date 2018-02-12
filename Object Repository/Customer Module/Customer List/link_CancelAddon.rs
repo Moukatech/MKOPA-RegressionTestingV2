@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Customer Return ticket</name>
+   <name>link_CancelAddon</name>
    <tag></tag>
-   <elementGuidId>f0a18147-122b-4e9a-b038-e98db6b57640</elementGuidId>
+   <elementGuidId>3eb26881-826d-4ce9-816b-3f34951a3dfe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//li[@data-id='${data-id}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'${returnee}')]</value>
+      <value>//li[@data-id='${data-id}']</value>
    </webElementProperties>
 </WebElementEntity>

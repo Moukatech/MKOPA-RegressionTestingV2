@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_Warehouse Transfers In</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2abf3ec3-2600-4a12-9bdb-8fe166dea2d0</testCaseGuid>
+   <variable>
+      <defaultValue>'04a58263-0097-e411-80ed-00155d83faa4'</defaultValue>
+      <description></description>
+      <id>50308daf-5b42-40ce-9250-e39913476807</id>
+      <masked>false</masked>
+      <name>transfers_in</name>
+   </variable>
+   <variable>
+      <defaultValue>'ReceivedOk'</defaultValue>
+      <description></description>
+      <id>9e5295a9-7509-48f8-af80-47ce7a0423ee</id>
+      <masked>false</masked>
+      <name>select_status</name>
+   </variable>
+   <variable>
+      <defaultValue>'automation test'</defaultValue>
+      <description></description>
+      <id>3c62fb8b-5844-4acf-a41e-67934e608fa3</id>
+      <masked>false</masked>
+      <name>input_comment</name>
+   </variable>
+</TestCaseEntity>

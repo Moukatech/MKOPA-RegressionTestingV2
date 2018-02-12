@@ -19,10 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//String consignmentNo
-location = System.getenv('USERPROFILE')
-
-String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/primaryDeviceManifest.csv'
+CustomKeywords.'manifestUploads.serializedPeripheral.serializedPeripheral'()
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
@@ -33,69 +30,46 @@ WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory Items'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Upload Manifest'))
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type '))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_Manifest Type', [('manifestType') : manifestType]))
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_SerializedPeriperal'))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select item type Select the shipping date Select a supplier'), 
+    1)
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Shipping Date'), shippingDate)
 
-WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'), consignmentNo)
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
 
-WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select item type Select the shipping date Select a supplier'), 
+    1)
 
-consignmentNumber = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'))
+location = System.getenv('USERPROFILE')
 
-WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
+String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/serializedPeripheral.csv'
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType'))
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_itemType', [('itemType') : itemType]))
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Supplier'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier', [('supplier') : supplier]))
-
-WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
-
-WebUI.delay(2)
-
-WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select', [('selectId') : selectId]), filePath)
+WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_SelectPeripheralManifest'), filePath)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
 
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select item type Select the shipping date Select a supplier'), 
+    1)
 
-def consignmentGenerator(String consignmentNo) {
-    if (consignmentNo == null) {
-        consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
-    }
-}
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
 
-String randomGenerator(String chars, Integer length) {
-    Random rand = new Random()
-
-    StringBuilder sb = new StringBuilder()
-
-    for (int i = 0; i < length; i++) {
-        sb.append(chars.charAt(rand.nextInt(chars.length())))
-    }
-    
-    return sb.toString()
-}
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_HammerkopProd'))
 

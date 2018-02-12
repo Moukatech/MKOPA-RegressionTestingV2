@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Customer Return ticket</name>
+   <name>select_DeviceType</name>
    <tag></tag>
-   <elementGuidId>f0a18147-122b-4e9a-b038-e98db6b57640</elementGuidId>
+   <elementGuidId>cecb6c5b-369d-4fbe-90c1-f2673eb6b54a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//li[contains(.,'${select_devicetype}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'${returnee}')]</value>
+      <value>//li[contains(.,'${select_devicetype}')]</value>
    </webElementProperties>
 </WebElementEntity>

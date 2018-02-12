@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID:16405
+Adding a kingfisher item type</description>
+   <name>verify_Add Kingfisher metered item type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14eaad2a-03da-4b3f-b596-889ba5cbd45d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59f17add-70ec-40d1-b8fd-31cfd2c00efa</id>
+      <masked>false</masked>
+      <name>classification</name>
+   </variable>
+   <variable>
+      <defaultValue>'TV small'</defaultValue>
+      <description></description>
+      <id>74305faf-aa90-41ac-b29b-ef1b3be405bd</id>
+      <masked>false</masked>
+      <name>partNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>' TV small'</defaultValue>
+      <description></description>
+      <id>ef54e09f-2111-40c0-bdab-6aa4cd8290fe</id>
+      <masked>false</masked>
+      <name>partDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'20 inch tv'</defaultValue>
+      <description></description>
+      <id>0dbdacc0-9bf1-44d0-b642-e21147d83bc9</id>
+      <masked>false</masked>
+      <name>itemDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'KingFisher'</defaultValue>
+      <description></description>
+      <id>7cfd8378-6ab4-4f90-8a09-4435e7de8ea8</id>
+      <masked>false</masked>
+      <name>firmware</name>
+   </variable>
+</TestCaseEntity>

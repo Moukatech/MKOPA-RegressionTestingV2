@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='div-create-item-type']/div[normalize-space()='New item type created successfully']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(.,'New item type created successfully')]</value>
+      <value>.//*[@id='div-create-item-type']/div[normalize-space()='New item type created successfully']</value>
    </webElementProperties>
 </WebElementEntity>
