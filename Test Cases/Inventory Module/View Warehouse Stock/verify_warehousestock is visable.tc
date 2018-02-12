@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_warehousestock is visable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>faeb108d-d24d-4e43-938a-075528ed6875</testCaseGuid>
+</TestCaseEntity>
