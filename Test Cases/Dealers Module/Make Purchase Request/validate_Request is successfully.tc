@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test Case ID 16401. Making a Purchase request by a dealer for approval</description>
-   <name>Steps_Make purchase Request</name>
+   <description>test case id 16401</description>
+   <name>validate_Request is successfully</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>75a344c5-f1dc-4558-bdb5-9a7cb7334cbd</testCaseGuid>
+   <testCaseGuid>4ab30686-b997-4bed-9c4c-e6e79949aef1</testCaseGuid>
    <variable>
       <defaultValue>'01314'</defaultValue>
       <description></description>
-      <id>b56089cb-dbe2-4b30-816c-5d888d8563ec</id>
+      <id>0c48564d-6887-41a4-b434-426d7396f58b</id>
       <masked>false</masked>
       <name>dealernumber</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>5e2cee84-5447-4cb3-b909-27bb86744d33</id>
+      <id>6e787e5a-6b73-483c-8974-d13bd54537ca</id>
       <masked>false</masked>
       <name>inputQuantity</name>
    </variable>
    <variable>
       <defaultValue>'Testing'</defaultValue>
       <description></description>
-      <id>c8e2e542-e8ef-497f-b52f-10b07dcab77c</id>
+      <id>825ad429-55f7-4ce5-9cec-b7b0b45a43bd</id>
       <masked>false</masked>
       <name>inputOrderNotes</name>
    </variable>
    <variable>
       <defaultValue>'AG Nobert Ochieng Sewe'</defaultValue>
       <description></description>
-      <id>44d99ff8-c236-4eda-ab56-887b24f2bd3d</id>
+      <id>295c4d3f-459f-40c4-a793-9e47b4300233</id>
       <masked>false</masked>
       <name>outlet</name>
    </variable>
    <variable>
       <defaultValue>'Add-On (0.00)'</defaultValue>
       <description></description>
-      <id>0222f677-5cd4-4e96-b1a2-4ea1d527af5b</id>
+      <id>6843a631-80f3-49bd-95b0-03a14220fc33</id>
       <masked>false</masked>
       <name>producttype</name>
    </variable>

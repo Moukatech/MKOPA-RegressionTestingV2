@@ -19,32 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to particuler dealers page'), [('dealernumber') : dealernumber], 
+WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to Allocate Order Administration'), [('orderNumber') : orderNumber], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dealers Module/Dealers Page/Link_Purchase Request'))
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Dropdowns_outlet'))
+WebUI.click(findTestObject('Dealers Module/Order Administration/Dropdown_Warehouse'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/select_Outlet', [('outlet') : outlet]))
+WebUI.click(findTestObject('Dealers Module/Order Administration/Select_Warehouse', [('warehousename') : warehousename]))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Dealers Module/Order Administration/Button_Update'))
 
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/dropdown_producttype'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/select_ProductType', [('producttype') : producttype]))
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Input_Quantity'))
-
-WebUI.delay(2)
-
-WebUI.setMaskedText(findTestObject('Dealers Module/Make Purchase Request/Input_Quantity'), inputQuantity)
-
-WebUI.setText(findTestObject('Dealers Module/Make Purchase Request/Input_OrderNotes'), inputOrderNotes)
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Button_save'))
+WebUI.verifyElementPresent(findTestObject('Dealers Module/Order Administration/check_warehousenamePrecense', [('ordernumber') : orderNumber
+            , ('warehousename') : warehousename]), 3)
 

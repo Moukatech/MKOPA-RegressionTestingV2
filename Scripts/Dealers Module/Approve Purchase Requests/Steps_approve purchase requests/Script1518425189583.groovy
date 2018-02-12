@@ -19,32 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to particuler dealers page'), [('dealernumber') : dealernumber], 
+WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps_to Purchase Requests Pending Approval'), [('orderNumber') : ordernumber], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dealers Module/Dealers Page/Link_Purchase Request'))
+WebUI.sendKeys(findTestObject('Dealers Module/Order Approvals/input_quantityGranted'), '1')
 
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Dropdowns_outlet'))
+WebUI.click(findTestObject('Dealers Module/Order Approvals/Dropdown_Priority'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/select_Outlet', [('outlet') : outlet]))
+WebUI.click(findTestObject('Dealers Module/Order Approvals/select_Priority'))
 
-WebUI.delay(2)
+WebUI.sendKeys(findTestObject('Dealers Module/Order Approvals/input_Notes'), 'For approvals Only')
 
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/dropdown_producttype'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/select_ProductType', [('producttype') : producttype]))
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Input_Quantity'))
-
-WebUI.delay(2)
-
-WebUI.setMaskedText(findTestObject('Dealers Module/Make Purchase Request/Input_Quantity'), inputQuantity)
-
-WebUI.setText(findTestObject('Dealers Module/Make Purchase Request/Input_OrderNotes'), inputOrderNotes)
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Button_save'))
+WebUI.click(findTestObject('Dealers Module/Order Approvals/Button_Save'))
 

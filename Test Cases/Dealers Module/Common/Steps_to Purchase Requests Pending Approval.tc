@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_to Purchase Requests Pending Approval</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff7d031e-9017-4e23-911e-c0da158ebec7</testCaseGuid>
+   <variable>
+      <defaultValue>'KE0401042'</defaultValue>
+      <description></description>
+      <id>feedbb31-e4a0-4521-8144-35a5e36e33ab</id>
+      <masked>false</masked>
+      <name>orderNumber</name>
+   </variable>
+</TestCaseEntity>
