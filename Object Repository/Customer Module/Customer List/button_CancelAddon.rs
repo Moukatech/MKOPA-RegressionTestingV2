@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>message upon successful addition of an item</description>
-   <name>sucess message</name>
+   <description></description>
+   <name>button_CancelAddon</name>
    <tag></tag>
-   <elementGuidId>a4c568f6-bbda-45bf-a068-a7c4a6077b3f</elementGuidId>
+   <elementGuidId>189a39a3-30c0-4b84-a74c-fd95ebc7b0c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='div-create-item-type']/div[normalize-space()='New item type created successfully']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='div-create-item-type']/div[normalize-space()='New item type created successfully']</value>
+      <value>//input[contains(@id,'cancelQueueItem')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID:18558
+adding a bundled item type</description>
+   <name>verify_Add bundled item type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5321010e-c62e-4447-a4a1-83c313a0e041</testCaseGuid>
+   <variable>
+      <defaultValue>'Bundled'</defaultValue>
+      <description></description>
+      <id>ad77ea90-faf6-4c95-a5a8-f5a0d813cd76</id>
+      <masked>false</masked>
+      <name>classification</name>
+   </variable>
+   <variable>
+      <defaultValue>'20 inch tv'</defaultValue>
+      <description></description>
+      <id>c0f71fd0-ef29-4f9b-822e-0618ec4abf1f</id>
+      <masked>false</masked>
+      <name>partNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'20 inch tv'</defaultValue>
+      <description></description>
+      <id>c04c75bd-1e29-4f27-b129-611a856b67c9</id>
+      <masked>false</masked>
+      <name>partDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'added this'</defaultValue>
+      <description></description>
+      <id>6ab08e22-7219-4c5f-b309-69f43c2efe14</id>
+      <masked>false</masked>
+      <name>itemDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>07f64f6d-2463-4b75-81d4-46372517743b</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>'sample test (3698)'</defaultValue>
+      <description></description>
+      <id>f3273051-83b1-466a-afb2-c0ae9722629a</id>
+      <masked>false</masked>
+      <name>bundleItem</name>
+   </variable>
+</TestCaseEntity>

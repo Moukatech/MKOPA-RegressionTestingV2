@@ -19,16 +19,36 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : customerAccount
-        , ('Phone') : phoneNumber, ('Comment') : 'Nice and paid on time', ('receiptNumber') : receiptNumber], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('Inventory Module/Item Types/steps_Item Types'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.refresh()
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Add Item Type'))
 
-WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Customer Module/Customer List/Label-In Payment', [('status') : status]), status)
+WebUI.click(findTestObject('Inventory Module/Add Item Type/dropDwn_Select Classification'))
 
-WebUI.verifyElementText(findTestObject('Customer Module/Customer List/label_incentives'), incentivesAwarded)
+WebUI.click(findTestObject('Inventory Module/Add Item Type/select_Classification', [('classification') : classification]))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Inventory Module/Add Item Type/input_Part Number'), partNumber)
+
+WebUI.setText(findTestObject('Inventory Module/Add Item Type/input_Part Description'), partDescription)
+
+WebUI.setText(findTestObject('Inventory Module/Add Item Type/input_Item Description'), itemDescription)
+
+WebUI.click(findTestObject('Inventory Module/Add Item Type/dropDwn_SelectFimware'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Add Item Type/select_Firmware', [('firmware') : firmware]))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Add Item Type/button_Cretate'))
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Add Item Type/sucess message'), 2)
 

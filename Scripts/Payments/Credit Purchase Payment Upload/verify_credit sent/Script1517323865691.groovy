@@ -40,6 +40,6 @@ WebUI.click(findTestObject('Customer Module/Customer List/button_CreditsSent'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Customer Module/Customer List/label_SentCredit', [('currentCredits') : currentCredits]), 
+not_run: WebUI.verifyElementPresent(findTestObject('Customer Module/Customer List/label_SentCredit', [('currentCredits') : currentCredits]), 
     2)
 
