@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>input_Comments</name>
+   <description>Error Message Prompting obne to enter the Reasons for Finishing Receiving Consignment</description>
+   <name>errorMsg_Please Enter Reason</name>
    <tag></tag>
-   <elementGuidId>6731e40b-cf20-407e-bed2-9f62397f18b4</elementGuidId>
+   <elementGuidId>c3268b5b-68ec-4b39-8317-b6625b9062de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//textarea[@id='Comments']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//textarea[@id='Comments']</value>
+      <value>//li[contains(.,'Please enter reason / notes')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to receive a consignment uploaded in a manifest</description>
+   <name>steps_Warehouse Operations</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9d84fc2-24ee-4807-afc4-c043de187c64</testCaseGuid>
+   <variable>
+      <defaultValue>'SC004'</defaultValue>
+      <description></description>
+      <id>d35ca5fb-2e13-49e5-8644-cd8de79a0732</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'f12a2060-6d89-e311-942c-000c29c12997'</defaultValue>
+      <description></description>
+      <id>14ffbfa2-0b0c-415b-9b34-7da904b5c7c0</id>
+      <masked>false</masked>
+      <name>receiptId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3de8b1a7-db25-4724-b2cb-edf6b59acd37</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>69ef4455-0e18-4afa-98bc-9586ce61129e</id>
+      <masked>false</masked>
+      <name>receiptDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6ed4e80-c953-44b9-8059-20c6b2c8cd2e</id>
+      <masked>false</masked>
+      <name>receiptCartonUnit</name>
+   </variable>
+</TestCaseEntity>
