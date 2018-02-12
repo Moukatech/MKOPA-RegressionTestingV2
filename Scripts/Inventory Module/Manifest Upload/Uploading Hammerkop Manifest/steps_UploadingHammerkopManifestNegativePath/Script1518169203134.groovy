@@ -53,10 +53,17 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Shipping Date'), shippingDate)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
 
-WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select item type Select the shipping date Select a supplier'), 
-    1)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_HammerkopProd'))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Supplier'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier'))
 
 location = System.getenv('USERPROFILE')
 
@@ -66,10 +73,36 @@ WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
 
-WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select item type Select the shipping date Select a supplier'), 
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Selectconsignmentnumber_Enterloandraw'), 
     1)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_HammerkopProd'))
+String consignmentNumber = randomGenerator('ABCDEFGHIJKL1234567890', 9)
+
+WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'), consignmentNumber)
+
+String loanDraw = randomGenerator('ABCDEFGHIJKLMNOPQ1234567890', 9)
+
+WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
+
+WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_SelectPeripheralManifest'), filePath)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
+
+WebUI.closeBrowser()
+
+String randomGenerator(String chars, Integer length) {
+    Random rand = new Random()
+
+    StringBuilder sb = new StringBuilder()
+
+    for (int i = 0; i < length; i++) {
+        sb.append(chars.charAt(rand.nextInt(chars.length())))
+    }
+    
+    return sb.toString()
+}
 
