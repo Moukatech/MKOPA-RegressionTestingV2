@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking the validations upon submiting blank fields(item type and packaging)</description>
+   <name>validate_Repair process</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6cf206e-db13-4b38-86d4-279177909f36</testCaseGuid>
+   <variable>
+      <defaultValue>'PRD-LINE'</defaultValue>
+      <description></description>
+      <id>b38bfd68-f25c-4ee7-b8cf-07cead7a8020</id>
+      <masked>false</masked>
+      <name>wareHouseCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d20dfa9-8741-445c-a036-2903d1c47524</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f302fdcf-24a7-4fb6-bf7f-8f4e76c84114</id>
+      <masked>false</masked>
+      <name>packaging</name>
+   </variable>
+</TestCaseEntity>

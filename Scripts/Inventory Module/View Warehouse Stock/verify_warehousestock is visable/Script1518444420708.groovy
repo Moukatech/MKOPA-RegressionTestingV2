@@ -24,15 +24,11 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link-InventoryItems'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_ListItemSummaries'))
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Warehousestock'))
 

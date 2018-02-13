@@ -19,8 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : wareHousecode], 
+WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to Allocate Order Administration'), [('orderNumber') : orderNumber], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_DispatchOrder'))
+WebUI.click(findTestObject('Dealers Module/Order Administration/Dropdown_Warehouse'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Dealers Module/Order Administration/Select_Warehouse', [('warehousename') : warehousename]))
+
+WebUI.click(findTestObject('Dealers Module/Order Administration/Button_Update'))
+
+WebUI.verifyElementPresent(findTestObject('Dealers Module/Order Administration/check_warehousenamePrecense', [('ordernumber') : orderNumber
+            , ('warehousename') : warehousename]), 3)
 

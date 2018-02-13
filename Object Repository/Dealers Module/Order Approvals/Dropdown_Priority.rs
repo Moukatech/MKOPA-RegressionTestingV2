@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_checkstock</name>
+   <name>Dropdown_Priority</name>
    <tag></tag>
-   <elementGuidId>8fe32198-2096-4751-9b21-920dcdcfe0f7</elementGuidId>
+   <elementGuidId>56394cb4-8e49-48ca-a9b2-88d821b09f2c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(.,'Check Stock')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'Check Stock')]</value>
+      <value>.//*//span[text()='select']</value>
    </webElementProperties>
 </WebElementEntity>

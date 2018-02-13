@@ -19,32 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to particuler dealers page'), [('dealernumber') : dealernumber], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dealers Module/Dealers Page/Link_Purchase Request'))
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Dropdowns_outlet'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Dealers/Link_Dealers'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/select_Outlet', [('outlet') : outlet]))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Dealers/Link_Approvals'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Dealers Module/Order Approvals/Link_OrderApprovals'))
+
+WebUI.click(findTestObject('Dealers Module/Order Approvals/Link_SelectOrderNumber', [('ordernumber') : orderNumber]))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/dropdown_producttype'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/select_ProductType', [('producttype') : producttype]))
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Input_Quantity'))
-
-WebUI.delay(2)
-
-WebUI.setMaskedText(findTestObject('Dealers Module/Make Purchase Request/Input_Quantity'), inputQuantity)
-
-WebUI.setText(findTestObject('Dealers Module/Make Purchase Request/Input_OrderNotes'), inputOrderNotes)
-
-WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Button_save'))
+WebUI.click(findTestObject('Dealers Module/Order Approvals/link_approve', [('ordernumber') : orderNumber]))
 

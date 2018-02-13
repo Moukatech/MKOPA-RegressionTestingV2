@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>Steps_check stock</name>
+   <description>ID:3828
+The repair process that a returned device goes through</description>
+   <name>verify_Repair Process</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>acbd26f0-6b58-4f17-be5e-2b13aa3b6f7f</testCaseGuid>
+   <testCaseGuid>c9fe5fe6-e46f-4764-a1b7-f323bba246cd</testCaseGuid>
    <variable>
       <defaultValue>'PRD-LINE'</defaultValue>
       <description></description>
-      <id>7aa5ebc5-c068-4142-9d0e-c62f43ced3e8</id>
+      <id>182d19f3-5c5f-42a2-883c-42d6b3aa7e5e</id>
       <masked>false</masked>
-      <name>warehousecode</name>
+      <name>wareHouseCode</name>
    </variable>
    <variable>
       <defaultValue>'20-Inch TV'</defaultValue>
       <description></description>
-      <id>a6d17e22-4b40-420a-9f51-3faaee2fecdb</id>
+      <id>c2d579f3-7fc3-4d7b-8860-e479385888b5</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
       <defaultValue>'Unit'</defaultValue>
       <description></description>
-      <id>abdd946c-c42d-4f23-ab19-f25cc62b9418</id>
+      <id>8f4fe6ab-9187-4737-a5ba-8240e06c5ff8</id>
       <masked>false</masked>
       <name>packaging</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001697'</defaultValue>
+      <defaultValue>'HK-259'</defaultValue>
       <description></description>
-      <id>b27f1914-ff6d-44ff-bfb5-52be8ba69349</id>
+      <id>884522ab-9edf-40e2-8a00-5ed3e8156f7d</id>
+      <masked>false</masked>
+      <name>deviceID</name>
+   </variable>
+   <variable>
+      <defaultValue>'0118033201-001703'</defaultValue>
+      <description></description>
+      <id>b5031cf1-43cd-45ee-a843-211f0a3a261a</id>
       <masked>false</masked>
       <name>serialNumber</name>
    </variable>

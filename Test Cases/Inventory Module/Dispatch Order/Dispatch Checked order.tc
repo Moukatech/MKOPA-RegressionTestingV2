@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Check Dispatch order</name>
+   <name>Dispatch Checked order</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cecddd4b-37f5-4290-88f2-e5e6337976c4</testCaseGuid>
    <variable>
-      <defaultValue>'WAHo009'</defaultValue>
+      <defaultValue>'PRD-LINE'</defaultValue>
       <description></description>
       <id>862e8774-ca9a-4eb0-9e2b-bceca5503a23</id>
       <masked>false</masked>

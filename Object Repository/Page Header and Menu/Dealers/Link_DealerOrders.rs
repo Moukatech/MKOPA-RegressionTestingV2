@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_checkstock</name>
+   <name>Link_DealerOrders</name>
    <tag></tag>
-   <elementGuidId>8fe32198-2096-4751-9b21-920dcdcfe0f7</elementGuidId>
+   <elementGuidId>8402e097-76f5-47fc-8390-7ff28107d087</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(.,'Check Stock')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'Check Stock')]</value>
+      <value>.//*[@id='Menu']//span[text()='Dealer Orders']</value>
    </webElementProperties>
 </WebElementEntity>
