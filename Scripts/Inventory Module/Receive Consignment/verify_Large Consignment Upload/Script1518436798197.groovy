@@ -19,16 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'manifestUploads.PrimaryDevice.primaryDevice'()
+CustomKeywords.'manifestUploads.largeConsignmentManifest.largeConsignmentManifest'()
 
-WebUI.delay(2)
+WebUI.delay(20)
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
-        , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw, ('selectId') : selectId
-        , ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Large Consignment Manifest Upload'), 
+    [('itemType') : itemType, ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw
+        , ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
@@ -40,7 +37,7 @@ WebUI.delay(2)
 
 successMessage = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/section_Manifest Details'))
 
-WebUI.verifyEqual(successMessage, statusMessage)
+WebUI.verifyTextPresent(successMessage, false)
 
 WebUI.delay(2)
 
