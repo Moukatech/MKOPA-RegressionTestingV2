@@ -19,24 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
+WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_Uploading Hammerkop Manifest'), 
+    [('shippingDate') : '2018-03-29 00:00:00'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
+'Success message displayed '
+String SuccessMsg = 'Consignment closed successfully!'
 
-WebUI.delay(2)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory Items'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_List Item Summaries'))
-
-WebUI.verifyElementVisible(findTestObject('Inventory Module/List Metered Items Upload Summaries/td_Listed Metered Item'))
-
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Inventory Module/Device Manifest Upload/success_MessageConsignmentClosedSuccessfully'), 
+    SuccessMsg)
 

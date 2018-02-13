@@ -5,4 +5,60 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3a087734-a2da-4d26-a069-7c9eb60225fa</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <description></description>
+      <id>16cc982c-d96d-4324-8f29-bb8eb8691c60</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>dfe1dccc-3757-4240-89c4-db78c895a1f1</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Primary Device'</defaultValue>
+      <description></description>
+      <id>73efbbc3-f600-45a4-86b2-bee89d656b9b</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>12bbcfc9-b23a-4c86-88a3-79530132d08b</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>1abcf00c-d735-48ce-a812-b4fcc19723a4</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'True'</defaultValue>
+      <description></description>
+      <id>88719649-d52a-495e-9e43-f0045754c839</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+   <variable>
+      <defaultValue>'meteredItemManifests'</defaultValue>
+      <description></description>
+      <id>d127f10c-93eb-4314-b26e-7585a7a7ff08</id>
+      <masked>false</masked>
+      <name>selectId</name>
+   </variable>
+   <variable>
+      <defaultValue>'DSDEV25364GDXZJV'</defaultValue>
+      <description></description>
+      <id>5264e304-9e49-4bd6-999b-754ce0724afb</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
 </TestCaseEntity>
