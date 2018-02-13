@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Link_SelectOrderNumber</name>
+   <tag></tag>
+   <elementGuidId>29776e6f-9ca6-4f12-a28a-82a5e80f1d06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*//tr[td[contains(normalize-space(),'${ordernumber}')]]/td/a[@href='#']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*//tr[td[contains(normalize-space(),'${ordernumber}')]]/td/a[@href='#']</value>
+   </webElementProperties>
+</WebElementEntity>

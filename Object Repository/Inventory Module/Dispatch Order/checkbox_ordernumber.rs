@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_ordernumber</name>
+   <tag></tag>
+   <elementGuidId>79482c33-2480-43d1-807b-028a916d2056</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*//tr[td[contains(normalize-space(),'KE0400669-01')]]//*[contains(@name,'orderIds')]</value>
+   </webElementProperties>
+</WebElementEntity>

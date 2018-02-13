@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>These are the steps to follow when uploading a Large Consignment Manifest</description>
+   <name>verify_Large Consignment Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8b818c7-8df4-4925-9135-03b97ecbcc3e</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <description></description>
+      <id>c994c470-852c-4635-aba4-1e1a31994d30</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>d60a9704-d7a4-4bf4-b847-46f411d7826f</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Primary Device'</defaultValue>
+      <description></description>
+      <id>43359052-4f15-40f5-818a-543436e457fe</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'1200'</defaultValue>
+      <description></description>
+      <id>d64f9854-3303-4e5b-ab9a-be4c2aa8caac</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>2960e462-cc80-4db2-b9d9-96e1b6b6b17c</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'True'</defaultValue>
+      <description></description>
+      <id>e624d5d8-7e2c-4b34-9e5e-a188e38200d8</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+   <variable>
+      <defaultValue>'meteredItemManifests'</defaultValue>
+      <description></description>
+      <id>793d8fb9-f47d-461c-a9be-da98aeae2fc7</id>
+      <masked>false</masked>
+      <name>selectId</name>
+   </variable>
+   <variable>
+      <defaultValue>'JDSJW3O21IQNDX'</defaultValue>
+      <description></description>
+      <id>6aca1ac4-eaff-4b6a-9fb2-f9bfae11f361</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
+</TestCaseEntity>

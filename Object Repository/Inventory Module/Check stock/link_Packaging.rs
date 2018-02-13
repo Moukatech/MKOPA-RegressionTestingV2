@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Packaging</name>
+   <tag></tag>
+   <elementGuidId>7084fe1a-f945-4f17-93ba-7b6b3480a4df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='StockCheckGrid']/table/tbody/tr[td[text()='${deviceID}']]/td/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='StockCheckGrid']/table/tbody/tr[td[text()='${deviceID}']]/td/a</value>
+   </webElementProperties>
+</WebElementEntity>

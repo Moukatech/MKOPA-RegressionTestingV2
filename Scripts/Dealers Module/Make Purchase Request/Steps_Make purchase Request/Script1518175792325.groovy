@@ -46,5 +46,5 @@ WebUI.setMaskedText(findTestObject('Dealers Module/Make Purchase Request/Input_Q
 
 WebUI.setText(findTestObject('Dealers Module/Make Purchase Request/Input_OrderNotes'), inputOrderNotes)
 
-not_run: WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Button_save'))
+WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Button_save'))
 

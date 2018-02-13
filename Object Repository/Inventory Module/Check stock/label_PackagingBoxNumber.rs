@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_PackagingBoxNumber</name>
+   <tag></tag>
+   <elementGuidId>5bd40617-d3ac-4268-aa9b-8ff0ddbc2f56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='StockCheckGrid']/table/tbody/tr/td[text()='${serialNumber}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='StockCheckGrid']/table/tbody/tr/td[text()='${serialNumber}']</value>
+   </webElementProperties>
+</WebElementEntity>

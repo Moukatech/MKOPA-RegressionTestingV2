@@ -71,3 +71,16 @@ WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
 
+String randomGenerator(String chars = 'QWERTYUIOPLKJHGFDSAZXCVBNM', Integer length = 9) {
+	Random rand = new Random()
+
+	StringBuilder sb = new StringBuilder()
+
+	for (int i = 0; i < length; i++) {
+		sb.append(chars.charAt(rand.nextInt(chars.length())))
+	}
+	
+	return sb.toString()
+}
+
+

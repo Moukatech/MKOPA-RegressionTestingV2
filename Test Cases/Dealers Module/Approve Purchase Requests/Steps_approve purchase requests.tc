@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_approve purchase requests</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>caecacf3-4e08-44eb-a2cd-28355f51bb7f</testCaseGuid>
+   <variable>
+      <defaultValue>'KE0400669'</defaultValue>
+      <description></description>
+      <id>36f3c818-fc6a-4780-9d8b-0b6885f1cd51</id>
+      <masked>false</masked>
+      <name>ordernumber</name>
+   </variable>
+</TestCaseEntity>

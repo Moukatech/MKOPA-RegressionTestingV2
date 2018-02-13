@@ -25,7 +25,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/label_Fully Received'))
 
-WebUI.setText(findTestObject('Inventory Module/Finishing Receiving Consingment/input_Comments'), '')
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Inventory Module/Finishing Receiving Consingment/input_Comments'), comment)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Finishing Receiving Consingment/button_Declare Complete'))
 

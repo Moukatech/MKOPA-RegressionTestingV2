@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>9644c6f8-ccf3-41f8-b079-47ef78e51d83</testCaseGuid>
    <variable>
-      <defaultValue>'WAHo009'</defaultValue>
+      <defaultValue>'PRD-LINE'</defaultValue>
       <description></description>
       <id>043ba446-9bae-4215-8c47-71c69f9b2aad</id>
       <masked>false</masked>
       <name>wareHouseCode</name>
    </variable>
    <variable>
-      <defaultValue>'KE0375367-01'</defaultValue>
+      <defaultValue>'KE0400669-01'</defaultValue>
       <description></description>
       <id>1b860a8a-4689-43c9-9bb7-44d586c26a50</id>
       <masked>false</masked>
@@ -27,7 +27,7 @@
       <name>packaging</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'0416110139-090784'</defaultValue>
       <description></description>
       <id>5df04f24-9ed6-44a0-922b-0dd4e00e5d24</id>
       <masked>false</masked>

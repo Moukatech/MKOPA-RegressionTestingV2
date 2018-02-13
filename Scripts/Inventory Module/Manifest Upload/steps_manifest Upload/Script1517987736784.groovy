@@ -19,7 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//String consignmentNo
+
+if (consignmentNo == null) {
+    consignmentNo = randomGenerator()
+}
+
 location = System.getenv('USERPROFILE')
 
 String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/primaryDeviceManifest.csv'
@@ -51,10 +55,6 @@ WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Ship
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'), consignmentNo)
 
-WebUI.delay(2)
-
-consignmentNumber = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'))
-
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
 
 WebUI.delay(2)
@@ -81,13 +81,7 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Uploa
 
 WebUI.delay(3)
 
-def consignmentGenerator(String consignmentNo) {
-    if (consignmentNo == null) {
-        consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
-    }
-}
-
-String randomGenerator(String chars, Integer length) {
+String randomGenerator(String chars = 'QWERTYUIOPLKJHGFDSAZXCVBNM', Integer length = 9) {
     Random rand = new Random()
 
     StringBuilder sb = new StringBuilder()

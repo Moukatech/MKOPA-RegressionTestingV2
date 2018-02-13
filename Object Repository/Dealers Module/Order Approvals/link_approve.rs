@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_approve</name>
+   <tag></tag>
+   <elementGuidId>634e4851-1a0a-4140-9b77-f9c2984b4ba8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*//tr[td[contains(normalize-space(),'${ordernumber}')]]/td/a[text()='Approve']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*//tr[td[contains(normalize-space(),'${ordernumber}')]]/td/a[text()='Approve']</value>
+   </webElementProperties>
+</WebElementEntity>

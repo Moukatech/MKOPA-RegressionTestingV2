@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID 16401. Making a Purchase request by a dealer for approval</description>
    <name>Steps_Make purchase Request</name>
    <tag></tag>
    <comment></comment>
