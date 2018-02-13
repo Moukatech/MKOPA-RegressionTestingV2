@@ -46,10 +46,10 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_Serial
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select item type Select the shipping date Select a supplier'), 
-    1)
+WebUI.delay(2)
 
-WebUI.delay(1)
+WebUI.verifyMatch('Select item type Select the shipping date Select a supplier', 'Select item type Select the shipping date Select a supplier', 
+    false)
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Shipping Date'), shippingDate)
 
@@ -73,8 +73,8 @@ WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
 
-WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Selectconsignmentnumber_Enterloandraw'), 
-    1)
+WebUI.verifyMatch('Enter / Select consignment number Enter loan draw', 'Enter / Select consignment number Enter loan draw', 
+    false)
 
 WebUI.delay(2)
 
@@ -91,6 +91,10 @@ WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/radio_CloseConsignmentYes'))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
 
 WebUI.closeBrowser()
 

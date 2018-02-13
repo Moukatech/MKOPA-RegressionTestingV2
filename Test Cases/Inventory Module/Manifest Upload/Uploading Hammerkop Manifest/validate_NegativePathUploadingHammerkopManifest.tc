@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>steps to validate hammerkop manifest upload</description>
-   <name>steps_UploadingHammerkopManifestNegativePath</name>
+   <name>validate_NegativePathUploadingHammerkopManifest</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a93bbcf3-3919-43d2-859a-038d6e8ad102</testCaseGuid>
