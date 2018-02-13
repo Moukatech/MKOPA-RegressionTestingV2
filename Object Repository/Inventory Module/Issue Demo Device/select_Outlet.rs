@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Outlet</name>
+   <tag></tag>
+   <elementGuidId>a6ce25c2-f4fb-4b3d-92af-fc85df2219dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div/div/ul/li[contains(normalize-space(),'${Outlet}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div/div/ul/li[contains(normalize-space(),'${Outlet}')]</value>
+   </webElementProperties>
+</WebElementEntity>

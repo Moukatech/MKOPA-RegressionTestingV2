@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_ConfirmDemoAllocationToOutlet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46b253f8-c494-48bc-8efa-dd45878a4912</testCaseGuid>
+   <variable>
+      <defaultValue>'0715010701-000494'</defaultValue>
+      <description></description>
+      <id>687bf82e-31fc-4f0d-a1a1-076eed05bf1c</id>
+      <masked>false</masked>
+      <name>SerialNo</name>
+   </variable>
+</TestCaseEntity>

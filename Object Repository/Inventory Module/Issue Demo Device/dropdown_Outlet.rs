@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_Outlet</name>
+   <tag></tag>
+   <elementGuidId>24f4f687-e1a6-4f46-95fe-2a315dbbcda4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='divBodyMain']/form/table/tbody/tr[td[text()='${Outlet}:']]/td/div/div/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='divBodyMain']/form/table/tbody/tr[td[text()='Outlet:']]/td/div/div/span/span</value>
+   </webElementProperties>
+</WebElementEntity>

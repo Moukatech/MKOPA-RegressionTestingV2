@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_AuditlogSuspend-UnsuspendOutletDemoDevice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6a4b992-9030-47e1-a53e-d3a9e0c22657</testCaseGuid>
+</TestCaseEntity>
