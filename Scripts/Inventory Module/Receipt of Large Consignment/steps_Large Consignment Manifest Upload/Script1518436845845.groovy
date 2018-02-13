@@ -2,6 +2,7 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.annotation.Keyword as Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -19,11 +20,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-String consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
+if (consignmentNo== null) {
+    consignmentNo = generateRandom()
+}
 
 location = System.getenv('USERPROFILE')
 
-String fileLocation = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx'
+String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/largeConsignment.csv'
+
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
@@ -39,8 +45,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Upload Manifest'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type '))
 
 WebUI.delay(2)
@@ -53,34 +57,39 @@ WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Cons
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
+WebUI.delay(2)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_itemType', [('itemType') : itemType]))
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Supplier'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier', [('supplier') : supplier]))
 
 WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
 
-WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select'), fileLocation)
+WebUI.delay(2)
+
+WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select', [('selectId') : selectId]), filePath)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
 
-String randomGenerator(String chars = 'QWERTYUIOPLKJHGFDSAZXCVBNM', Integer length = 9) {
-	Random rand = new Random()
+WebUI.delay(3)
 
-	StringBuilder sb = new StringBuilder()
+String generateRandom(String chars = 'QWERTYUIOPASDFGHJKLZXCVBNM1234567890', Integer length = 10) {
+    Random rand = new Random()
 
-	for (int i = 0; i < length; i++) {
-		sb.append(chars.charAt(rand.nextInt(chars.length())))
-	}
-	
-	return sb.toString()
+    StringBuilder sb = new StringBuilder()
+
+    for (int i = 0; i < length; i++) {
+        sb.append(chars.charAt(rand.nextInt(chars.length())))
+    }
+    
+    return sb.toString()
 }
-
 
