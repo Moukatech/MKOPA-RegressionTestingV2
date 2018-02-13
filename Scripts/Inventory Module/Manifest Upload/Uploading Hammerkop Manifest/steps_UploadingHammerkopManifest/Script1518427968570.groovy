@@ -86,8 +86,6 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/radio_CloseC
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
 
-WebUI.closeBrowser()
-
 String randomGenerator(String chars, Integer length) {
     Random rand = new Random()
 
