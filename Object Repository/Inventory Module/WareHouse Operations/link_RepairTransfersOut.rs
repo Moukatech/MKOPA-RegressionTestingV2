@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_RepairTransfersOut</name>
+   <tag></tag>
+   <elementGuidId>1f7c29de-5b72-458e-8b35-d62572087f94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='/Inventory/RepairPoolTransfer/RepairPoolTransfersOut/${repair_transfers_out}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='/Inventory/RepairPoolTransfer/RepairPoolTransfersOut/${repair_transfers_out}']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click_OrderInTransit</name>
+   <tag></tag>
+   <elementGuidId>9ad8b14a-ce72-4bbe-898f-5fb19a8f4183</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='RepairPoolTransfer']/table/tbody/tr[1]/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='RepairPoolTransfer']/table/tbody/tr[1]/td[3]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_DeviceType</name>
+   <tag></tag>
+   <elementGuidId>dfb4bfcb-9916-44f0-a1c7-00e63a71e34f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='frmAddTransfer']/div/table/tbody/tr[2]/td[2]/div/div/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

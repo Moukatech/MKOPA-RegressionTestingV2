@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_AddRepairPoolTransferItem</name>
+   <tag></tag>
+   <elementGuidId>4dbebc94-e4b0-468f-9d48-69a5526a9146</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='frmAddTransferItem']//input[contains(@value,'Add')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='frmAddTransferItem']//input[contains(@value,'Add')]</value>
+   </webElementProperties>
+</WebElementEntity>
