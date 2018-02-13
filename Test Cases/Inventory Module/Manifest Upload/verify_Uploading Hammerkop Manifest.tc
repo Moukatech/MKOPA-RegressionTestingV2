@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c5024c3d-0ce4-46a1-ba35-72990b16dafc</testCaseGuid>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>7eb48130-a450-4873-8372-8db7edfae04c</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'MNA123ASDFG45'</defaultValue>
+      <description></description>
+      <id>244104dd-93bd-4e9c-a6b1-62adf2dff9ff</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'1200'</defaultValue>
+      <description></description>
+      <id>913d7346-5eda-49fb-81af-1134507e83a7</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
 </TestCaseEntity>

@@ -19,12 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'manifestUploads.serializedPeripheral.serializedPeripheral'()
+if (consignmentNo == null) {
+    consignmentNo = randomGenerator('QWERTYUIOPASDFGHJKLMNBVCXZ1234567890', 10)
+}
 
 location = System.getenv('USERPROFILE')
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
+String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/serializedPeripheral.csv'
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
@@ -48,11 +49,7 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_Serial
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Shipping Date'), shippingDate)
 
-String loanDraw = randomGenerator('123456789ABCDEFGHIJKLM', 7)
-
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
-
-String consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Consignment No'), consignmentNo)
 
@@ -64,17 +61,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_HammerkopProd'))
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Supplier'))
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select manifest Supplier'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier'))
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
-
-location = System.getenv('USERPROFILE')
-
-String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/serializedPeripheral.csv'
 
 WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_SelectPeripheralManifest'), filePath)
 
