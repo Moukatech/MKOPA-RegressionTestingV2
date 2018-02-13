@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_IssueDemoDeviceToOutlet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6c03ed4-f646-4bcf-8990-f174d5f6ac6d</testCaseGuid>
+   <variable>
+      <defaultValue>'Outlet'</defaultValue>
+      <description></description>
+      <id>a4dc7455-47ab-4fe4-86c8-5adf35d9e896</id>
+      <masked>false</masked>
+      <name>EntityType</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 M-KOPA Shop Meru'</defaultValue>
+      <description></description>
+      <id>25376997-0ffd-4978-b82d-d651448ae7dc</id>
+      <masked>false</masked>
+      <name>DealerName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sc001 M-Kopa Shop Meru'</defaultValue>
+      <description></description>
+      <id>433d87e1-2102-4497-adb6-2093d5fce150</id>
+      <masked>false</masked>
+      <name>Outlet</name>
+   </variable>
+   <variable>
+      <defaultValue>'0715010701-000494'</defaultValue>
+      <description></description>
+      <id>85622210-4557-4f0a-b292-839620aaf22c</id>
+      <masked>false</masked>
+      <name>SerialNo</name>
+   </variable>
+</TestCaseEntity>

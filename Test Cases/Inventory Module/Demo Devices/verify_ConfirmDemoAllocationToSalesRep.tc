@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_ConfirmDemoAllocationToSalesRep</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab700fba-e740-4b56-8394-2be1a3624034</testCaseGuid>
+   <variable>
+      <defaultValue>'1117003501-071953'</defaultValue>
+      <description></description>
+      <id>0ad4db6b-611d-4115-a96f-92407036adf9</id>
+      <masked>false</masked>
+      <name>SerialNo</name>
+   </variable>
+</TestCaseEntity>

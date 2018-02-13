@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_IssueDemoDeviceToSalesRep</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ba882f7-58b7-4986-a8e3-de9f94b57646</testCaseGuid>
+   <variable>
+      <defaultValue>'SalesRep'</defaultValue>
+      <description></description>
+      <id>547db9b1-94f4-419b-97db-35e6f743df77</id>
+      <masked>false</masked>
+      <name>EntityType</name>
+   </variable>
+   <variable>
+      <defaultValue>'FSM 007 - Dorothy Mutesa'</defaultValue>
+      <description></description>
+      <id>76ddaa00-48ee-43c0-82a4-4155a4fb7ef3</id>
+      <masked>false</masked>
+      <name>SalesRep</name>
+   </variable>
+   <variable>
+      <defaultValue>'0715010701000105'</defaultValue>
+      <description></description>
+      <id>45ce6c43-59fb-44c4-89ef-916f082a13ad</id>
+      <masked>false</masked>
+      <name>SerialNo</name>
+   </variable>
+</TestCaseEntity>
