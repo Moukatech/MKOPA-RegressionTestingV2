@@ -54,4 +54,11 @@
       <masked>false</masked>
       <name>selectId</name>
    </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>4d1c873e-05ef-4eff-b045-fbd999a39581</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
 </TestCaseEntity>

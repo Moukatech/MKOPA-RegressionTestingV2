@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Upload the Manifest and check NO on the Close Consignment? and then Save. The Consignment should be Pending Arrival Status</description>
+   <name>validate_consignment Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47594618-9ce9-475b-abfb-d7e6788721c0</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <description></description>
+      <id>12e4d950-1d4f-4fda-9d81-43fa35c49515</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>07022687-a209-4535-979e-bd88bf60a5ba</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Primary Device'</defaultValue>
+      <description></description>
+      <id>6aeba807-06c1-4506-bddc-9ab1c47b010f</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>d149d14b-5eb8-4da1-87bb-06c67c68e47e</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'False'</defaultValue>
+      <description></description>
+      <id>0588f761-fdb3-4f40-84b6-fd301f5c0f27</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+   <variable>
+      <defaultValue>'meteredItemManifests'</defaultValue>
+      <description></description>
+      <id>65f46bd5-f114-4656-98f9-bd4a9045b021</id>
+      <masked>false</masked>
+      <name>selectId</name>
+   </variable>
+   <variable>
+      <defaultValue>'15000'</defaultValue>
+      <description></description>
+      <id>b5f396f2-a64e-4622-afa5-0cafb50bd7ab</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>fb7f8c75-92c9-4e27-a06e-9711fe8b96ee</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Consignment left open'</defaultValue>
+      <description></description>
+      <id>d5bd5c53-0374-4773-91cf-f9f383657090</id>
+      <masked>false</masked>
+      <name>consignmentStatus</name>
+   </variable>
+</TestCaseEntity>

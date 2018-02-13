@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Receiving a KingFisher Consignment in an Engineering Warehouse. 
+Steps
+1. Upload a KingFisher Manifest
+2. Receive the Consignment In the Engineering Warehouse</description>
+   <name>verify_Receive Kingfisher Consignment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69952bd7-3324-4af6-a681-8699273086a7</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <description></description>
+      <id>97e29dc0-3ac1-4682-9dc1-afca1e401415</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>27376bde-d076-4eb8-8a25-3c0f35ed8439</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Primary Device'</defaultValue>
+      <description></description>
+      <id>c219154c-25ab-41f2-bc4f-469b5752a2ab</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'CACVSAV182HSVSG21'</defaultValue>
+      <description></description>
+      <id>97a1c71b-07cd-46a4-a1d4-c13c02a81a29</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>03bc3eed-8df2-4767-90f9-2ff91c753e83</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'True'</defaultValue>
+      <description></description>
+      <id>a2a30216-438a-43c7-9a41-e20cb7203c94</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+   <variable>
+      <defaultValue>'meteredItemManifests'</defaultValue>
+      <description></description>
+      <id>64ea494d-7ce6-4efd-a3f6-20068622bbff</id>
+      <masked>false</masked>
+      <name>selectId</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>52ddc569-0044-49cc-a4a8-4e6e76805897</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'WaHo008'</defaultValue>
+      <description></description>
+      <id>490b1be4-276a-4e54-8f73-2d49849bac31</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'89df7262-166c-e411-80d8-00155d83e77c'</defaultValue>
+      <description></description>
+      <id>a3111d51-c71c-46d7-9b6d-e91ff429eae9</id>
+      <masked>false</masked>
+      <name>receiptId</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-02-08 00:00:00'</defaultValue>
+      <description></description>
+      <id>79ee96f9-f633-4a22-8346-9ec8a80fc360</id>
+      <masked>false</masked>
+      <name>receiptDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>acb354dd-ff5e-4d5d-9628-a5f05a116aaa</id>
+      <masked>false</masked>
+      <name>receiptCartonUnit</name>
+   </variable>
+   <variable>
+      <defaultValue>'We are finalizing in receiving the Consigment'</defaultValue>
+      <description></description>
+      <id>f4617608-12cf-4dc0-a0d1-fabbaa77ba82</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>
