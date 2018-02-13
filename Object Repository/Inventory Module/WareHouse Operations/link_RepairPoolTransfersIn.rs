@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Shows a List of Metered Items</description>
-   <name>td_Listed Metered Item</name>
+   <description></description>
+   <name>link_RepairPoolTransfersIn</name>
    <tag></tag>
-   <elementGuidId>9be6bf7c-de66-4c94-a3a7-0e3b2f403a83</elementGuidId>
+   <elementGuidId>d41a225d-2fa9-49ce-b092-01f0b98b5af6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td[contains(.,'${consignmentNo}')]</value>
+         <value>//a[contains(.,'Repair Pool Transfers In')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td[contains(.,'${consignmentNo}')]</value>
+      <value>//a[contains(.,'Repair Pool Transfers In')]</value>
    </webElementProperties>
 </WebElementEntity>

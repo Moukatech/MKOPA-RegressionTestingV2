@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Shows a List of Metered Items</description>
-   <name>td_Listed Metered Item</name>
+   <description></description>
+   <name>input_PlannedQuantity</name>
    <tag></tag>
-   <elementGuidId>9be6bf7c-de66-4c94-a3a7-0e3b2f403a83</elementGuidId>
+   <elementGuidId>784a4b96-c1a2-46fe-a8f9-f5794d047b6c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td[contains(.,'${consignmentNo}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +16,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td[contains(.,'${consignmentNo}')]</value>
+      <value>.//*[@id='PlannedTransferQuantity']</value>
    </webElementProperties>
 </WebElementEntity>

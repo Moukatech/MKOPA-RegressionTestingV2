@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Shows a List of Metered Items</description>
-   <name>td_Listed Metered Item</name>
+   <description></description>
+   <name>button_Finish</name>
    <tag></tag>
-   <elementGuidId>9be6bf7c-de66-4c94-a3a7-0e3b2f403a83</elementGuidId>
+   <elementGuidId>f7516ba4-473d-4e74-9dc8-b3058f3ba90f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td[contains(.,'${consignmentNo}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td[contains(.,'${consignmentNo}')]</value>
+      <value>.//*[@id='btnFinish']</value>
    </webElementProperties>
 </WebElementEntity>

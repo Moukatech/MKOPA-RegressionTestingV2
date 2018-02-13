@@ -19,24 +19,42 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : 'WAHo009'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_RepairPoolTransfersIn', [('repair_transfers_out') : repair_transfers_out]))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_OrderInTransit'))
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_SerialNumberToReceive'))
+
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/dropdown_Status'))
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory Items'))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/select_Status', [('select_status') : select_status]))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_List Item Summaries'))
+WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers In/input_Comment'), input_comment)
 
-WebUI.verifyElementVisible(findTestObject('Inventory Module/List Metered Items Upload Summaries/td_Listed Metered Item'))
+WebUI.delay(1)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/button_Receive'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_OrderInTransit'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/button_Finish'))
+
+WebUI.delay(1)
+
+not_run: WebUI.verifyElementVisible(findTestObject('Inventory Module/Repair Pool Transfers In/success_MessageAlert'))
 

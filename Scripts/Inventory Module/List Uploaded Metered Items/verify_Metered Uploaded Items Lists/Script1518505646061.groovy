@@ -19,34 +19,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : 'WAHo009'], 
+WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/verify_Uploading metered Item Manifest'), [('itemType') : itemType
+        , ('supplier') : supplier, ('manifestType') : manifestType, ('loanDraw') : loanDraw, ('shippingDate') : shippingDate
+        , ('condition') : condition, ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_TrasnfersIn', [('transfers_in') : transfers_in]))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/click_OrderInTransit'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Transfers In/click_SerialNumberToReceive'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Transfers In/dropdown_Status'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory Items'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Transfers In/select_Status', [('select_status') : select_status]))
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_List Item Summaries'))
 
-WebUI.setText(findTestObject('Inventory Module/Transfers In/input_Comment'), input_comment)
+WebUI.verifyElementVisible(findTestObject('Inventory Module/List Metered Items Upload Summaries/td_Listed Metered Item', 
+        [('consignmentNo') : consignmentNo]))
 
-WebUI.click(findTestObject('Inventory Module/Transfers In/button_Receive'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/click_OrderInTransit'))
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/button_Finish'))
+WebUI.closeBrowser()
 
