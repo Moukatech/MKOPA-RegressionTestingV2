@@ -50,12 +50,16 @@ WebUI.check(findTestObject('Inventory Module/Check stock/check_MarkAsOk', [('ser
 
 WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
 
-not_run: WebUI.verifyAlertPresent(2)
-
 WebUI.delay(2)
-
-not_run: WebUI.acceptAlert()
 
 WebUI.verifyElementNotPresent(findTestObject('Inventory Module/Check stock/label_PackagingBoxNumber', [('serialNumber') : serialNumber]), 
     3)
+
+WebUI.click(findTestObject('Inventory Module/Check stock/link_Warehouse Operations(short)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : wareHouseCode]))
+
+not_run: WebUI.verifyLessThan(tobechecked, tobechecked)
 
