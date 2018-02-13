@@ -35,10 +35,24 @@ The repair process that a returned device goes through</description>
       <name>deviceID</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001703'</defaultValue>
+      <defaultValue>'0118033201-001702'</defaultValue>
       <description></description>
       <id>b5031cf1-43cd-45ee-a843-211f0a3a261a</id>
       <masked>false</masked>
       <name>serialNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'1,592'</defaultValue>
+      <description></description>
+      <id>fb7907d8-258e-4f2d-a0e1-699f3945f52a</id>
+      <masked>false</masked>
+      <name>tobechecked</name>
+   </variable>
+   <variable>
+      <defaultValue>'=(tobechecked - &quot;1&quot;)'</defaultValue>
+      <description></description>
+      <id>3eb5ea02-21af-44d0-bafd-38a74d074799</id>
+      <masked>false</masked>
+      <name>expectedvalue</name>
    </variable>
 </TestCaseEntity>

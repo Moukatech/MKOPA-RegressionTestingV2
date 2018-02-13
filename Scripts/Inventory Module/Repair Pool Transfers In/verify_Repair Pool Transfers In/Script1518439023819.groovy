@@ -19,47 +19,42 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : wareHouseCode], 
+WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : 'WAHo009'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_RepairPoolTransfersIn', [('repair_transfers_out') : repair_transfers_out]))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_OrderInTransit'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/dropDwn_Item Type'))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_SerialNumberToReceive'))
+
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/dropdown_Status'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/select_Item type', [('itemType') : itemType]))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/select_Status', [('select_status') : select_status]))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/dropDwn_Packaging'))
+WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers In/input_Comment'), input_comment)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/select_packaging', [('packaging') : packaging]))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/button_Receive'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/button_Load'))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_OrderInTransit'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.check(findTestObject('Inventory Module/Check stock/check_MarkAsOk', [('serialNumber') : serialNumber]))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/button_Finish'))
 
-WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
+WebUI.delay(1)
 
-WebUI.delay(2)
-
-WebUI.verifyElementNotPresent(findTestObject('Inventory Module/Check stock/label_PackagingBoxNumber', [('serialNumber') : serialNumber]), 
-    3)
-
-WebUI.click(findTestObject('Inventory Module/Check stock/link_Warehouse Operations(short)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : wareHouseCode]))
-
-not_run: WebUI.verifyLessThan(tobechecked, tobechecked)
+not_run: WebUI.verifyElementVisible(findTestObject('Inventory Module/Repair Pool Transfers In/success_MessageAlert'))
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Shows a List of Metered Items</description>
-   <name>td_Listed Metered Item</name>
+   <description></description>
+   <name>dropdown_Select manifest Supplier</name>
    <tag></tag>
-   <elementGuidId>9be6bf7c-de66-4c94-a3a7-0e3b2f403a83</elementGuidId>
+   <elementGuidId>5895a617-423d-4f6c-b56a-12aea4ccc9b0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td[contains(.,'${consignmentNo}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td[contains(.,'${consignmentNo}')]</value>
+      <value> .//*[@id='frm-upload-manifest']/div[4]/div[2]//span[contains(.,'-- Select --')]</value>
    </webElementProperties>
 </WebElementEntity>

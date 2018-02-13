@@ -19,34 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : 'WAHo009'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_TrasnfersIn', [('transfers_in') : transfers_in]))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/click_OrderInTransit'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/click_SerialNumberToReceive'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/dropdown_Status'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/select_Status', [('select_status') : select_status]))
-
-WebUI.setText(findTestObject('Inventory Module/Transfers In/input_Comment'), input_comment)
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/button_Receive'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/click_OrderInTransit'))
-
-WebUI.click(findTestObject('Inventory Module/Transfers In/button_Finish'))
-

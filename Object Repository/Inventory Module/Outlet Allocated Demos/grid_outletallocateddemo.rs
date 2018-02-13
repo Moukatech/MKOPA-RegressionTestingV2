@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Shows a List of Metered Items</description>
-   <name>td_Listed Metered Item</name>
+   <description></description>
+   <name>grid_outletallocateddemo</name>
    <tag></tag>
-   <elementGuidId>9be6bf7c-de66-4c94-a3a7-0e3b2f403a83</elementGuidId>
+   <elementGuidId>1be090aa-a8ac-45c1-a04a-7f147824dd3b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td[contains(.,'${consignmentNo}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +16,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td[contains(.,'${consignmentNo}')]</value>
+      <value>.//*[@id='DemoDevicesList']/table/tbody/tr[td[text()='${SerialNo}']]</value>
    </webElementProperties>
 </WebElementEntity>

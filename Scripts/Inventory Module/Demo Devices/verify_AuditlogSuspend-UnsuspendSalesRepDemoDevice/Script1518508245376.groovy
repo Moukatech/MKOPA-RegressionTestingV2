@@ -19,47 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : wareHouseCode], 
+WebUI.callTestCase(findTestCase('Inventory Module/Demo Devices/verify_SalesRepSuspendDemoDevices'), [('delay') : '5'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Inventory Module/Demo Devices/verify_UnsuspendedSalesRepDemoDevice'), [('delay') : '5'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
+WebUI.callTestCase(findTestCase('Inventory Module/Device Search/verify_DeviceSearch'), [('serialnumber') : '0715010701000105'
+        , ('searchBy') : 'SerialNumber'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Inventory Module/Device Landing Page/tab_AuditLog'))
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/dropDwn_Item Type'))
+WebUI.delay(15)
 
-WebUI.delay(2)
+WebUI.scrollToElement(findTestObject('Inventory Module/Device Landing Page/grid_SuspendedDemoDevice'), 0)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/select_Item type', [('itemType') : itemType]))
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Landing Page/grid_SuspendedDemoDevice'))
 
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Landing Page/grid_UnsuspendedDemoDevice'))
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/dropDwn_Packaging'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/select_packaging', [('packaging') : packaging]))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/button_Load'))
-
-WebUI.delay(2)
-
-WebUI.check(findTestObject('Inventory Module/Check stock/check_MarkAsOk', [('serialNumber') : serialNumber]))
-
-WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementNotPresent(findTestObject('Inventory Module/Check stock/label_PackagingBoxNumber', [('serialNumber') : serialNumber]), 
-    3)
-
-WebUI.click(findTestObject('Inventory Module/Check stock/link_Warehouse Operations(short)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : wareHouseCode]))
-
-not_run: WebUI.verifyLessThan(tobechecked, tobechecked)
+WebUI.closeBrowser()
 

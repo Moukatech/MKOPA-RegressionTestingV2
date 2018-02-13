@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_UnsuspendedSalesRepDemoDevice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e1e4cfe-b26a-4aa1-813e-8b5237b813ae</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>287e4350-d289-4706-9b7e-bb53206c6757</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

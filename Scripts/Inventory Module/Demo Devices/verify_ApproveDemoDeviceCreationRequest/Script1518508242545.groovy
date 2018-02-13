@@ -19,47 +19,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : wareHouseCode], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
+        , ('serial_Number') : '0416010902-000005', ('code') : 'WAHo009'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_ApproveDemoDevices'))
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/dropDwn_Item Type'))
+WebUI.click(findTestObject('Inventory Module/Demo Devices Approval Requests/link_approve'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/dropdown_ApprovalStatus'))
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/select_Item type', [('itemType') : itemType]))
+WebUI.delay(3)
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Inventory Module/Approve Demo Devices Request/text_approvernotes'), notes)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/dropDwn_Packaging'))
+WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/button_save'))
 
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Approve Demo Devices Request/message_ Validation'))
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/select_packaging', [('packaging') : packaging]))
+WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/select_ Approved'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/button_Load'))
-
-WebUI.delay(2)
-
-WebUI.check(findTestObject('Inventory Module/Check stock/check_MarkAsOk', [('serialNumber') : serialNumber]))
-
-WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementNotPresent(findTestObject('Inventory Module/Check stock/label_PackagingBoxNumber', [('serialNumber') : serialNumber]), 
-    3)
-
-WebUI.click(findTestObject('Inventory Module/Check stock/link_Warehouse Operations(short)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : wareHouseCode]))
-
-not_run: WebUI.verifyLessThan(tobechecked, tobechecked)
+WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/button_save'))
 

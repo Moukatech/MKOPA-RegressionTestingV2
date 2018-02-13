@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 5503
+Test Case Description: Verify Demo Device is Suspended</description>
+   <name>verify_SalesRepSuspendDemoDevices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>112e8d76-cffc-45db-9fdf-b28426b2ab90</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>9d59ba52-dfe6-4079-9819-27bb363c30fa</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>
