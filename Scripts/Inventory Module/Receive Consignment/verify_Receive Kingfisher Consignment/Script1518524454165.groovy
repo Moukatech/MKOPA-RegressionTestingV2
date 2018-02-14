@@ -19,9 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/verify_Uploading Kingfisher Item Manifest'), [('itemType') : itemType
-        , ('supplier') : supplier, ('manifestType') : manifestType, ('loanDraw') : loanDraw, ('shippingDate') : shippingDate
-        , ('condition') : condition, ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/verify_Uploading Kingfisher Item Manifest'), [('itemType') : 'M-KOPA 400 : M-KOPA 400'
+        , ('supplier') : 'OEL', ('manifestType') : 'Primary Device', ('loanDraw') : '10000', ('shippingDate') : '2018-03-29 00:00:00'
+        , ('condition') : 'True', ('selectId') : 'meteredItemManifests', ('consignmentNo') : consignmentNo, ('imei') : imei], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)

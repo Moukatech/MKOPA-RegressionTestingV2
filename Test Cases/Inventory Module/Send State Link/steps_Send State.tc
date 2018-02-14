@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to set Send State,</description>
+   <name>steps_Send State</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f09ccab-5b5b-4896-b230-798f89ccc72b</testCaseGuid>
+   <variable>
+      <defaultValue>'102837719201'</defaultValue>
+      <description></description>
+      <id>3d21a964-b515-4518-8904-650e07ec6992</id>
+      <masked>false</masked>
+      <name>imei</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have assigned the State'</defaultValue>
+      <description></description>
+      <id>6e6c96be-14bf-47c5-a213-0a88a61681df</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>'Activated'</defaultValue>
+      <description></description>
+      <id>a5a7c190-732f-48e6-a9c1-1d15b79efcd2</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'IMEI'</defaultValue>
+      <description></description>
+      <id>50e4a31c-b50b-4aec-a8a7-f18684035442</id>
+      <masked>false</masked>
+      <name>searchBy</name>
+   </variable>
+</TestCaseEntity>
