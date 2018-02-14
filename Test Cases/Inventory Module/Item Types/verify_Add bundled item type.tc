@@ -14,14 +14,14 @@ adding a bundled item type</description>
       <name>classification</name>
    </variable>
    <variable>
-      <defaultValue>'20 inch tv'</defaultValue>
+      <defaultValue>'Mkopa 5'</defaultValue>
       <description></description>
       <id>c0f71fd0-ef29-4f9b-822e-0618ec4abf1f</id>
       <masked>false</masked>
       <name>partNumber</name>
    </variable>
    <variable>
-      <defaultValue>'20 inch tv'</defaultValue>
+      <defaultValue>'Mkopa 5'</defaultValue>
       <description></description>
       <id>c04c75bd-1e29-4f27-b129-611a856b67c9</id>
       <masked>false</masked>
@@ -42,7 +42,7 @@ adding a bundled item type</description>
       <name>quantity</name>
    </variable>
    <variable>
-      <defaultValue>'sample test (3698)'</defaultValue>
+      <defaultValue>'qwerty (49)'</defaultValue>
       <description></description>
       <id>f3273051-83b1-466a-afb2-c0ae9722629a</id>
       <masked>false</masked>

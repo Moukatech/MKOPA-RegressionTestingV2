@@ -7,14 +7,14 @@ Adding compatible plan to a loan payment plan</description>
    <comment></comment>
    <testCaseGuid>86879f5c-ba2d-45c7-964b-a595c83760f0</testCaseGuid>
    <variable>
-      <defaultValue>'M-KOPA 400 (22&quot;) v1'</defaultValue>
+      <defaultValue>'M-KOPA 400 (22&quot;) v3'</defaultValue>
       <description></description>
       <id>3e9cbb5a-cb9b-4199-b4c8-ad62205ccb8a</id>
       <masked>false</masked>
       <name>planName</name>
    </variable>
    <variable>
-      <defaultValue>'TV for M-KOPA 300'</defaultValue>
+      <defaultValue>'Simtank 3000L v1 (no deposit)'</defaultValue>
       <description></description>
       <id>f16fa5ac-6c76-4577-afc8-38695052cfcb</id>
       <masked>false</masked>

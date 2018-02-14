@@ -30,6 +30,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Add Item Type/dropDwn_Select Classification'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Inventory Module/Add Item Type/select_Classification', [('classification') : classification]))
 
 WebUI.delay(2)

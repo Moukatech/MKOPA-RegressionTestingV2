@@ -7,7 +7,7 @@ verifying that a link to cancel an accout queued item is present</description>
    <comment></comment>
    <testCaseGuid>9ce349a4-a6d1-40ad-b428-141b18e16c69</testCaseGuid>
    <variable>
-      <defaultValue>'25451093'</defaultValue>
+      <defaultValue>'21035411'</defaultValue>
       <description></description>
       <id>f138c45d-2c70-4eff-8dac-ca76ac71aff0</id>
       <masked>false</masked>
@@ -21,14 +21,14 @@ verifying that a link to cancel an accout queued item is present</description>
       <name>reason</name>
    </variable>
    <variable>
-      <defaultValue>'TV Installation'</defaultValue>
+      <defaultValue>'50 Days @ 50'</defaultValue>
       <description></description>
       <id>df6a2e0a-bcef-4438-8a0d-5fba92de317a</id>
       <masked>false</masked>
       <name>addOnName</name>
    </variable>
    <variable>
-      <defaultValue>'643256'</defaultValue>
+      <defaultValue>'751779'</defaultValue>
       <description></description>
       <id>ddd7aee8-e42e-408c-a85a-a67d9ff90f28</id>
       <masked>false</masked>
