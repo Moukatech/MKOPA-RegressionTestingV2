@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using OrderNumber_IsEqualTo</description>
+   <name>verify_FilterByOrderNumber_IsEqualTo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca6d6ac1-7e4f-4693-ab5d-5d72fecedf59</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>63d51c46-0889-4836-b475-94e085e88b5c</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'KE0337186-01'</defaultValue>
+      <description></description>
+      <id>a0f8be88-559c-47ba-bf65-d44ba712bbb9</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+</TestCaseEntity>

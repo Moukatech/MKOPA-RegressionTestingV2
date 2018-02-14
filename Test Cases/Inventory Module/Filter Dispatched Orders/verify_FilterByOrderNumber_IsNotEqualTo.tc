@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using OrderNumber
+
+Note: Operator_IsNotEqualTo</description>
+   <name>verify_FilterByOrderNumber_IsNotEqualTo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6233744-24b0-4c60-8173-2c92553c4d6f</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>4659f514-a35d-40d3-a0c1-bd844f4b7528</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'KE0337185-01'</defaultValue>
+      <description></description>
+      <id>ae7d6b84-7d74-4211-bc89-5037d3bcf1de</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Does not contain'</defaultValue>
+      <description></description>
+      <id>a38e6d6a-7b97-4e95-9c80-1c481a2e80c2</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+</TestCaseEntity>

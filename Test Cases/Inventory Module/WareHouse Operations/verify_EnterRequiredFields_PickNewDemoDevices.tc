@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case ID : 414
-Test Case Description : Verify Request to Create Demo Device is placed successfully</description>
+Test Case Description : Verify Request to Create Demo Device is not placed successfully because of missing required fields</description>
    <name>verify_EnterRequiredFields_PickNewDemoDevices</name>
    <tag></tag>
    <comment></comment>

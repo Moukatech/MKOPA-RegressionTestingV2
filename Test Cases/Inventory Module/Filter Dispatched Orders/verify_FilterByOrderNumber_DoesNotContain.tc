@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using OrderNumber_DoesNotContain</description>
+   <name>verify_FilterByOrderNumber_DoesNotContain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad159e14-cb98-46da-b52c-f962f684bf0e</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>67b4d3b8-be7d-43b2-88a8-236a655f76ce</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'KE0337185-01'</defaultValue>
+      <description></description>
+      <id>56346351-f3bf-4f14-85c7-b9ae6373d0c9</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Does not contain'</defaultValue>
+      <description></description>
+      <id>b381458e-f078-4f3e-820e-79e5d0e9eef6</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+</TestCaseEntity>

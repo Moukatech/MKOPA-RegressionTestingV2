@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_FilterByServicingWarehouse_EndsWith</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>589bbc9a-f58f-4e85-b49a-4d5937fc3a1c</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>c46db44f-fcda-4543-8515-ee7ed8239328</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kisii'</defaultValue>
+      <description></description>
+      <id>b31fcae1-597f-4c70-bb7f-a2caeaae1b5a</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ends with'</defaultValue>
+      <description></description>
+      <id>18139964-7b51-4984-aeba-7fb1969d2c5f</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC011 M-KOPA Shop Kisii'</defaultValue>
+      <description></description>
+      <id>2e0e0bcf-8bf7-43ed-84c8-a53a52b7e7f4</id>
+      <masked>false</masked>
+      <name>filter_Results</name>
+   </variable>
+</TestCaseEntity>

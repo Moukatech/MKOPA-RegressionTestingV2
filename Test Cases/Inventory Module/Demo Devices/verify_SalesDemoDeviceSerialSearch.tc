@@ -15,7 +15,7 @@ Test Case Description: Verifies filtering of Sales demo devices using serial num
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'1117003501-071953'</defaultValue>
+      <defaultValue>'0617001801-056577'</defaultValue>
       <description></description>
       <id>f758748e-3b87-4e89-ae62-21ce7a019545</id>
       <masked>false</masked>

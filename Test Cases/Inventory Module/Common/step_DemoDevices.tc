@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID: 412
+Test Description: Test Step that Lists Demo Devices. It also captures test case ID 412</description>
    <name>step_DemoDevices</name>
    <tag></tag>
    <comment></comment>

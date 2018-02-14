@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOutlet_Contains</description>
+   <name>verify_FilterByOrderingOutlet_Contains</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1da83b96-df34-4008-960c-76cd4523f743</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>5977defa-63b2-4bf4-91cc-3457bf86c386</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA'</defaultValue>
+      <description></description>
+      <id>3745d285-9824-4427-b93d-d14b9e1b6c6e</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Contains'</defaultValue>
+      <description></description>
+      <id>549d9a98-2a8e-4c5a-bd1a-f0e75cccac7b</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA HOUSE'</defaultValue>
+      <description></description>
+      <id>896c2ae8-c891-40f5-9eab-31d543bb2869</id>
+      <masked>false</masked>
+      <name>filter_Results</name>
+   </variable>
+</TestCaseEntity>

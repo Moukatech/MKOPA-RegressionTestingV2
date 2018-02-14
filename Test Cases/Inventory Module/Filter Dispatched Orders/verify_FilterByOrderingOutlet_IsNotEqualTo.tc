@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOutlet_IsNotEqualTo</description>
+   <name>verify_FilterByOrderingOutlet_IsNotEqualTo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aebd232b-6da2-4833-b36d-7c48b0985922</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>fd7e074b-7b07-4e1e-8c2f-1fc0a8d531d0</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
+      <description></description>
+      <id>e9f695ea-3994-4a39-8e85-36e25623be61</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Is not equal to'</defaultValue>
+      <description></description>
+      <id>09ffc83b-8035-4999-8b0f-f16689833ca1</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+</TestCaseEntity>

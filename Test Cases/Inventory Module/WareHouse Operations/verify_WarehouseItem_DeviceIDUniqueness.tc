@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test Case ID: 4157</description>
+   <description>Test Case ID: 4157
+Verifies Device ID Uniqueness On a Transfer In/Out Process</description>
    <name>verify_WarehouseItem_DeviceIDUniqueness</name>
    <tag></tag>
    <comment></comment>

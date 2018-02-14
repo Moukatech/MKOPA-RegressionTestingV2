@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_FilterByServicingWarehouse_DoesNotContain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51adb641-71e3-434c-9085-2b909dd2f2d7</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>03bd9e78-b780-4f3d-8a50-65bf9c1e8907</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC045 M-KOPA Shop Kajiado '</defaultValue>
+      <description></description>
+      <id>091d5761-cadd-4ed5-9859-036c1d9c5dcc</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Does not contain'</defaultValue>
+      <description></description>
+      <id>e4a8a5ce-2e7d-4fcd-ad37-928edd17895f</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+</TestCaseEntity>

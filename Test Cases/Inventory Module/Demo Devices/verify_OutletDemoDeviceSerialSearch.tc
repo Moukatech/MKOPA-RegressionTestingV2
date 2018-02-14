@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Test Case: 3316
 
-Test Description: Verify the search returns filtered device using serial number</description>
+Test Description: Verify the search returns outlet demo devices using serial number</description>
    <name>verify_OutletDemoDeviceSerialSearch</name>
    <tag></tag>
    <comment></comment>
@@ -15,7 +15,7 @@ Test Description: Verify the search returns filtered device using serial number<
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'0314020201-000290'</defaultValue>
+      <defaultValue>'0717011701-003747'</defaultValue>
       <description></description>
       <id>f0fa9416-7366-453c-bb74-f0215d71d2a7</id>
       <masked>false</masked>

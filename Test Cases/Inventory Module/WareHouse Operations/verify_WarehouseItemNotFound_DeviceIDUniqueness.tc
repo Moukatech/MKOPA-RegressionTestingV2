@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Transferring device from repair pool to another warehouse</description>
+   <description>Test Case ID: 4157
+Verifies Error message Warehouse not found when trying to transfer out a device that does not exist</description>
    <name>verify_WarehouseItemNotFound_DeviceIDUniqueness</name>
    <tag></tag>
    <comment></comment>

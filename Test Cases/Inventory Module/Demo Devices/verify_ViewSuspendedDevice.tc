@@ -14,4 +14,11 @@ Test Description: Verifies suspended device status changes to Suspended</descrip
       <masked>false</masked>
       <name>device_Status</name>
    </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>ff43df42-2483-431e-9971-a264c8840b40</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
 </TestCaseEntity>
