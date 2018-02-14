@@ -19,16 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to Allocate Order Administration'), [('orderNumber') : orderNumber], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Dealers Module/Order Administration/Dropdown_Warehouse'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dealers Module/Order Administration/Select_Warehouse', [('warehousename') : warehousename]))
-
-WebUI.click(findTestObject('Dealers Module/Order Administration/Button_Update'))
+WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to Allocate Order Administration'), [('orderNumber') : orderNumber
+        , ('warehousename') : warehousename], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Dealers Module/Order Administration/check_warehousenamePrecense', [('ordernumber') : orderNumber
             , ('warehousename') : warehousename]), 3)

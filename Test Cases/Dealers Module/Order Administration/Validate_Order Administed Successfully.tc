@@ -13,7 +13,7 @@
       <name>orderNumber</name>
    </variable>
    <variable>
-      <defaultValue>'M-Kopa House'</defaultValue>
+      <defaultValue>'Production Line'</defaultValue>
       <description></description>
       <id>d19b156c-e106-463d-afcb-133fd31f41b7</id>
       <masked>false</masked>

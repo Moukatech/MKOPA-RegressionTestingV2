@@ -36,3 +36,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Dealers Module/Order Administration/Link_Allocate Order', [('orderNumber') : orderNumber]))
 
+WebUI.click(findTestObject('Dealers Module/Order Administration/Dropdown_Warehouse'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Dealers Module/Order Administration/Select_Warehouse', [('warehousename') : warehousename]))
+
+WebUI.click(findTestObject('Dealers Module/Order Administration/Button_Update'))
+

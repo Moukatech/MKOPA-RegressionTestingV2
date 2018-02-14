@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>orderNumber</name>
    </variable>
+   <variable>
+      <defaultValue>'Production Line'</defaultValue>
+      <description></description>
+      <id>4033a653-81ad-4d15-9385-590fa206b809</id>
+      <masked>false</masked>
+      <name>warehousename</name>
+   </variable>
 </TestCaseEntity>

@@ -20,7 +20,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Inventory Module/Service Order/Steps_Service Order'), [('wareHouseCode') : warehousecode
-        , ('orderNumber') : ordernumber, ('packaging') : packaging], FailureHandling.STOP_ON_FAILURE)
+        , ('orderNumber') : ordernumber, ('packaging') : packaging, ('serialNumber') : serialnumber], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Kindly enter a serial #', false)
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('Inventory Module/Service Orders/input_serialNumber'), '0416110139-090784')
+
+WebUI.click(findTestObject('Inventory Module/Service Orders/Button_add'))
+
+WebUI.verifyTextPresent('Kindly select the packaging', false)
 
