@@ -65,3 +65,5 @@ WebUI.delay(1)
 
 WebUI.verifyElementVisible(findTestObject('Inventory Module/Repair Pool Transfers Out/success_MessageAlert'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.closeBrowser()
+
