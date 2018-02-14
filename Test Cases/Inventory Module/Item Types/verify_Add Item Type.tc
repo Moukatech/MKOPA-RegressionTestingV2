@@ -6,21 +6,21 @@
    <comment></comment>
    <testCaseGuid>fd1453af-c730-47cc-bedc-8de161ab9711</testCaseGuid>
    <variable>
-      <defaultValue>'Bundled'</defaultValue>
+      <defaultValue>'PrimaryDevice'</defaultValue>
       <description></description>
       <id>c9b9658d-5eda-4337-a3e2-6872701488b0</id>
       <masked>false</masked>
       <name>classification</name>
    </variable>
    <variable>
-      <defaultValue>'6952'</defaultValue>
+      <defaultValue>'control unit'</defaultValue>
       <description></description>
       <id>8ef3e011-353d-4168-a2c7-9f375402b0b7</id>
       <masked>false</masked>
       <name>partNumber</name>
    </variable>
    <variable>
-      <defaultValue>'testSample'</defaultValue>
+      <defaultValue>'control unit'</defaultValue>
       <description></description>
       <id>50bb76cb-7b42-4ac9-ba0a-d5d532644fbb</id>
       <masked>false</masked>

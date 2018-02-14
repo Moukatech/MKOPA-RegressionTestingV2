@@ -20,10 +20,17 @@
       <name>ordernumber</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'-- Select --'</defaultValue>
       <description></description>
       <id>8f95fb41-af28-4c4b-bb7c-2fc7d7eb7af3</id>
       <masked>false</masked>
       <name>packaging</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e0001f0c-d708-4450-b23b-684c636fcb84</id>
+      <masked>false</masked>
+      <name>serialnumber</name>
    </variable>
 </TestCaseEntity>

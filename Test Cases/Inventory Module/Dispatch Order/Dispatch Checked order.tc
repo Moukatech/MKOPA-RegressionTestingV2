@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test case 789</description>
    <name>Dispatch Checked order</name>
    <tag></tag>
    <comment></comment>

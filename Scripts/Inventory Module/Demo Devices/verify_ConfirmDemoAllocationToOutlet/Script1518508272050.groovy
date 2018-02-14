@@ -23,7 +23,8 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'WAHo009'], FailureHandling.STOP_ON_FAILURE)
+        , ('serial_Number') : '0416010902-000005', ('code') : 'PRD-LINE', ('demo_device') : '54ff0494-32c0-e511-8288-d4c9ef67fe6f'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_OutletDemoDevices'))
 

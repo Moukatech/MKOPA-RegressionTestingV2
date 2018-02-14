@@ -33,4 +33,11 @@
       <masked>false</masked>
       <name>code</name>
    </variable>
+   <variable>
+      <defaultValue>'54ff0494-32c0-e511-8288-d4c9ef67fe6f'</defaultValue>
+      <description></description>
+      <id>b8e4531b-3f99-409f-91ff-8592c02672cf</id>
+      <masked>false</masked>
+      <name>demo_device</name>
+   </variable>
 </TestCaseEntity>

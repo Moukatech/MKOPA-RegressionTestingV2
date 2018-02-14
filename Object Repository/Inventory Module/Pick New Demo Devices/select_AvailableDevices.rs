@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='AvailableStock']/option[text()='${serial_Number}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='AvailableStock']/option[text()='0416010902-000005']</value>
+      <value>.//*[@id='AvailableStock']/option[text()='${serial_Number}']</value>
    </webElementProperties>
 </WebElementEntity>

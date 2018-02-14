@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test case 158</description>
    <name>verify_marked cartons as ready for sale</name>
    <tag></tag>
    <comment></comment>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Transfer Devices in repair pool to another warehouse</description>
    <name>verify_Repair Pool Transfers Out</name>
    <tag></tag>
    <comment></comment>
@@ -41,7 +41,7 @@
       <name>input_plannedquantity</name>
    </variable>
    <variable>
-      <defaultValue>'0616010701-008211'</defaultValue>
+      <defaultValue>'0616010701-008413'</defaultValue>
       <description></description>
       <id>f1c4910b-d26c-4f9c-a2f9-b0883fd77101</id>
       <masked>false</masked>
