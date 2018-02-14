@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Transferring device from repair pool to another warehouse</description>
+   <name>verify_WarehouseItemNotFound_DeviceIDUniqueness</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8ea7840-ffe0-4a33-aa77-49d6dda266e3</testCaseGuid>
+   <variable>
+      <defaultValue>'54ff0494-32c0-e511-8288-d4c9ef67fe6f'</defaultValue>
+      <description></description>
+      <id>9cd08a83-4ac7-4305-8495-404d30398cf7</id>
+      <masked>false</masked>
+      <name>transfers_out</name>
+   </variable>
+   <variable>
+      <defaultValue>'B006-004-BK-R00 : Sub-assembly 22-inch Kontech TVB Black Rev 0'</defaultValue>
+      <description></description>
+      <id>ff0c032b-a68e-4c72-8652-c7e51d36a0b4</id>
+      <masked>false</masked>
+      <name>select_devicetype</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-Kopa House'</defaultValue>
+      <description></description>
+      <id>57eb4ef1-9cfe-49d7-9041-d90caffcccf0</id>
+      <masked>false</masked>
+      <name>select_warehouseto</name>
+   </variable>
+   <variable>
+      <defaultValue>'N/A'</defaultValue>
+      <description></description>
+      <id>f744b73c-5cd2-45d7-9ba4-09e2e01ad12a</id>
+      <masked>false</masked>
+      <name>input_modeoftransfer</name>
+   </variable>
+   <variable>
+      <defaultValue>'Unit'</defaultValue>
+      <description></description>
+      <id>7bda8948-e4ba-45aa-8957-b42d08dfb88f</id>
+      <masked>false</masked>
+      <name>select_packaging</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>7b537260-3718-4da0-a80e-cf7f6f54577d</id>
+      <masked>false</masked>
+      <name>input_plannedquantity</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba0f440c-1cc9-4502-be29-58ecabc14b7d</id>
+      <masked>false</masked>
+      <name>click_topmostorder</name>
+   </variable>
+   <variable>
+      <defaultValue>'0118035201-000002'</defaultValue>
+      <description></description>
+      <id>8cfa8be0-f48e-4b23-a074-065b183bb0ec</id>
+      <masked>false</masked>
+      <name>input_serialnumber</name>
+   </variable>
+</TestCaseEntity>

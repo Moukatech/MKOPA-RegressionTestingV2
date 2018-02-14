@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
@@ -53,7 +53,9 @@ WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_LoadDe
 
 WebUI.delay(delay)
 
-WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/select_AvailableDevices'))
+WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/select_AvailableDevices', [('serial_Number') : serial_Number]))
 
 WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_AddDeviceToRequest'))
+
+not_run: WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_PlaceRequest'))
 

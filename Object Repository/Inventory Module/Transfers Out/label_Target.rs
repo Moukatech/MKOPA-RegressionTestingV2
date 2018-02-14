@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_AvailableDevices</name>
+   <name>label_Target</name>
    <tag></tag>
-   <elementGuidId>2f361adf-e05e-4674-b8da-096cae2b7ad7</elementGuidId>
+   <elementGuidId>0fe2cd50-d0c8-4cbe-9263-c8915666ad7d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='AvailableStock']/option[text()='${serial_Number}']</value>
+         <value>//*[@id=&quot;InventoryTransfer&quot;]//td[text()='${target}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='AvailableStock']/option[text()='${serial_Number}']</value>
+      <value>//*[@id=&quot;InventoryTransfer&quot;]//td[text()='${target}']</value>
    </webElementProperties>
 </WebElementEntity>
