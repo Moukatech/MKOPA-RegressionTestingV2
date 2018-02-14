@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>verify_Warehouse Transfers In</name>
+   <description>Receive devices transferred from repair pool</description>
+   <name>verify_Repair Pool Transfers In</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2abf3ec3-2600-4a12-9bdb-8fe166dea2d0</testCaseGuid>
+   <testCaseGuid>e5b187c4-03b9-4046-8768-8a0673188ea0</testCaseGuid>
    <variable>
       <defaultValue>'04a58263-0097-e411-80ed-00155d83faa4'</defaultValue>
       <description></description>
-      <id>50308daf-5b42-40ce-9250-e39913476807</id>
+      <id>aee1c82a-d3b2-4f00-95b0-f46ea4e1669d</id>
       <masked>false</masked>
-      <name>transfers_in</name>
+      <name>repair_transfers_out</name>
    </variable>
    <variable>
       <defaultValue>'ReceivedOk'</defaultValue>
       <description></description>
-      <id>9e5295a9-7509-48f8-af80-47ce7a0423ee</id>
+      <id>17150d63-b3d7-4378-9b16-a39b6d66c35b</id>
       <masked>false</masked>
       <name>select_status</name>
    </variable>
    <variable>
-      <defaultValue>'automation test'</defaultValue>
+      <defaultValue>'automation Test'</defaultValue>
       <description></description>
-      <id>3c62fb8b-5844-4acf-a41e-67934e608fa3</id>
+      <id>453be2a4-71c9-4efb-bb1c-17b7bf99b370</id>
       <masked>false</masked>
       <name>input_comment</name>
    </variable>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>success_MessageAlert</name>
+   <name>label_Target</name>
    <tag></tag>
-   <elementGuidId>23f6223d-96b2-4799-ae3f-ed072894d444</elementGuidId>
+   <elementGuidId>0fe2cd50-d0c8-4cbe-9263-c8915666ad7d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id=&quot;InventoryTransfer&quot;]//td[text()='${target}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(.,'Transfer items received successfully')]</value>
+      <value>//*[@id=&quot;InventoryTransfer&quot;]//td[text()='${target}']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 4157</description>
+   <name>verify_WarehouseItem_DeviceIDUniqueness</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95cb9375-f4b2-4528-ae67-8dc03a4aedc0</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA 4 : M-KOPA 4'</defaultValue>
+      <description></description>
+      <id>1e82dd96-7bce-4247-b937-7cd211ce591b</id>
+      <masked>false</masked>
+      <name>select_devicetype</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-Kopa House'</defaultValue>
+      <description></description>
+      <id>c4f9454a-6532-4f24-be9f-43cc300a4eb5</id>
+      <masked>false</masked>
+      <name>select_warehouseto</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing'</defaultValue>
+      <description></description>
+      <id>970edd34-92cc-45c0-bc40-40cb07f90666</id>
+      <masked>false</masked>
+      <name>input_modeoftransfer</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>b97d8eff-a7a6-4e8b-a0cf-7ba729f9aa27</id>
+      <masked>false</masked>
+      <name>input_plannedquantity</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>a1c3dab6-8317-4682-9c39-81bc85a2bd10</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'89df7262-166c-e411-80d8-00155d83e77c'</defaultValue>
+      <description></description>
+      <id>fd6ffe6b-637b-4c0f-b12f-77900bcf36a0</id>
+      <masked>false</masked>
+      <name>transfers_out</name>
+   </variable>
+   <variable>
+      <defaultValue>'Export'</defaultValue>
+      <description></description>
+      <id>cf2ea32d-003f-405b-9af6-2fc2784f5778</id>
+      <masked>false</masked>
+      <name>target</name>
+   </variable>
+   <variable>
+      <defaultValue>'Unit'</defaultValue>
+      <description></description>
+      <id>b5aea865-3c14-4500-a21b-1c54c2efb518</id>
+      <masked>false</masked>
+      <name>select_packaging</name>
+   </variable>
+   <variable>
+      <defaultValue>'0715010701000126'</defaultValue>
+      <description></description>
+      <id>af59408c-9f06-4033-a735-f26ec822f546</id>
+      <masked>false</masked>
+      <name>input_serialnumber</name>
+   </variable>
+</TestCaseEntity>

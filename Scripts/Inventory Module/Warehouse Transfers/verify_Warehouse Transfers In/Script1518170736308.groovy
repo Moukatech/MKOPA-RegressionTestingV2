@@ -48,5 +48,13 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Inventory Module/Transfers In/click_OrderInTransit'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Inventory Module/Transfers In/button_Finish'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Transfers In/confirm_StatusIsReceived'))
+
+WebUI.closeBrowser()
 

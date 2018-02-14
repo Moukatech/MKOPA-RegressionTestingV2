@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_AvailableDevices</name>
+   <name>confirm_StatusIsInTransit</name>
    <tag></tag>
-   <elementGuidId>2f361adf-e05e-4674-b8da-096cae2b7ad7</elementGuidId>
+   <elementGuidId>46e22145-124b-40b2-b212-6efe01d3433f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='AvailableStock']/option[text()='${serial_Number}']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='AvailableStock']/option[text()='${serial_Number}']</value>
+      <value>.//*[@id='InventoryTransfer']/table/tbody/tr[1]/td[text()='InTransit']</value>
    </webElementProperties>
 </WebElementEntity>
