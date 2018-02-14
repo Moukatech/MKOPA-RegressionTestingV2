@@ -61,5 +61,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : wareHouseCode]))
 
-not_run: WebUI.verifyLessThan(tobechecked, tobechecked)
+WebUI.verifyElementPresent(findTestObject('Inventory Module/WareHouse Operations/label_ToBeChecked', [('tobechecked') : tobechecked]), 
+    2)
 

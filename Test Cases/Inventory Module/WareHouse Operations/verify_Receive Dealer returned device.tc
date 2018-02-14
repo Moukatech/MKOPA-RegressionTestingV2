@@ -14,7 +14,7 @@ recieving devices returned by dealers</description>
       <name>wareHouseCode</name>
    </variable>
    <variable>
-      <defaultValue>'1115010701-005060'</defaultValue>
+      <defaultValue>'0715010701-000878'</defaultValue>
       <description></description>
       <id>689fa54a-d3d8-43d1-bbe6-0c12c0eeec74</id>
       <masked>false</masked>
