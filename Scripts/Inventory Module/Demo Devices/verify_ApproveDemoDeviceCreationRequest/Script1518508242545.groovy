@@ -22,21 +22,22 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'WAHo009'], FailureHandling.STOP_ON_FAILURE)
+        , ('serial_Number') : '0416010902-000005', ('code') : 'PRD-LINE', ('demo_device') : '54ff0494-32c0-e511-8288-d4c9ef67fe6f'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_ApproveDemoDevices'))
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices Approval Requests/link_approve'))
-
-WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/dropdown_ApprovalStatus'))
-
-WebUI.delay(3)
 
 WebUI.setText(findTestObject('Inventory Module/Approve Demo Devices Request/text_approvernotes'), notes)
 
 WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/button_save'))
 
 WebUI.verifyElementVisible(findTestObject('Inventory Module/Approve Demo Devices Request/message_ Validation'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/dropdown_ApprovalStatus'))
 
 WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/select_ Approved'))
 
