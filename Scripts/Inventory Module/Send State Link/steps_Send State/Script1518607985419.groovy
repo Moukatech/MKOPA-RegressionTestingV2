@@ -19,30 +19,51 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'manifestUploads.PrimaryDevice.primaryDevice'(imei)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
-        , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw, ('selectId') : selectId
-        , ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/radio_Close Consignment', [('condition') : condition]))
-
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
 
 WebUI.delay(2)
 
-successMessage = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/section_Manifest Details'))
-
-WebUI.verifyEqual(successMessage, statusMessage)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory Items'))
 
 WebUI.delay(2)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Send State'))
+
+WebUI.setText(findTestObject('Inventory Module/Send State/input_Enter Imei'), imei)
+
+WebUI.click(findTestObject('Inventory Module/Send State/dropdown_State to Send'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Send State/label_State', [('state') : state]))
+
+WebUI.setText(findTestObject('Inventory Module/Send State/input_Enter Reason'), reason)
+
+WebUI.click(findTestObject('Inventory Module/Send State/button_Submit'))
+
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_DeviceSearch'))
+
+WebUI.click(findTestObject('Inventory Module/Device Search/dropdown_SearchBy'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Device Search/select_SearchBy', [('searchBy') : searchBy]))
+
+WebUI.setText(findTestObject('Inventory Module/Device Search/input_serialnumber'), imei)
+
+WebUI.click(findTestObject('Inventory Module/Device Search/button_Search'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Device Details/button_States Sent'))
 

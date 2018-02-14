@@ -40,7 +40,10 @@ def generateRandom(String chars,int length) {
 }
 
 @Keyword
-def primaryDevice() {
+def primaryDevice(def imei) {
+	if(imei == null){
+		imei = generateRandom('1234567890', 15)
+	}
 
 	//Creating a parameterized File Location Path
 	String path = System.getenv('USERPROFILE')
@@ -49,7 +52,7 @@ def primaryDevice() {
 	//Checks if the file exists
 	if(!fileGenerated.exists())
 	{
-		def imei=generateRandom("1234567890", 15)
+		
 		def iccid=generateRandom('1234567890',20)
 		def serialNo=generateRandom('1234567890', 10)
 		def code=generateRandom('1234567890', 6)
@@ -63,7 +66,7 @@ def primaryDevice() {
 	//Deletes the file if it exists
 	else {fileGenerated.delete()
 		//Generates the file and stores it in the location
-		def imei=generateRandom("1234567890", 15)
+		
 		def iccid=generateRandom('1234567890',20)
 		def serialNo=generateRandom('1234567890', 10)
 		def code=generateRandom('1234567890', 6)

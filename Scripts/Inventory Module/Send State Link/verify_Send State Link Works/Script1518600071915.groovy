@@ -19,14 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Receive Consignment'), [('itemType') : itemType
-        , ('supplier') : supplier, ('manifestType') : manifestType, ('consignmentNo') : consigmentNo, ('loanDraw') : loanDraw
+WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/verify_Receive of Consignment'), [('itemType') : itemType
+        , ('supplier') : supplier, ('manifestType') : manifestType, ('consigmentNo') : consignmentNo, ('loanDraw') : loanDraw
         , ('condition') : condition, ('selectId') : selectId, ('shippingDate') : shippingDate, ('code') : code, ('receiptId') : receiptId
         , ('receiptDate') : receiptDate, ('receiptCartonUnit') : receiptCartonUnit, ('comment') : comment, ('imei') : imei
         , ('statusMessage') : statusMessage], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Inventory Module/Consignment Received/successMsg_Consignment has been Received'), 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Inventory Module/Send State Link/steps_Send State'), [('imei') : imei, ('reason') : 'I have assigned the State'
+        , ('state') : 'Activated', ('searchBy') : 'IMEI'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+newState = WebUI.getText(findTestObject('Inventory Module/Device Details/td_new State'))
+
+WebUI.verifyEqual(newState, sentState)
 
 WebUI.closeBrowser()
 

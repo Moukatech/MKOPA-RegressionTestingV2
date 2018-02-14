@@ -48,8 +48,7 @@ def  largeConsignmentManifest() {
 	File fileGenerated=new File(path+"/git/MKOPA-RegressionTestingV2/Manifest Files/largeConsignment.csv")
 
 	//Checks if the file exists
-	if(!fileGenerated.exists())
-	{
+	
 		if(!fileGenerated.exists())
 		{
 
@@ -80,5 +79,5 @@ def  largeConsignmentManifest() {
 
 				fileGenerated.append(imei +',' + iccid +',' + serialNo +'-'+ code +',' + box + "\r\n")}}
 	}
-}
+
 

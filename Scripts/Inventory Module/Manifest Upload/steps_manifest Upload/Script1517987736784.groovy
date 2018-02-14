@@ -65,7 +65,7 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Sel
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier', [('supplier') : supplier]))
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier', [('supplier') : supplier]), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
 

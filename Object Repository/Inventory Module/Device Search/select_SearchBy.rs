@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/ul/li[text()='${searchBy}']</value>
+         <value>//li[contains(.,'${searchBy}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/ul/li[text()='${searchBy}']</value>
+      <value>//li[contains(.,'${searchBy}')]</value>
    </webElementProperties>
 </WebElementEntity>

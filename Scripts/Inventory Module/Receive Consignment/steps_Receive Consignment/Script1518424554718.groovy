@@ -21,7 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/verify_Uploading metered Item Manifest'), [('itemType') : itemType
         , ('supplier') : supplier, ('manifestType') : manifestType, ('loanDraw') : loanDraw, ('shippingDate') : shippingDate
-        , ('condition') : condition, ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
+        , ('condition') : condition, ('selectId') : selectId, ('consignmentNo') : consignmentNo, ('statusMessage') : statusMessage
+        , ('imei') : imei], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
