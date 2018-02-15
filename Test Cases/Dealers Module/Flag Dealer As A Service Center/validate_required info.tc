@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking for validation/s</description>
+   <name>validate_required info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b4b8b1f-ddb2-4226-b4d8-9bd59bbee9f2</testCaseGuid>
+   <variable>
+      <defaultValue>'K0705'</defaultValue>
+      <description></description>
+      <id>8593a9a8-e996-4a6f-a18c-402b90ca12ad</id>
+      <masked>false</masked>
+      <name>dealer_AccountNumber</name>
+   </variable>
+</TestCaseEntity>
