@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_RecruitingAgent</name>
+   <tag></tag>
+   <elementGuidId>e84a535c-e3e2-4b62-bdd5-17cc1b7a0464</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body//div/ul/li[text()='${RecruitingAgent}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body//div/ul/li[text()='${RecruitingAgent}']</value>
+   </webElementProperties>
+</WebElementEntity>

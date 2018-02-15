@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Edit</name>
+   <tag></tag>
+   <elementGuidId>e61905a3-8c50-4074-8620-8b56f7ac6c2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*//tr[td[contains(normalize-space(),'${dealerNo}')]]//td/a[text()='Edit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*//tr[td[contains(normalize-space(),'${dealerNo}')]]//td/a[text()='Edit']</value>
+   </webElementProperties>
+</WebElementEntity>

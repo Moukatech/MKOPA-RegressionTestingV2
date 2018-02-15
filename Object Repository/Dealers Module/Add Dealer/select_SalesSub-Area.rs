@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SalesSub-Area</name>
+   <tag></tag>
+   <elementGuidId>224dc7b0-cbb4-4a4c-bec3-d2fdcf9b940d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>html/body//div/ul/li[text()='${SubArea}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body//div/ul/li[text()='${SubArea}']</value>
+   </webElementProperties>
+</WebElementEntity>

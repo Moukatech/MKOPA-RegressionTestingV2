@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_Gender</name>
+   <tag></tag>
+   <elementGuidId>0dbabced-8b3a-4fff-84c2-0d852531bc16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;divBodyMain&quot;]//fieldset[contains(normalize-space(),'Gender')]//tr[7]/td[2]/div/div/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;divBodyMain&quot;]//fieldset[contains(normalize-space(),'Gender')]//tr[7]/td[2]/div/div/span/span</value>
+   </webElementProperties>
+</WebElementEntity>
