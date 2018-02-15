@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_Language</name>
+   <tag></tag>
+   <elementGuidId>c62aa2ae-1e7e-4eae-966d-043f3dca6017</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;divBodyForm&quot;]//tr[td[text()='Language:']]/td[4]/div/div/span/span</value>
+   </webElementProperties>
+</WebElementEntity>

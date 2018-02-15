@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Description: The Test step that accesses Faulty Stock Page</description>
+   <name>step_DealerDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1c98243-420c-42c3-b6cd-ce3ea69fccb5</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>d408bfe2-5ebc-41d1-a000-d3a276234132</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'K0877'</defaultValue>
+      <description></description>
+      <id>f545872c-4b5a-4c0c-ad0a-ac011d8a6de5</id>
+      <masked>false</masked>
+      <name>dealer_AccountNumber</name>
+   </variable>
+</TestCaseEntity>

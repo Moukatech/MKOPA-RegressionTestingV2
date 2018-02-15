@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 5598
+Test Description: Verifies Viewing of Faulty  Stock Linked In Dealership</description>
+   <name>verify_ViewFaultyStock</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6eb4e068-7aa1-4cb8-9eb7-4c81489f082b</testCaseGuid>
+</TestCaseEntity>

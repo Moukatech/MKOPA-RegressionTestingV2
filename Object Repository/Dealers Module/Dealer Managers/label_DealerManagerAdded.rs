@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_DealerManagerAdded</name>
+   <tag></tag>
+   <elementGuidId>0039ac53-708d-41ab-b262-34006d7b6d78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='DealerManagerGrid']//tr[td[text()='${surname}']]/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='DealerManagerGrid']//tr[td[text()='${surname}']]/td</value>
+   </webElementProperties>
+</WebElementEntity>

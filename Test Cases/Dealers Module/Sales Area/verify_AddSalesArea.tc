@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case: 5595
+Test Description: Verifies Sales Area is added successfully</description>
+   <name>verify_AddSalesArea</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5374bb67-d3f0-48bc-9bed-c423a09d4a8e</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>a1cd9954-17df-47fb-98c8-211de012d1b7</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hurlingham'</defaultValue>
+      <description></description>
+      <id>4f68ae50-4684-4fce-bf5e-d2407b297c2a</id>
+      <masked>false</masked>
+      <name>area_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'0002'</defaultValue>
+      <description></description>
+      <id>8c4de4ed-44dc-4771-a938-3391bd5c6caf</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kenya'</defaultValue>
+      <description></description>
+      <id>23864514-323b-4d63-9a7f-d3859d8d6b6f</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sales Area Add'</defaultValue>
+      <description></description>
+      <id>92e14b29-b0ad-4e15-a711-716447a8a37e</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

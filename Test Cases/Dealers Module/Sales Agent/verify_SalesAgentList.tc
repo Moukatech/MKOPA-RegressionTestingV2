@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 774
+Test Case Description: Lists all the sales Agent</description>
+   <name>verify_SalesAgentList</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71409dbb-5e77-4f24-b1b1-9955bc290d33</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>daad13b8-0734-4053-bd17-3b1c5e52cfb2</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>
