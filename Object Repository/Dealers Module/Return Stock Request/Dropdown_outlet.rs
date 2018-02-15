@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dropdown_outlet</name>
+   <tag></tag>
+   <elementGuidId>b42b3f24-3249-43c7-a60b-932f83ea4532</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='divBodyMain']//fieldset[2]/div[1]//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='divBodyMain']//fieldset[2]/div[1]//span</value>
+   </webElementProperties>
+</WebElementEntity>

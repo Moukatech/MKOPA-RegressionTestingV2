@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_approve Return Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffe1a140-4fd1-4c1c-9d58-bd6ef4c0f908</testCaseGuid>
+   <variable>
+      <defaultValue>'Approved'</defaultValue>
+      <description></description>
+      <id>1a8ba859-c178-4ac6-b9d0-b925a8f3a1a4</id>
+      <masked>false</masked>
+      <name>approvestatus</name>
+   </variable>
+</TestCaseEntity>

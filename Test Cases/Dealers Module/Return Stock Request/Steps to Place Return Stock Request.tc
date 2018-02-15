@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps to Place Return Stock Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb53b3b8-866a-4c41-91b6-d357b1933d9b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f5d36247-9a20-458b-b81d-82d472e3b5c5</id>
+      <masked>false</masked>
+      <name>dealernumber</name>
+   </variable>
+   <variable>
+      <defaultValue>' M-KOPA RETAIL'</defaultValue>
+      <description></description>
+      <id>921e8365-b968-40b9-ac59-8876d49872b9</id>
+      <masked>false</masked>
+      <name>businessname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87310c46-6317-44cb-b702-8eb323487637</id>
+      <masked>false</masked>
+      <name>phonenumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'VoluntaryReturn'</defaultValue>
+      <description></description>
+      <id>b3b3ff22-c89b-4bf1-b736-0213dbf7f3cd</id>
+      <masked>false</masked>
+      <name>returnType</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA NAIROBI'</defaultValue>
+      <description></description>
+      <id>5f766722-88e6-4d53-b68c-6f7b6668e08f</id>
+      <masked>false</masked>
+      <name>outlet</name>
+   </variable>
+   <variable>
+      <defaultValue>' M-KOPA 4 SC '</defaultValue>
+      <description></description>
+      <id>f1085dec-610c-434c-8272-492f7373c491</id>
+      <masked>false</masked>
+      <name>outletProductType</name>
+   </variable>
+   <variable>
+      <defaultValue>'0716010701-009441'</defaultValue>
+      <description></description>
+      <id>6e46a812-6837-44ed-a636-6f4c1076e079</id>
+      <masked>false</masked>
+      <name>serialnumber</name>
+   </variable>
+</TestCaseEntity>

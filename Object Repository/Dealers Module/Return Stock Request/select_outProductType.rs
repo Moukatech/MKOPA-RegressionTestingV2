@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_outProductType</name>
+   <tag></tag>
+   <elementGuidId>2a0cea6f-4c69-4bc1-b676-e6a2f81e05df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*/ul/li[text()='${outletproducttype}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*/ul/li[text()='${outletproducttype}']</value>
+   </webElementProperties>
+</WebElementEntity>

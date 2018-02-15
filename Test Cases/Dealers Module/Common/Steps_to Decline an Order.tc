@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID 5897</description>
+   <name>Steps_to Decline an Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a53a6d5b-f7b1-4027-bdcc-62c3a87cd3fb</testCaseGuid>
+   <variable>
+      <defaultValue>'KE0401168-01'</defaultValue>
+      <description></description>
+      <id>1cdee4f8-1ef1-4426-bf5c-fe6ce27a49fe</id>
+      <masked>false</masked>
+      <name>ordernumber</name>
+   </variable>
+</TestCaseEntity>
