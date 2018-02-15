@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOutlet_StartsWith</description>
+   <name>verify_FilterByOrdeingOutlet_StartsWith</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7983074c-3d86-4544-9091-242cba9624c0</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>5afdb2e7-737e-48f4-bea5-a0e4ab03eb5a</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA'</defaultValue>
+      <description></description>
+      <id>1f0062c8-64af-4ddd-a647-e28138661903</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Starts with'</defaultValue>
+      <description></description>
+      <id>f060c157-0fd9-43aa-8921-99af64e71be8</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA HOUSE'</defaultValue>
+      <description></description>
+      <id>fa53eade-39c5-4b92-a84e-bff16b47164f</id>
+      <masked>false</masked>
+      <name>filter_Results</name>
+   </variable>
+</TestCaseEntity>

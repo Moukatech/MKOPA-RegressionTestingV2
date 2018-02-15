@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Converting a dealer to an agent</description>
+   <name>verify_Flagging Dealer As An Agent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e49a517-69c7-4d86-8f73-b8976c3dbfa6</testCaseGuid>
+   <variable>
+      <defaultValue>'K0705'</defaultValue>
+      <description></description>
+      <id>30fe14bc-2c62-4e39-a1bc-d6f3306d0c0f</id>
+      <masked>false</masked>
+      <name>dealer_accountnumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Agent'</defaultValue>
+      <description></description>
+      <id>8cdcd858-d3f8-4202-9319-9a7dc4f03113</id>
+      <masked>false</masked>
+      <name>select_dealershipType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Agent'</defaultValue>
+      <description></description>
+      <id>3d89062f-e0e2-48e6-b0e3-b6fbc1760161</id>
+      <masked>false</masked>
+      <name>confirm_dealershipchanged</name>
+   </variable>
+</TestCaseEntity>

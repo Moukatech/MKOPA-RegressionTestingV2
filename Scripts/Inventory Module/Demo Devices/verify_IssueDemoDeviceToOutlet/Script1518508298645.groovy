@@ -23,7 +23,8 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'WAHo009'], FailureHandling.STOP_ON_FAILURE)
+        , ('serial_Number') : '0416010902-000005', ('code') : 'SC001', ('demo_device') : '903a220c-6c89-e311-942c-000c29c12997'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_IssueDemoDevice'))
 
@@ -39,11 +40,15 @@ WebUI.click(findTestObject('Inventory Module/Issue Demo Device/button_Save'))
 
 WebUI.verifyElementVisible(findTestObject('Inventory Module/Issue Demo Device/message_blanksave'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Inventory Module/Issue Demo Device/dropdown_Dealer'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Inventory Module/Issue Demo Device/select_Dealer', [('DealerName') : DealerName]))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Inventory Module/Issue Demo Device/dropdown_Outlet', [('Outlet') : Outlet]))
 

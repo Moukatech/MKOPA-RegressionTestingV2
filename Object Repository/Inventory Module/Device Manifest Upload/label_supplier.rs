@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/div/ul/li[text()='Season Group']</value>
+         <value>//li[contains(.,'${supplier}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/div/ul/li[text()='Season Group']</value>
+      <value>//li[contains(.,'${supplier}')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Test Case: 3316
 
-Test Description: Verify the search returns filtered device using serial number</description>
+Test Description: Verify the search returns outlet demo devices using serial number</description>
    <name>verify_OutletDemoDeviceAllocatedToSearch</name>
    <tag></tag>
    <comment></comment>

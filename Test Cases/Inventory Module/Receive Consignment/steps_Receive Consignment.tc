@@ -96,4 +96,18 @@
       <masked>false</masked>
       <name>comment</name>
    </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>68a1ca04-a19d-4a03-b1ca-80c75d5f9a9d</id>
+      <masked>false</masked>
+      <name>imei</name>
+   </variable>
+   <variable>
+      <defaultValue>'Consignment closed successfully!'</defaultValue>
+      <description></description>
+      <id>d69578d5-0017-465c-a742-fe381b6956f4</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
 </TestCaseEntity>

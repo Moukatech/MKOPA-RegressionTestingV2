@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using ServicingWarehouse_StartsWith</description>
+   <name>verify_FilterByServicingWarehouse_StartsWith</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19e02183-f636-4d46-a133-96495ba77c1a</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>08cdeac0-a66a-4334-88a8-6bec5bfb07c0</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC045'</defaultValue>
+      <description></description>
+      <id>2beceebb-f190-4e87-93d9-b91eb3e4176c</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Starts with'</defaultValue>
+      <description></description>
+      <id>8588e068-40c8-4bff-abf2-b6d2711763e0</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'KE0401010-01'</defaultValue>
+      <description></description>
+      <id>56396a07-5948-4559-a888-26cd9cbf89c1</id>
+      <masked>false</masked>
+      <name>filter_Results</name>
+   </variable>
+</TestCaseEntity>

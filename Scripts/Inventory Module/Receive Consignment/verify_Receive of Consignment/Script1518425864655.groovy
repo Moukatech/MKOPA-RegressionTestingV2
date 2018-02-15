@@ -22,7 +22,8 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Receive Consignment'), [('itemType') : itemType
         , ('supplier') : supplier, ('manifestType') : manifestType, ('consignmentNo') : consigmentNo, ('loanDraw') : loanDraw
         , ('condition') : condition, ('selectId') : selectId, ('shippingDate') : shippingDate, ('code') : code, ('receiptId') : receiptId
-        , ('receiptDate') : receiptDate, ('receiptCartonUnit') : receiptCartonUnit, ('comment') : comment], FailureHandling.STOP_ON_FAILURE)
+        , ('receiptDate') : receiptDate, ('receiptCartonUnit') : receiptCartonUnit, ('comment') : comment, ('imei') : imei
+        , ('statusMessage') : statusMessage], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Inventory Module/Consignment Received/successMsg_Consignment has been Received'), 
     FailureHandling.STOP_ON_FAILURE)

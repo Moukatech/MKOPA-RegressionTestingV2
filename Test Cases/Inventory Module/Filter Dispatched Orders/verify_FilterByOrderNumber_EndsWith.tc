@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using OrderNumber_EndsWith</description>
+   <name>verify_FilterByOrderNumber_EndsWith</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e08bd70-be93-4df7-9012-ac49253aa254</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>ef4241a1-6fd0-4234-a8c5-447ee72a18e3</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'01'</defaultValue>
+      <description></description>
+      <id>b813c858-f9d1-4fa2-ad4f-d315d95c1e24</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ends with'</defaultValue>
+      <description></description>
+      <id>b611f939-05ed-49e8-88df-5787136b43c4</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'KE0337185-01'</defaultValue>
+      <description></description>
+      <id>d1d00e61-8d66-424c-a6a9-48401f063504</id>
+      <masked>false</masked>
+      <name>filter_Results</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_FilterOperator</name>
+   <tag></tag>
+   <elementGuidId>95839bcc-9b83-4e6e-9e66-6ef5b4aea434</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;DispatchedOrders&quot;]/div/div/select[1]/option[text()='${option_Operator}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;DispatchedOrders&quot;]/div/div/select[1]/option[text()='${option_Operator}']</value>
+   </webElementProperties>
+</WebElementEntity>

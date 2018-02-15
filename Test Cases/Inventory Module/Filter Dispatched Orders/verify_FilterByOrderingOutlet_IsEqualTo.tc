@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_FilterByOrderingOutlet_IsEqualTo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>128d10b5-783d-424a-accb-3be372db7e5b</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>bbdf9563-c1d8-4994-a572-9b3eaeb61698</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
+      <description></description>
+      <id>1bd9bd2d-1b39-4443-a2d9-0efe1a5e75d3</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+</TestCaseEntity>

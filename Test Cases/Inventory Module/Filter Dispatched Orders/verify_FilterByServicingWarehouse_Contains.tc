@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_FilterByServicingWarehouse_Contains</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a216cd2-397e-4f84-84d4-964afd5ca11b</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>348a772d-ee3a-4663-a483-574e2690182a</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC045'</defaultValue>
+      <description></description>
+      <id>73c7e8bf-15d7-4363-b355-01080db494ce</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Contains'</defaultValue>
+      <description></description>
+      <id>22afe02e-44b9-4d92-8cf2-454c06b17ffe</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'KE0401010-01'</defaultValue>
+      <description></description>
+      <id>344291d3-1114-489e-ba98-0e7a561d6eab</id>
+      <masked>false</masked>
+      <name>filter_Results</name>
+   </variable>
+</TestCaseEntity>

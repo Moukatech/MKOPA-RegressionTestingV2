@@ -61,4 +61,11 @@
       <masked>false</masked>
       <name>consignmentNo</name>
    </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>9b9cf353-e27e-4550-a799-67a7594c3984</id>
+      <masked>false</masked>
+      <name>imei</name>
+   </variable>
 </TestCaseEntity>

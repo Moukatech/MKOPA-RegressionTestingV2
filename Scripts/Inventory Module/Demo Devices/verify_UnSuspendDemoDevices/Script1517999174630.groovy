@@ -19,26 +19,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDeviceManagement'), [('delay') : '3', ('device_serialNumber') : '0517011501-001252'], 
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDeviceManagement'), [('delay') : '3', ('device_serialNumber') : '0517011501-001607'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/tab_CreditsSent'))
 
 WebUI.delay(delay)
 
-WebUI.getText(findTestObject('Inventory Module/Demo Device Management/label_LastCreditsSent'))
-
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/tab_StatesSent'))
-
-WebUI.getText(findTestObject('Inventory Module/Demo Device Management/label_States'))
 
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/link_UnsuspendLink'))
 
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/button_ConfirmUnSuspend'))
 
-not_run: WebUI.getText(findTestObject('Inventory Module/Demo Device Management/link_UnsuspendLink'), FailureHandling.STOP_ON_FAILURE)
+WebUI.getText(findTestObject('Inventory Module/Demo Device Management/link_UnsuspendLink'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyTextPresent('Unsuspend device', true)
+WebUI.refresh()
 
-not_run: WebUI.closeBrowser()
+WebUI.verifyTextPresent('Suspend device', true)
+
+WebUI.closeBrowser()
 

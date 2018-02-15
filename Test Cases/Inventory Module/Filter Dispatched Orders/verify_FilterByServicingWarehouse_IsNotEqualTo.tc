@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_FilterByServicingWarehouse_IsNotEqualTo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8156430a-0b00-43b9-826e-cc28c9a79ec1</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>7df3583d-913c-4833-8300-73ee54833b9e</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC011 M-KOPA Shop Kisii'</defaultValue>
+      <description></description>
+      <id>6bc8f396-0f50-49d2-b434-31d5a78dff11</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Is not equal to'</defaultValue>
+      <description></description>
+      <id>b50b7da7-f0ac-4ff6-b067-57f042c76a96</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+</TestCaseEntity>

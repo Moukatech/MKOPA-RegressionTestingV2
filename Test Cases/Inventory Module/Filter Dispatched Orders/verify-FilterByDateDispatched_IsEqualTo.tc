@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ID: 4173
+Test Case Description: Verifies dispatched order is filtered using date dispatched equal to a given date.
+
+Note: Uses IsEqualTo Operator
+1. The filter mechanism doesnt work</description>
+   <name>verify-FilterByDateDispatched_IsEqualTo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b17b12ed-e5ef-4573-81d9-496a64f6834e</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>7a22243d-08e2-4886-9c40-6b8dfc79c4cd</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'2017-12-07 '</defaultValue>
+      <description></description>
+      <id>462a5274-c666-40bf-a8e3-ebe440158653</id>
+      <masked>false</masked>
+      <name>date_DispatchedFirst</name>
+   </variable>
+</TestCaseEntity>

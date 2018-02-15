@@ -13,4 +13,11 @@ Test Case Description: Verify Demo Device is Suspended</description>
       <masked>false</masked>
       <name>delay</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a41f917-8b86-464d-bba4-67d28c06ef68</id>
+      <masked>false</masked>
+      <name>last_Credit</name>
+   </variable>
 </TestCaseEntity>

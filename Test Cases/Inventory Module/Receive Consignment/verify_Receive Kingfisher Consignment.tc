@@ -99,4 +99,11 @@ Steps
       <masked>false</masked>
       <name>comment</name>
    </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>28bc7ddb-89d4-42ef-87c3-b8bf81d21110</id>
+      <masked>false</masked>
+      <name>imei</name>
+   </variable>
 </TestCaseEntity>

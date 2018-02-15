@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOutlet_EndsWith</description>
+   <name>verify_FilterByOrderingOutlet_EndsWith</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5de61e2-2b9b-41ce-8d9d-33a2c90bd546</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>ed8ccbbf-999a-422f-88f2-7e09a5a121de</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'HOUSE'</defaultValue>
+      <description></description>
+      <id>b872dfe5-c30a-4f86-a019-d6f26285e9b7</id>
+      <masked>false</masked>
+      <name>order_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ends with'</defaultValue>
+      <description></description>
+      <id>02d88263-945a-4162-b4b3-21ea36ae4227</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA HOUSE'</defaultValue>
+      <description></description>
+      <id>c5a40af6-2bc4-47f3-af26-fb97e360a6f1</id>
+      <masked>false</masked>
+      <name>filter_Results</name>
+   </variable>
+</TestCaseEntity>

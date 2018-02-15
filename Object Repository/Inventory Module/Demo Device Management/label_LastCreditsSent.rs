@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id=&quot;OutboundCredits&quot;]/table/tbody/tr/td[text()='${last_Credit}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;OutboundCredits&quot;]/table/tbody/tr/td[text()='5']</value>
+      <value>//*[@id=&quot;OutboundCredits&quot;]/table/tbody/tr/td[text()='${last_Credit}']</value>
    </webElementProperties>
 </WebElementEntity>

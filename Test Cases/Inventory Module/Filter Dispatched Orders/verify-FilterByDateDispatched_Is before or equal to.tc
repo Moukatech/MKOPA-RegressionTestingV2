@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ID: 4173
+Test Case Description: Verifies dispatched order is filtered using date dispatched equal to a given date.</description>
+   <name>verify-FilterByDateDispatched_Is before or equal to</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e449c17a-90ce-4e8b-9b20-d3d8db236db3</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>47b15d60-c6fe-4339-9e65-d3f77de65d04</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'2017-12-07 '</defaultValue>
+      <description></description>
+      <id>db6a896b-b658-4c5d-a904-40aedbceb295</id>
+      <masked>false</masked>
+      <name>date_DispatchedFirst</name>
+   </variable>
+   <variable>
+      <defaultValue>'Is before or equal to'</defaultValue>
+      <description></description>
+      <id>03b212eb-2c17-44af-9b63-12191ee29ae9</id>
+      <masked>false</masked>
+      <name>option_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'2017-12-07 15:54:47'</defaultValue>
+      <description></description>
+      <id>ce8085ac-2358-40f0-8396-f1d9f4cb46ec</id>
+      <masked>false</masked>
+      <name>filter_Results</name>
+   </variable>
+</TestCaseEntity>
