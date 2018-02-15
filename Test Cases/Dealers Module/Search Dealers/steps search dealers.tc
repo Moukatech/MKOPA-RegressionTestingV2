@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>steps search dealers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d82007c7-d1ec-4b01-84f7-acf9ef6b07fd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da7b9626-72d1-4faa-b3c0-3a3333670bff</id>
+      <masked>false</masked>
+      <name>accountnumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d04256b-316e-4ad7-91d0-4caaeb31b846</id>
+      <masked>false</masked>
+      <name>businessname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a50b55fc-f229-4c37-9560-b230f6155597</id>
+      <masked>false</masked>
+      <name>phonenumber</name>
+   </variable>
+</TestCaseEntity>
