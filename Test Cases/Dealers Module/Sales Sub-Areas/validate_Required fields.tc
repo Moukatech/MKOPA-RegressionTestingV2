@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_Required fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92d80f6b-f5b0-426c-808a-ddc3f0f6dd1a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ebe792c-7dd2-44dd-962b-9b6ac0e4906b</id>
+      <masked>false</masked>
+      <name>subAreaName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad0d1199-38d2-4f24-aba7-9d69e03d0a79</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'Validation'</defaultValue>
+      <description></description>
+      <id>5a324a7c-6e70-4259-873b-a53093f268c4</id>
+      <masked>false</masked>
+      <name>descriptions</name>
+   </variable>
+   <variable>
+      <defaultValue>'-- Select --'</defaultValue>
+      <description></description>
+      <id>ffb9dc57-cafb-4341-8030-d8a60e418c27</id>
+      <masked>false</masked>
+      <name>selectArea</name>
+   </variable>
+</TestCaseEntity>

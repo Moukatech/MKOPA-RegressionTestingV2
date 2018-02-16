@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tes Case ID 976</description>
+   <name>Steps_add SubArea</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>197fabf9-a550-4450-b921-d38eea78f22f</testCaseGuid>
+   <variable>
+      <defaultValue>'Mouka Area'</defaultValue>
+      <description></description>
+      <id>d77780e2-1603-4fcc-9fdb-e77bc69acb33</id>
+      <masked>false</masked>
+      <name>subAreaName</name>
+   </variable>
+   <variable>
+      <defaultValue>'0010'</defaultValue>
+      <description></description>
+      <id>2dddc1a0-8c9c-4913-a176-1453825895f9</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>'New Place in Town'</defaultValue>
+      <description></description>
+      <id>b4f25a3a-9173-4a52-b327-3d789cdd3ed0</id>
+      <masked>false</masked>
+      <name>descriptions</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nairobi'</defaultValue>
+      <description></description>
+      <id>a3f5f6be-0930-4548-879b-0d442918347e</id>
+      <masked>false</masked>
+      <name>selectArea</name>
+   </variable>
+</TestCaseEntity>
