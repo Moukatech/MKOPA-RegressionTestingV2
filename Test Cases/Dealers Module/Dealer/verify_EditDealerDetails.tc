@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_EditDealerDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>494f1686-06a1-4207-994d-2cad0cacf6c9</testCaseGuid>
+   <variable>
+      <defaultValue>'\t01153'</defaultValue>
+      <description></description>
+      <id>59d6ca81-ad36-4213-b097-7fbc2833442f</id>
+      <masked>false</masked>
+      <name>dealerNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'CBA'</defaultValue>
+      <description></description>
+      <id>b952a95a-451c-4f92-8bd1-a66dcf4973be</id>
+      <masked>false</masked>
+      <name>BankName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Auto 3'</defaultValue>
+      <description></description>
+      <id>999d1a25-e28c-4c17-abd7-bbcba3eb8d20</id>
+      <masked>false</masked>
+      <name>BusinessName</name>
+   </variable>
+</TestCaseEntity>

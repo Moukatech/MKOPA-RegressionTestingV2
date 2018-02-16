@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>grid_ReceiptNumber</name>
+   <tag></tag>
+   <elementGuidId>846db216-fe3d-4d2b-987d-2df9015c61bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='PaymentSearchResults']/table/tbody/tr/td[text()='${receiptNumber}']</value>
+   </webElementProperties>
+</WebElementEntity>
