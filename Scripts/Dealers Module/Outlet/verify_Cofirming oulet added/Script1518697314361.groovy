@@ -19,17 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//This step calls the loadind application class
-WebUI.openBrowser(GlobalVariable.NewMarkets_Url)
+WebUI.callTestCase(findTestCase('Dealers Module/Outlet/verify_Adding an Outlet'), [('dealerAcc') : dealerAcc, ('recruitingAgent') : recuitingAgent
+        , ('salesArea') : salesArea, ('salesSubArea') : salesSubArea, ('town') : town, ('street') : street, ('outletDescription') : outletDescription
+        , ('outletName') : outletName, ('latitude') : latitude, ('address1') : address1, ('address2') : address2, ('phoneNumber') : phoneNumber
+        , ('longitude') : longitude, ('outletProduct') : outletProduct], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Dealers Module/Outlet Details/link_Back to Outlet list'))
 
-//Fills in the user Email
-WebUI.setText(findTestObject('Login/input_Username'), Email)
+WebUI.delay(5)
 
-//Fills in the User Password
-WebUI.setText(findTestObject('Login/input_Password'), Password)
-
-//Clicks Sign In Button
-WebUI.click(findTestObject('Login/button_SignIn'))
+WebUI.verifyElementPresent(findTestObject('Dealers Module/Dealer Outlets/label_Outlet', [('outletName') : outletName]), 
+    2)
 

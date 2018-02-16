@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Details</name>
+   <name>input_Address 2</name>
    <tag></tag>
-   <elementGuidId>b5065de8-5c10-43ab-948c-33ba2bedcb03</elementGuidId>
+   <elementGuidId>83742fee-1a47-4fc1-ae4d-50c2b498d7c7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='DealershipList']/table/tbody/tr[td[text()='${dealerNo}']]/td/a[text()='Details']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='DealershipList']/table/tbody/tr[td[text()='${dealerNo}']]/td/a[text()='Details']</value>
+      <value>//input[@id='Address2']</value>
    </webElementProperties>
 </WebElementEntity>

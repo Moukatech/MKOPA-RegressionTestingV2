@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Details</name>
+   <name>check_Outlet Product</name>
    <tag></tag>
-   <elementGuidId>b5065de8-5c10-43ab-948c-33ba2bedcb03</elementGuidId>
+   <elementGuidId>4784ab2b-2474-43ff-a6f6-f4c454443b26</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='DealershipList']/table/tbody/tr[td[text()='${dealerNo}']]/td/a[text()='Details']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='DealershipList']/table/tbody/tr[td[text()='${dealerNo}']]/td/a[text()='Details']</value>
+      <value>//td[contains(.,'${outletProduct}')]/input</value>
    </webElementProperties>
 </WebElementEntity>

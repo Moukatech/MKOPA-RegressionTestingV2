@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Details</name>
+   <name>select_Operater Type</name>
    <tag></tag>
-   <elementGuidId>b5065de8-5c10-43ab-948c-33ba2bedcb03</elementGuidId>
+   <elementGuidId>a9d20833-c81b-45cd-b260-4b0a4952a582</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='DealershipList']/table/tbody/tr[td[text()='${dealerNo}']]/td/a[text()='Details']</value>
+         <value>//li[contains(.,'${operatorType}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='DealershipList']/table/tbody/tr[td[text()='${dealerNo}']]/td/a[text()='Details']</value>
+      <value>//li[contains(.,'${operatorType}')]</value>
    </webElementProperties>
 </WebElementEntity>
