@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_AddDealerManagerSuccess</name>
+   <tag></tag>
+   <elementGuidId>d4df52b6-0ebb-476b-ba85-78b90f5b4b20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='divBodyForm']/div[contains(normalize-space(),'${surname}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='divBodyForm']/div[contains(normalize-space(),'${surname}')]</value>
+   </webElementProperties>
+</WebElementEntity>

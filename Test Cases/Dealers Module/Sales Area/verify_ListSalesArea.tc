@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 5595
+Test Case Description: The test case Lists Sales Area</description>
+   <name>verify_ListSalesArea</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d225f94-c9cb-4ce2-940a-1bd44c605afc</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>7b870c2d-7232-46cd-b901-f55eda4d8fdc</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

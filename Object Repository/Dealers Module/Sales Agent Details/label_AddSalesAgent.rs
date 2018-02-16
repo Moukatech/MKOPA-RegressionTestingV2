@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_AddSalesAgent</name>
+   <tag></tag>
+   <elementGuidId>d1de12f1-319d-4d25-bae8-f108789fd7d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='divBodyMain']/div/div//div[contains(normalize-space(),'${agent_Name}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='divBodyMain']/div/div//div[contains(normalize-space(),'${agent_Name}')]</value>
+   </webElementProperties>
+</WebElementEntity>

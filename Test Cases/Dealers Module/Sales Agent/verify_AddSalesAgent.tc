@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_AddSalesAgent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d60b4ec7-13d0-4061-9cd1-8715566d39ed</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>8618282b-33f4-46d8-8a5e-0b1456e64486</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sales Agent Name'</defaultValue>
+      <description></description>
+      <id>0c0b338c-9da3-469e-8890-01d1b5767e98</id>
+      <masked>false</masked>
+      <name>agent_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'1789'</defaultValue>
+      <description></description>
+      <id>6544cf23-5097-409e-9619-38503b825d33</id>
+      <masked>false</masked>
+      <name>agent_Code</name>
+   </variable>
+   <variable>
+      <defaultValue>'Position'</defaultValue>
+      <description></description>
+      <id>0897e1a0-d6ac-4106-9ea9-24cb2327f788</id>
+      <masked>false</masked>
+      <name>agent_Position</name>
+   </variable>
+</TestCaseEntity>

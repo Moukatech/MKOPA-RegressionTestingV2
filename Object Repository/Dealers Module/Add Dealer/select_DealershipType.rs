@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DealershipType</name>
+   <tag></tag>
+   <elementGuidId>9622ebff-9981-4c9e-bc0c-e69d72c28a1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//html/body//div/ul/li[text()='${DealershipType}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html/body//div/ul/li[text()='${DealershipType}']</value>
+   </webElementProperties>
+</WebElementEntity>
