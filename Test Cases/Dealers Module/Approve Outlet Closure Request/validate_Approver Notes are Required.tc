@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_Approver Notes are Required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34dc376e-7d0e-4280-a8a6-c328a3bd0d7d</testCaseGuid>
+   <variable>
+      <defaultValue>'01135-22'</defaultValue>
+      <description></description>
+      <id>687bc5b3-97f3-4347-ae2d-be1898ba5d1a</id>
+      <masked>false</masked>
+      <name>OutletCode</name>
+   </variable>
+</TestCaseEntity>

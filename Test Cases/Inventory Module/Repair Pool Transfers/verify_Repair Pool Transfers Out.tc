@@ -41,7 +41,7 @@
       <name>input_plannedquantity</name>
    </variable>
    <variable>
-      <defaultValue>'0616010701-008413'</defaultValue>
+      <defaultValue>'1215010701-009253'</defaultValue>
       <description></description>
       <id>f1c4910b-d26c-4f9c-a2f9-b0883fd77101</id>
       <masked>false</masked>
