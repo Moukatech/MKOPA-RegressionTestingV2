@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Customer Screening Test Case. When the Customer is awaiting Device Allocation</description>
+   <name>steps_Customer Screening</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>708054dd-17a7-415d-a6ce-9d327d28504c</testCaseGuid>
+   <variable>
+      <defaultValue>'13348786'</defaultValue>
+      <description></description>
+      <id>bb74886a-87ac-456c-baf5-b069c5c18992</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>67325261-e476-49e0-b980-cd467598f295</id>
+      <masked>false</masked>
+      <name>receivedCall</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>d0b5822e-8189-44f7-8304-15de850266e4</id>
+      <masked>false</masked>
+      <name>payDepositQuestion</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kerosene, candles, solar lantern  (20)'</defaultValue>
+      <description></description>
+      <id>e96a103a-d176-46dd-96e5-1c641387095a</id>
+      <masked>false</masked>
+      <name>lighting</name>
+   </variable>
+   <variable>
+      <defaultValue>'Very Good (20)'</defaultValue>
+      <description></description>
+      <id>b17bf942-072b-47b7-862f-9d00ecbbfcf3</id>
+      <masked>false</masked>
+      <name>opinion</name>
+   </variable>
+</TestCaseEntity>

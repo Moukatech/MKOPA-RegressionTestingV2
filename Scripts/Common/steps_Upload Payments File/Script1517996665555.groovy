@@ -24,14 +24,9 @@ String tagged = tagGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
 
 location = System.getenv('USERPROFILE')
 
-String filePath = location + '/git/MKOPA-REGRESSION-REPOSITORY/Payment Files/payments.csv'
-
-CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(Account, Phone, Amount, receiptNumber)
+String filePath = location + '/git/MKOPA-RegressionTestingV2/Payment Files/payments.csv'
 
 WebUI.delay(5)
-
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page Header and Menu/FileUploadCenter/Link-FileUploadMenu'), FailureHandling.STOP_ON_FAILURE)
 

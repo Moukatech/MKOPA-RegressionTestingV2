@@ -59,7 +59,7 @@ def  paymentFileGenerator(String account,String phone,String amount=null,String 
 	
 	//Creating a parameterized File Location Path
 	String path = System.getenv('USERPROFILE')
-	File fileGenerated=new File(path+"/git/MKOPA-REGRESSION-REPOSITORY/Payment Files/payments.csv")
+	File fileGenerated=new File(path+"/git/MKOPA-RegressionTestingV2/Payment Files/payments.csv")
 	
 	//Checks if the file exists
 	if(!fileGenerated.exists())
