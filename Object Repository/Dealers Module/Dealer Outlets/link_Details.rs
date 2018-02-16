@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Details</name>
+   <tag></tag>
+   <elementGuidId>f2734ccd-57b2-4f63-adfb-ad6ffbe055ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='DealersOutletList']/table/tbody/tr[td[text()='${outletCode}']]/td/a[text()='Details']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID:5582
+adding a product to an outlet</description>
+   <name>verify_Add outlet Products</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25137f23-1c1a-4389-ab67-d6f55f76656f</testCaseGuid>
+   <variable>
+      <defaultValue>'K0874'</defaultValue>
+      <description></description>
+      <id>9a41f526-350e-41e4-961a-957c35818b90</id>
+      <masked>false</masked>
+      <name>dealerAcc</name>
+   </variable>
+   <variable>
+      <defaultValue>'K0874-001'</defaultValue>
+      <description></description>
+      <id>28fad19b-1b5c-4d3f-83a4-5ef1506b965a</id>
+      <masked>false</masked>
+      <name>outletCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'SHS d20g vSC Live'</defaultValue>
+      <description></description>
+      <id>7f786e9d-bb0d-4dea-940a-ddd5b6c4e055</id>
+      <masked>false</masked>
+      <name>outletProduct</name>
+   </variable>
+</TestCaseEntity>
