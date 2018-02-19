@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 16383
+Test Case Description: The test cases verifies kingfisher outlet Product is not added successfully due to missing fields</description>
+   <name>verify_OutletProductAddedRequiredFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>531c6347-8b48-45b7-aaa1-14976fec3183</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>86bae30f-5724-4de1-85e0-aef0ecb95f9b</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Outlet Product Name'</defaultValue>
+      <description></description>
+      <id>56438bb7-d73d-4c48-9e0b-6705f8f3dd00</id>
+      <masked>false</masked>
+      <name>outletproductname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Repair'</defaultValue>
+      <description></description>
+      <id>954ea2fd-4552-474d-b70d-e72e500b713e</id>
+      <masked>false</masked>
+      <name>item_Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>267eceb1-6f47-4e53-aa33-77ab2245929f</id>
+      <masked>false</masked>
+      <name>product_Price</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>f320421e-efcb-4b6b-8be2-4b99a1445edf</id>
+      <masked>false</masked>
+      <name>minimumorderquantity</name>
+   </variable>
+   <variable>
+      <defaultValue>'Outlet Product Notes'</defaultValue>
+      <description></description>
+      <id>aa8da088-c52e-416d-96f0-057cde028e0e</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+</TestCaseEntity>

@@ -19,14 +19,39 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-Products'))
 
-WebUI.delay(3)
+WebUI.delay(delay)
 
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_WarehouseOperations'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Products/link_OutletProducts'))
 
-WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : wareHouseCode]))
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('Page Header and Menu/Products/link_AddOutletProduct'))
+
+WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_OutletProductName'), outletproductname)
+
+WebUI.click(findTestObject('Products Module/Add Outlet Product/dropdown_ItemType'))
+
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('Products Module/Add Outlet Product/option_ItemType', [('item_Type') : item_Type]))
+
+WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_OutletProductPrice'), product_Price)
+
+WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_MinimumOrderQuantity'), minimumorderquantity)
+
+WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_Notes'), notes)
+
+WebUI.click(findTestObject('Products Module/Add Outlet Product/button_AddOutletProduct'))
+
+WebUI.getText(findTestObject('Products Module/Add Outlet Product/message_OutletProductDetails', [('outletproductname') : outletproductname]))
+
+WebUI.verifyElementPresent(findTestObject('Products Module/Add Outlet Product/message_OutletProductDetails', [('outletproductname') : outletproductname]), 
+    0)
+
+WebUI.closeBrowser()
 

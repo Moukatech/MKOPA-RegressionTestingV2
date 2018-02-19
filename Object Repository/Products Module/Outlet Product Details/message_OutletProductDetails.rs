@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_OutletProductDetails</name>
+   <tag></tag>
+   <elementGuidId>f96688b6-b988-443d-8c4f-7442469e2617</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;divBodyMain&quot;]/div[contains(normalize-space(),'${producttype}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;divBodyMain&quot;]/div[contains(normalize-space(),'${producttype}')]</value>
+   </webElementProperties>
+</WebElementEntity>

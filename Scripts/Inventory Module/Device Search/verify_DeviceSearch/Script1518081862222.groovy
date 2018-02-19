@@ -38,6 +38,8 @@ WebUI.setText(findTestObject('Inventory Module/Device Search/input_serialnumber'
 
 WebUI.click(findTestObject('Inventory Module/Device Search/button_Search'))
 
-WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Search/label_Device serial', [('deviceserial') : serialnumber]), 
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Search/label_Device serial', [('serialNumber') : serialnumber]), 
     3)
 

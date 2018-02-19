@@ -19,41 +19,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : 'DLR001'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_RepairPoolTransfersIn', [('repair_transfers_out') : repair_transfers_out]))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-Products'))
 
-WebUI.delay(1)
+WebUI.delay(delay)
 
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_OrderInTransit'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Products/link_OutletProducts'))
 
-WebUI.delay(2)
+WebUI.delay(delay)
 
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_SerialNumberToReceive'))
+WebUI.click(findTestObject('Page Header and Menu/Products/link_AddOutletProduct'))
 
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/dropdown_Status'))
+WebUI.click(findTestObject('Products Module/Add Outlet Product/button_AddOutletProduct'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Products Module/Add Outlet Product/button_Continue'))
 
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/select_Status', [('select_status') : select_status]))
+WebUI.getText(findTestObject('Products Module/Add Outlet Product/message_EnterRequiredFields'))
 
-WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('Products Module/Add Outlet Product/message_EnterRequiredFields'), 0)
 
-WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers In/input_Comment'), input_comment)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/button_Receive'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/click_OrderInTransit'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers In/button_Finish'))
-
-WebUI.delay(1)
-
-WebUI.verifyElementVisible(findTestObject('Inventory Module/Repair Pool Transfers In/confirm_StatusIsReceived'))
+WebUI.closeBrowser()
 
