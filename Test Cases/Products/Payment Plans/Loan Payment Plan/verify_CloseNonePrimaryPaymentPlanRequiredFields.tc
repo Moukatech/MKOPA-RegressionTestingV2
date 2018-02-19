@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test case 7702 blank approval notes validation: Fails as  payment plan is queued for approval without approval notes</description>
+   <name>verify_CloseNonePrimaryPaymentPlanRequiredFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>187b8ca2-71c7-47c4-a601-12edfa5dc881</testCaseGuid>
+</TestCaseEntity>
