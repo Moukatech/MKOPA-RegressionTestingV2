@@ -19,32 +19,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'PRD-LINE', ('demo_device') : '54ff0494-32c0-e511-8288-d4c9ef67fe6f'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_ApproveDemoDevices'))
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
+        , ('serial_Number') : '0416010902-000005', ('code') : 'SC001', ('demo_device') : '903a220c-6c89-e311-942c-000c29c12997'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/Demo Devices Approval Requests/link_approve'))
+WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_IssueDemoDevice'))
 
-WebUI.setText(findTestObject('Inventory Module/Approve Demo Devices Request/text_approvernotes'), notes)
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Issue Demo Device/grid_IsuueDemoDevice'), 0)
+
+WebUI.click(findTestObject('Inventory Module/Issue Demo Device/dropdown_EntityBeingAllocated', [('EntityType') : EntityType]))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/dropdown_ApprovalStatus'))
+WebUI.click(findTestObject('Inventory Module/Issue Demo Device/select_EntityType', [('EntityType') : EntityType]))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Inventory Module/Issue Demo Device/button_Save'))
 
-WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/select_ Approved'))
+WebUI.getText(findTestObject('Inventory Module/Issue Demo Device/message_blanksave'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/button_save'))
-
-WebUI.getText(findTestObject('Inventory Module/Demo Devices Approval Requests/message_DemoApprovalSuccessful'))
-
-WebUI.verifyElementPresent(findTestObject('Inventory Module/Demo Devices Approval Requests/message_DemoApprovalSuccessful'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Issue Demo Device/message_blanksave'), 0)
 
 WebUI.closeBrowser()
 

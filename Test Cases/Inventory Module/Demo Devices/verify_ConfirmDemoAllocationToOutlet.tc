@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID: 419
+Test Case Description: Confirm demo device allocation to outlet</description>
    <name>verify_ConfirmDemoAllocationToOutlet</name>
    <tag></tag>
    <comment></comment>

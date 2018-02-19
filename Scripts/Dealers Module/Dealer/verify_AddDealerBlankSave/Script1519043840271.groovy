@@ -19,32 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'PRD-LINE', ('demo_device') : '54ff0494-32c0-e511-8288-d4c9ef67fe6f'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_ApproveDemoDevices'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Dealers/Link_Dealers'))
 
-WebUI.click(findTestObject('Inventory Module/Demo Devices Approval Requests/link_approve'))
+WebUI.delay(Delay)
 
-WebUI.setText(findTestObject('Inventory Module/Approve Demo Devices Request/text_approvernotes'), notes)
+WebUI.click(findTestObject('Page Header and Menu/Dealers/link_AddDealer'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Dealers Module/Add Dealer/button_save'))
 
-WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/dropdown_ApprovalStatus'))
+WebUI.getText(findTestObject('Dealers Module/Add Dealer/message_BlankValidation'))
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/select_ Approved'))
-
-WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/button_save'))
-
-WebUI.getText(findTestObject('Inventory Module/Demo Devices Approval Requests/message_DemoApprovalSuccessful'))
-
-WebUI.verifyElementPresent(findTestObject('Inventory Module/Demo Devices Approval Requests/message_DemoApprovalSuccessful'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Dealers Module/Add Dealer/message_BlankValidation'), 0)
 
 WebUI.closeBrowser()
 

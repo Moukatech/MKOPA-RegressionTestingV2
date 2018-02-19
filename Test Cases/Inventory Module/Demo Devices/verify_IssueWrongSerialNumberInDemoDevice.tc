@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>verify_WrongSerialNumberInDemoDevice</name>
+   <description>Test Case ID: 417
+Test Case Description: Issue Demo device to Outlet
+(Wrong Serial number selected validation)</description>
+   <name>verify_IssueWrongSerialNumberInDemoDevice</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8f6a4084-a5aa-40d7-8d12-d0829a73636a</testCaseGuid>
