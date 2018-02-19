@@ -19,8 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : 'WAHo009'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : 'DLR001'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_RepairPoolTransfersIn', [('repair_transfers_out') : repair_transfers_out]))
 
