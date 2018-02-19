@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking for validation while adding an outlet poducct</description>
+   <name>validate_adding outlet operator</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67e73aa4-4aad-4f12-846e-d1961a3e0edb</testCaseGuid>
+   <variable>
+      <defaultValue>'K0705'</defaultValue>
+      <description></description>
+      <id>c964750d-2221-462b-9447-820e0cc55df8</id>
+      <masked>false</masked>
+      <name>dealerAcc</name>
+   </variable>
+</TestCaseEntity>

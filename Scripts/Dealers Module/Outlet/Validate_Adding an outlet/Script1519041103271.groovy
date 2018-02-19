@@ -38,53 +38,7 @@ WebUI.click(findTestObject('Dealers Module/Dealer Outlets/link_Add Outlet'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dealers Module/Add Outlet/dropDown_Recruiting Agent'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dealers Module/Add Outlet/select_Recruiting agent', [('recrutingAgent') : recruitingAgent]))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Outlet Name'), outletName)
-
-WebUI.click(findTestObject('Dealers Module/Add Outlet/dropDwn_Sales Area'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dealers Module/Add Outlet/select_Sales Area', [('salesArea') : salesArea]))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dealers Module/Add Outlet/dropDwn_Sales Sub-Area'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Dealers Module/Add Outlet/select_Sales Sub-area', [('salesSubArea') : salesSubArea]))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Town'), town)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Street'), street)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Address 1'), address1)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Address 2'), address2)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Description'), outletDescription)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Latitude'), latitude)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Longitude'), longitude)
-
-WebUI.setText(findTestObject('Dealers Module/Add Outlet/input_Phone Number'), phoneNumber)
-
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Dealers Module/Add Outlet/button_Save'))
 
-WebUI.check(findTestObject('Dealers Module/Outlet Details/check_Outlet Product', [('outletProduct') : outletProduct]))
-
-WebUI.click(findTestObject('Dealers Module/Outlet Details/button_Save'))
+WebUI.verifyElementPresent(findTestObject('Dealers Module/Add Outlet/Error message'), 2)
 
