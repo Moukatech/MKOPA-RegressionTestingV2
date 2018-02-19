@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 16399
+Test Case Description: Verifies If Created Product Outlet is approved successfully</description>
+   <name>verify_OutletProductsApproval</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>823d43f3-b7be-4cfd-bccb-f663611c0273</testCaseGuid>
+   <variable>
+      <defaultValue>'Outlet Product NameApproval'</defaultValue>
+      <description></description>
+      <id>62278b14-8bcc-4f24-b4bc-95c8108f18ae</id>
+      <masked>false</masked>
+      <name>producttype</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>bf24b578-f778-43d5-affc-3848bceb7ac0</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Approved'</defaultValue>
+      <description></description>
+      <id>00359472-33d7-4f27-bc86-fbbe0428992c</id>
+      <masked>false</masked>
+      <name>approval_Status</name>
+   </variable>
+   <variable>
+      <defaultValue>'Approver notes'</defaultValue>
+      <description></description>
+      <id>78c14d21-db3f-4569-9b94-9a755a533fc7</id>
+      <masked>false</masked>
+      <name>approver_Notes</name>
+   </variable>
+</TestCaseEntity>
