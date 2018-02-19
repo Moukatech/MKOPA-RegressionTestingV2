@@ -36,10 +36,6 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Inventory Module/Issue Demo Device/select_EntityType', [('EntityType') : EntityType]))
 
-WebUI.click(findTestObject('Inventory Module/Issue Demo Device/button_Save'))
-
-WebUI.verifyElementVisible(findTestObject('Inventory Module/Issue Demo Device/message_blanksave'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Inventory Module/Issue Demo Device/dropdown_Dealer'))
@@ -59,6 +55,11 @@ WebUI.click(findTestObject('Inventory Module/Issue Demo Device/select_Outlet', [
 WebUI.setText(findTestObject('Inventory Module/Issue Demo Device/text_seraialnumber', [('SerialNo') : SerialNo]), SerialNo)
 
 WebUI.click(findTestObject('Inventory Module/Issue Demo Device/button_Save'))
+
+WebUI.getText(findTestObject('Inventory Module/Demo Device Allocation Success/message_DemoDeviceAllocationSuccess'))
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Demo Device Allocation Success/message_DemoDeviceAllocationSuccess'), 
+    0)
 
 WebUI.closeBrowser()
 

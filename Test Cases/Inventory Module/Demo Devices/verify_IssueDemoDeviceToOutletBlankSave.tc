@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case ID: 417
-Test Case Description: Issue Demo device to Outlet</description>
-   <name>verify_IssueDemoDeviceToOutlet</name>
+Test Case Description: Issue Demo device to Outlet (Blank  field validation)</description>
+   <name>verify_IssueDemoDeviceToOutletBlankSave</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f6c03ed4-f646-4bcf-8990-f174d5f6ac6d</testCaseGuid>
+   <testCaseGuid>d961f3e3-b356-4707-8d04-a111b9020571</testCaseGuid>
    <variable>
       <defaultValue>'Outlet'</defaultValue>
       <description></description>
-      <id>a4dc7455-47ab-4fe4-86c8-5adf35d9e896</id>
+      <id>df5e7034-d365-4edf-8c01-5c14bdd33440</id>
       <masked>false</masked>
       <name>EntityType</name>
    </variable>
    <variable>
       <defaultValue>'SC001 M-KOPA Shop Meru'</defaultValue>
       <description></description>
-      <id>25376997-0ffd-4978-b82d-d651448ae7dc</id>
+      <id>9efc58a3-7572-4acc-8cd6-0d084b27eec1</id>
       <masked>false</masked>
       <name>DealerName</name>
    </variable>
    <variable>
       <defaultValue>'Sc001 M-Kopa Shop Meru'</defaultValue>
       <description></description>
-      <id>433d87e1-2102-4497-adb6-2093d5fce150</id>
+      <id>7181f27e-cd91-4d75-b0fa-85048ff03e8f</id>
       <masked>false</masked>
       <name>Outlet</name>
    </variable>
    <variable>
       <defaultValue>'0715010701-000359'</defaultValue>
       <description></description>
-      <id>85622210-4557-4f0a-b292-839620aaf22c</id>
+      <id>b5d13506-c4ba-470f-8559-28dc1739ae00</id>
       <masked>false</masked>
       <name>SerialNo</name>
    </variable>

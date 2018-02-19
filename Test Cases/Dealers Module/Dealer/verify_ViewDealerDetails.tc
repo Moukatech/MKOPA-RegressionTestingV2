@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID: 476
+Test Case Description: View Dealer details</description>
    <name>verify_ViewDealerDetails</name>
    <tag></tag>
    <comment></comment>

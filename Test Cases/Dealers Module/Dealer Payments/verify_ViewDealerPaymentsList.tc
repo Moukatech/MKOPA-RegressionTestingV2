@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID: 534
+Test Case Description: View  Dealer Payments List</description>
    <name>verify_ViewDealerPaymentsList</name>
    <tag></tag>
    <comment></comment>
