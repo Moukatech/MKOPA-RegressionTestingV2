@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_CloseNonePrimaryPaymentPlan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f8e70eb-6d58-406a-bec9-8e354796fc7b</testCaseGuid>
+   <variable>
+      <defaultValue>'Fertilizer_OCP CAN (50Kg) v1'</defaultValue>
+      <description></description>
+      <id>87caf204-ddd2-4edd-83cf-d5b69982b24b</id>
+      <masked>false</masked>
+      <name>planName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>80729d2a-c01b-495d-886a-c2fd74874e14</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fertilizer_OCP CAN (50Kg) v1'</defaultValue>
+      <description></description>
+      <id>d5c8919e-4cb4-4401-9e28-962a84de1cd0</id>
+      <masked>false</masked>
+      <name>plan_toApprove</name>
+   </variable>
+</TestCaseEntity>

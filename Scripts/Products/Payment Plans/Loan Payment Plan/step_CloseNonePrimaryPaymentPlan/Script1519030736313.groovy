@@ -21,17 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Products/Payment Plans/Loan Payment Plan/step_ApproveLoanPaymentPlan'), [('delay') : '5'
-        , ('plan_toApprove') : 'TV Delivery & Installation v1', ('approver_notes') : 'Approve Notes'], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-Products'))
 
-WebUI.delay(delay)
+WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Products Module/Loan Payment Plan List/link_LoanPaymentPlanName', [('plan_toApprove') : plan_toApprove]), 
-    0)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-PaymentPlans'))
 
-WebUI.click(findTestObject('Products Module/Loan Payment Plan List/label_LoanPaymentListNameDetails', [('plan_toApprove') : plan_toApprove]))
+WebUI.delay(3)
 
-WebUI.delay(delay)
+WebUI.click(findTestObject('Page Header and Menu/Products/link_PaymentPlansApproval'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Products Module/Payments Plans Pending Approval/link_PaymentPlanPendingApprove', [('plan_toApprove') : plan_toApprove]))
 

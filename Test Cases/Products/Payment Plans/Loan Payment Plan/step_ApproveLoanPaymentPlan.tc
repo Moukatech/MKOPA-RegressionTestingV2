@@ -13,7 +13,7 @@
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'TV Delivery &amp; Installation v1'</defaultValue>
       <description></description>
       <id>c5c928ff-312d-4307-bb5f-6941b6d52403</id>
       <masked>false</masked>

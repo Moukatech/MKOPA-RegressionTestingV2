@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>link_PaymentPlanPendingApprove</name>
+   <description>Closed payment paln queued for approval</description>
+   <name>message_Approval</name>
    <tag></tag>
-   <elementGuidId>325db375-794b-4caa-b23d-fa6b910ed631</elementGuidId>
+   <elementGuidId>1510c311-65bc-43d2-a498-d0878f6e54c6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>.//*[@id='PaymentPlansForApprovalGrid']/table/tbody/tr[td[contains(normalize-space(),'${plan_toApprove}')]]/td/a[text()='Approve']</value>
+         <value>//h3[contains(.,'Payment plan close placed for approval')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='PaymentPlansForApprovalGrid']/table/tbody/tr[td[contains(normalize-space(),'${plan_toApprove}')]]/td/a[text()='Approve']</value>
+      <value>//h3[contains(.,'Payment plan close placed for approval')]</value>
    </webElementProperties>
 </WebElementEntity>
