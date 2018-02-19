@@ -19,16 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : wareHousecode], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_DispatchOrder'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Dealers/Link_Dealers'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Dispatch Order/Select_Order to Dispatch'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Dealers/link_SalesArea'))
 
-WebUI.check(findTestObject('Inventory Module/Dispatch Order/checkbox_ordernumber', [('ordernumber') : ordernumber]))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Dispatch Order/Button_Dispatch Checked Orders'))
+WebUI.click(findTestObject('Page Header and Menu/Dealers/Link_List sales Sub-Areas'))
 

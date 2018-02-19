@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox_ordernumber</name>
+   <name>Link_List sales Sub-Areas</name>
    <tag></tag>
-   <elementGuidId>79482c33-2480-43d1-807b-028a916d2056</elementGuidId>
+   <elementGuidId>cecc4c58-fac3-485a-8026-da534b1f4225</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*//tr[td[contains(normalize-space(),'${ordernumber}')]]//*[contains(@name,'orderIds')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*//tr[td[contains(normalize-space(),'${ordernumber}')]]//*[contains(@name,'orderIds')]</value>
+      <value>.//*[@id='Menu']//a[text()='List Sales Sub-Areas']</value>
    </webElementProperties>
 </WebElementEntity>

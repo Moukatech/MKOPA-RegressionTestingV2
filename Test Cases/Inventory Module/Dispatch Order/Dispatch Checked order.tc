@@ -6,10 +6,17 @@
    <comment></comment>
    <testCaseGuid>cecddd4b-37f5-4290-88f2-e5e6337976c4</testCaseGuid>
    <variable>
-      <defaultValue>'PRD-LINE'</defaultValue>
+      <defaultValue>'WAHo009'</defaultValue>
       <description></description>
       <id>862e8774-ca9a-4eb0-9e2b-bceca5503a23</id>
       <masked>false</masked>
       <name>wareHousecode</name>
+   </variable>
+   <variable>
+      <defaultValue>'KE0400960-01'</defaultValue>
+      <description></description>
+      <id>3408a306-5588-4ff5-b392-fa031c72b9c6</id>
+      <masked>false</masked>
+      <name>ordernumber</name>
    </variable>
 </TestCaseEntity>
