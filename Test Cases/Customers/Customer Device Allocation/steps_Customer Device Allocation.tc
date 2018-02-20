@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to Allocate Customer with Device</description>
+   <name>steps_Customer Device Allocation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3bf3e22e-0351-4567-bec0-c931639d366e</testCaseGuid>
+   <variable>
+      <defaultValue>'28001178'</defaultValue>
+      <description></description>
+      <id>34db6276-77d6-4cbe-b7e1-c23a24a695a1</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 M-KOPA Shop Meru'</defaultValue>
+      <description></description>
+      <id>e7a12908-dd01-4107-9dec-830161d37953</id>
+      <masked>false</masked>
+      <name>businessName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dsr Wangeci Mary'</defaultValue>
+      <description></description>
+      <id>fe2d47ba-792c-4716-accb-ca69a331d420</id>
+      <masked>false</masked>
+      <name>outlet</name>
+   </variable>
+   <variable>
+      <defaultValue>'(DSR) Dsr Wangeci Mary'</defaultValue>
+      <description></description>
+      <id>30438259-8e74-4c90-826b-6a89fad894d7</id>
+      <masked>false</masked>
+      <name>outletAccessId</name>
+   </variable>
+   <variable>
+      <defaultValue>'0717011701-000228'</defaultValue>
+      <description></description>
+      <id>bcc85063-c8bf-4ee2-8f9e-4dcbcfd2a7fb</id>
+      <masked>false</masked>
+      <name>deviceToAllocate</name>
+   </variable>
+</TestCaseEntity>

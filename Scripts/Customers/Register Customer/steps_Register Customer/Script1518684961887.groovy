@@ -19,9 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/Link-Customer'))
 
 WebUI.delay(2)
@@ -76,7 +73,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Customer Module/Register Customer/dropdown_Sign Up Operator'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Customer Module/Register Customer/label_Sign Up Operator', [('signUpOperator') : signUpOperator]))
 
@@ -100,7 +97,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Customer Module/Register Customer/dropdown_Payment Plan'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Customer Module/Register Customer/label_Payment Plan', [('paymentPlan') : paymentPlan]))
 

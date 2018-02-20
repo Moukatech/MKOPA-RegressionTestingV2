@@ -26,51 +26,49 @@ WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/Link-Customer'))
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/link_Screening'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/link_Awaiting Allocation'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page Header and Menu/Customers/link_Customers Awaiting Screening'))
-
-WebUI.click(findTestObject('Customer Module/Customers Awaiting Screening/link_Screen Customer', [('account') : account]))
+WebUI.click(findTestObject('Page Header and Menu/Customers/link_Primary Loans'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Customer Module/Screen Customer/dropdown_Customer Received Call'))
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/link_Allocate Device', [('account') : account]))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/dropdown_Dealer'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Customer Module/Screen Customer/label_Customer Received Call', [('receivedCall') : receivedCall]))
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/label_Dealer', [('businessName') : businessName]))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Customer Module/Screen Customer/input_Payment Phone Number'), '')
-
-WebUI.setText(findTestObject('Customer Module/Screen Customer/input_Notes'), '')
-
-WebUI.click(findTestObject('Customer Module/Screen Customer/button_Save Comment'))
-
-WebUI.check(findTestObject('Customer Module/Screen Customer/radio_Pay Deposit Question'))
-
-WebUI.setText(findTestObject('Customer Module/Screen Customer/input_Deposit Question Response Summary'), '')
-
-WebUI.click(findTestObject('Customer Module/Screen Customer/dropdown_Source Of Lighting'))
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/dropdown_Outlet'))
 
 WebUI.delay(2)
 
-WebUI.acceptAlert()
-
-WebUI.click(findTestObject('Customer Module/Screen Customer/label_Lighting'))
-
-WebUI.setText(findTestObject('Customer Module/Screen Customer/input_Response source of Lighting'), '')
-
-WebUI.click(findTestObject('Customer Module/Screen Customer/dropdown_CCR'))
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/label_Outlet', [('outlet') : outlet]))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Customer Module/Screen Customer/label_CCR Opinion'))
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/dropdown_Outlet AccessId'))
 
-WebUI.setText(findTestObject('Customer Module/Screen Customer/input_CCR opinion'), '')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Customer Module/Screen Customer/button_Save'))
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/label_Outlet AccessId', [('outletAccessId') : outletAccessId]))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/dropdown_Device to Allocate'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/label_device To Allocate', [('deviceToAllocate') : deviceToAllocate]))
+
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/button_Allocate'))
+
+WebUI.click(findTestObject('Customer Module/Customer Awaiting Device Allocation/button_Close Window'))
 

@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>708054dd-17a7-415d-a6ce-9d327d28504c</testCaseGuid>
    <variable>
-      <defaultValue>'13348786'</defaultValue>
+      <defaultValue>'28900967'</defaultValue>
       <description></description>
       <id>bb74886a-87ac-456c-baf5-b069c5c18992</id>
       <masked>false</masked>
@@ -39,5 +39,40 @@
       <id>b17bf942-072b-47b7-862f-9d00ecbbfcf3</id>
       <masked>false</masked>
       <name>opinion</name>
+   </variable>
+   <variable>
+      <defaultValue>'0712908700'</defaultValue>
+      <description></description>
+      <id>6aad1591-6d79-490a-9f4d-e3647aff62b4</id>
+      <masked>false</masked>
+      <name>paymentPhoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nice initiative'</defaultValue>
+      <description></description>
+      <id>3b5376a9-1b4a-4198-b1e4-1caac95d2eb3</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Have paid the deposit'</defaultValue>
+      <description></description>
+      <id>78409f4e-012b-47c4-b268-39f60b792fa6</id>
+      <masked>false</masked>
+      <name>depositQuestionResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kerosene'</defaultValue>
+      <description></description>
+      <id>e29779f2-8d6c-43b1-aa3a-58dfc4ec6841</id>
+      <masked>false</masked>
+      <name>responseSourceLighting</name>
+   </variable>
+   <variable>
+      <defaultValue>'Good'</defaultValue>
+      <description></description>
+      <id>7566a810-1b91-4ca1-ae24-1e644d15660f</id>
+      <masked>false</masked>
+      <name>opinionCCR</name>
    </variable>
 </TestCaseEntity>

@@ -13,7 +13,7 @@
       <name>accountnumber</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'SC001'</defaultValue>
       <description></description>
       <id>7d04256b-316e-4ad7-91d0-4caaeb31b846</id>
       <masked>false</masked>
