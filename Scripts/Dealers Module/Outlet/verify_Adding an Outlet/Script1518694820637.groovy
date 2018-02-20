@@ -30,7 +30,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page Header and Menu/Dealers/Link_List Dealers'))
 
-WebUI.click(findTestObject('Dealers Module/Dealer List/link_Details', [('dealerAccount') : dealerAcc]))
+WebUI.click(findTestObject('Dealers Module/Dealer List/link_Details', [('dealerNo') : dealerAcc]))
 
 WebUI.click(findTestObject('Dealers Module/Dealer List/link_Manage Outlets'))
 

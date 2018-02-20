@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID: 418
+Test Case Description: Issue Demo device to Sales Rep</description>
    <name>verify_IssueDemoDeviceToSalesRep</name>
    <tag></tag>
    <comment></comment>

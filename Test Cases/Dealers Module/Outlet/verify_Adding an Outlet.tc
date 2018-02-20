@@ -27,21 +27,21 @@
       <name>salesArea</name>
    </variable>
    <variable>
-      <defaultValue>'Kisumu-A'</defaultValue>
+      <defaultValue>'Kisumu-B'</defaultValue>
       <description></description>
       <id>b218d762-86ea-4280-85d2-c0138be9fe83</id>
       <masked>false</masked>
       <name>salesSubArea</name>
    </variable>
    <variable>
-      <defaultValue>'lolwe'</defaultValue>
+      <defaultValue>'railways'</defaultValue>
       <description></description>
       <id>7e994004-9ae8-4e7a-9dbe-69243e2dce6b</id>
       <masked>false</masked>
       <name>town</name>
    </variable>
    <variable>
-      <defaultValue>'oginga'</defaultValue>
+      <defaultValue>'tom mboya'</defaultValue>
       <description></description>
       <id>64ec9675-ba80-4cb3-b17a-150956044be7</id>
       <masked>false</masked>
@@ -55,7 +55,7 @@
       <name>outletDescription</name>
    </variable>
    <variable>
-      <defaultValue>'Mwangaza products'</defaultValue>
+      <defaultValue>'Oliech marchadize'</defaultValue>
       <description></description>
       <id>3485c189-d345-46ac-9f64-15cb396b1458</id>
       <masked>false</masked>
@@ -83,7 +83,7 @@
       <name>address2</name>
    </variable>
    <variable>
-      <defaultValue>'070325623'</defaultValue>
+      <defaultValue>'0703256500'</defaultValue>
       <description></description>
       <id>f6753cc8-b745-48ba-a00b-9e30e74c629f</id>
       <masked>false</masked>

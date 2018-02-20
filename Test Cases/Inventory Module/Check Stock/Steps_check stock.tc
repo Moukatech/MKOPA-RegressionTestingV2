@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>acbd26f0-6b58-4f17-be5e-2b13aa3b6f7f</testCaseGuid>
    <variable>
-      <defaultValue>'PRD-LINE'</defaultValue>
+      <defaultValue>'WAHo009'</defaultValue>
       <description></description>
       <id>7aa5ebc5-c068-4142-9d0e-c62f43ced3e8</id>
       <masked>false</masked>
       <name>warehousecode</name>
    </variable>
    <variable>
-      <defaultValue>'20-Inch TV'</defaultValue>
+      <defaultValue>'Hammerkop Prod'</defaultValue>
       <description></description>
       <id>a6d17e22-4b40-420a-9f51-3faaee2fecdb</id>
       <masked>false</masked>
@@ -27,7 +27,7 @@
       <name>packaging</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001697'</defaultValue>
+      <defaultValue>'0517031001-001260'</defaultValue>
       <description></description>
       <id>b27f1914-ff6d-44ff-bfb5-52be8ba69349</id>
       <masked>false</masked>

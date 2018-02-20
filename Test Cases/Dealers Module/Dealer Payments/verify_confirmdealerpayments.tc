@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID: 16400/538
+Test Case Description: Confirm Dealer Payments</description>
    <name>verify_confirmdealerpayments</name>
    <tag></tag>
    <comment></comment>

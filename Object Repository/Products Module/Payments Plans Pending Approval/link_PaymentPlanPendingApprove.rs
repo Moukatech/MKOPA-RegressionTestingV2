@@ -6,8 +6,16 @@
    <elementGuidId>325db375-794b-4caa-b23d-fa6b910ed631</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>.//*[@id='PaymentPlansForApprovalGrid']/table/tbody/tr[td[text()='${plan_toApprove}']]/td/a[text()='Approve']</value>
+         <value>.//*[@id='PaymentPlansForApprovalGrid']/table/tbody/tr[td[contains(normalize-space(),'${plan_toApprove}')]]/td/a[text()='Approve']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +25,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='PaymentPlansForApprovalGrid']/table/tbody/tr[td[text()='${plan_toApprove}']]/td/a[text()='Approve']</value>
+      <value>.//*[@id='PaymentPlansForApprovalGrid']/table/tbody/tr[td[contains(normalize-space(),'${plan_toApprove}')]]/td/a[text()='Approve']</value>
    </webElementProperties>
 </WebElementEntity>

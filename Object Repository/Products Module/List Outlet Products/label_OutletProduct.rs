@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_OutletProduct</name>
+   <tag></tag>
+   <elementGuidId>e20687a7-2fe6-41eb-8e19-a1e0d5644bbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='OutletProducts']/table/tbody/tr[td[text()='${outlet_Product}']]/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='OutletProducts']/table/tbody/tr[td[text()='${outlet_Product}']]/td</value>
+   </webElementProperties>
+</WebElementEntity>

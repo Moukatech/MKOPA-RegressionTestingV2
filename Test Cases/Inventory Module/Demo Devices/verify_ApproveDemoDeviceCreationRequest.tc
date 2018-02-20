@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID: 415
+Test Case Description: Approve Demo Device creation request</description>
    <name>verify_ApproveDemoDeviceCreationRequest</name>
    <tag></tag>
    <comment></comment>

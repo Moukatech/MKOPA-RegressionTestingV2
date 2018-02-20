@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>checking validations when receiving a dealer returned device</description>
-   <name>validate_receive delaer returned device</name>
+   <name>validate_receive dealer returned device</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c23d2e87-b703-483c-afa6-be14442d4ad7</testCaseGuid>

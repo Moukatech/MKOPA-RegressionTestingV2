@@ -36,5 +36,5 @@ WebUI.click(findTestObject('Inventory Module/Service Orders/select_packaging', [
 
 WebUI.sendKeys(findTestObject('Inventory Module/Service Orders/input_serialNumber'), serialNumber)
 
-WebUI.click(findTestObject('Inventory Module/Service Orders/Button_add'))
+not_run: WebUI.click(findTestObject('Inventory Module/Service Orders/Button_add'))
 

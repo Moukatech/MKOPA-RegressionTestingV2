@@ -28,7 +28,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Dispatch Order/Select_Order to Dispatch'))
 
-WebUI.check(findTestObject('Inventory Module/Dispatch Order/checkbox_ordernumber'))
+WebUI.check(findTestObject('Inventory Module/Dispatch Order/checkbox_ordernumber', [('ordernumber') : ordernumber]))
 
 WebUI.click(findTestObject('Inventory Module/Dispatch Order/Button_Dispatch Checked Orders'))
 

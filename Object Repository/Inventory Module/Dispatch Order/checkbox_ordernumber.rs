@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*//tr[td[contains(normalize-space(),'${ordernumber}')]]//*[contains(@name,'orderIds')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*//tr[td[contains(normalize-space(),'KE0400669-01')]]//*[contains(@name,'orderIds')]</value>
+      <value>.//*//tr[td[contains(normalize-space(),'${ordernumber}')]]//*[contains(@name,'orderIds')]</value>
    </webElementProperties>
 </WebElementEntity>

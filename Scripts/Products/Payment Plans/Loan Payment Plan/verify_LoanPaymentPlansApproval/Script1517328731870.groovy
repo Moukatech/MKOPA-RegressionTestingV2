@@ -22,7 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Products/Payment Plans/Loan Payment Plan/step_ApproveLoanPaymentPlan'), [('delay') : '5'
-        , ('plan_toApprove') : 'LoanTest7', ('approver_notes') : 'Approve Notes'], FailureHandling.STOP_ON_FAILURE)
+        , ('plan_toApprove') : 'TV Delivery & Installation v1', ('approver_notes') : 'Approve Notes'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(delay)
 

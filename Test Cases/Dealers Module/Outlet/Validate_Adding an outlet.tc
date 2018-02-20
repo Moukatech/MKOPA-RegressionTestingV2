@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking for validations while adding an outlet.</description>
+   <name>Validate_Adding an outlet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6995f49-2fba-4a9f-88bb-768b6f711114</testCaseGuid>
+   <variable>
+      <defaultValue>'K0669'</defaultValue>
+      <description></description>
+      <id>04a52552-40a7-4b36-9cba-a6cc61a6ee8a</id>
+      <masked>false</masked>
+      <name>dealerAcc</name>
+   </variable>
+</TestCaseEntity>

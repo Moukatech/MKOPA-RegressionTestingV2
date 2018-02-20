@@ -28,9 +28,7 @@ WebUI.delay(Delay)
 
 WebUI.click(findTestObject('Page Header and Menu/Dealers/link_AddDealer'))
 
-WebUI.click(findTestObject('Dealers Module/Add Dealer/button_save'))
-
-WebUI.verifyElementVisible(findTestObject('Dealers Module/Add Dealer/message_BlankValidation'))
+WebUI.delay(Delay)
 
 WebUI.click(findTestObject('Dealers Module/Add Dealer/dropdown_DealershipType'))
 

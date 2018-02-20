@@ -31,15 +31,20 @@ WebUI.click(findTestObject('Inventory Module/Demo Devices Approval Requests/link
 
 WebUI.setText(findTestObject('Inventory Module/Approve Demo Devices Request/text_approvernotes'), notes)
 
-WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/button_save'))
-
-WebUI.verifyElementVisible(findTestObject('Inventory Module/Approve Demo Devices Request/message_ Validation'))
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/dropdown_ApprovalStatus'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/select_ Approved'))
 
 WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/button_save'))
+
+WebUI.getText(findTestObject('Inventory Module/Demo Devices Approval Requests/message_DemoApprovalSuccessful'))
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Demo Devices Approval Requests/message_DemoApprovalSuccessful'), 
+    0)
+
+WebUI.closeBrowser()
 

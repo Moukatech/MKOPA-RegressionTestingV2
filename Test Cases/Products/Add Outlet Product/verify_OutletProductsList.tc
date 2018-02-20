@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Description: It lists Outlet Products</description>
+   <name>verify_OutletProductsList</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfc7a805-0e99-4970-b67d-d94da914c22e</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>391153e0-7249-4274-a437-8535b03e1d44</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>
