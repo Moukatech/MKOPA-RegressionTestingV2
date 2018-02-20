@@ -23,11 +23,11 @@ CustomKeywords.'manifestUploads.largeConsignmentManifest.largeConsignmentManifes
 
 WebUI.delay(20)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Large Consignment Manifest Upload'), 
-    [('itemType') : itemType, ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw
+WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Large Consignment Manifest Upload'), [('itemType') : itemType
+        , ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw
         , ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/radio_Close Consignment', [('condition') : condition]))
 

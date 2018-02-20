@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_Uploading Hammerkop Manifest'), [('shippingDate') : shippingDate
-        , ('consignmentNo') : consignmentNo, ('loanDraw') : loanDraw], FailureHandling.STOP_ON_FAILURE)
+        , ('consignmentNo') : consignmentNo, ('loanDraw') : loanDraw, ('supplier') : supplier], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

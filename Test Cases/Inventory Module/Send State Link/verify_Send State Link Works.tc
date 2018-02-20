@@ -27,14 +27,14 @@
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>'18292019839201829'</defaultValue>
+      <defaultValue>'167177271816111091765'</defaultValue>
       <description></description>
       <id>82c3a786-768b-49e5-aed9-f0a259df48df</id>
       <masked>false</masked>
       <name>imei</name>
    </variable>
    <variable>
-      <defaultValue>'DHSKWOWHI203'</defaultValue>
+      <defaultValue>'SHAVX172GAUQGZ9WQW'</defaultValue>
       <description></description>
       <id>a3a1c49f-b0ae-442a-acf5-b4a2d2adda89</id>
       <masked>false</masked>

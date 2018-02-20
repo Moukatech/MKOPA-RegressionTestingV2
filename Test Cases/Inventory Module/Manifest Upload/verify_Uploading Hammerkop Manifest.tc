@@ -13,7 +13,7 @@
       <name>shippingDate</name>
    </variable>
    <variable>
-      <defaultValue>'MNA123ASDFG45'</defaultValue>
+      <defaultValue>null</defaultValue>
       <description></description>
       <id>244104dd-93bd-4e9c-a6b1-62adf2dff9ff</id>
       <masked>false</masked>
@@ -25,5 +25,12 @@
       <id>913d7346-5eda-49fb-81af-1134507e83a7</id>
       <masked>false</masked>
       <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>d002bb6e-0d92-4e61-87e7-b589ef831905</id>
+      <masked>false</masked>
+      <name>supplier</name>
    </variable>
 </TestCaseEntity>

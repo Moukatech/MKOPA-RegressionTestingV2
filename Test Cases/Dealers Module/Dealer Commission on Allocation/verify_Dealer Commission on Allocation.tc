@@ -27,7 +27,7 @@
       <name>otherNames</name>
    </variable>
    <variable>
-      <defaultValue>'30908363'</defaultValue>
+      <defaultValue>'33890123'</defaultValue>
       <description></description>
       <id>fc232d20-763f-4b62-a5ad-0748a29971fc</id>
       <masked>false</masked>
@@ -48,7 +48,7 @@
       <name>citizenship</name>
    </variable>
    <variable>
-      <defaultValue>'0712990021'</defaultValue>
+      <defaultValue>'0716234098'</defaultValue>
       <description></description>
       <id>b24db2be-10cb-4fc8-b283-a31032079699</id>
       <masked>false</masked>
@@ -104,7 +104,7 @@
       <name>maritalStatus</name>
    </variable>
    <variable>
-      <defaultValue>'0711990118'</defaultValue>
+      <defaultValue>'0729111018'</defaultValue>
       <description></description>
       <id>fabad505-f84a-48c4-a7fa-e0f17602a16e</id>
       <masked>false</masked>
@@ -118,7 +118,7 @@
       <name>paymentPlanType</name>
    </variable>
    <variable>
-      <defaultValue>'0712990021'</defaultValue>
+      <defaultValue>'0716234098'</defaultValue>
       <description></description>
       <id>be0ae5c0-eb3a-4e5b-9109-93abe0b1a1f3</id>
       <masked>false</masked>
@@ -160,7 +160,7 @@
       <name>receiptNumber</name>
    </variable>
    <variable>
-      <defaultValue>'30908363'</defaultValue>
+      <defaultValue>'33890123'</defaultValue>
       <description></description>
       <id>867a98ba-962f-4aad-9a31-284610b7fb5f</id>
       <masked>false</masked>

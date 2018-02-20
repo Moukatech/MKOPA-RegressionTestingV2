@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>loanDraw</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d991fc60-63d7-4379-b631-cc4d6b02393b</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
 </TestCaseEntity>
