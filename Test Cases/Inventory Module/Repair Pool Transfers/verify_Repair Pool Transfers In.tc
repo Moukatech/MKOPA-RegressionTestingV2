@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Receive devices transferred from repair pool</description>
+   <description>ID:4260
+Receive devices transferred from repair pool</description>
    <name>verify_Repair Pool Transfers In</name>
    <tag></tag>
    <comment></comment>

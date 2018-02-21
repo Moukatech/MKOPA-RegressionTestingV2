@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Checking for validation while adding an outlet poducct</description>
+   <description>Checking for validation while adding an outlet operator</description>
    <name>validate_adding outlet operator</name>
    <tag></tag>
    <comment></comment>

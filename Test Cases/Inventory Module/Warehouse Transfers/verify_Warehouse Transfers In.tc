@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Receive devices sent from warehouse 'xxx'</description>
+   <description>ID:160
+Receive devices sent from warehouse 'xxx'</description>
    <name>verify_Warehouse Transfers In</name>
    <tag></tag>
    <comment></comment>

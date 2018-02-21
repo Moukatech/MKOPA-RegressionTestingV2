@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Checking for validation/s</description>
+   <description>Checking for validations</description>
    <name>validate_required info</name>
    <tag></tag>
    <comment></comment>
