@@ -51,4 +51,18 @@ Upload the Payment file andd it should be in CSV Format</description>
       <masked>false</masked>
       <name>filePath</name>
    </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>cdb42d2b-f9f3-42ec-b953-ca8252195a2f</id>
+      <masked>false</masked>
+      <name>receiptNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hello i have uploaded the file'</defaultValue>
+      <description></description>
+      <id>dc85369a-d9c6-4c4a-9318-f6ba8c93135e</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
 </TestCaseEntity>

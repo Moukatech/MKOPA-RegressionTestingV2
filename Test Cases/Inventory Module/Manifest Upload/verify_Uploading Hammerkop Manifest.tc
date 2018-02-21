@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Testcase Id: 18479
+
+ Upload a serialized peripheral manifest and the itemType should be Hammerkop</description>
    <name>verify_Uploading Hammerkop Manifest</name>
    <tag></tag>
    <comment></comment>

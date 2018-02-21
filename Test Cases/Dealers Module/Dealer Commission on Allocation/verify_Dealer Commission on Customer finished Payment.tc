@@ -1,269 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>TestCase 2784 : 
+   <description>TestCases 2786 :
 
-Register a Customer, Pay Deposit, Screen and Allocate a device. The Dealers commision should increase</description>
-   <name>verify_Dealer Commission on Allocation</name>
+Register, Pay deposit, Screenn and Allocate a device to a customer and note the dealers commission. Pay the customers  balance to finished Payment and note the change on dealer's commission</description>
+   <name>verify_Dealer Commission on Customer finished Payment</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f689a595-83c0-4d52-9b7f-57d4f0d91042</testCaseGuid>
+   <testCaseGuid>41654df2-f903-4194-954f-53f218fb1a9d</testCaseGuid>
    <variable>
       <defaultValue>'Male'</defaultValue>
       <description></description>
-      <id>0791b52f-e0c0-4a49-a86a-f25f75400ae1</id>
+      <id>07791594-b6ce-45c7-9692-0cc28876ba58</id>
       <masked>false</masked>
       <name>gender</name>
    </variable>
    <variable>
-      <defaultValue>'Zawadi'</defaultValue>
+      <defaultValue>'Riri'</defaultValue>
       <description></description>
-      <id>d8a06524-dd8f-4b82-adb6-e3bf3ef4f82a</id>
+      <id>d8d1b207-9336-4671-8b91-caa611d3baa7</id>
       <masked>false</masked>
       <name>surname</name>
    </variable>
    <variable>
       <defaultValue>'Almasi Theluji'</defaultValue>
       <description></description>
-      <id>7c9c2623-92c8-4df7-bc58-91b74f36a5d1</id>
+      <id>a75d7640-cac2-4566-8672-0481394a64c2</id>
       <masked>false</masked>
       <name>otherNames</name>
    </variable>
    <variable>
-      <defaultValue>'30839362'</defaultValue>
+      <defaultValue>'31098811'</defaultValue>
       <description></description>
-      <id>fc232d20-763f-4b62-a5ad-0748a29971fc</id>
+      <id>da7e1e2a-cecf-452a-aa28-1ae8826aa8df</id>
       <masked>false</masked>
       <name>idNumber</name>
    </variable>
    <variable>
       <defaultValue>'National ID'</defaultValue>
       <description></description>
-      <id>56487bbf-4890-4734-bd37-36fee393cd08</id>
+      <id>6cff4233-53b6-4e14-acab-f316fdcd2c8a</id>
       <masked>false</masked>
       <name>idNumberType</name>
    </variable>
    <variable>
       <defaultValue>'Kenya'</defaultValue>
       <description></description>
-      <id>e59c51ac-4824-4367-88fb-e1603bc42207</id>
+      <id>3bad3fa9-dbe6-46b1-9cb9-00d5e23c8c5a</id>
       <masked>false</masked>
       <name>citizenship</name>
    </variable>
    <variable>
-      <defaultValue>'0725958561'</defaultValue>
+      <defaultValue>'07129990776'</defaultValue>
       <description></description>
-      <id>b24db2be-10cb-4fc8-b283-a31032079699</id>
+      <id>27d960d7-ce5e-4e7a-9e14-dac4d8dc56c9</id>
       <masked>false</masked>
       <name>mobilePhoneNumber</name>
    </variable>
    <variable>
       <defaultValue>'SC001 M-KOPA Shop Meru (01063)'</defaultValue>
       <description></description>
-      <id>253c32a4-a5eb-4144-a225-86982661ecaf</id>
+      <id>86df27ae-d744-4c24-9f19-86d4c10d8853</id>
       <masked>false</masked>
       <name>dealership</name>
    </variable>
    <variable>
       <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
       <description></description>
-      <id>3db8d9d4-72a0-432c-a575-31b83630b989</id>
+      <id>4a03ade8-8e2e-4544-aaf5-d6dd95d6f0d5</id>
       <masked>false</masked>
       <name>signUpOutlet</name>
    </variable>
    <variable>
       <defaultValue>'(Outlet Operator) Telesales Operator'</defaultValue>
       <description></description>
-      <id>9a25abd6-7395-44e9-a4b9-607fadf35ea5</id>
+      <id>f3f496fc-e768-4260-8604-74fa9defa04b</id>
       <masked>false</masked>
       <name>signUpOperator</name>
    </variable>
    <variable>
       <defaultValue>'Normal'</defaultValue>
       <description></description>
-      <id>06adabd7-c639-41bd-842b-3763d3d18dc2</id>
+      <id>5ad11b21-8770-41eb-b0d7-13a29bcb5f61</id>
       <masked>false</masked>
       <name>salesChannel</name>
    </variable>
    <variable>
       <defaultValue>'M-KOPA 5 v1 (M-KOPA 5: 2999 +50/day)'</defaultValue>
       <description></description>
-      <id>44f39b9e-bee6-4413-a17c-5c8c59f7d878</id>
+      <id>0eff59a9-0074-4e64-bd9f-d87b9848a1f4</id>
       <masked>false</masked>
       <name>paymentPlan</name>
    </variable>
    <variable>
       <defaultValue>'1994-06-13'</defaultValue>
       <description></description>
-      <id>4c208773-5667-4995-ad3c-5307905219a1</id>
+      <id>e8506226-3dd4-4f0a-8537-34540b31ed19</id>
       <masked>false</masked>
       <name>dateOfBirth</name>
    </variable>
    <variable>
       <defaultValue>'Single'</defaultValue>
       <description></description>
-      <id>c430a026-12bd-4abb-a5b6-11a7085147fc</id>
+      <id>bd5c45d4-7447-4ba1-998f-78efbbc81bf5</id>
       <masked>false</masked>
       <name>maritalStatus</name>
    </variable>
    <variable>
       <defaultValue>'0727662025'</defaultValue>
       <description></description>
-      <id>fabad505-f84a-48c4-a7fa-e0f17602a16e</id>
+      <id>0d3ab173-e3d6-4d2f-a7fd-2e9cdb60d1b0</id>
       <masked>false</masked>
       <name>alternatePhoneNumber</name>
    </variable>
    <variable>
       <defaultValue>'Loan'</defaultValue>
       <description></description>
-      <id>c4c9ae51-4de6-44f7-9008-97a477ec27f9</id>
+      <id>b56cc6f9-ce6e-495d-914f-028cbaf695f0</id>
       <masked>false</masked>
       <name>paymentPlanType</name>
    </variable>
    <variable>
-      <defaultValue>'0725958561'</defaultValue>
+      <defaultValue>'07129990776'</defaultValue>
       <description></description>
-      <id>be0ae5c0-eb3a-4e5b-9109-93abe0b1a1f3</id>
+      <id>e0c7bea9-af25-4d82-a0cf-d665ec1777aa</id>
       <masked>false</masked>
       <name>paymentPhoneNumber</name>
    </variable>
    <variable>
       <defaultValue>'English'</defaultValue>
       <description></description>
-      <id>a807f38d-0642-4878-aa82-372aebbe2591</id>
+      <id>ccb0c1f0-84af-4d90-baba-6d7519f9a2fa</id>
       <masked>false</masked>
       <name>language</name>
    </variable>
    <variable>
       <defaultValue>'Nairobi'</defaultValue>
       <description></description>
-      <id>233a302f-bd2d-43bd-84d2-ac51fa8288e7</id>
+      <id>25fc5303-cc28-4f07-98b2-94eed5030217</id>
       <masked>false</masked>
       <name>Town</name>
    </variable>
    <variable>
       <defaultValue>'I have Created a Customer'</defaultValue>
       <description></description>
-      <id>24f69b18-4346-4e9e-8683-60cc85273318</id>
+      <id>e1c3112f-e088-41e9-9528-dfb0c06c8ca5</id>
       <masked>false</masked>
       <name>comment</name>
    </variable>
    <variable>
       <defaultValue>'2999'</defaultValue>
       <description></description>
-      <id>7c736c5e-6cc3-4a3f-91b2-ec0352b38da9</id>
+      <id>1f18bdb7-4271-49a7-8786-696f186b6324</id>
       <masked>false</masked>
       <name>amount</name>
    </variable>
    <variable>
       <defaultValue>null</defaultValue>
       <description></description>
-      <id>671333c7-6897-4a15-a98e-6123d617bc5c</id>
+      <id>a4343909-f8b4-46d9-8612-6dacaf1df313</id>
       <masked>false</masked>
       <name>receiptNumber</name>
    </variable>
    <variable>
-      <defaultValue>'30839362'</defaultValue>
+      <defaultValue>'31098811'</defaultValue>
       <description></description>
-      <id>867a98ba-962f-4aad-9a31-284610b7fb5f</id>
+      <id>63c02ee0-798d-4309-86eb-11b0b35caa96</id>
       <masked>false</masked>
       <name>account</name>
    </variable>
    <variable>
       <defaultValue>'Deposit has been made'</defaultValue>
       <description></description>
-      <id>2df45c13-f2a4-4c7b-a830-7a3b8c35a283</id>
+      <id>ab5e26e7-8e2d-4ed6-90cd-46d75df34817</id>
       <masked>false</masked>
       <name>uploadComment</name>
    </variable>
    <variable>
       <defaultValue>'Yes'</defaultValue>
       <description></description>
-      <id>081f672e-cf90-453e-8a4e-5f5fe1bd0e68</id>
+      <id>3fe624af-6325-430d-8837-e78d5031db6c</id>
       <masked>false</masked>
       <name>receivedCall</name>
    </variable>
    <variable>
       <defaultValue>'true'</defaultValue>
       <description></description>
-      <id>464733b7-9a9d-4dbb-905d-974249777d05</id>
+      <id>50294ec5-971c-45b4-984e-7dc417a696a8</id>
       <masked>false</masked>
       <name>payDepositQuestion</name>
    </variable>
    <variable>
       <defaultValue>'Kerosene, candles, solar lantern  (20)'</defaultValue>
       <description></description>
-      <id>a86ab5c5-9498-4d18-8577-45301db1d94a</id>
+      <id>5fd060e7-ddf0-4082-bc8c-d3e339b6466b</id>
       <masked>false</masked>
       <name>lighting</name>
    </variable>
    <variable>
       <defaultValue>'Very Good (20)'</defaultValue>
       <description></description>
-      <id>52c2bf10-0c27-4c23-82dc-dda86bf662a8</id>
+      <id>8a15b11a-b60b-4c9b-abcb-490903c3fc9f</id>
       <masked>false</masked>
       <name>opinion</name>
    </variable>
    <variable>
       <defaultValue>'Nice initiative'</defaultValue>
       <description></description>
-      <id>3a78f9a5-fdff-4304-a4d6-065a79bfe5f8</id>
+      <id>b8300274-4889-4811-8f94-69f8a955215e</id>
       <masked>false</masked>
-      <name>Notes</name>
+      <name>notes</name>
    </variable>
    <variable>
       <defaultValue>'Have paid the deposit'</defaultValue>
       <description></description>
-      <id>8547454f-a980-4755-9a88-3f9aa713b9cc</id>
+      <id>7557ed09-b042-49d5-a418-c4d38932cf4f</id>
       <masked>false</masked>
       <name>depositQuestionResponse</name>
    </variable>
    <variable>
       <defaultValue>'Kerosene'</defaultValue>
       <description></description>
-      <id>4ca1d22a-6043-4f33-b506-1b23aa2a5ee4</id>
+      <id>71e1f5e1-fcd9-42ea-a7aa-24280bce4068</id>
       <masked>false</masked>
       <name>responseSourceLighting</name>
    </variable>
    <variable>
       <defaultValue>'Good'</defaultValue>
       <description></description>
-      <id>f8f8494c-7129-46d7-bf94-c2b80862f354</id>
+      <id>58acbcc6-c863-4fe2-b6ce-eab28fd0c3f6</id>
       <masked>false</masked>
       <name>opinionCCR</name>
    </variable>
    <variable>
       <defaultValue>'SC001'</defaultValue>
       <description></description>
-      <id>819a24bf-b9e9-46bc-85ef-43717b1e7aba</id>
+      <id>b3cc055a-c05f-469d-982b-275751a06c33</id>
       <masked>false</masked>
       <name>businessName</name>
    </variable>
    <variable>
       <defaultValue>'SC001 M-KOPA Shop Meru'</defaultValue>
       <description></description>
-      <id>719fd24e-86aa-4bbd-be91-bb9b20f7bead</id>
+      <id>fc4280cc-d0f9-4832-a4ee-02e5be187d13</id>
       <masked>false</masked>
       <name>dealer</name>
    </variable>
    <variable>
       <defaultValue>'Dsr Wangeci Mary'</defaultValue>
       <description></description>
-      <id>1f341c56-debc-48f2-9da5-3f0efa485bcd</id>
+      <id>beac6542-3b87-4cbf-84fa-8848cff26928</id>
       <masked>false</masked>
       <name>outlet</name>
    </variable>
    <variable>
       <defaultValue>'(DSR) Dsr Wangeci Mary'</defaultValue>
       <description></description>
-      <id>278d7d79-2f32-4b86-a323-9c68e9a55c50</id>
+      <id>2f940fc4-90f5-472e-98cb-77ef9032ac32</id>
       <masked>false</masked>
       <name>outletAccessId</name>
    </variable>
    <variable>
       <defaultValue>'0717011701-000220'</defaultValue>
       <description></description>
-      <id>a7967eeb-0e2a-4bc6-848d-bbe972c94da4</id>
+      <id>f974231f-241f-406d-8bb2-9489a368b872</id>
       <masked>false</masked>
       <name>deviceToAllocate</name>
+   </variable>
+   <variable>
+      <defaultValue>'20000'</defaultValue>
+      <description></description>
+      <id>abf6f565-ed9a-4c4d-a4f6-b25641e7b19f</id>
+      <masked>false</masked>
+      <name>customerBalanceAmount</name>
    </variable>
 </TestCaseEntity>

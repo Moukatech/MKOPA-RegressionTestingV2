@@ -35,7 +35,7 @@ WebUI.delay(5)
 
 WebUI.callTestCase(findTestCase('Customers/Register Customer/steps_Customer Screening'), [('account') : account, ('receivedCall') : receivedCall
         , ('payDepositQuestion') : payDepositQuestion, ('lighting') : lighting, ('opinion') : opinion, ('paymentPhoneNumber') : paymentPhoneNumber
-        , ('Notes') : Notes, ('depositQuestionResponse') : depositQuestionResponse, ('responseSourceLighting') : responseSourceLighting
+        , ('Notes') : notes, ('depositQuestionResponse') : depositQuestionResponse, ('responseSourceLighting') : responseSourceLighting
         , ('opinionCCR') : opinionCCR], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
@@ -52,6 +52,9 @@ WebUI.delay(5)
 WebUI.callTestCase(findTestCase('Customers/Customer Device Allocation/steps_Customer Device Allocation'), [('account') : account
         , ('businessName') : dealer, ('outlet') : outlet, ('outletAccessId') : outletAccessId, ('deviceToAllocate') : deviceToAllocate], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : customerBalanceAmount, ('Account') : account
+        , ('Phone') : mobilePhoneNumber, ('Comment') : 'Nice and paid on time', ('receiptNumber') : null], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10)
 

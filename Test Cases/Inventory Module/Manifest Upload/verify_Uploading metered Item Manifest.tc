@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Uploading a Primary Device Item Manifest that is Correctly Formatted and in csv Format</description>
+   <description>TestCase 138 :
+
+Uploading a Primary Device Item Manifest that is Correctly Formatted and in csv Format</description>
    <name>verify_Uploading metered Item Manifest</name>
    <tag></tag>
    <comment></comment>

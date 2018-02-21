@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : '10000', ('Account') : '30638208', ('Phone') : '254722471191'
-        , ('Comment') : 'Nice and paid on time', ('receiptNumber') : null], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : account, ('Phone') : phone
+        , ('Comment') : comment, ('receiptNumber') : receiptNo], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 
