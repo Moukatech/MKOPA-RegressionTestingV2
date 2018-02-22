@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking that the resolution field and resolution reason fields  are required</description>
+   <name>validate_resolution field is required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27471671-4b98-47eb-8ad6-4b41d4ee305e</testCaseGuid>
+   <variable>
+      <defaultValue>'test sample'</defaultValue>
+      <description></description>
+      <id>34aa644f-39aa-4696-883f-01e59c04d43b</id>
+      <masked>false</masked>
+      <name>repairNotes</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC003'</defaultValue>
+      <description></description>
+      <id>f81baf7e-4014-4c44-9c00-a6bab61f1fe4</id>
+      <masked>false</masked>
+      <name>wareHouseCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'1115010701-012964'</defaultValue>
+      <description></description>
+      <id>fab0719a-0b64-4ea7-8c89-aa85206eb992</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+</TestCaseEntity>

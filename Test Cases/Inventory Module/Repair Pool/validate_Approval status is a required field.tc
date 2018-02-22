@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking that when approving a repair, the apprval status is required</description>
+   <name>validate_Approval status is a required field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b176a7d6-d0ec-4cca-b2d5-4280c7e5ac00</testCaseGuid>
+   <variable>
+      <defaultValue>'approved'</defaultValue>
+      <description></description>
+      <id>857bc567-9863-44bc-860f-29aa05d354ae</id>
+      <masked>false</masked>
+      <name>approvalNotes</name>
+   </variable>
+   <variable>
+      <defaultValue>'0316010701-000206'</defaultValue>
+      <description></description>
+      <id>c669759b-4890-4b2e-8c52-963123c9a09b</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+</TestCaseEntity>

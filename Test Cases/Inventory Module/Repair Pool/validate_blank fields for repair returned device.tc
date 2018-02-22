@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>checking for validations when repairng a retuned device</description>
+   <description>checking for validations (blank repair notes and resolution reason fields)</description>
    <name>validate_blank fields for repair returned device</name>
    <tag></tag>
    <comment></comment>

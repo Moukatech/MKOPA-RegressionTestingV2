@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>checking for validations when approving a repaired device</description>
+   <description>checking for validations (Approval notes field)</description>
    <name>validate_blank fields for approve device repair</name>
    <tag></tag>
    <comment></comment>
