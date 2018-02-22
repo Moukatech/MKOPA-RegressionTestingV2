@@ -3,7 +3,7 @@
    <description>ID:484
 Confirming that the added outlet operator appears in the operators list
 </description>
-   <name>veriify_Confirm outlet Operator added</name>
+   <name>verify_Confirm outlet Operator added</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>047af978-6f13-4232-b625-93146aa209c7</testCaseGuid>

@@ -35,14 +35,14 @@ The repair process that a returned device goes through</description>
       <name>deviceID</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001712'</defaultValue>
+      <defaultValue>'0118033201-001710'</defaultValue>
       <description></description>
       <id>b5031cf1-43cd-45ee-a843-211f0a3a261a</id>
       <masked>false</masked>
       <name>serialNumber</name>
    </variable>
    <variable>
-      <defaultValue>'1,586'</defaultValue>
+      <defaultValue>'1,585'</defaultValue>
       <description></description>
       <id>fb7907d8-258e-4f2d-a0e1-699f3945f52a</id>
       <masked>false</masked>
