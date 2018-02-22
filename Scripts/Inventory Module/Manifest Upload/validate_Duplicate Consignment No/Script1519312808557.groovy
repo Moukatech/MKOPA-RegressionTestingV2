@@ -19,17 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'manifestUploads.MeterableManifest.meteredItem'()
+CustomKeywords.'manifestUploads.PrimaryDevice.primaryDevice'(null)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest Upload'), [('itemType') : itemType, ('supplier') : supplier
-        , ('manifestType') : manifestType, ('shippingDate') : manifestType, ('loanDraw') : loanDraw], FailureHandling.STOP_ON_FAILURE)
+        , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw, ('selectId') : selectId
+        , ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Enter Loan Draw'))
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMessage_The Consignment Exists'))
 
 WebUI.closeBrowser()
 

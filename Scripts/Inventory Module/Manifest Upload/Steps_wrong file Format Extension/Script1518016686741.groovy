@@ -39,8 +39,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Upload Manifest'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type '))
 
 WebUI.delay(2)
@@ -53,34 +51,39 @@ WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Cons
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Item Type'))
+WebUI.delay(2)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_itemType', [('itemType') : itemType]))
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/dropdown_Select Supplier'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier', [('supplier') : supplier]))
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_supplier', [('supplier') : supplier]), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
 
-WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select'), fileLocation)
+WebUI.delay(2)
+
+WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select', [('selectId') : selectId]), fileLocation)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
 
+WebUI.delay(3)
+
 String randomGenerator(String chars = 'QWERTYUIOPLKJHGFDSAZXCVBNM', Integer length = 9) {
-	Random rand = new Random()
+    Random rand = new Random()
 
-	StringBuilder sb = new StringBuilder()
+    StringBuilder sb = new StringBuilder()
 
-	for (int i = 0; i < length; i++) {
-		sb.append(chars.charAt(rand.nextInt(chars.length())))
-	}
-	
-	return sb.toString()
+    for (int i = 0; i < length; i++) {
+        sb.append(chars.charAt(rand.nextInt(chars.length())))
+    }
+    
+    return sb.toString()
 }
-
 

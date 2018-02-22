@@ -6,21 +6,21 @@
    <comment></comment>
    <testCaseGuid>226b388e-2a75-4c6b-991d-501bf1624d55</testCaseGuid>
    <variable>
-      <defaultValue>'M-KOPA + : M-KOPA +'</defaultValue>
+      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
       <description></description>
       <id>3ec7676a-5f9f-44e0-ac04-7dcf8ce21e5d</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
-      <defaultValue>'Universal'</defaultValue>
+      <defaultValue>'OEL'</defaultValue>
       <description></description>
       <id>66a1a719-1bd6-4eeb-955d-a805a86db58c</id>
       <masked>false</masked>
       <name>supplier</name>
    </variable>
    <variable>
-      <defaultValue>'Meterable'</defaultValue>
+      <defaultValue>'Primary Device'</defaultValue>
       <description></description>
       <id>009f6356-dafe-4bf6-9912-f0c0655bbe6a</id>
       <masked>false</masked>
@@ -39,5 +39,12 @@
       <id>d4d65c64-3bfc-4425-9beb-c7dcadba0d9f</id>
       <masked>false</masked>
       <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'meteredItemManifests'</defaultValue>
+      <description></description>
+      <id>f805360c-5f02-4f81-92bb-5068e7c4f184</id>
+      <masked>false</masked>
+      <name>selectId</name>
    </variable>
 </TestCaseEntity>

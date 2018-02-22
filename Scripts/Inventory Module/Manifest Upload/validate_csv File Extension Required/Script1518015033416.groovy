@@ -31,8 +31,8 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/Steps_wrong file Format Extension'), [('itemType') : itemType
-        , ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw], 
-    FailureHandling.STOP_ON_FAILURE)
+        , ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw
+        , ('selectId') : selectId], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_The file extension for the uploaded file is not .csv'))
 

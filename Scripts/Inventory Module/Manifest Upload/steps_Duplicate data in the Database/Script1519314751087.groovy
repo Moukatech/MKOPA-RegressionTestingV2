@@ -19,13 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-if (consignmentNo == null) {
-    consignmentNo = randomGenerator()
-}
+String consignmentNo = randomGenerator('QWERTYUIOP1234567890LKJHGFDSAZXCVBNM', 9)
 
 location = System.getenv('USERPROFILE')
 
-String filePath = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/primaryDeviceManifest.csv'
+String fileLocation = location + '/git/MKOPA-RegressionTestingV2/Manifest Files/largeConsignment.csv'
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
@@ -53,8 +51,6 @@ WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Cons
 
 WebUI.setText(findTestObject('Inventory Module/Device Manifest Upload/input_Loan Draw'), loanDraw)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory Items'))
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType'))
@@ -73,7 +69,7 @@ WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_S
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select', [('selectId') : selectId]), filePath)
+WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select', [('selectId') : selectId]), fileLocation)
 
 WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Upload'))
 

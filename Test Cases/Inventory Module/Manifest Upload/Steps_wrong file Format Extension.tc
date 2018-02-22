@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>d272c773-35d3-402b-9033-9ec58ef72535</testCaseGuid>
    <variable>
-      <defaultValue>'M-KOPA + : M-KOPA +'</defaultValue>
+      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
       <description></description>
       <id>1c9b920b-f9e2-4b6e-8898-64ac54d08757</id>
       <masked>false</masked>
@@ -20,7 +20,7 @@
       <name>supplier</name>
    </variable>
    <variable>
-      <defaultValue>'Meterable'</defaultValue>
+      <defaultValue>'Primary Device'</defaultValue>
       <description></description>
       <id>3a7d6d20-f24f-4aa2-89aa-65402424170b</id>
       <masked>false</masked>
@@ -39,5 +39,12 @@
       <id>221666cc-d259-4e90-a413-fcb46f97b55e</id>
       <masked>false</masked>
       <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'meteredItemManifests'</defaultValue>
+      <description></description>
+      <id>5100b942-adc2-4e53-b9de-300a3ae425fc</id>
+      <masked>false</masked>
+      <name>selectId</name>
    </variable>
 </TestCaseEntity>

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Validate the Shipping Date is Required</description>
-   <name>validate_Shipping Date Required</name>
+   <description>Validates that data stored in the Database should not be Duplicates</description>
+   <name>validate_Data Duplicates in the Database</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e38ef6ef-3d05-41d2-8c91-b2c894561e24</testCaseGuid>
+   <testCaseGuid>48cc943a-2c2e-4d36-879e-3bd72cd1357a</testCaseGuid>
    <variable>
       <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
       <description></description>
-      <id>64c328ac-8348-47b3-bb75-fbfe6143a60f</id>
+      <id>86882527-4bd9-41ed-a745-11839f4732ed</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
       <defaultValue>'Universal'</defaultValue>
       <description></description>
-      <id>03bed94b-834f-4a14-8dd5-e3696382aa3b</id>
+      <id>cb59f05d-3646-4a3c-bdfd-3759699dd0cd</id>
       <masked>false</masked>
       <name>supplier</name>
    </variable>
    <variable>
       <defaultValue>'Primary Device'</defaultValue>
       <description></description>
-      <id>67999170-f7c0-42f5-a4ba-f50dfc368a1b</id>
+      <id>b5a6dad6-be48-4522-b8d8-a38138596a38</id>
       <masked>false</masked>
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
       <description></description>
-      <id>18779ded-09d0-4ec6-a4f1-6032c9abd08a</id>
+      <id>fee24d8b-61bf-40df-82f0-635dddd037a6</id>
       <masked>false</masked>
       <name>shippingDate</name>
    </variable>
    <variable>
-      <defaultValue>'200'</defaultValue>
+      <defaultValue>'1000'</defaultValue>
       <description></description>
-      <id>300b01fe-2f05-4b8b-945f-9c9bc6779fee</id>
+      <id>2c519eef-262d-4a6e-a15f-db43c7995411</id>
       <masked>false</masked>
       <name>loanDraw</name>
    </variable>
    <variable>
       <defaultValue>'meteredItemManifests'</defaultValue>
       <description></description>
-      <id>653db032-af61-4586-a61a-c85428a845f2</id>
+      <id>96d8ba1c-4d07-4500-bc7c-c5cb1fc9abe9</id>
       <masked>false</masked>
       <name>selectId</name>
    </variable>
