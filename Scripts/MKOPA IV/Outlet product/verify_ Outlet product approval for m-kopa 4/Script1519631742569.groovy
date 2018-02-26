@@ -19,16 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-Products'))
-
-WebUI.delay(delay)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Products/link_OutletProducts'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Page Header and Menu/Products/link_ListOutletProducts'))
+WebUI.callTestCase(findTestCase('Products/Add Outlet Product/verify_OutletProductsApproval'), [('producttype') : producttype
+        , ('delay') : delay, ('approval_Status') : approval_Status, ('approver_Notes') : approval_Notes], FailureHandling.STOP_ON_FAILURE)
 

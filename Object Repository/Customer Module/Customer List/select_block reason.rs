@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_OutletProductTypeApproval</name>
+   <name>select_block reason</name>
    <tag></tag>
-   <elementGuidId>207c3376-6fa8-458b-a591-b5e2c6dd36ad</elementGuidId>
+   <elementGuidId>d73b7f6e-2a33-4fb0-9c4b-826d23b738e7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*//tr[td[text()='${producttype}']]/td/a[text()='Approve']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*//tr[td[text()='${producttype}']]/td/a[text()='Approve']</value>
+      <value>html/body/div/div/ul/li[text()=&quot;Lost&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

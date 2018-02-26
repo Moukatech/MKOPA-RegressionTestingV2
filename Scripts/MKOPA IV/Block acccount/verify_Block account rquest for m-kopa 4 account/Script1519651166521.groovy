@@ -22,36 +22,35 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-Products'))
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(delay)
+WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Products/link_OutletProducts'))
+WebUI.click(findTestObject('Customer Module/Customer List/hamburger-Hamburger Menu'))
 
-WebUI.delay(delay)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page Header and Menu/Products/link_AddOutletProduct'))
+WebUI.click(findTestObject('Customer Module/Customer List/link_Block AC'))
 
-WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_OutletProductName'), outletproductname)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Products Module/Add Outlet Product/dropdown_ItemType'))
+WebUI.setText(findTestObject('Customer Module/Customer List/input_Amount to unblock'), ammount)
 
-WebUI.delay(delay)
+WebUI.setText(findTestObject('Customer Module/Customer List/input_Days to unblock'), days)
 
-WebUI.click(findTestObject('Products Module/Add Outlet Product/option_ItemType', [('item_Type') : item_Type]))
+WebUI.click(findTestObject('Customer Module/Customer List/dropDwn_Block Reason'))
 
-WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_OutletProductPrice'), product_Price)
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_MinimumOrderQuantity'), minimumorderquantity)
+WebUI.click(findTestObject('Customer Module/Customer List/select_block reason'))
 
-WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_Notes'), notes)
+WebUI.setText(findTestObject('Customer Module/Customer List/input_block description'), description)
 
-WebUI.click(findTestObject('Products Module/Add Outlet Product/button_AddOutletProduct'))
+WebUI.click(findTestObject('Customer Module/Customer List/button_block Account'))
 
-not_run: WebUI.getText(findTestObject('Products Module/Add Outlet Product/message_OutletProductDetails', [('outletproductname') : outletproductname]))
+WebUI.verifyElementPresent(findTestObject('Customer Module/Customer List/success message-block'), 2)
 
-WebUI.verifyElementPresent(findTestObject('Products Module/Add Outlet Product/message_OutletProductDetails', [('outletproductname') : outletproductname]), 
-    2)
+WebUI.click(findTestObject('Customer Module/Customer List/button_Close'))
 
 WebUI.closeBrowser()
 

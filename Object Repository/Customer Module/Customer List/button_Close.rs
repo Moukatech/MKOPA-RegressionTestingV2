@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_OutletProductTypeApproval</name>
+   <name>button_Close</name>
    <tag></tag>
-   <elementGuidId>207c3376-6fa8-458b-a591-b5e2c6dd36ad</elementGuidId>
+   <elementGuidId>75697175-3add-43af-8a81-afe063891cf0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*//tr[td[text()='${producttype}']]/td/a[text()='Approve']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*//tr[td[text()='${producttype}']]/td/a[text()='Approve']</value>
+      <value>.//*[@id='wdw-actions-content']/div[1]/div/a/span</value>
    </webElementProperties>
 </WebElementEntity>

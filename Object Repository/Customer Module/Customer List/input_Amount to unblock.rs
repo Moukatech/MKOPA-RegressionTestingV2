@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_OutletProductTypeApproval</name>
+   <name>input_Amount to unblock</name>
    <tag></tag>
-   <elementGuidId>207c3376-6fa8-458b-a591-b5e2c6dd36ad</elementGuidId>
+   <elementGuidId>792cc7ca-e818-43f8-a66c-ddd88d522960</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*//tr[td[text()='${producttype}']]/td/a[text()='Approve']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*//tr[td[text()='${producttype}']]/td/a[text()='Approve']</value>
+      <value>.//*[@id='AmountToUnBlock']</value>
    </webElementProperties>
 </WebElementEntity>

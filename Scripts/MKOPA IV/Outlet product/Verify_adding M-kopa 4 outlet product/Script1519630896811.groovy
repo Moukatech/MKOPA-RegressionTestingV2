@@ -19,39 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-Products'))
-
-WebUI.delay(delay)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Products/link_OutletProducts'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Products Module/Add Outlet Product/link_OutletProductApproval'))
-
-WebUI.click(findTestObject('Products Module/Outlet Product Type Approvals/link_OutletProductTypeApproval', [('producttype') : producttype]))
-
-WebUI.click(findTestObject('Products Module/Approve Outlet Product Type/dropdown_ApprovalStatus'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Products Module/Approve Outlet Product Type/option_ApprovalStatus', [('approval_Status') : approval_Status]))
-
-WebUI.delay(delay)
-
-WebUI.setText(findTestObject('Products Module/Approve Outlet Product Type/input_ApproverNotes'), approver_Notes)
-
-WebUI.click(findTestObject('Products Module/Approve Outlet Product Type/button_Save'))
-
-WebUI.getText(findTestObject('Products Module/Outlet Product Details/message_OutletProductDetails', [('producttype') : producttype]))
-
-WebUI.verifyElementPresent(findTestObject('Products Module/Outlet Product Details/message_OutletProductDetails', [('producttype') : producttype]), 
-    0)
-
-WebUI.closeBrowser()
-
-WebUI.callTestCase(findTestCase('Products/Add Outlet Product/verify_OutletProductApprovedList'), [('outlet_Product') : outlet_Product], 
+WebUI.callTestCase(findTestCase('Products/Add Outlet Product/verify_OutletProductAdded'), [('delay') : delay, ('outletproductname') : outletproductname
+        , ('item_Type') : item_Type, ('product_Price') : product_Price, ('minimumorderquantity') : minimmumorderquanity, ('notes') : notes], 
     FailureHandling.STOP_ON_FAILURE)
 

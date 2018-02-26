@@ -34,4 +34,11 @@ Test Case Description: Verifies If Created Product Outlet is approved successful
       <masked>false</masked>
       <name>approver_Notes</name>
    </variable>
+   <variable>
+      <defaultValue>'Outlet Product NameApproval'</defaultValue>
+      <description></description>
+      <id>87f4a506-19ad-445c-8114-9df2ec7399e4</id>
+      <masked>false</masked>
+      <name>outlet_Product</name>
+   </variable>
 </TestCaseEntity>
