@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='divBodyMain']//fieldset[1]//tr[4]/td[2]//span[2][contains(.,'select')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='divBodyMain']//fieldset[1]//tbody/tr[3]/td[2]//span[contains(normalize-space(),'-- Select --')]</value>
+      <value>.//*[@id='divBodyMain']//fieldset[1]//tr[4]/td[2]//span[2][contains(.,'select')]</value>
    </webElementProperties>
 </WebElementEntity>

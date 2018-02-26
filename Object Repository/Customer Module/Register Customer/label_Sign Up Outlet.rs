@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/div[9]/div/ul//li[contains(normalize-space(),'${signUpOutlet}')]</value>
+         <value>//li[contains(normalize-space(),'${signUpOutlet}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/div[9]/div/ul//li[contains(normalize-space(),'${signUpOutlet}')]</value>
+      <value>//li[contains(normalize-space(),'${signUpOutlet}')]</value>
    </webElementProperties>
 </WebElementEntity>

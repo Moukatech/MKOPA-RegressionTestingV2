@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>dropdown_Sales Channel</name>
+   <description>Label Showing Customer Account No, It's a parameterized xPath and productAccount is the variable</description>
+   <name>label_Customer Product Account Number</name>
    <tag></tag>
-   <elementGuidId>784d0d29-7671-4631-8302-42dbe1ced372</elementGuidId>
+   <elementGuidId>93707b5b-ee3a-46fc-b305-e6d2b7c6c6e9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='divBodyMain']//fieldset[4]//tr/td[2]//span[2][contains(.,'select')]</value>
+         <value>//label[contains(.,'${idNumber} ${product}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='divBodyMain']//fieldset[4]//tr/td[2]//span[2][contains(.,'select')]</value>
+      <value>//label[contains(.,'${idNumber} ${product}')]</value>
    </webElementProperties>
 </WebElementEntity>
