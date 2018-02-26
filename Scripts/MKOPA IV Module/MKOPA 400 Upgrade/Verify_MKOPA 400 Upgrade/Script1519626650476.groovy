@@ -26,5 +26,5 @@ WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSear
 
 WebUI.delay(delay)
 
-WebUI.verifyElementPresent(findTestObject('MKOPA IV/Customers Dashboard/label_LoanStatus'), 0)
+WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Customers Dashboard/label_LoanStatus'), 0)
 

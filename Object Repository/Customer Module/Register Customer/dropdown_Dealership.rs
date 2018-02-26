@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='divBodyMain']/form/div/fieldset[3]//td[2]//span/span[contains(.,'select')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='divBodyMain']//fieldset[3]//tr[1]/td[2]//div/span/span[contains(.,'select')]</value>
+      <value>.//*[@id='divBodyMain']/form/div/fieldset[3]//td[2]//span/span[contains(.,'select')]</value>
    </webElementProperties>
 </WebElementEntity>

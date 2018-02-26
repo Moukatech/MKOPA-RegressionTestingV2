@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Uploading a bundled manifest file in a metered item type</description>
+   <name>validate_Wrong Manifest type Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7cc2914-c714-4ca6-b214-df64cb41b6c8</testCaseGuid>
+   <variable>
+      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <description></description>
+      <id>2e419c42-7a44-4274-9235-1b1921726e0a</id>
+      <masked>false</masked>
+      <name>itemType</name>
+   </variable>
+   <variable>
+      <defaultValue>'OEL'</defaultValue>
+      <description></description>
+      <id>be56cb9f-3485-4f1d-a313-c78da628bd9e</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'Primary Device'</defaultValue>
+      <description></description>
+      <id>4a1560ce-a99c-464b-b5fd-03256b59c468</id>
+      <masked>false</masked>
+      <name>manifestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>cdc06ad1-611f-40d7-9ec4-7d58e8a9aa60</id>
+      <masked>false</masked>
+      <name>loanDraw</name>
+   </variable>
+   <variable>
+      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <description></description>
+      <id>f7210fdb-1c2d-443a-82d8-71886453ae22</id>
+      <masked>false</masked>
+      <name>shippingDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'True'</defaultValue>
+      <description></description>
+      <id>9d19671f-1920-4d48-8289-559832d2633c</id>
+      <masked>false</masked>
+      <name>condition</name>
+   </variable>
+   <variable>
+      <defaultValue>'meteredItemManifests'</defaultValue>
+      <description></description>
+      <id>486761c8-dc77-4083-8670-439daeb42f43</id>
+      <masked>false</masked>
+      <name>selectId</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>6ef66a6f-d875-4dd1-98db-53ca0ff8f99e</id>
+      <masked>false</masked>
+      <name>consignmentNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Consignment closed successfully!'</defaultValue>
+      <description></description>
+      <id>638474cc-4bbf-4d38-a090-a66234af62c4</id>
+      <masked>false</masked>
+      <name>statusMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>d9399c2d-1865-43c0-864a-c49606ff6777</id>
+      <masked>false</masked>
+      <name>imei</name>
+   </variable>
+</TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Sales Channel</name>
+   <name>button_StartUpgrade</name>
    <tag></tag>
-   <elementGuidId>784d0d29-7671-4631-8302-42dbe1ced372</elementGuidId>
+   <elementGuidId>cf785804-5616-4925-b698-eeb0484a90ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='divBodyMain']//fieldset[4]//tr/td[2]//span[2][contains(.,'select')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>.//*[@id='divBodyMain']//fieldset[4]//tr/td[2]//span[2][contains(.,'select')]</value>
+      <value>upgrade-accountlink</value>
    </webElementProperties>
 </WebElementEntity>

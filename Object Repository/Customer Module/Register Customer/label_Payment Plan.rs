@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'M-KOPA 5 v1 (M-KOPA 5: 2999 +50/day)')]</value>
+         <value>//li[contains(.,'${paymentPlan}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'M-KOPA 5 v1 (M-KOPA 5: 2999 +50/day)')]</value>
+      <value>//li[contains(.,'${paymentPlan}')]</value>
    </webElementProperties>
 </WebElementEntity>

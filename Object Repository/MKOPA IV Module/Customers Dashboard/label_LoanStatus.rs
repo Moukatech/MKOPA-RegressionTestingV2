@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Sales Channel</name>
+   <name>label_LoanStatus</name>
    <tag></tag>
-   <elementGuidId>784d0d29-7671-4631-8302-42dbe1ced372</elementGuidId>
+   <elementGuidId>fdf76b36-7926-40cb-b37f-d73a69596817</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='divBodyMain']//fieldset[4]//tr/td[2]//span[2][contains(.,'select')]</value>
+         <value>.//*[@id='div-account-info']//span[text()='${loan_Status}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='divBodyMain']//fieldset[4]//tr/td[2]//span[2][contains(.,'select')]</value>
+      <value>.//*[@id='div-account-info']//span[text()='${loan_Status}']</value>
    </webElementProperties>
 </WebElementEntity>
