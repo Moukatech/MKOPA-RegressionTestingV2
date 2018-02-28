@@ -19,12 +19,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/Customer Payments/verify_Customer Status on paying deposit'), [('amount') : amount
-        , ('account') : account, ('phoneNo') : phoneNo, ('comment') : comment], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-amountPaid = WebUI.getText(findTestObject('Customer Module/Customer Profile/label_lastAmountpaid'))
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerToSearch], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyEqual(amount, amountPaid)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Customer Module/Customer List/Radio-SMSBotton'))
+WebUI.mouseOver(findTestObject('Customer Module/Customer List/hamburger-Hamburger Menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Customer Profile/button_Direct Swap'))
+
+if (WebUI.verifyElementVisible(findTestObject('Customer Module/Initiate Direct Swap/dropdown_Select Item To Swap'), FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Customer Module/Initiate Direct Swap/dropdown_Select Item To Swap'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Customer Module/Initiate Direct Swap/label_Item to Swap', [('itemToSwap') : itemToSwap]))
+}
+
+WebUI.setText(findTestObject('Customer Module/Initiate Direct Swap/input_Enter Reason'), Reason)
+
+WebUI.click(findTestObject('Customer Module/Initiate Direct Swap/button_Initiate'))
 

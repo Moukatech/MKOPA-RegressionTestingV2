@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lastAmountpaid</name>
+   <name>errorMessage_Approver notes are required</name>
    <tag></tag>
-   <elementGuidId>6aa7bfbf-8983-46b2-bad9-f10f0abd7c55</elementGuidId>
+   <elementGuidId>485eff0f-6bb6-4733-9032-be042735f2d4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='div-last-payment-info']/div[1]/div[1]/div[2]</value>
+      <value>//li[contains(.,'Approver Notes are Required')]</value>
    </webElementProperties>
 </WebElementEntity>

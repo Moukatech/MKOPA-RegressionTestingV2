@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validates that in order to initiate a direct swap a reason is required</description>
+   <name>validate_Reason is Required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5aae7c27-3bac-4893-964f-ade049310075</testCaseGuid>
+   <variable>
+      <defaultValue>'Hammerkop Prod'</defaultValue>
+      <description></description>
+      <id>c9757973-4348-4290-9ff6-76a5bfa98f3e</id>
+      <masked>false</masked>
+      <name>itemToSwap</name>
+   </variable>
+   <variable>
+      <defaultValue>'12582063'</defaultValue>
+      <description></description>
+      <id>1c9b9eac-76d0-4427-89c2-05a31fde1df1</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5650cd4-9306-4181-b2d9-8f994f0f96db</id>
+      <masked>false</masked>
+      <name>Reason</name>
+   </variable>
+</TestCaseEntity>

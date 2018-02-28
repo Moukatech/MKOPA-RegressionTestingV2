@@ -19,3 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Customers/Register Customer/steps_Customer Registration'), [('gender') : 'Male', ('surname') : 'Makeba'
+        , ('otherNames') : 'Zahra Mekatilili', ('idNumber') : '20191099', ('idNumberType') : 'National ID', ('citizenship') : 'Kenya'
+        , ('mobilePhoneNumber') : '0714000168', ('dealership') : 'SC001 M-KOPA Shop Meru (01063)', ('signUpOutlet') : 'Sc001 M-Kopa Shop Meru'
+        , ('signUpOperator') : '(0) Mwita Moses', ('salesChannel') : 'Normal', ('paymentPlan') : 'M-KOPA 5 v1 (M-KOPA 5: 2999 +50/day)'
+        , ('dateOfBirth') : '1994-06-13', ('maritalStatus') : 'Single', ('alternatePhoneNumber') : '0718999591', ('paymentPlanType') : 'Loan'
+        , ('paymentPhoneNumber') : '0714000168', ('language') : 'English', ('Town') : 'Nairobi', ('excludeFromCRBReport') : ''
+        , ('zukuDecoderSerial') : '', ('zukuSmartCard') : '', ('test') : '', ('comment') : 'I have Created a Customer'], 
+    FailureHandling.STOP_ON_FAILURE)
+

@@ -19,12 +19,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/Customer Payments/verify_Customer Status on paying deposit'), [('amount') : amount
-        , ('account') : account, ('phoneNo') : phoneNo, ('comment') : comment], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/Link-Customer'))
 
-amountPaid = WebUI.getText(findTestObject('Customer Module/Customer Profile/label_lastAmountpaid'))
+WebUI.delay(2)
 
-WebUI.verifyEqual(amount, amountPaid)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/link_Products'))
 
-WebUI.click(findTestObject('Customer Module/Customer List/Radio-SMSBotton'))
+WebUI.delay(2)
+
+WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/link_Product Returns'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page Header and Menu/Customers/link_Approve Direct Swaps'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Approve Replacements/link_Approve', [('deviceSerial') : deviceSerial]))
+
+WebUI.click(findTestObject('Customer Module/Approve Replacements/dropdown_Approval Status'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Approve Replacements/label_Approval Status', [('status') : status]))
+
+WebUI.setText(findTestObject('Customer Module/Approve Replacements/input_Approver Notes'), approverNotes)
+
+WebUI.click(findTestObject('Customer Module/Approve Replacements/button_Approve'))
 
