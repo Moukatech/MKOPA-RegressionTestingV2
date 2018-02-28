@@ -19,12 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/Customer Payments/verify_Customer Status on paying deposit'), [('amount') : amount
-        , ('account') : account, ('phoneNo') : phoneNo, ('comment') : comment], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-amountPaid = WebUI.getText(findTestObject('Customer Module/Customer Profile/label_lastAmountpaid'))
+WebUI.callTestCase(findTestCase('MKOPA IV/Initiate Direct Swap/steps_Initiate Direct Swap'), [('itemToSwap') : itemToSwap
+        , ('customerToSearch') : customerToSearch, ('Reason') : Reason], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyEqual(amount, amountPaid)
+WebUI.verifyElementVisible(findTestObject('Customer Module/Initiate Direct Swap/errorMessage_Reason is Required'))
 
-WebUI.click(findTestObject('Customer Module/Customer List/Radio-SMSBotton'))
+WebUI.closeBrowser()
 

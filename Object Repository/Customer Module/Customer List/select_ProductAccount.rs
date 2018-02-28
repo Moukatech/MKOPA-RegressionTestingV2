@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ProductAccount</name>
+   <tag></tag>
+   <elementGuidId>073438b0-3a99-4903-b98e-0b43c2e02ce1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*/div/div/ul/li[text()='${productaccount}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*/div/div/ul/li[text()='${productaccount}']</value>
+   </webElementProperties>
+</WebElementEntity>
