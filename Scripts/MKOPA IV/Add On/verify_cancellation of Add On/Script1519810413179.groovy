@@ -24,57 +24,25 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
 
 WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/image_hamburger_menu'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Sell AddOn'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/Dropdown_Sell add on'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/select_Add On', [('addOnName') : addOnName]))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/Dropdown-Dealership'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/select_Dealership', [('dealership') : dealership]), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/Dropdown-Sale Outlet'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/select_Sale Outlet', [('salesOutlet') : salesOutlet]))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/Dropdown-Sale Operator'))
-
-WebUI.delay(delay)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/select_Sales operator', [('salesOperator') : salesOperator]))
-
-WebUI.setText(findTestObject('Customer Module/Sell Add On/input-Comment'), comment)
-
-WebUI.click(findTestObject('Customer Module/Sell Add On/Button-Sell'))
+WebUI.click(findTestObject('Customer Module/Customer List/link_Product Information'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Customer Module/Sell Add On/message_Add-on registered successfully'), 2)
+WebUI.click(findTestObject('Customer Module/Customer List/link_AddOn', [('addOnName') : addOnName]))
 
-WebUI.click(findTestObject('Customer Module/Sell Add On/link_Click to customer page'))
+WebUI.verifyElementPresent(findTestObject('Customer Module/Customer List/link_CancelAddon', [('data-id') : dataId]), 2)
 
-WebUI.click(findTestObject('Customer Module/Customer List/link_Product Information'))
+WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Customer Module/Customer List/link_AddOn', [('addOnName') : addOnName]), 2)
+WebUI.click(findTestObject('Customer Module/Customer List/link_CancelAddon', [('data-id') : dataId]))
+
+WebUI.setText(findTestObject('Customer Module/Customer List/input_reason'), reason)
+
+WebUI.click(findTestObject('Customer Module/Customer List/button_CancelAddon'))
+
+WebUI.verifyAlertPresent(3)
+
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

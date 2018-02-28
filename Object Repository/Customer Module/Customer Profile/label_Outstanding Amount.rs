@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Add On</name>
+   <name>label_Outstanding Amount</name>
    <tag></tag>
-   <elementGuidId>9a75e2f6-6cb2-4846-8aaa-df822a01b7a0</elementGuidId>
+   <elementGuidId>965024d4-6b53-435b-989c-1e394dad5dcb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${addOnName}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${addOnName}')]</value>
+      <value>.//*[@id='div-account-info']/div[1]/div/div[3]/div/div[contains(.,'KES ${amount}.00')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Add On</name>
+   <name>button_Approve</name>
    <tag></tag>
-   <elementGuidId>9a75e2f6-6cb2-4846-8aaa-df822a01b7a0</elementGuidId>
+   <elementGuidId>753ebbdb-1fa0-4998-88fc-b341583511c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${addOnName}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${addOnName}')]</value>
+      <value>//button[contains(.,'Approve')]</value>
    </webElementProperties>
 </WebElementEntity>

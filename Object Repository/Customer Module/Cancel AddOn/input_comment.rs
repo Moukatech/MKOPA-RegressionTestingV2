@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Add On</name>
+   <name>input_comment</name>
    <tag></tag>
-   <elementGuidId>9a75e2f6-6cb2-4846-8aaa-df822a01b7a0</elementGuidId>
+   <elementGuidId>11d31673-a7c7-41c0-ba86-d4372eb7d3d0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[contains(normalize-space(),'${addOnName}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(normalize-space(),'${addOnName}')]</value>
+      <value>//textarea[contains(@id,'txt-reason')]</value>
    </webElementProperties>
 </WebElementEntity>

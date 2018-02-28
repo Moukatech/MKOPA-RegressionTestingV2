@@ -7,14 +7,14 @@ selling an Add On to an active mkopa 4 customer</description>
    <comment></comment>
    <testCaseGuid>9d8a3d2a-0df8-4493-8632-c78eed4fa822</testCaseGuid>
    <variable>
-      <defaultValue>'23769885'</defaultValue>
+      <defaultValue>'13295551'</defaultValue>
       <description></description>
       <id>ce1cedcd-12e3-4b0b-b4ca-63b1bf4b922a</id>
       <masked>false</masked>
       <name>customerAccount</name>
    </variable>
    <variable>
-      <defaultValue>'5 days @ 50'</defaultValue>
+      <defaultValue>'Control Box M-KOPA 3 '</defaultValue>
       <description></description>
       <id>85a33584-734a-4905-9d24-888b080ecf25</id>
       <masked>false</masked>
@@ -47,5 +47,12 @@ selling an Add On to an active mkopa 4 customer</description>
       <id>7dffdeda-c4f9-43df-a349-00889202cbda</id>
       <masked>false</masked>
       <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>a9ee8cc6-cc5b-4465-b18a-38ef5218c2da</id>
+      <masked>false</masked>
+      <name>delay</name>
    </variable>
 </TestCaseEntity>

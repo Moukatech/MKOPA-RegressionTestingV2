@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/div[19]/div/ul/li[contains(normalize-space(),'${salesOutlet}')]</value>
+         <value>html/body/div[15]/div/ul/li[contains(normalize-space(),'${salesOutlet}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/div[19]/div/ul/li[contains(normalize-space(),'${salesOutlet}')]</value>
+      <value>html/body/div[15]/div/ul/li[contains(normalize-space(),'${salesOutlet}')]</value>
    </webElementProperties>
 </WebElementEntity>
