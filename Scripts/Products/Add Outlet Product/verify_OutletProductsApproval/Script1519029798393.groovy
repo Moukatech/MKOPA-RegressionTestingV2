@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Products Module/Outlet Product Type Approvals/link_O
 
 WebUI.click(findTestObject('Products Module/Approve Outlet Product Type/dropdown_ApprovalStatus'))
 
+WebUI.delay(delay)
+
 WebUI.click(findTestObject('Products Module/Approve Outlet Product Type/option_ApprovalStatus', [('approval_Status') : approval_Status]))
 
 WebUI.delay(delay)
@@ -50,6 +52,6 @@ WebUI.verifyElementPresent(findTestObject('Products Module/Outlet Product Detail
 
 WebUI.closeBrowser()
 
-WebUI.callTestCase(findTestCase('Products/Add Outlet Product/verify_OutletProductApprovedList'), [('outlet_Product') : 'Outlet Product NameApproval'], 
+WebUI.callTestCase(findTestCase('Products/Add Outlet Product/verify_OutletProductApprovedList'), [('outlet_Product') : outlet_Product], 
     FailureHandling.STOP_ON_FAILURE)
 

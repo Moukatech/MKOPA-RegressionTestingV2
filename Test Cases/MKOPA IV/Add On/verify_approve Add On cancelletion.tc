@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Approving an AddOn cancellation</description>
+   <name>verify_approve Add On cancelletion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4041f673-227e-4556-a615-70f84ca77913</testCaseGuid>
+   <variable>
+      <defaultValue>'13295551'</defaultValue>
+      <description></description>
+      <id>68e1dec5-e00d-40dd-bf88-31f1c38a8c97</id>
+      <masked>false</masked>
+      <name>cutomerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>8e19d30a-b5aa-41a1-abe9-f78a224d6a38</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_Device History of an Upgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70a62b77-567e-4591-a496-60ff65be9c77</testCaseGuid>
+   <variable>
+      <defaultValue>'20930453'</defaultValue>
+      <description></description>
+      <id>948c7b79-b1a8-4150-8d8d-91236416c544</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+</TestCaseEntity>

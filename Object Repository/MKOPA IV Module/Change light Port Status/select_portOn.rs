@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_portOn</name>
+   <tag></tag>
+   <elementGuidId>34d70d57-c24e-4e6a-85b1-07ae17bd477a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='lightportcontainer']/table[1]/tbody/tr[3]/td[2]/div[1]/label/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='lightportcontainer']/table[1]/tbody/tr[3]/td[2]/div[1]/label/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

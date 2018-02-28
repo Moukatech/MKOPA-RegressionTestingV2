@@ -22,7 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Payments/Customer Payments/verify_Customer Status on paying deposit'), [('amount') : amount
         , ('account') : account, ('phoneNo') : phoneNo, ('comment') : comment], FailureHandling.STOP_ON_FAILURE)
 
-amountPaid = WebUI.getText(findTestObject('Customer Module/Customer Profile/lastAmountpaid'))
+amountPaid = WebUI.getText(findTestObject('Customer Module/Customer Profile/label_lastAmountpaid'))
 
 WebUI.verifyEqual(amount, amountPaid)
 

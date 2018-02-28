@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to Initiate a direct Swap</description>
+   <name>steps_Initiate Direct Swap</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f1402dc-90a5-41e1-9626-c647b7bd1047</testCaseGuid>
+   <variable>
+      <defaultValue>'Hammerkop Prod'</defaultValue>
+      <description></description>
+      <id>254565c9-edb6-4706-8177-b1dfd07149c2</id>
+      <masked>false</masked>
+      <name>itemToSwap</name>
+   </variable>
+   <variable>
+      <defaultValue>'28507655'</defaultValue>
+      <description></description>
+      <id>e912de37-de5f-451a-841d-57948755d309</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have Initiated a direct swap'</defaultValue>
+      <description></description>
+      <id>a41c83e4-7920-455c-a9ab-1e9b5ab1d25f</id>
+      <masked>false</masked>
+      <name>Reason</name>
+   </variable>
+</TestCaseEntity>

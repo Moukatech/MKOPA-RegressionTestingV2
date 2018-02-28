@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking for the requiered fileds when approving tto block an account</description>
+   <name>validate_required fields for block account aproval</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb9ec3c1-c149-4d3f-a9b3-87cdaf70e812</testCaseGuid>
+   <variable>
+      <defaultValue>'9020790'</defaultValue>
+      <description></description>
+      <id>5e19993f-806e-4887-bf11-34e1b9566201</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5daf9424-f7ba-4ff1-a176-6f267d7e42a0</id>
+      <masked>false</masked>
+      <name>approvalNotes</name>
+   </variable>
+</TestCaseEntity>

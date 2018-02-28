@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lastAmountpaid</name>
+   <name>input_block description</name>
    <tag></tag>
-   <elementGuidId>6aa7bfbf-8983-46b2-bad9-f10f0abd7c55</elementGuidId>
+   <elementGuidId>a1b261eb-d365-427a-bd8b-8bbd6fd24688</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='div-last-payment-info']/div[1]/div[1]/div[2]</value>
+      <value>//textarea[@id='RequestNotes']</value>
    </webElementProperties>
 </WebElementEntity>

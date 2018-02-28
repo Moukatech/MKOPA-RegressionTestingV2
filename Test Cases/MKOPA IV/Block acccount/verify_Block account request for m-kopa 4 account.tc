@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID: 13942
+Blocking an mkopa 4 acount</description>
+   <name>verify_Block account request for m-kopa 4 account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b626db3-b0dd-4c40-a777-e0bc669a33a3</testCaseGuid>
+   <variable>
+      <defaultValue>'13677647'</defaultValue>
+      <description></description>
+      <id>35539444-8f26-4b70-851b-06661a864c32</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description></description>
+      <id>2fe6623a-eeda-4009-9b33-bd51b2476a0c</id>
+      <masked>false</masked>
+      <name>ammount</name>
+   </variable>
+   <variable>
+      <defaultValue>'15'</defaultValue>
+      <description></description>
+      <id>573ae49d-1edb-4cd6-945b-d58ff271db7f</id>
+      <masked>false</masked>
+      <name>days</name>
+   </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>489c6676-0c4a-43a0-a079-f12fa81f5d4d</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

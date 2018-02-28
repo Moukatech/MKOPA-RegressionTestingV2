@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-Products'))
@@ -48,10 +48,10 @@ WebUI.setText(findTestObject('Products Module/Add Outlet Product/input_Notes'), 
 
 WebUI.click(findTestObject('Products Module/Add Outlet Product/button_AddOutletProduct'))
 
-WebUI.getText(findTestObject('Products Module/Add Outlet Product/message_OutletProductDetails', [('outletproductname') : outletproductname]))
+not_run: WebUI.getText(findTestObject('Products Module/Add Outlet Product/message_OutletProductDetails', [('outletproductname') : outletproductname]))
 
 WebUI.verifyElementPresent(findTestObject('Products Module/Add Outlet Product/message_OutletProductDetails', [('outletproductname') : outletproductname]), 
-    0)
+    2)
 
 WebUI.closeBrowser()
 

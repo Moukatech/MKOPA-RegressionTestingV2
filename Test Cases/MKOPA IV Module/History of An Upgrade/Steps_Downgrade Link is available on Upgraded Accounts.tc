@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_Downgrade Link is available on Upgraded Accounts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4fdc3d01-a384-4cbd-af3f-b42ae0a8563e</testCaseGuid>
+   <variable>
+      <defaultValue>'5318836'</defaultValue>
+      <description></description>
+      <id>53a66f47-b4dd-43d7-9ac2-2a0edb4271de</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'5318836 ( M-KOPA 4 v2 )'</defaultValue>
+      <description></description>
+      <id>6ac42afe-35aa-4ff4-9548-c865293ce036</id>
+      <masked>false</masked>
+      <name>product</name>
+   </variable>
+</TestCaseEntity>

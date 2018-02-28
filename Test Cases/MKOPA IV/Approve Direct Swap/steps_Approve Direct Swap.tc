@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to Approve Direct Swap after Initializing a Swap</description>
+   <name>steps_Approve Direct Swap</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>093417e5-0d35-4127-b407-f8da1129c70c</testCaseGuid>
+   <variable>
+      <defaultValue>'Approved'</defaultValue>
+      <description></description>
+      <id>c28c0d68-99ad-4e2d-a901-adce48fbc83b</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>'0714010101-000047'</defaultValue>
+      <description></description>
+      <id>1ce8bc35-bbab-426f-92f5-667aec98a3c4</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have approved the Swap'</defaultValue>
+      <description></description>
+      <id>f8b72c8c-0c4c-4a53-90af-b70b2db8bad2</id>
+      <masked>false</masked>
+      <name>approverNotes</name>
+   </variable>
+</TestCaseEntity>

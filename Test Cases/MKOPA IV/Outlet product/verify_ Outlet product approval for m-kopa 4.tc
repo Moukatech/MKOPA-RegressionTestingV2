@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>approving the created outlet product for mkoapa 4</description>
+   <name>verify_ Outlet product approval for m-kopa 4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77402fce-e9e3-4f71-bce6-551d5af64b51</testCaseGuid>
+   <variable>
+      <defaultValue>'brima quotes'</defaultValue>
+      <description></description>
+      <id>f3e62198-73ee-4b49-8013-3c69448dc487</id>
+      <masked>false</masked>
+      <name>producttype</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>3e4738ce-d8e5-463a-86bc-b808d83a3948</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Approved'</defaultValue>
+      <description></description>
+      <id>7fd8c275-deec-4d7b-878a-721c65202a82</id>
+      <masked>false</masked>
+      <name>approval_Status</name>
+   </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>e13a9a82-caa9-40ee-8c6e-ed0b2caa7fb1</id>
+      <masked>false</masked>
+      <name>approval_Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'brima quotes'</defaultValue>
+      <description></description>
+      <id>385ab79d-e5bf-4bb7-94ec-5ffc228c9445</id>
+      <masked>false</masked>
+      <name>outlet_Procuct</name>
+   </variable>
+</TestCaseEntity>
