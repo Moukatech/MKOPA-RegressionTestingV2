@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>validate that one has to select that item to swap with</description>
+   <name>validate_Select the Bundle Item you want to Swap</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5fafddc-e904-48d0-af47-cbeb43a46078</testCaseGuid>
+   <variable>
+      <defaultValue>'-- Select --'</defaultValue>
+      <description></description>
+      <id>99a0595d-d73c-4c27-b1b1-2d375e712a69</id>
+      <masked>false</masked>
+      <name>itemToSwap</name>
+   </variable>
+   <variable>
+      <defaultValue>'12582063'</defaultValue>
+      <description></description>
+      <id>a2f83c5e-5cfe-43cf-8f45-c6f716e56ef3</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have not selected the Item to swap with'</defaultValue>
+      <description></description>
+      <id>04924c6f-730b-4faa-8479-b88a5c4a02c6</id>
+      <masked>false</masked>
+      <name>Reason</name>
+   </variable>
+</TestCaseEntity>

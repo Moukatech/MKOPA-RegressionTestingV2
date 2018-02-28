@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Products</name>
+   <tag></tag>
+   <elementGuidId>b0f5cf26-9ae1-4285-a7f9-4efd6d3c7f2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='Menu']//li[2]//span[contains(.,'Products')]</value>
+   </webElementProperties>
+</WebElementEntity>

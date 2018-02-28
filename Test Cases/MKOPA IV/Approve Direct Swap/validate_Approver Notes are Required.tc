@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Approver Notes are Required</description>
+   <name>validate_Approver Notes are Required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17b8b12a-c7e9-4f45-bcb5-84175a9019f8</testCaseGuid>
+   <variable>
+      <defaultValue>'Approved'</defaultValue>
+      <description></description>
+      <id>c7108797-cfdf-4598-ae89-72101efc9eac</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>'0216021201-000502'</defaultValue>
+      <description></description>
+      <id>217c9e35-675c-4004-8fd6-91325a13f40a</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e59fca2-23ec-45e9-91c9-ea8d2697520d</id>
+      <masked>false</masked>
+      <name>approverNotes</name>
+   </variable>
+</TestCaseEntity>

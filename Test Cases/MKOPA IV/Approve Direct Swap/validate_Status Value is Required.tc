@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A status value must be chosen and it is required,  if not selected a error message is displayed</description>
+   <name>validate_Status Value is Required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecf12628-3623-4594-94b4-6fcd59ccbda4</testCaseGuid>
+   <variable>
+      <defaultValue>'-- Select --'</defaultValue>
+      <description></description>
+      <id>1e1e2dc6-afd9-464a-9133-1a6503722ff8</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>'0216021201-000502'</defaultValue>
+      <description></description>
+      <id>0dbc00d7-0b7e-4734-82ac-ca36c5071934</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have aapproved the Swap'</defaultValue>
+      <description></description>
+      <id>62563e88-8085-4625-9604-4eb89551ff1a</id>
+      <masked>false</masked>
+      <name>approverNotes</name>
+   </variable>
+</TestCaseEntity>
