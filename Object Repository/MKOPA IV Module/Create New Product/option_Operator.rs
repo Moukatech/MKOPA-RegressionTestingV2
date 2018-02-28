@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Outlet</name>
+   <name>option_Operator</name>
    <tag></tag>
-   <elementGuidId>a6ce25c2-f4fb-4b3d-92af-fc85df2219dd</elementGuidId>
+   <elementGuidId>51c9a630-6320-4f78-9dc0-46ab1307cc73</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/div[7]/div/ul/li[9]</value>
+         <value>//div[15]/div/ul/li[text()='${operator}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/div[7]/div/ul/li[9]</value>
+      <value>//div[15]/div/ul/li[text()='${operator}']</value>
    </webElementProperties>
 </WebElementEntity>

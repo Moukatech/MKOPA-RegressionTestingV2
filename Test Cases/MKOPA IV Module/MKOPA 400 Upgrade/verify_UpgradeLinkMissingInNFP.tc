@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID:15273
+Test Description: Verifies Upgrade Link in Missing in Customer Account who are still in payment status</description>
+   <name>verify_UpgradeLinkMissingInNFP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37d7d514-6136-4da6-af46-f5c29cb0c056</testCaseGuid>
+   <variable>
+      <defaultValue>'Finished Payment'</defaultValue>
+      <description></description>
+      <id>71c637be-4b7d-4372-be1d-e59cc74fb068</id>
+      <masked>false</masked>
+      <name>loan_Status</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>a2341627-2a0d-4e12-88d7-45c801deac4d</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Outlet</name>
+   <name>option_PlanType</name>
    <tag></tag>
-   <elementGuidId>a6ce25c2-f4fb-4b3d-92af-fc85df2219dd</elementGuidId>
+   <elementGuidId>5cb11edb-b6ea-4fe7-9593-abbc9791af87</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/div[7]/div/ul/li[9]</value>
+         <value>html/body/div[16]/div/ul/li[text()='${plan_Type}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/div[7]/div/ul/li[9]</value>
+      <value>html/body/div[16]/div/ul/li[text()='${plan_Type}']</value>
    </webElementProperties>
 </WebElementEntity>

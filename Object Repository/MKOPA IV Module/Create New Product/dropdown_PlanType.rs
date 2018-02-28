@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Outlet</name>
+   <name>dropdown_PlanType</name>
    <tag></tag>
-   <elementGuidId>a6ce25c2-f4fb-4b3d-92af-fc85df2219dd</elementGuidId>
+   <elementGuidId>93e29e31-bd80-4d12-96f0-b46cce19156e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/div[7]/div/ul/li[9]</value>
+         <value>//*[@id=&quot;frm-add-product&quot;]/div[2]/fieldset[2]/div[2]/div[1]/div[2]/div/div/span[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/div[7]/div/ul/li[9]</value>
+      <value>//*[@id=&quot;frm-add-product&quot;]/div[2]/fieldset[2]/div[2]/div[1]/div[2]/div/div/span[2]/span</value>
    </webElementProperties>
 </WebElementEntity>

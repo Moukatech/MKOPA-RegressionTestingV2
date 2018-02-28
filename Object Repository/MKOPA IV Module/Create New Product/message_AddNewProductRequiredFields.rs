@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Outlet</name>
+   <name>message_AddNewProductRequiredFields</name>
    <tag></tag>
-   <elementGuidId>a6ce25c2-f4fb-4b3d-92af-fc85df2219dd</elementGuidId>
+   <elementGuidId>25003912-9ea8-47fa-92ad-c4bd4005d1f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/div[7]/div/ul/li[9]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/div[7]/div/ul/li[9]</value>
+      <value>.//*[@id='frm-add-product']/div[1]/div/ul/li[contains(normalize-space(),'p')]</value>
    </webElementProperties>
 </WebElementEntity>

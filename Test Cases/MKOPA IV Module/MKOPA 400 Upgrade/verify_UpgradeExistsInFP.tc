@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 15395
+Test Case Description: Verifies if Upgrade Exists in a Finished Payment Account</description>
+   <name>verify_UpgradeExistsInFP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d97bd068-8788-4b83-8cd1-58fbc8c4426b</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>80bb8af4-695d-4529-962f-86708ca9c8be</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Finished Payment'</defaultValue>
+      <description></description>
+      <id>efe3a781-3015-4ff4-9d04-7b97a88d01bf</id>
+      <masked>false</masked>
+      <name>loan_Status</name>
+   </variable>
+</TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Outlet</name>
+   <name>input_RequestNotes</name>
    <tag></tag>
-   <elementGuidId>a6ce25c2-f4fb-4b3d-92af-fc85df2219dd</elementGuidId>
+   <elementGuidId>727f0bf5-d207-4050-9832-223142135026</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/div[7]/div/ul/li[9]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/div[7]/div/ul/li[9]</value>
+      <value>.//*[@id='RequestNotes']</value>
    </webElementProperties>
 </WebElementEntity>

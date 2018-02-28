@@ -19,12 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('MKOPA IV Module/MKOPA 400 Upgrade/step_MKOPA 400 Upgrade'), [('loan_Status') : 'Finished Payment'
-        , ('delay') : '5', ('dealership') : 'SC001 M-KOPA Shop Meru (01063)', ('outlet') : 'SC001 Meru Rimbere Enterprise'
-        , ('plan_Type') : 'Loan', ('operator') : 'Njoki Maureen', ('payment_Plan') : 'M-KOPA +400 v4 (M-KOPA +400 ZERO deposit + 50 for 850 days)'
-        , ('request_Notes') : 'QA Testing Notes'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(10)
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : '25366089'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(delay)
+
+WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Customers Dashboard/label_LoanStatus', [('loan_Status') : loan_Status]), 
+    0)
+
+WebUI.mouseOver(findTestObject('MKOPA IV Module/Customers Dashboard/image_hamburger_menu'))
+
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_StartUpgrade'))
+
+WebUI.click(findTestObject('MKOPA IV Module/Create New Product/button_SubmitAddProduct'))
+
+WebUI.getText(findTestObject('MKOPA IV Module/Create New Product/message_AddNewProductRequiredFields'))
+
+WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Create New Product/message_AddNewProductRequiredFields'), 0)
 
 WebUI.closeBrowser()
 

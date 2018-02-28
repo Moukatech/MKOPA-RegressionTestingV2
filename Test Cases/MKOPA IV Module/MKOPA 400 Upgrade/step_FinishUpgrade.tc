@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>step_FinishUpgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e662498-3d9a-4f12-a4ce-9101439b4fec</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>7b4671cf-c749-42a1-b3b8-24a32dad538a</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'1971956 ( MK3 DSR v1 )'</defaultValue>
+      <description></description>
+      <id>0f80218d-10f4-412a-88af-65e17e02df22</id>
+      <masked>false</masked>
+      <name>old_ProductAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'FT G'</defaultValue>
+      <description></description>
+      <id>3364b5c8-76be-47dc-859a-e25ef9f6d23a</id>
+      <masked>false</masked>
+      <name>return_Dealer</name>
+   </variable>
+</TestCaseEntity>

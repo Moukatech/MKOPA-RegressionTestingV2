@@ -19,12 +19,36 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('MKOPA IV Module/MKOPA 400 Upgrade/step_MKOPA 400 Upgrade'), [('loan_Status') : 'Finished Payment'
-        , ('delay') : '5', ('dealership') : 'SC001 M-KOPA Shop Meru (01063)', ('outlet') : 'SC001 Meru Rimbere Enterprise'
-        , ('plan_Type') : 'Loan', ('operator') : 'Njoki Maureen', ('payment_Plan') : 'M-KOPA +400 v4 (M-KOPA +400 ZERO deposit + 50 for 850 days)'
-        , ('request_Notes') : 'QA Testing Notes'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : '1971956'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('MKOPA IV Module/Create New Product/dropdown_ProductAccount'))
+
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('MKOPA IV Module/Create New Product/option_ProductAccount', [('old_ProductAccount') : old_ProductAccount]))
+
+WebUI.delay(delay)
+
+WebUI.mouseOver(findTestObject('MKOPA IV Module/Customers Dashboard/image_hamburger_menu'))
+
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('MKOPA IV Module/Create New Product/button_FinishUpgrade'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('MKOPA IV Module/Return Current Device/input_ReturnDealer'), return_Dealer)
+
+WebUI.delay(delay)
+
+WebUI.click(findTestObject('MKOPA IV Module/Return Current Device/option_ReturnDealer'))
+
+WebUI.click(findTestObject('MKOPA IV Module/Return Current Device/dropdown_returnOutlet'))
+
+not_run: WebUI.click(findTestObject('MKOPA IV Module/Create New Product/button_UpgradeButton'))
 

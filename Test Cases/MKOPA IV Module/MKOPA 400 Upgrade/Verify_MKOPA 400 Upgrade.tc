@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test Case ID:
-Test Case Description</description>
+   <description>Test Case ID: 14844
+Test Case Description: Verifies if the application add a new product successfully</description>
    <name>Verify_MKOPA 400 Upgrade</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9f53c20b-7c56-480f-9484-3addd4758d48</testCaseGuid>
-   <variable>
-      <defaultValue>'Finished Payment'</defaultValue>
-      <description></description>
-      <id>d0d7b7ec-7059-4a6e-be57-48f75bcdd9ae</id>
-      <masked>false</masked>
-      <name>loan_Status</name>
-   </variable>
-   <variable>
-      <defaultValue>'5'</defaultValue>
-      <description></description>
-      <id>c8a469c0-9997-4afc-a7ee-f5bc8fad05e6</id>
-      <masked>false</masked>
-      <name>delay</name>
-   </variable>
 </TestCaseEntity>
