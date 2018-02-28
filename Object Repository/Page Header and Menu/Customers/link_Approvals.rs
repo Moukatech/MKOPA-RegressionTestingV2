@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Sell Add On Button</description>
-   <name>Button-Sell</name>
+   <description></description>
+   <name>link_Approvals</name>
    <tag></tag>
-   <elementGuidId>d70220cb-602a-44d4-8a9d-caf09cec0300</elementGuidId>
+   <elementGuidId>2a4b77e1-b19d-4d52-b02c-ea3ed6b5e6c4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id='btn-submit-selladdon']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@id='btn-submit-selladdon']</value>
+      <value>.//*[@id='Menu']/li/div/ul/li/div/ul/li/span[contains(.,'Approvals')]</value>
    </webElementProperties>
 </WebElementEntity>

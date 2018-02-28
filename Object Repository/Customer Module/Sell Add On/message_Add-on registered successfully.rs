@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Sell Add On Button</description>
-   <name>Button-Sell</name>
+   <description></description>
+   <name>message_Add-on registered successfully</name>
    <tag></tag>
-   <elementGuidId>d70220cb-602a-44d4-8a9d-caf09cec0300</elementGuidId>
+   <elementGuidId>0345c7d4-2436-4e93-a4d1-8e0fb47d1ff7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id='btn-submit-selladdon']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@id='btn-submit-selladdon']</value>
+      <value>//div[contains(.,'Add-On Registered Successfully')]</value>
    </webElementProperties>
 </WebElementEntity>

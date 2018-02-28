@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>ID: 13942
 Blocking an mkopa 4 acount</description>
-   <name>verify_Block account rquest for m-kopa 4 account</name>
+   <name>verify_Block account request for m-kopa 4 account</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5b626db3-b0dd-4c40-a777-e0bc669a33a3</testCaseGuid>
