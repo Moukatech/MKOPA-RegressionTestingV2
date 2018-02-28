@@ -3,6 +3,7 @@
    <description></description>
    <name>link_Products</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>b0f5cf26-9ae1-4285-a7f9-4efd6d3c7f2b</elementGuidId>
    <selectorCollection>
       <entry>
@@ -18,5 +19,22 @@
       <name>xpath</name>
       <type>Main</type>
       <value>.//*[@id='Menu']//li[2]//span[contains(.,'Products')]</value>
+=======
+   <elementGuidId>fb7bf431-ea98-4d36-ae44-b9ea248a0085</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='Menu']/li/div/ul/li/span[text()='Products']</value>
+>>>>>>> branch 'master' of https://github.com/TezzaBusinessSolutions/MKOPA-RegressionTestingV2
    </webElementProperties>
 </WebElementEntity>

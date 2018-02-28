@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Sell Add On Button</description>
-   <name>Button-Sell</name>
+   <description></description>
+   <name>Dropdown_Sell add on</name>
    <tag></tag>
-   <elementGuidId>d70220cb-602a-44d4-8a9d-caf09cec0300</elementGuidId>
+   <elementGuidId>547a0993-5161-470a-ba9f-57f5dfcc30f1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id='btn-submit-selladdon']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@id='btn-submit-selladdon']</value>
+      <value>//span[contains(.,'--Select Add On--')]</value>
    </webElementProperties>
 </WebElementEntity>

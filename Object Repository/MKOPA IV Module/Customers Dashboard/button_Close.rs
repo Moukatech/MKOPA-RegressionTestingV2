@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Sell Add On Button</description>
-   <name>Button-Sell</name>
+   <description></description>
+   <name>button_Close</name>
    <tag></tag>
-   <elementGuidId>d70220cb-602a-44d4-8a9d-caf09cec0300</elementGuidId>
+   <elementGuidId>bd9a0e99-1ad2-4bc5-8f4c-9170c4c6a49f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id='btn-submit-selladdon']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@id='btn-submit-selladdon']</value>
+      <value>.//*[@id='wdw-actions-content']/div/div/a/span[contains(.,'Close')]</value>
    </webElementProperties>
 </WebElementEntity>

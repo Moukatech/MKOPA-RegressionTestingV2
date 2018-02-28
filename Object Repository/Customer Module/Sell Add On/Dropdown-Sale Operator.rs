@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='wdw-actions-content']/div[2]/form/div/div[3]/div[3]/div/div/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='wdw-actions-content']/div[2]/form/div/div[3]/div[3]/div/div/span[1</value>
+      <value>.//*[@id='wdw-actions-content']/div[2]/form/div/div[3]/div[3]/div/div/span[1]</value>
    </webElementProperties>
 </WebElementEntity>
