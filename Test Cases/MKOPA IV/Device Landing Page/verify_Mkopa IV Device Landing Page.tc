@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 12112.
+
+Click on Customer Link and one is directed to the Device details Page</description>
+   <name>verify_Mkopa IV Device Landing Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75232211-7e06-4c1b-9b80-6175415429b0</testCaseGuid>
+   <variable>
+      <defaultValue>'7954414'</defaultValue>
+      <description></description>
+      <id>1e5d3ee0-f4d1-468a-8647-44c082437691</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'1016011601-000823'</defaultValue>
+      <description></description>
+      <id>6b1aef9c-9c07-475a-9720-39876c070a69</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>0f5fdcf4-24e5-4978-b9bc-23792fa7f8bc</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+</TestCaseEntity>

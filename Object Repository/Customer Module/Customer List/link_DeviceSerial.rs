@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='div-device-allocation-info']//a[text()=&quot;${deviceSerial}&quot;]</value>
+         <value>//a[contains(.,'${deviceSerial}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='div-device-allocation-info']//a[text()=&quot;${deviceSerial}&quot;]</value>
+      <value>//a[contains(.,'${deviceSerial}')]</value>
    </webElementProperties>
 </WebElementEntity>

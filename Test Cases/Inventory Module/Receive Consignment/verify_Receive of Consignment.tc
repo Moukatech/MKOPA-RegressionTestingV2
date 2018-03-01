@@ -8,7 +8,7 @@ the Receipt of Consignment</description>
    <comment></comment>
    <testCaseGuid>75160510-5d60-4ee2-a944-b15a3a3f10e1</testCaseGuid>
    <variable>
-      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <defaultValue>'M-KOPA 4 : M-KOPA 4'</defaultValue>
       <description></description>
       <id>ce9283c5-53aa-4972-800c-1b0ac6a7c568</id>
       <masked>false</masked>
@@ -29,7 +29,7 @@ the Receipt of Consignment</description>
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>'B1AS31HDSHDJ9'</defaultValue>
+      <defaultValue>'B62HDVW92G101GSA'</defaultValue>
       <description></description>
       <id>87271348-97c9-4ce6-9d4a-09c7823b2a1f</id>
       <masked>false</masked>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 8278</description>
+   <name>verify_Sending Credits to Mkopa IV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e634a008-4e9b-4860-8f89-5fd4de0bf687</testCaseGuid>
+   <variable>
+      <defaultValue>'4866974'</defaultValue>
+      <description></description>
+      <id>41988d06-5061-4780-899d-8af9f2242a1e</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'0616010701-011135'</defaultValue>
+      <description></description>
+      <id>9f0c6473-f4fc-47b1-95e1-374e683d2bda</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>ffdf0bc2-b5f8-4e13-8372-30a9f6c8424e</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>c2c110dd-6490-47d9-acb1-0ec586fe9cee</id>
+      <masked>false</masked>
+      <name>creditsToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have Sent the Credits'</defaultValue>
+      <description></description>
+      <id>e05fc90c-9e30-417a-853a-d1cf526097fc</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+</TestCaseEntity>
