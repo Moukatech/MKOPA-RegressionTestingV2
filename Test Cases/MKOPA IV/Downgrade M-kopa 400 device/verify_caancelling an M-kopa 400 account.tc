@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_caancelling an M-kopa 400 account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8c54f2d-f6a3-4e1e-9e1a-73d57edfcf8d</testCaseGuid>
+   <variable>
+      <defaultValue>'21983822'</defaultValue>
+      <description></description>
+      <id>56f341ef-fdeb-4ab5-ada9-8407ce6db1b9</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>1154200d-751e-4b5d-a243-bbe35a3d342a</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>
