@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Upload a Payment to Mkopa IV device and purchase the credits. After a Purchase the Credits in the Credits Sent Tab should Increase</description>
+   <name>verify_Send Credits Automatically to Mkopa IV Device</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>257d1f33-1158-409e-848e-7448f4b7fe74</testCaseGuid>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>81c12147-f140-4bea-9545-c8ef77b58493</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'30833871'</defaultValue>
+      <description></description>
+      <id>17a8dc18-2aea-4a7b-8dbf-21070bca5842</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>e0a6b6f9-b619-44be-9a53-2204c1bbbb5e</id>
+      <masked>false</masked>
+      <name>receiptNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'254711009335'</defaultValue>
+      <description></description>
+      <id>63e8f2aa-c38c-4984-823a-5ff782d7f8ae</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>9c0d27a3-2a50-490f-99a2-39410c950f3a</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have made a payment to Mkopa IV Customer'</defaultValue>
+      <description></description>
+      <id>4e2454a1-3f8f-488a-b6b8-392aef69717b</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'30833871'</defaultValue>
+      <description></description>
+      <id>ec69e580-4287-4103-b393-72f171ea747b</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'0717011701-000352'</defaultValue>
+      <description></description>
+      <id>e7e69837-c669-43ca-aeaa-430fc577a378</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+</TestCaseEntity>

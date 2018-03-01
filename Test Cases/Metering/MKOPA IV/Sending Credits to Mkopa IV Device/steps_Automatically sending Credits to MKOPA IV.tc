@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Upload a payment File and Purchase some Credits to the Customer. The The customer Credits should increase</description>
+   <name>steps_Automatically sending Credits to MKOPA IV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>355f17e0-b68c-436b-bfa7-66c81f136a82</testCaseGuid>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>9cf3c045-e62d-4dd2-a8fb-9a44c4f3c81c</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have made a payment to Mkopa IV Customer'</defaultValue>
+      <description></description>
+      <id>71617685-e8ff-44c8-b60f-7229a20afc8a</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'30833871'</defaultValue>
+      <description></description>
+      <id>2105745c-ce3b-4e62-9016-6db27229ee7e</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'0717011701-000352'</defaultValue>
+      <description></description>
+      <id>526473a4-8745-41e0-9256-75f54bc89286</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+</TestCaseEntity>
