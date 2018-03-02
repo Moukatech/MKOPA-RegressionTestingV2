@@ -24,11 +24,11 @@ not_run: WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Customer Module/Input-SearchForCustomer'))
+WebUI.click(findTestObject('Customer Module/Search Customer/Input-SearchForCustomer'))
 
-WebUI.setText(findTestObject('Customer Module/Input-SearchForCustomer'), account)
+WebUI.setText(findTestObject('Customer Module/Search Customer/Input-SearchForCustomer'), account)
 
-WebUI.click(findTestObject('Customer Module/IconBtn-Search'))
+WebUI.click(findTestObject('Customer Module/Search Customer/IconBtn-Search'))
 
 WebUI.verifyTextPresent('Deposit Paid', false)
 

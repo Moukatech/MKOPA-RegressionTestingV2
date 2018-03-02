@@ -24,9 +24,9 @@ WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount'
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Customer Module/Input-SearchForCustomer'), CustomerAccount)
+WebUI.setText(findTestObject('Customer Module/Search Customer/Input-SearchForCustomer'), CustomerAccount)
 
-WebUI.click(findTestObject('Customer Module/IconBtn-Search'))
+WebUI.click(findTestObject('Customer Module/Search Customer/IconBtn-Search'))
 
 WebUI.delay(5)
 

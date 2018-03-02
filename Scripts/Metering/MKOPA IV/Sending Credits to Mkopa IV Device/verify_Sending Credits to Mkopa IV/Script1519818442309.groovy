@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('Metering/MKOPA IV/Sending Credits to Mkopa IV D
     [('customerToSearch') : customerToSearch, ('deviceSerial') : deviceSerial, ('windowTitle') : windowTitle, ('creditsToSend') : creditsToSend
         , ('reason') : reason], FailureHandling.STOP_ON_FAILURE)
 
-sentCredits = WebUI.getText(findTestObject('Customer Module/Device Details Page/td_Sent Credits'))
+sentCredits = WebUI.getText(findTestObject('Customer Module/Device Landing Page/td_Sent Credits'))
 
 WebUI.verifyEqual(sentCredits, creditsToSend)
 

@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Customer Module/Input-SearchForCustomer'), customerToSearch)
+WebUI.setText(findTestObject('Customer Module/Search Customer/Input-SearchForCustomer'), customerToSearch)
 
-WebUI.click(findTestObject('Customer Module/IconBtn-Search'))
+WebUI.click(findTestObject('Customer Module/Search Customer/IconBtn-Search'))
 

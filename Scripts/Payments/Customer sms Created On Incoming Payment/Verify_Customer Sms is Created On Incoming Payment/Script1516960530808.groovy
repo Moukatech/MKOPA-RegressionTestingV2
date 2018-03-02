@@ -31,11 +31,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('File Upload Center Module/File Upload Center/Closefileuploaded view'))
 
-WebUI.click(findTestObject('Customer Module/Input-SearchForCustomer'))
+WebUI.click(findTestObject('Customer Module/Search Customer/Input-SearchForCustomer'))
 
-WebUI.sendKeys(findTestObject('Customer Module/Input-SearchForCustomer'), Account)
+WebUI.sendKeys(findTestObject('Customer Module/Search Customer/Input-SearchForCustomer'), Account)
 
-WebUI.click(findTestObject('Customer Module/IconBtn-Search'))
+WebUI.click(findTestObject('Customer Module/Search Customer/IconBtn-Search'))
 
 WebUI.delay(3)
 

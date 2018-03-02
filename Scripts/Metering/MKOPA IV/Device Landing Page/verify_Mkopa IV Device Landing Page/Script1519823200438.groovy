@@ -19,10 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-def inboundCommunication=findTestObject('Customer Module/Device Details Page/label_Inbound Communication')
-/*def tampers=findTestObject('Customer Module/Device Details Page/label_Tampers')
-def lastCheckIn=findTestObject('Customer Module/Device Details Page/label_Last Check In')
-def outBoundCommunication=findTestObject('Customer Module/Device Details Page/label_Outbound Communication')*/
+def inboundCommunication=findTestObject('Customer Module/Device Landing Page/label_Inbound Communication')
+/*def tampers=findTestObject('Customer Module/Device Landing Page/label_Tampers')
+def lastCheckIn=findTestObject('Customer Module/Device Landing Page/label_Last Check In')
+def outBoundCommunication=findTestObject('Customer Module/Device Landing Page/label_Outbound Communication')*/
 
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)

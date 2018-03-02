@@ -19,13 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerToSearch], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Metering/Common/Device Landing Page/steps_Device Landing Page'), [('customerToSearch') : customerToSearch
+        , ('windowTitle') : windowTitle, ('deviceSerial') : deviceSerial], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Customer Module/Customer List/link_DeviceSerial', [('deviceSerial') : deviceSerial]))
-
-WebUI.switchToWindowTitle(windowTitle)
-
-WebUI.click(findTestObject('Customer Module/Device Details Page/link_Manually Set Credit'))
+WebUI.click(findTestObject('Customer Module/Device Landing Page/link_Manually Set Credit'))
 
 WebUI.setText(findTestObject('Customer Module/Manually set Credit/input_Credits To Send'), creditsToSend)
 

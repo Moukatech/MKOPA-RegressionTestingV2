@@ -22,9 +22,9 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Payments/1Common/step_Assign Floating Payment'), [('receiptNumber') : receiptNumber, ('payerReference') : payerReference
         , ('comments') : comments], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Customer Module/Input-SearchForCustomer'), payerReference)
+WebUI.setText(findTestObject('Customer Module/Search Customer/Input-SearchForCustomer'), payerReference)
 
-WebUI.click(findTestObject('Customer Module/IconBtn-Search'))
+WebUI.click(findTestObject('Customer Module/Search Customer/IconBtn-Search'))
 
 WebUI.delay(5)
 
