@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 8279
+
+Send Credits to a device and confirm if the credits sent can be viewed on the Credits Sent Tab</description>
+   <name>verify_view credits sent on Credits Sent Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32f3b861-1ae4-49d7-a545-26680020428d</testCaseGuid>
+   <variable>
+      <defaultValue>'7954414'</defaultValue>
+      <description></description>
+      <id>3995730f-52ef-43e2-bf2c-b7c5b90390bd</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'1016011601-000823'</defaultValue>
+      <description></description>
+      <id>04d8dd11-9d55-4886-8824-a88bafb0b32c</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>bb02dbbd-e20e-4a3b-8b85-8e34fb363e27</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'30'</defaultValue>
+      <description></description>
+      <id>30715f6c-0837-4672-bcba-b211b5953ed7</id>
+      <masked>false</masked>
+      <name>creditsToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have Sent the Credits'</defaultValue>
+      <description></description>
+      <id>34959819-3396-4795-a961-10cf281d4355</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+</TestCaseEntity>

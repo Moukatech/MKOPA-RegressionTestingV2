@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID:13948
+Approving an account  block request</description>
+   <name>verify_Block acccount request approval</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6878e56-11bd-49a3-8a7c-eec5011c0fc9</testCaseGuid>
+   <variable>
+      <defaultValue>'21645554'</defaultValue>
+      <description></description>
+      <id>4c771c91-2112-4be5-870e-9362a3e95043</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Approved'</defaultValue>
+      <description></description>
+      <id>bf6520a8-c40e-40e6-a09b-ab40e36040ca</id>
+      <masked>false</masked>
+      <name>approvalStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>4fb9c9e1-6ddc-4197-a335-d3f2e2bd2b9e</id>
+      <masked>false</masked>
+      <name>approvalNotes</name>
+   </variable>
+</TestCaseEntity>
