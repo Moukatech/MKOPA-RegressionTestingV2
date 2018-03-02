@@ -19,3 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerToSearch], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.mouseOver(findTestObject('Customer Module/Customer List/hamburger-Hamburger Menu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Send State'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Send State/button_Yes Send State'))
+
+WebUI.click(findTestObject('Customer Module/Send State/button_Close Window'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Customer List/link_DeviceSerial', [('deviceSerial') : deviceSerial]))
+
+WebUI.switchToWindowTitle(windowsTitle)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Inventory Module/Device Details/button_States Sent'))
+

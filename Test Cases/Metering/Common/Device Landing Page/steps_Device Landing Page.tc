@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>steps to navigate you to the device landing page</description>
+   <name>steps_Device Landing Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8717fcd-0f93-4954-856f-085aaf4c9e18</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01dfe3c5-5424-4cae-9632-a278f7c174c8</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5adf419b-c34d-47c7-802e-27e8b4e7a65f</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2903e894-547f-4dea-bfed-62d115902916</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+</TestCaseEntity>

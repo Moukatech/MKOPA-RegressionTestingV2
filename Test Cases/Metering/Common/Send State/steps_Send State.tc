@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to send State in d20g device. Compares the initial State of the device and the state of the device after sending the States</description>
+   <name>steps_Send State</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>808f5803-bb9e-45cf-bf44-631cc0b0e37f</testCaseGuid>
+   <variable>
+      <defaultValue>'21694153'</defaultValue>
+      <description></description>
+      <id>9796eac4-2659-400f-b0da-accfd4a101f5</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'092013-0300776'</defaultValue>
+      <description></description>
+      <id>cd77e2b4-e758-4b21-b1e2-00b04354e9d5</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>42877b20-83a1-4510-a22a-6f5e5e600d0e</id>
+      <masked>false</masked>
+      <name>windowsTitle</name>
+   </variable>
+</TestCaseEntity>
