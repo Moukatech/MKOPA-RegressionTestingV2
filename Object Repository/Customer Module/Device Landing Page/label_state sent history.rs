@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropDown_State to send</name>
+   <name>label_state sent history</name>
    <tag></tag>
-   <elementGuidId>4b9e10b7-7762-4183-8daa-47464316187c</elementGuidId>
+   <elementGuidId>62f6963e-bf6b-4ea9-baa9-0605e1b404fc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='ModalForm']/div[2]/form/div[2]/div[2]/div[2]/div/span[contains(.,'-- Select --')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='ModalForm']/div[2]/form/div[2]/div[2]/div[2]/div/span[contains(.,'-- Select --')]</value>
+      <value>.//*[@id='TabStrip-3']</value>
    </webElementProperties>
 </WebElementEntity>

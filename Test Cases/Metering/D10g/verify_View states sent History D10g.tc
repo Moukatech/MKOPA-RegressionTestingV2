@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID:1341
+viewing the history of all the states sent t D10g device</description>
+   <name>verify_View states sent History D10g</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f13e238-4140-4c60-b625-3e9c9dd18159</testCaseGuid>
+   <variable>
+      <defaultValue>'28842662'</defaultValue>
+      <description></description>
+      <id>bb327c14-27c9-4efc-9a6c-19feefa6fa18</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'032013-0005423'</defaultValue>
+      <description></description>
+      <id>c5222fbb-221e-4944-a2fb-c0595547f959</id>
+      <masked>false</masked>
+      <name>deviseSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>f7ae5764-5065-4fed-9e47-8508896fc099</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+</TestCaseEntity>

@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Customer Module/Customer List/link_DeviceSerial', [('deviceSerial') : deviceSerial]))
+WebUI.callTestCase(findTestCase('Metering/Common/Device Landing Page/steps_Device Landing Page'), [('customerToSearch') : customerAccount
+        , ('windowTitle') : windowTitle, ('deviceSerial') : deviceSerial], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToWindowTitle(windowTitle)
+WebUI.click(findTestObject('Customer Module/Device Landing Page/button_Credits Sent'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Customer Module/Device Details Page/button_State sent'))
+WebUI.verifyElementPresent(findTestObject('Customer Module/Device Landing Page/label_credits sent history'), 2)
 

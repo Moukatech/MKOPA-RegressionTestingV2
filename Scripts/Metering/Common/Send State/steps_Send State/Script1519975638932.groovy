@@ -26,7 +26,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Customer Module/Device Details Page/link_manually set state'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Customer Module/manually set state/dropDown_State to send'), FailureHandling.STOP_ON_FAILURE)
 
@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Customer Module/manually set state/button_Send'))
 WebUI.verifyAlertPresent(10)
 
 WebUI.dismissAlert()
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Device Details/button_States Sent'))
 

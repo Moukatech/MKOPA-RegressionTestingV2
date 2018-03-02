@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>sending state to device manually</description>
-   <name>step_send state manually to D10g device</name>
+   <description>ID:3531
+sending state to a device manually</description>
+   <name>verify_manual state sent D10g</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9d3094bd-035b-44ac-bc17-d596022ac8cb</testCaseGuid>
+   <testCaseGuid>e8eb1a47-b658-4133-a83c-9dbc648b83ef</testCaseGuid>
    <variable>
       <defaultValue>'28842662'</defaultValue>
       <description></description>
-      <id>588b93e1-41fd-49ba-8e4c-116a249dca97</id>
+      <id>881327e7-68d3-43f8-b888-55515df2f6e3</id>
       <masked>false</masked>
       <name>customerAccount</name>
    </variable>
    <variable>
       <defaultValue>'032013-0005423'</defaultValue>
       <description></description>
-      <id>abd128a8-b7e0-4fc5-aca9-23000e9be23e</id>
+      <id>ba654c42-73df-44da-a700-5a675a00dd97</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'test'</defaultValue>
-      <description></description>
-      <id>0167d05a-0b04-436a-b918-5d487ea5e181</id>
-      <masked>false</masked>
-      <name>reason</name>
-   </variable>
-   <variable>
       <defaultValue>'Activated'</defaultValue>
       <description></description>
-      <id>1f84110d-6694-4784-b447-90c77c286b2a</id>
+      <id>76aab510-27c3-44af-8096-fb508c33ff2b</id>
       <masked>false</masked>
       <name>stateToSend</name>
    </variable>
    <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>4312d301-8503-4d33-b999-c1bfdb554eb4</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
       <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
       <description></description>
-      <id>7fb50239-0c43-4e4f-9866-7e57dc272ec2</id>
+      <id>a38b3276-b12d-47e8-b1e0-19be2a7104ca</id>
       <masked>false</masked>
       <name>windowTitle</name>
    </variable>
