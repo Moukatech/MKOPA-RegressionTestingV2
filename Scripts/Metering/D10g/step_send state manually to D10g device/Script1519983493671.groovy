@@ -19,28 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Metering/Common/Device Landing Page/steps_Device Landing Page'), [('customerToSearch') : customerToSearch
-        , ('windowTitle') : windowsTitle, ('deviceSerial') : deviceSerial], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Customer Module/Customer List/link_DeviceSerial', [('deviceSerial') : deviceSerial]))
 
-WebUI.click(findTestObject('Customer Module/Device Details Page/link_manually set state'))
+WebUI.switchToWindowTitle(windowTitle)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Customer Module/manually set state/dropDown_State to send'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Customer Module/manually set state/label_state to send', [('stateToSend') : stateToSend]), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Customer Module/manually set state/input_reason'), reason)
-
-WebUI.click(findTestObject('Customer Module/manually set state/button_Send'))
-
-WebUI.verifyAlertPresent(10)
-
-WebUI.dismissAlert()
-
-WebUI.click(findTestObject('Inventory Module/Device Details/button_States Sent'))
+WebUI.click(findTestObject('Customer Module/Device Details Page/button_State sent'))
 

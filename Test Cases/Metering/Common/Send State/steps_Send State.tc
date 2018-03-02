@@ -26,4 +26,18 @@
       <masked>false</masked>
       <name>windowsTitle</name>
    </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>45aecc5a-f501-4d0f-9403-b843a013f27e</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>'Activated'</defaultValue>
+      <description></description>
+      <id>fb9fce82-7a83-4eae-8f0c-b7aacb277f74</id>
+      <masked>false</masked>
+      <name>stateToSend</name>
+   </variable>
 </TestCaseEntity>

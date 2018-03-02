@@ -19,28 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Metering/Common/Device Landing Page/steps_Device Landing Page'), [('customerToSearch') : customerToSearch
-        , ('windowTitle') : windowsTitle, ('deviceSerial') : deviceSerial], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Metering/Common/Send State/steps_Send State'), [('customerToSearch') : customerAccount, ('deviceSerial') : deviceSerial
+        , ('windowsTitle') : windowTitle, ('reason') : reason, ('stateToSend') : stateToSend], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Customer Module/Device Details Page/link_manually set state'))
+stateSent = WebUI.getText(findTestObject('Customer Module/Device Details Page/td_Sent State'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Customer Module/manually set state/dropDown_State to send'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Customer Module/manually set state/label_state to send', [('stateToSend') : stateToSend]), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Customer Module/manually set state/input_reason'), reason)
-
-WebUI.click(findTestObject('Customer Module/manually set state/button_Send'))
-
-WebUI.verifyAlertPresent(10)
-
-WebUI.dismissAlert()
-
-WebUI.click(findTestObject('Inventory Module/Device Details/button_States Sent'))
+WebUI.verifyEqual(stateSent, '2')
 
