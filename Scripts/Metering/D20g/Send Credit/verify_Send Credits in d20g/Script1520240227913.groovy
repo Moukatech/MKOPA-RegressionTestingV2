@@ -22,13 +22,31 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Metering/Common/Send Credits/steps_Send Credits Manualy'), [('customerToSearch') : customerToSearch
-        , ('deviceSerial') : deviceSerial, ('windowTitle') : windowTitle, ('creditsToSend') : creditsToSend, ('reason') : reason], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerToSearch], FailureHandling.STOP_ON_FAILURE)
 
-sentCredits = WebUI.getText(findTestObject('Customer Module/Device Landing Page/td_Sent Credits', [('column') : column, ('row') : row]))
+WebUI.mouseOver(findTestObject('Customer Module/Customer List/hamburger-Hamburger Menu'))
 
-WebUI.verifyEqual(sentCredits, creditsToSend)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Send Credit'))
+
+WebUI.click(findTestObject('Customer Module/Send Credit/button_Yes Send Credit'))
+
+WebUI.click(findTestObject('Customer Module/Send Credit/button_Close Send Credit Window'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Customer List/link_DeviceSerial', [('deviceSerial') : deviceSerial]))
+
+WebUI.switchToWindowTitle(windowTitle)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Customer Module/Customer List/button_CreditsSent'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('Customer Module/Send Credit/label_Table'))
 
 WebUI.closeBrowser()
 

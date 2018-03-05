@@ -43,4 +43,18 @@ Navigate to the Device Landing Page and confirm if the History of Credit sents a
       <masked>false</masked>
       <name>reason</name>
    </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>ebe17ecd-1084-40ea-adea-1090dbb60278</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>457d5c1d-de32-46f6-82c9-529426f28ff9</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
 </TestCaseEntity>

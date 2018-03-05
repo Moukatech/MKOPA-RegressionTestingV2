@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 2759
+
+Send Credits to an d20g Customer and View if they reflect on the States sent tab</description>
+   <name>veriify_States Sent History</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9956689-4dd1-41a6-9a8d-3213aef62194</testCaseGuid>
+   <variable>
+      <defaultValue>'23455626'</defaultValue>
+      <description></description>
+      <id>c2171a26-0d75-4881-9059-a90d1046da14</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'092013-0040126'</defaultValue>
+      <description></description>
+      <id>befef4a1-ec7f-43ce-8284-6efbcc8d15fc</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>8385a3ca-4587-44b9-afa3-d065e18f2372</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>94d96de7-3837-4696-9a5b-81ad77dc18ec</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sends States to d20G'</defaultValue>
+      <description></description>
+      <id>1193d84a-af4c-4f44-a2f9-0636a801daa8</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>'Activated'</defaultValue>
+      <description></description>
+      <id>4401e78d-f170-47c8-a12d-26c9157cedaf</id>
+      <masked>false</masked>
+      <name>stateToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>32fdf3fd-33ae-45eb-bbc5-56032ef15646</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>e88295a4-ef59-4f51-8d6d-7b64d525ae4d</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
+</TestCaseEntity>

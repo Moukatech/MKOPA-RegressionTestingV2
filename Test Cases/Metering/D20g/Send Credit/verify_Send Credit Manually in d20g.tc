@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Send Credits in d20g device and the customer credits should increase</description>
-   <name>verify_Send Credit in d20g</name>
+   <description>TestCase Id: 3530
+
+Send Credits in d20g device and the customer credits should increase</description>
+   <name>verify_Send Credit Manually in d20g</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5cc8dc6b-ab32-4ce3-b1c7-40af0d29d59c</testCaseGuid>

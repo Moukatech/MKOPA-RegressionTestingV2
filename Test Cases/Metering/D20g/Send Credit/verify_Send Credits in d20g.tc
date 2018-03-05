@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase Id: 2764
+
+Sends the  Current Credits the customer has</description>
+   <name>verify_Send Credits in d20g</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>862c6652-68ca-47c7-8954-9bd441ecd3b2</testCaseGuid>
+   <variable>
+      <defaultValue>'13659921 '</defaultValue>
+      <description></description>
+      <id>ae7edd06-c30c-440f-a635-9ede0095ce21</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'052014-0603028179'</defaultValue>
+      <description></description>
+      <id>51e6850e-8776-4d18-a344-81f125e9f33f</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>b60d31b2-1fad-404a-b77f-8320a3647543</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+</TestCaseEntity>
