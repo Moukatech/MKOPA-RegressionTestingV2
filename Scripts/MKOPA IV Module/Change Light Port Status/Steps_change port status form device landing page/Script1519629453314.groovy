@@ -19,30 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : warehousecode], 
+WebUI.callTestCase(findTestCase('Inventory Module/Device Search/verify_DeviceSearch'), [('serialnumber') : serialNumber, ('searchBy') : 'SerialNumber'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_Itemtype'))
+WebUI.click(findTestObject('MKOPA IV Module/Change light Port Status/link_change light port status'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/select_Itemtype', [('itemtype') : itemType]))
+WebUI.click(findTestObject('MKOPA IV Module/Change light Port Status/select_portOn'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_packaging'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Service Orders/select_packaging', [('packaging') : packaging]))
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/button_Load'))
-
-WebUI.delay(3)
-
-WebUI.check(findTestObject('Inventory Module/Check stock/Checkbox_MarkAsOk', [('serialnumber') : serialNumber]))
-
-not_run: WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
+WebUI.click(findTestObject('MKOPA IV Module/Change light Port Status/Button_Submit'))
 

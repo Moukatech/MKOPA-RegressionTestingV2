@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ID 17129</description>
+   <name>Steps_ Upgade can be done when previous device has been returned</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74b5a2d4-14b8-4aa6-bb01-dc1f78ffe175</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ID 2760</description>
+   <name>View states sent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>205bbd9e-5f93-40fd-8b03-36be1807350a</testCaseGuid>
+   <variable>
+      <defaultValue>'2276358'</defaultValue>
+      <description></description>
+      <id>eabbfe0f-6dcc-4c72-903c-c85d1981d28f</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>71ecabc8-92a1-432c-b1b2-cebd46af4558</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'357803046803504'</defaultValue>
+      <description></description>
+      <id>dfde8c6b-9a5c-474c-8495-b9bbef396842</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+</TestCaseEntity>

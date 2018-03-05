@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test case 1669</description>
    <name>Steps_approve Return Request</name>
    <tag></tag>
    <comment></comment>

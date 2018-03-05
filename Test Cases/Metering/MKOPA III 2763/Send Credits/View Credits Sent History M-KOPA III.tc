@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ID 2763</description>
+   <name>View Credits Sent History M-KOPA III</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b256fc08-b214-4970-ac7d-516b9dbed6e4</testCaseGuid>
+   <variable>
+      <defaultValue>'20930453'</defaultValue>
+      <description></description>
+      <id>f4c005a8-8505-49e7-91fe-650840f075bd</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>f909bd86-6565-4bb0-bf04-63b32fff9232</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'869924007100085'</defaultValue>
+      <description></description>
+      <id>f76c3bf7-f4c2-45bf-9cfb-a2b1f9d96bd5</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+</TestCaseEntity>
