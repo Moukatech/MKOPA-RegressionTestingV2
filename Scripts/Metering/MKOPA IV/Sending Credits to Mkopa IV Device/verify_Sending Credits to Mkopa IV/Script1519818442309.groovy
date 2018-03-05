@@ -22,11 +22,11 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Metering/MKOPA IV/Sending Credits to Mkopa IV Device/steps_Send Credits Manualy to Mkopa IV'), 
-    [('customerToSearch') : customerToSearch, ('deviceSerial') : deviceSerial, ('windowTitle') : windowTitle, ('creditsToSend') : creditsToSend
-        , ('reason') : reason], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Metering/Common/Send Credits/steps_Send Credits Manualy'), [('customerToSearch') : customerToSearch
+        , ('deviceSerial') : deviceSerial, ('windowTitle') : windowTitle, ('creditsToSend') : creditsToSend, ('reason') : reason], 
+    FailureHandling.STOP_ON_FAILURE)
 
-sentCredits = WebUI.getText(findTestObject('Customer Module/Device Landing Page/td_Sent Credits'))
+sentCredits = WebUI.getText(findTestObject('Customer Module/Device Landing Page/td_Sent Credits', [('row') : row, ('column') : column]))
 
 WebUI.verifyEqual(sentCredits, creditsToSend)
 

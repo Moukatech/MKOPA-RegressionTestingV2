@@ -19,16 +19,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Metering/Common/Send State/steps_Send State'), [('customerToSearch') : customerToSearch
-        , ('deviceSerial') : deviceSerial, ('windowsTitle') : windowsTitle, ('reason') : reason, ('stateToSend') : stateToSend], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
 
-sentState = WebUI.getText(findTestObject('Customer Module/Device Details Page/td_Sent State', [('row') : row, ('column') : column]))
+WebUI.click(findTestObject('Customer Module/Customer List/hamburger-Hamburger Menu'))
 
-WebUI.verifyEqual(sentState, state)
+WebUI.delay(3)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Send State'))
+
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Yes'))
+
+WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Customers Dashboard/message_state has been queued successfully'), 
+    3)
+
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Close'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Customer List/link_DeviceSerial', [('deviceSerial') : deviceSerial]))
+
+WebUI.switchToWindowTitle(windowTitle)
+
+WebUI.click(findTestObject('Customer Module/Device Details Page/button_State sent'))
 

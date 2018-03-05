@@ -40,4 +40,18 @@
       <masked>false</masked>
       <name>reason</name>
    </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>adb5004d-ca02-49b9-a98f-40a04fe9cb32</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>46b1296c-2233-4751-a12b-2a82d91849ec</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
 </TestCaseEntity>

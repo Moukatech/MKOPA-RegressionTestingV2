@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Sent Credits</name>
+   <name>message_state has been queued successfully</name>
    <tag></tag>
-   <elementGuidId>e913e917-b046-40bf-9464-81bb96784638</elementGuidId>
+   <elementGuidId>1262974d-bf0d-4996-a85f-841560c4e760</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='OutboundCredits']//tr[${row}]/td[${column}]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='OutboundCredits']//tr[${row}]/td[${column}]</value>
+      <value>.//*[@id='wdw-actions-content']/div[text()='State has been queued successfully']</value>
    </webElementProperties>
 </WebElementEntity>

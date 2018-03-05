@@ -22,13 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Metering/Common/Send State/steps_Send State'), [('customerToSearch') : customerToSearch
-        , ('deviceSerial') : deviceSerial, ('windowsTitle') : windowsTitle, ('reason') : reason, ('stateToSend') : stateToSend], 
+WebUI.callTestCase(findTestCase('Metering/Common/Send Credits/steps_Send Credits Manualy'), [('customerToSearch') : customerToSearch
+        , ('deviceSerial') : deviceSerial, ('windowTitle') : windowsTitle, ('creditsToSend') : creditsToSend, ('reason') : reason], 
     FailureHandling.STOP_ON_FAILURE)
 
-sentState = WebUI.getText(findTestObject('Customer Module/Device Details Page/td_Sent State', [('row') : row, ('column') : column]))
+sentCredits = WebUI.getText(findTestObject('Customer Module/Device Landing Page/td_Sent Credits', [('column') : column, ('row') : row]))
 
-WebUI.verifyEqual(sentState, state)
+WebUI.verifyEqual(sentCredits, creditsToSend)
 
 WebUI.closeBrowser()
 

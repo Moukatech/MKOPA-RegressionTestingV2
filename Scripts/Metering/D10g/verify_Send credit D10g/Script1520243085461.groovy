@@ -19,22 +19,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Metering/Common/Device Landing Page/steps_Device Landing Page'), [('customerToSearch') : customerToSearch
-        , ('windowTitle') : windowTitle, ('deviceSerial') : deviceSerial], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Customer Module/Device Landing Page/link_Manually Set Credit'))
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Customer Module/Manually set Credit/input_Credits To Send'), creditsToSend)
+WebUI.click(findTestObject('Customer Module/Customer List/hamburger-Hamburger Menu'))
 
-WebUI.setText(findTestObject('Customer Module/Manually set Credit/input_Reason'), reason)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Customer Module/Manually set Credit/button_Submit'))
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Send Credit'))
 
-WebUI.verifyAlertPresent(10)
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Yes'))
 
-WebUI.dismissAlert()
+WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Customers Dashboard/message_credits queued successfully'), 3)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Close'))
 
-WebUI.click(findTestObject('Customer Module/Customer List/button_CreditsSent'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Customer List/link_DeviceSerial', [('deviceSerial') : deviceSerial]))
+
+WebUI.switchToWindowTitle(windowTitle)
+
+WebUI.click(findTestObject('Customer Module/Device Landing Page/button_Credits Sent'))
 
