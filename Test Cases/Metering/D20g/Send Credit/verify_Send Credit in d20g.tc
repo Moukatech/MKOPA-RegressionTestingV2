@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send Credits in d20g device and the customer credits should increase</description>
+   <name>verify_Send Credit in d20g</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cc8dc6b-ab32-4ce3-b1c7-40af0d29d59c</testCaseGuid>
+   <variable>
+      <defaultValue>'21694153'</defaultValue>
+      <description></description>
+      <id>df5b54a9-b5b4-470c-845d-7a5b80299900</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'092013-0300776'</defaultValue>
+      <description></description>
+      <id>68d4282c-cb87-4965-bcb4-08ccb05c3445</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>eaec796f-8171-429a-8e99-8e8421b0974a</id>
+      <masked>false</masked>
+      <name>windowsTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing Sending Credits to d20g'</defaultValue>
+      <description></description>
+      <id>13ecffd1-6a89-4aee-8cbf-7fc6cef5b075</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>8bdcb9e6-bf1f-4981-be85-038e01d07a3e</id>
+      <masked>false</masked>
+      <name>creditsToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>1c48a950-08c4-4fe6-bccd-a4b37d6c0e81</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e12a5905-7000-49a3-b2bc-dbfd4cdd0b5d</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
+</TestCaseEntity>

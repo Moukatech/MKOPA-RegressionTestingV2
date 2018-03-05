@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send Credits manually to an Mkopa IV device</description>
+   <name>steps_Send Credits Manualy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9bd8ad7-b158-402a-a0f1-7fb4656688ba</testCaseGuid>
+   <variable>
+      <defaultValue>'7954414'</defaultValue>
+      <description></description>
+      <id>4138ad54-c80a-4c56-9b14-8591a1208b6a</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'1016011601-000823'</defaultValue>
+      <description></description>
+      <id>7ce70542-5c14-415f-b985-3d3f4d01b27e</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>5bc8ed85-6a7d-4ac6-a7c6-b5bddf3db7ab</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>2034d2c1-4ff3-4be4-bb9f-e33e75d4ddd0</id>
+      <masked>false</masked>
+      <name>creditsToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have Sent the Credits'</defaultValue>
+      <description></description>
+      <id>5ed8e265-5c93-4b07-810c-bd2079e7fed9</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+</TestCaseEntity>
