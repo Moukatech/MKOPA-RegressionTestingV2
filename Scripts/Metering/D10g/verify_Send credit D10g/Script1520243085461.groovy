@@ -19,30 +19,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : warehousecode], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_Itemtype'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/select_Itemtype', [('itemtype') : itemType]))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_packaging'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Service Orders/select_packaging', [('packaging') : packaging]))
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/button_Load'))
+WebUI.click(findTestObject('Customer Module/Customer List/hamburger-Hamburger Menu'))
 
 WebUI.delay(3)
 
-WebUI.check(findTestObject('Inventory Module/Check stock/Checkbox_MarkAsOk', [('serialnumber') : serialNumber]))
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Send Credit'))
 
-not_run: WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Yes'))
+
+WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Customers Dashboard/message_credits queued successfully'), 3)
+
+WebUI.click(findTestObject('MKOPA IV Module/Customers Dashboard/button_Close'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customer Module/Customer List/link_DeviceSerial', [('deviceSerial') : deviceSerial]))
+
+WebUI.switchToWindowTitle(windowTitle)
+
+WebUI.click(findTestObject('Customer Module/Device Landing Page/button_Credits Sent'))
 

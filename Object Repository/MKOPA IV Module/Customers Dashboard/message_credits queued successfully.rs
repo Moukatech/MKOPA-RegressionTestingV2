@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Device serial</name>
+   <name>message_credits queued successfully</name>
    <tag></tag>
-   <elementGuidId>d37436f0-509e-40ca-9dbe-200e4a0d010c</elementGuidId>
+   <elementGuidId>fed229a6-6e05-4f13-a273-ff75a7438d7d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+      <value>.//*[@id='wdw-actions-content']/div[text()='Credit has been successfully queued to the device']</value>
    </webElementProperties>
 </WebElementEntity>

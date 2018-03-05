@@ -19,30 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : warehousecode], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('MKOPA IV Module/History of An Upgrade/Steps_Downgrade Link is available on Upgraded Accounts'), 
+    [('accountNumber') : accountNumber, ('product') : product], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
+WebUI.verifyElementPresent(findTestObject('Customer Module/Customer List/button_Downgradelink'), 3)
 
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_Itemtype'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/select_Itemtype', [('itemtype') : itemType]))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_packaging'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Service Orders/select_packaging', [('packaging') : packaging]))
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/button_Load'))
-
-WebUI.delay(3)
-
-WebUI.check(findTestObject('Inventory Module/Check stock/Checkbox_MarkAsOk', [('serialnumber') : serialNumber]))
-
-not_run: WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
+WebUI.closeBrowser()
 

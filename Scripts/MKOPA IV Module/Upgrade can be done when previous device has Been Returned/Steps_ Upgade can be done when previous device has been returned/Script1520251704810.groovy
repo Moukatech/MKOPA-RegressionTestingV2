@@ -19,30 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : warehousecode], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_Itemtype'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/select_Itemtype', [('itemtype') : itemType]))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_packaging'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Service Orders/select_packaging', [('packaging') : packaging]))
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/button_Load'))
-
-WebUI.delay(3)
-
-WebUI.check(findTestObject('Inventory Module/Check stock/Checkbox_MarkAsOk', [('serialnumber') : serialNumber]))
-
-not_run: WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
+WebUI.callTestCase(findTestCase('MKOPA IV Module/MKOPA 400 Upgrade/step_MKOPA 400 Upgrade'), [('loan_Status') : 'Finished Payment'
+        , ('delay') : '5', ('dealership') : 'SC001 M-KOPA Shop Meru (01063)', ('outlet') : 'SC001 Meru Rimbere Enterprise'
+        , ('plan_Type') : 'Loan', ('operator') : 'Njoki Maureen', ('payment_Plan') : 'M-KOPA +400 v4 (M-KOPA +400 ZERO deposit + 50 for 850 days)'
+        , ('request_Notes') : 'QA Testing Notes', ('customerAccount') : '210619771'], FailureHandling.STOP_ON_FAILURE)
 

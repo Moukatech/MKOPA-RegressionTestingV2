@@ -19,30 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : warehousecode], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_checkstock'))
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_Itemtype'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/select_Itemtype', [('itemtype') : itemType]))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/Dropdown_packaging'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Service Orders/select_packaging', [('packaging') : packaging]))
-
-WebUI.click(findTestObject('Inventory Module/Mark Stock For sale/button_Load'))
-
-WebUI.delay(3)
-
-WebUI.check(findTestObject('Inventory Module/Check stock/Checkbox_MarkAsOk', [('serialnumber') : serialNumber]))
-
-not_run: WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
+WebUI.callTestCase(findTestCase('Metering/MKOPA IV/Sending Credits to Mkopa IV Device/steps_Send Credits Manualy to Mkopa IV'), 
+    [('customerToSearch') : '7954414', ('deviceSerial') : '1016011601-000823', ('windowTitle') : 'Inventory item details | M-KOPAnet'
+        , ('creditsToSend') : '10', ('reason') : 'I have Sent the Credits'], FailureHandling.STOP_ON_FAILURE)
 

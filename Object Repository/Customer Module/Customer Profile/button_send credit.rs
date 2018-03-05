@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Device serial</name>
+   <name>button_send credit</name>
    <tag></tag>
-   <elementGuidId>d37436f0-509e-40ca-9dbe-200e4a0d010c</elementGuidId>
+   <elementGuidId>e07c1cc8-44de-4b80-bea5-0e9647d3d02b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+      <value>//button[contains(.,'Send Credit')]</value>
    </webElementProperties>
 </WebElementEntity>

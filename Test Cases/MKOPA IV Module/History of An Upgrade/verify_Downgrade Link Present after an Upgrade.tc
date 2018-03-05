@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_Downgrade Link Present after an Upgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4cba3a90-88e0-4c26-b78a-d07e65c39e0c</testCaseGuid>
+   <variable>
+      <defaultValue>'5318836'</defaultValue>
+      <description></description>
+      <id>b3cecb1a-354e-40b4-a9d3-e772ca96f97a</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'5318836 ( M-KOPA 4 v2 )'</defaultValue>
+      <description></description>
+      <id>13882182-fa18-4a0c-b252-f7b5733d59a3</id>
+      <masked>false</masked>
+      <name>product</name>
+   </variable>
+</TestCaseEntity>

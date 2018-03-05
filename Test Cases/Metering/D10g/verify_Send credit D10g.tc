@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID:2491
+sending credits to D10g device</description>
+   <name>verify_Send credit D10g</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc24b54d-f460-49e9-b3c7-7665a8ce9bdf</testCaseGuid>
+   <variable>
+      <defaultValue>'28842662'</defaultValue>
+      <description></description>
+      <id>1c2a5480-4cc8-45b8-bc54-4fde1aeb0702</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'032013-0005423'</defaultValue>
+      <description></description>
+      <id>e05b0cf3-b10c-45e7-9e6a-b5cd10a0bdff</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <description></description>
+      <id>0811ba39-026c-45da-a964-2e219460eaf3</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+</TestCaseEntity>

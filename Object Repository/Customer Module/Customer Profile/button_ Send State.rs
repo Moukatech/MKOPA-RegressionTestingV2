@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Device serial</name>
+   <name>button_ Send State</name>
    <tag></tag>
-   <elementGuidId>d37436f0-509e-40ca-9dbe-200e4a0d010c</elementGuidId>
+   <elementGuidId>df4b48e0-d7c0-4e91-b6f9-919126bc3d73</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+      <value>//button[contains(@id,'btn-send-state')]</value>
    </webElementProperties>
 </WebElementEntity>

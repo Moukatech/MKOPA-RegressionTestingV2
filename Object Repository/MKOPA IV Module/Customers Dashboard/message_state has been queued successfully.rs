@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Device serial</name>
+   <name>message_state has been queued successfully</name>
    <tag></tag>
-   <elementGuidId>d37436f0-509e-40ca-9dbe-200e4a0d010c</elementGuidId>
+   <elementGuidId>1262974d-bf0d-4996-a85f-841560c4e760</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+      <value>.//*[@id='wdw-actions-content']/div[text()='State has been queued successfully']</value>
    </webElementProperties>
 </WebElementEntity>

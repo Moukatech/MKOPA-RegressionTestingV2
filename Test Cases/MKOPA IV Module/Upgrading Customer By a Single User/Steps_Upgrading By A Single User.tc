@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Description: A step that upgrades MKOPA 400</description>
-   <name>step_MKOPA 400 Upgrade</name>
+   <description></description>
+   <name>Steps_Upgrading By A Single User</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4a03b785-e072-4b2e-b125-0e7e53433896</testCaseGuid>
+   <testCaseGuid>4eb9030c-f194-4c4f-bbc7-44cd83c4379a</testCaseGuid>
    <variable>
       <defaultValue>'Finished Payment'</defaultValue>
       <description></description>
-      <id>76624dec-8522-4c95-b01e-1c266526f79a</id>
+      <id>2bf936b8-d9f7-4047-8253-f61387b1ea48</id>
       <masked>false</masked>
-      <name>loan_Status</name>
+      <name>loanStatus</name>
    </variable>
    <variable>
       <defaultValue>'5'</defaultValue>
       <description></description>
-      <id>612875df-7aa4-4b97-90c9-cbe99a5109fc</id>
+      <id>15f5848e-9c3d-4736-a16e-d180e2612125</id>
       <masked>false</masked>
       <name>delay</name>
    </variable>
    <variable>
       <defaultValue>'SC001 M-KOPA Shop Meru (01063)'</defaultValue>
       <description></description>
-      <id>bdfc5ffc-1195-41e3-8f43-23dfb70d0141</id>
+      <id>80c65e4c-b225-4d6b-bb25-6877c432298f</id>
       <masked>false</masked>
       <name>dealership</name>
    </variable>
    <variable>
       <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
       <description></description>
-      <id>68cb56a7-a800-41cb-82fb-8c82cac8d9ac</id>
+      <id>1444fc27-5ba9-4028-9d38-0724c8cb7203</id>
       <masked>false</masked>
       <name>outlet</name>
    </variable>
    <variable>
       <defaultValue>'Loan'</defaultValue>
       <description></description>
-      <id>d85c0d37-c97f-4372-b55c-1cc21de68ba3</id>
+      <id>e39e7b0a-41cd-4c9c-9574-04d292a38084</id>
       <masked>false</masked>
-      <name>plan_Type</name>
+      <name>plantype</name>
    </variable>
    <variable>
       <defaultValue>'Njoki Maureen'</defaultValue>
       <description></description>
-      <id>21914ec3-c15f-4c63-aaba-dae1bbd05af1</id>
+      <id>98fe3ab5-94d9-404b-a994-293a47443d75</id>
       <masked>false</masked>
       <name>operator</name>
    </variable>
    <variable>
       <defaultValue>'M-KOPA +400 v4 (M-KOPA +400 ZERO deposit + 50 for 850 days)'</defaultValue>
       <description></description>
-      <id>82826a95-fe3f-4ed3-8f5c-5eed954cf311</id>
-      <masked>false</masked>
-      <name>payment_Plan</name>
-   </variable>
-   <variable>
-      <defaultValue>'QA Testing Notes'</defaultValue>
-      <description></description>
-      <id>6d89bbf2-1184-4b82-b8bf-3154f40b4b9d</id>
+      <id>e727ab4a-3f7a-4139-aa7b-0a5ae933e2f8</id>
       <masked>false</masked>
       <name>request_Notes</name>
    </variable>
    <variable>
-      <defaultValue>'210619771'</defaultValue>
+      <defaultValue>'QA Testing Notes'</defaultValue>
       <description></description>
-      <id>474a1c6a-d3b8-4b70-9c33-a5061dfd502d</id>
+      <id>801088c5-e60f-4281-b30a-d49eea0c1a8a</id>
+      <masked>false</masked>
+      <name>payment_plan</name>
+   </variable>
+   <variable>
+      <defaultValue>'20930453'</defaultValue>
+      <description></description>
+      <id>2703f9ff-d90d-43da-bfb1-7225cb9239fa</id>
       <masked>false</masked>
       <name>customerAccount</name>
    </variable>
