@@ -36,4 +36,32 @@ Sending states in D20g Customer. The sent states should be viewed in the product
       <masked>false</masked>
       <name>state</name>
    </variable>
+   <variable>
+      <defaultValue>'Sends States to d20G'</defaultValue>
+      <description></description>
+      <id>2043b216-aa51-4ee3-9be1-c13c683522b6</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>'Activated'</defaultValue>
+      <description></description>
+      <id>f192f814-1db8-44a1-ada9-9a7568decb86</id>
+      <masked>false</masked>
+      <name>stateToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>56326671-551f-4ed9-beff-4ff5ce0b4eaf</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>2edcf15e-662b-4db0-a949-b6f4fa556ea4</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
 </TestCaseEntity>

@@ -19,22 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Metering/Common/Device Landing Page/steps_Device Landing Page'), [('customerToSearch') : customerToSearch
-        , ('windowTitle') : windowTitle, ('deviceSerial') : deviceSerial], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Customer Module/Device Landing Page/link_Manually Set Credit'))
-
-WebUI.setText(findTestObject('Customer Module/Manually set Credit/input_Credits To Send'), creditsToSend)
-
-WebUI.setText(findTestObject('Customer Module/Manually set Credit/input_Reason'), reason)
-
-WebUI.click(findTestObject('Customer Module/Manually set Credit/button_Submit'))
-
-WebUI.verifyAlertPresent(10)
-
-WebUI.dismissAlert()
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Customer Module/Customer List/button_CreditsSent'))
+WebUI.callTestCase(findTestCase('Metering/Common/Send Credits/steps_Send Credits Manualy'), [('customerToSearch') : customerToSearch
+        , ('deviceSerial') : deviceSerial, ('windowTitle') : windowTitle, ('creditsToSend') : creditsToSend, ('reason') : reason], 
+    FailureHandling.STOP_ON_FAILURE)
 

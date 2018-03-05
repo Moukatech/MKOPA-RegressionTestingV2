@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='OutboundStates']//tr[${row}]/td[${column}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='OutboundStates']/table/tbody/tr[1]/td[2]</value>
+      <value>.//*[@id='OutboundStates']//tr[${row}]/td[${column}]</value>
    </webElementProperties>
 </WebElementEntity>

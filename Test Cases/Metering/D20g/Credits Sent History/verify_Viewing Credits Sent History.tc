@@ -1,42 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Send Credits manually to an Mkopa IV device</description>
-   <name>steps_Send Credits Manualy to Mkopa IV</name>
+   <description>Test Case Id: 2762
+
+
+Navigate to the Device Landing Page and confirm if the History of Credit sents are available</description>
+   <name>verify_Viewing Credits Sent History</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d9bd8ad7-b158-402a-a0f1-7fb4656688ba</testCaseGuid>
+   <testCaseGuid>08759576-d616-4edf-8e3b-7cf5dfb0d7d9</testCaseGuid>
    <variable>
-      <defaultValue>'7954414'</defaultValue>
+      <defaultValue>'21694153'</defaultValue>
       <description></description>
-      <id>4138ad54-c80a-4c56-9b14-8591a1208b6a</id>
+      <id>c83e2e4d-11a6-49cc-932c-20919b8b061e</id>
       <masked>false</masked>
       <name>customerToSearch</name>
    </variable>
    <variable>
-      <defaultValue>'1016011601-000823'</defaultValue>
+      <defaultValue>'092013-0300776'</defaultValue>
       <description></description>
-      <id>7ce70542-5c14-415f-b985-3d3f4d01b27e</id>
+      <id>00e18692-5ac8-4c01-a7c8-3e862a93b8a5</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
       <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
       <description></description>
-      <id>5bc8ed85-6a7d-4ac6-a7c6-b5bddf3db7ab</id>
+      <id>03e81abb-73b3-44fd-8ddf-baee25d66a21</id>
       <masked>false</masked>
       <name>windowTitle</name>
    </variable>
    <variable>
-      <defaultValue>'10'</defaultValue>
+      <defaultValue>'6'</defaultValue>
       <description></description>
-      <id>2034d2c1-4ff3-4be4-bb9f-e33e75d4ddd0</id>
+      <id>14eee5ce-d076-4ac4-8573-027661b637d4</id>
       <masked>false</masked>
       <name>creditsToSend</name>
    </variable>
    <variable>
-      <defaultValue>'I have Sent the Credits'</defaultValue>
+      <defaultValue>'Testing if one can View Credits Sent History'</defaultValue>
       <description></description>
-      <id>5ed8e265-5c93-4b07-810c-bd2079e7fed9</id>
+      <id>33f1b368-f857-4bdc-86d6-52d36a36d170</id>
       <masked>false</masked>
       <name>reason</name>
    </variable>
