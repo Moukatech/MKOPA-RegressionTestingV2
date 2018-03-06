@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 15199
+Test Case Description: Verifies if Upgrade link is present in MK + 400 existing Loan customers</description>
+   <name>verify_UpgradeLinkPresentInLoanCustomers_Existing</name>
+   <tag></tag>
+   <comment>Not d10g Finished Payment Cash Customer
+Not d10g Finished Payment Loan Customer</comment>
+   <testCaseGuid>0d041321-a836-475e-9725-8053d8a0f5d7</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>1cbb8468-074c-40c0-85a8-475d2083ad16</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_returnOutlet</name>
+   <name>dropdown_Operator</name>
    <tag></tag>
-   <elementGuidId>af49297e-7602-4ed2-867a-54e8af36a3f0</elementGuidId>
+   <elementGuidId>d1e155ca-0366-4ab0-9c06-8aadfba7dcaa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;upgradeForm&quot;)/div[@id=&quot;divBodyForm&quot;]/div[@class=&quot;full-div&quot;]/div[@class=&quot;t-widget t-dropdown t-header&quot;]/div[@class=&quot;t-dropdown-wrap t-state-default&quot;]/span[@class=&quot;t-select&quot;]/span[@class=&quot;t-icon t-arrow-down&quot;]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_FinishUpgradeRequiredFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ba3f377-ba55-4ff5-a4e8-aea934a74c37</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>ae9e071e-0cb5-4345-a998-b477155a58e1</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>7ea72cb2-5bf1-46ce-b103-41d2b9125aa0</id>
+      <masked>false</masked>
+      <name>page_Load</name>
+   </variable>
+   <variable>
+      <defaultValue>'25741294 ( M-KOPA 4 v5 CSE-1 )'</defaultValue>
+      <description></description>
+      <id>c3365da4-98a6-4a7b-b250-0eb163369e96</id>
+      <masked>false</masked>
+      <name>old_ProductAccount</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 15395
+Test Case Description: Verifies if Upgrade is Visible in a Finished Payment Customer</description>
+   <name>verify_UpgradeLinkVisibleInFP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44887358-f40a-4101-98a6-8dd0f5d7a3d4</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>7e353cf3-423f-4f22-b0a7-1c4e0cd4842d</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Finished Payment'</defaultValue>
+      <description></description>
+      <id>6f5c5e7d-287b-45be-aa2b-14f5f458bd96</id>
+      <masked>false</masked>
+      <name>loan_Status</name>
+   </variable>
+</TestCaseEntity>

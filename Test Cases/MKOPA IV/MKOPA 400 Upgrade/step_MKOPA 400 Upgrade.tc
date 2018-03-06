@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Description: A step that upgrades MKOPA 400</description>
+   <name>step_MKOPA 400 Upgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce423323-8a41-4ef1-88cf-869d9067ae9f</testCaseGuid>
+   <variable>
+      <defaultValue>'Finished Payment'</defaultValue>
+      <description></description>
+      <id>aa05fb8a-d310-4092-b23a-a161e5b38f41</id>
+      <masked>false</masked>
+      <name>loan_Status</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>4eb89095-83a8-4027-b60b-0b652bac0f02</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 M-KOPA Shop Meru (01063)'</defaultValue>
+      <description></description>
+      <id>ae45459d-e1f1-4308-9e41-cf04ef779379</id>
+      <masked>false</masked>
+      <name>dealership</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
+      <description></description>
+      <id>6beaf7bc-72c2-467d-8fcc-7251ed639889</id>
+      <masked>false</masked>
+      <name>outlet</name>
+   </variable>
+   <variable>
+      <defaultValue>'Loan'</defaultValue>
+      <description></description>
+      <id>0ede6db3-f1e2-4366-86c6-1e1c78900722</id>
+      <masked>false</masked>
+      <name>plan_Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Njoki Maureen'</defaultValue>
+      <description></description>
+      <id>7b2f329a-4e3f-4f8b-94a4-85f55abb8db5</id>
+      <masked>false</masked>
+      <name>operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA +400 v4 (M-KOPA +400 ZERO deposit + 50 for 850 days)'</defaultValue>
+      <description></description>
+      <id>4a4c9abb-d292-4081-a990-cefcd10e6f1f</id>
+      <masked>false</masked>
+      <name>payment_Plan</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Testing Notes'</defaultValue>
+      <description></description>
+      <id>ddaedb75-656f-4884-9ad2-a1ece948628c</id>
+      <masked>false</masked>
+      <name>request_Notes</name>
+   </variable>
+</TestCaseEntity>

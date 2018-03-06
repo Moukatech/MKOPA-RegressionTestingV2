@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_ReturnDealer</name>
+   <name>message_EnterRequiredValue</name>
    <tag></tag>
-   <elementGuidId>dccb5955-2ac8-4f9b-b93b-0d1d869cfa1b</elementGuidId>
+   <elementGuidId>73d66b94-e109-4a9e-8b62-3968b14bec46</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
+      <value>//*[@id=&quot;divBodyForm&quot;]/div/div/ul/li[contains(normalize-space(),'a')]</value>
    </webElementProperties>
 </WebElementEntity>
