@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Description: A step that upgrades a customer product to MKOPA 400</description>
+   <name>step_MKOPA 400 Upgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>194363c1-020e-4f35-b059-d7e23439384c</testCaseGuid>
+   <variable>
+      <defaultValue>'Finished Payment'</defaultValue>
+      <description></description>
+      <id>1d1f452a-a604-43f1-ad15-2d4b4bde73ba</id>
+      <masked>false</masked>
+      <name>loan_Status</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>9fbbd681-4a8a-4a17-8329-10f9a35d9b87</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 M-KOPA Shop Meru (01063)'</defaultValue>
+      <description></description>
+      <id>41e0aff9-2f82-49a7-a7cd-fae02887726a</id>
+      <masked>false</masked>
+      <name>dealership</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
+      <description></description>
+      <id>623908b5-55a4-46ca-a3a8-84c9f894bfa4</id>
+      <masked>false</masked>
+      <name>outlet</name>
+   </variable>
+   <variable>
+      <defaultValue>'Loan'</defaultValue>
+      <description></description>
+      <id>e5f167d4-87f4-49e0-82c6-1ed7d38b3e47</id>
+      <masked>false</masked>
+      <name>plan_Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Njoki Maureen'</defaultValue>
+      <description></description>
+      <id>6d19e69a-da91-4e0b-884a-6ffbd535fce5</id>
+      <masked>false</masked>
+      <name>operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'M-KOPA +400 v4 (M-KOPA +400 ZERO deposit + 50 for 850 days)'</defaultValue>
+      <description></description>
+      <id>7744acfd-055e-4bb2-8dac-87236cd0e9b9</id>
+      <masked>false</masked>
+      <name>payment_Plan</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Testing Notes'</defaultValue>
+      <description></description>
+      <id>b8ce54ba-895f-491f-880a-5bffbd1af314</id>
+      <masked>false</masked>
+      <name>request_Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'15'</defaultValue>
+      <description></description>
+      <id>da1a6d53-4005-4ed7-9ff0-62bd08d6d9eb</id>
+      <masked>false</masked>
+      <name>page_Load</name>
+   </variable>
+</TestCaseEntity>

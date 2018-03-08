@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 14844
+Test Case Description: Verifies if the application add a new product successfully</description>
+   <name>Verify_MKOPA 400 Upgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11f0b775-ea9e-4125-9973-1f56811df3e2</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>95ecf768-4f64-43bc-ad03-dd5886a93498</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'30'</defaultValue>
+      <description></description>
+      <id>521a576f-fa86-48e9-ad40-a8b9e54c5c51</id>
+      <masked>false</masked>
+      <name>page_Load</name>
+   </variable>
+</TestCaseEntity>

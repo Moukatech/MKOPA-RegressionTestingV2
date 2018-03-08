@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Customer Screening Test Case. When the Customer is awaiting Device Allocation</description>
+   <name>steps_Customer Screening</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>634d8e3d-a61a-4580-8ac8-9a8bd8e7f124</testCaseGuid>
+   <variable>
+      <defaultValue>'28900967'</defaultValue>
+      <description></description>
+      <id>3755ad3a-235e-4a70-be57-51300dfe3270</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>d24edd59-a785-456d-84d2-f0c1e33f22fa</id>
+      <masked>false</masked>
+      <name>receivedCall</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>301aee64-edb1-4f83-8728-9208be7d22bc</id>
+      <masked>false</masked>
+      <name>payDepositQuestion</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kerosene, candles, solar lantern  (20)'</defaultValue>
+      <description></description>
+      <id>b83610a3-778f-4317-a03f-e553ef02cdfe</id>
+      <masked>false</masked>
+      <name>lighting</name>
+   </variable>
+   <variable>
+      <defaultValue>'Very Good (20)'</defaultValue>
+      <description></description>
+      <id>4ea380e7-0bdd-4a99-a205-981a2a8104d3</id>
+      <masked>false</masked>
+      <name>opinion</name>
+   </variable>
+   <variable>
+      <defaultValue>'0712908700'</defaultValue>
+      <description></description>
+      <id>4fea9adb-d4b5-47bb-bea8-39ef691b5167</id>
+      <masked>false</masked>
+      <name>paymentPhoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nice initiative'</defaultValue>
+      <description></description>
+      <id>582334b1-2350-4463-afa0-7f4d5912995c</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Have paid the deposit'</defaultValue>
+      <description></description>
+      <id>6f485094-1486-4d39-ab3b-d0d83170ea3a</id>
+      <masked>false</masked>
+      <name>depositQuestionResponse</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kerosene'</defaultValue>
+      <description></description>
+      <id>102cfb5f-9f30-4d0d-a768-82ba98f4f851</id>
+      <masked>false</masked>
+      <name>responseSourceLighting</name>
+   </variable>
+   <variable>
+      <defaultValue>'Good'</defaultValue>
+      <description></description>
+      <id>0fdd083c-3725-4208-b560-35a00b7bb270</id>
+      <masked>false</masked>
+      <name>opinionCCR</name>
+   </variable>
+</TestCaseEntity>

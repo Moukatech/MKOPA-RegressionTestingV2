@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 15272
+Test Case Description: Verifies Upgrade Link is available on D10g products</description>
+   <name>verify_UpgradeLinkD10gProducts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb0dc2bd-5a20-45e0-8817-264d5a4ea6b5</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>d5d8b6c9-58ce-49ac-9d5a-b910cf49779c</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

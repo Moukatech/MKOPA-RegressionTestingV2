@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_ReturnDealer</name>
+   <name>input_ReturnDeviceComment</name>
    <tag></tag>
-   <elementGuidId>dccb5955-2ac8-4f9b-b93b-0d1d869cfa1b</elementGuidId>
+   <elementGuidId>86707fe0-bde7-4e57-ba42-43398f66c7e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
+      <value>//*[@id=&quot;Comment&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

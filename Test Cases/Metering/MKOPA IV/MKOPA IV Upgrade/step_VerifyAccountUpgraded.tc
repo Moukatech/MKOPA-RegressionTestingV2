@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>step_VerifyAccountUpgraded</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95625be0-7418-471a-90ba-b376328156d2</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>c457d5e0-2a90-497f-a737-206580c3c6a6</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'8093859 ( MK3 DSR v1 )'</defaultValue>
+      <description></description>
+      <id>86a5fbc2-f950-43b6-aaaf-f0a2505f59e5</id>
+      <masked>false</masked>
+      <name>old_ProductAccount</name>
+   </variable>
+</TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_ReturnDealer</name>
+   <name>image_Upgrade</name>
    <tag></tag>
-   <elementGuidId>dccb5955-2ac8-4f9b-b93b-0d1d869cfa1b</elementGuidId>
+   <elementGuidId>9a66c33b-0e53-4702-b256-92cb4f06dda9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
+      <value>.//*[@id='div-account-info']/div[2]/img</value>
    </webElementProperties>
 </WebElementEntity>

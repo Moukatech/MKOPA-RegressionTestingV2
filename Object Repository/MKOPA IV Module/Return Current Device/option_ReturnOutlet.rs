@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_ReturnDealer</name>
+   <name>option_ReturnOutlet</name>
    <tag></tag>
-   <elementGuidId>dccb5955-2ac8-4f9b-b93b-0d1d869cfa1b</elementGuidId>
+   <elementGuidId>36aa0793-15f4-4c49-932f-4cddd3872af6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
+         <value>/html/body/div[15]/div/ul/li[contains(normalize-space(),'${return_OutletSelection}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
+      <value>/html/body/div[15]/div/ul/li[contains(normalize-space(),'${return_OutletSelection}')]</value>
    </webElementProperties>
 </WebElementEntity>

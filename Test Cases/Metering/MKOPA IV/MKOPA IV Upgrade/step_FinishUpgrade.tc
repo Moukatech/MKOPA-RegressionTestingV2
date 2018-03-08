@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>step_FinishUpgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02b81a0e-ec19-4429-a38d-c2598cee1f92</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>87becaf2-619e-44bf-9c1c-a1c71bf03773</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'23008785 ( SHS d20g v1 )'</defaultValue>
+      <description></description>
+      <id>c1070483-3efa-47ba-b870-3d83afd64435</id>
+      <masked>false</masked>
+      <name>old_ProductAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'S'</defaultValue>
+      <description></description>
+      <id>7b99b08d-6fd8-41d3-af73-f0454d51af9e</id>
+      <masked>false</masked>
+      <name>return_Dealer</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 M-KOPA Shop Meru'</defaultValue>
+      <description></description>
+      <id>eb018823-5d95-4dd2-aa8e-98b61ccefd5e</id>
+      <masked>false</masked>
+      <name>return_DealerSelection</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>8fa1dc2a-124e-4a57-b216-101e85cfa972</id>
+      <masked>false</masked>
+      <name>page_Load</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
+      <description></description>
+      <id>9cb87dd0-71c3-4d73-a081-e63658d1c8ba</id>
+      <masked>false</masked>
+      <name>return_OutletSelection</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kananu'</defaultValue>
+      <description></description>
+      <id>3c91bbff-c9a5-4e7e-a751-81cfcfe0091a</id>
+      <masked>false</masked>
+      <name>return_Operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'Return Device Comment'</defaultValue>
+      <description></description>
+      <id>cc0d7520-7259-4b1c-80c2-c59c249ed678</id>
+      <masked>false</masked>
+      <name>return_DeviceComment</name>
+   </variable>
+</TestCaseEntity>
