@@ -19,8 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount') : amount, ('Account') : account, ('Phone') : phone
-        , ('Comment') : comment, ('receiptNumber') : receiptNo], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(account, phone, amount, receiptNo)
+
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Comment') : comment], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 
@@ -29,7 +33,7 @@ WebUI.delay(2)
 WebUI.click(findTestObject('File Upload Center Module/File Upload Center/link_ViewUploadedFile', [('tagged') : tagged]), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('File Upload Center Module/File Upload Center/label-TagForUploadedFile', [('tagForUpload') : tagForUpload]))
+tagForUpload = WebUI.getText(findTestObject('File Upload Center Module/File Upload Center/label-TagForUploadedFile', [('tagForUpload') : tagForUpload]))
 
 WebUI.verifyEqual(tagForUpload, tagged)
 
