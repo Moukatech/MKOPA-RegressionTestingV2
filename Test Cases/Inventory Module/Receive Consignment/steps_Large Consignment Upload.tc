@@ -3,7 +3,7 @@
    <description>Testcase id : 7310
 
 These are the steps to follow when uploading a Large Consignment Manifest</description>
-   <name>verify_Large Consignment Upload</name>
+   <name>steps_Large Consignment Upload</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d8b818c7-8df4-4925-9135-03b97ecbcc3e</testCaseGuid>

@@ -19,25 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Large Consignment Upload'), [('itemType') : itemType
-        , ('supplier') : supplier, ('manifestType') : manifestType, ('loanDraw') : loanDraw, ('shippingDate') : shippingDate
-        , ('condition') : condition, ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Receive Consignment'), [('itemType') : itemType
+        , ('supplier') : supplier, ('manifestType') : manifestType, ('consignmentNo') : consignmentNo, ('loanDraw') : loanDraw
+        , ('condition') : condition, ('selectId') : selectId, ('shippingDate') : shippingDate, ('code') : code, ('receiptId') : receiptId
+        , ('receiptDate') : receiptDate, ('receiptCartonUnit') : receiptCartonUnit, ('comment') : comment, ('imei') : imei
+        , ('statusMessage') : statusMessage], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Warehouse Operations'), [('code') : code, ('receiptId') : receiptId
-        , ('consignmentNo') : consignmentNo, ('receiptDate') : receiptDate, ('receiptCartonUnit') : receiptCartonUnit], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_WarehouseOperations'))
 
-WebUI.click(findTestObject('Inventory Module/Receive Consignment/button_Receive'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Cartons Pending Receipt/button_Finish Receiving Consignment'))
+WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('code') : code]))
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Finish Receive Consignment'), [('comment') : comment], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Inventory Module/Consignment Received/successMsg_Consignment has been Received'))
+WebUI.verifyElementVisible(findTestObject('Inventory Module/WareHouse Operations/label_Quick Stock Info'))
 
 WebUI.closeBrowser()
 

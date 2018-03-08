@@ -19,25 +19,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Large Consignment Upload'), [('itemType') : itemType
-        , ('supplier') : supplier, ('manifestType') : manifestType, ('loanDraw') : loanDraw, ('shippingDate') : shippingDate
-        , ('condition') : condition, ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(account, phone, amount, receiptNo)
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Warehouse Operations'), [('code') : code, ('receiptId') : receiptId
-        , ('consignmentNo') : consignmentNo, ('receiptDate') : receiptDate, ('receiptCartonUnit') : receiptCartonUnit], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Comment') : comments], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Inventory Module/Receive Consignment/button_Receive'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Payments/Link-Payments'))
 
-WebUI.click(findTestObject('Inventory Module/Cartons Pending Receipt/button_Finish Receiving Consignment'))
+WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Finish Receive Consignment'), [('comment') : comment], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page Header and Menu/Payments/Link_Dealers Payments List'))
 
-WebUI.verifyElementVisible(findTestObject('Inventory Module/Consignment Received/successMsg_Consignment has been Received'))
+WebUI.delay(3)
+
+WebUI.refresh()
+
+WebUI.delay(2)
+
+receipt = WebUI.getText(findTestObject('Dealers Module/Dealer Payments/td_Receipt Number'))
+
+WebUI.delay(2)
+
+WebUI.verifyEqual(receipt, receiptNo)
 
 WebUI.closeBrowser()
 

@@ -56,7 +56,7 @@
       <guid>e90f4d94-d297-45d5-96e7-b2d4ff8d8de8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Item Types/verify_Add Item Type</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Item Types/verify_Add Metered Item Type</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
