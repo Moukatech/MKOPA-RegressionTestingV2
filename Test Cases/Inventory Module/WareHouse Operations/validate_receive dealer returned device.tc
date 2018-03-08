@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>checking validations when receiving a dealer returned device</description>
+   <description>checking validations when receiving a dealer returned device(condition received in filed is required)</description>
    <name>validate_receive dealer returned device</name>
    <tag></tag>
    <comment></comment>

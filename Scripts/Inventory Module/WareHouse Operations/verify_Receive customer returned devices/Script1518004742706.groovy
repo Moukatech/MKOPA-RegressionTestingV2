@@ -35,3 +35,5 @@ WebUI.click(findTestObject('Inventory Module/Customer Device Returns to Receive/
 
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Customer Device Returns to Receive/successMessage'), 2)
 
+WebUI.closeBrowser()
+

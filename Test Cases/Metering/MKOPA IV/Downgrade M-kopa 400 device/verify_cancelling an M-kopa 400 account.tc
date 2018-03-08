@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>verify_caancelling an M-kopa 400 account</name>
+   <name>verify_cancelling an M-kopa 400 account</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f8c54f2d-f6a3-4e1e-9e1a-73d57edfcf8d</testCaseGuid>

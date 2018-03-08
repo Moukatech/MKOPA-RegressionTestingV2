@@ -5,7 +5,7 @@
 2.Return device
 3.Suspend Device
 4.Device Voltage History</description>
-   <name>step_SaleRepDemoDeviceManagement</name>
+   <name>step_Sale Rep Demo Device Management</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>db20aad5-77dc-4d7b-ac02-1ef9dc7d5503</testCaseGuid>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>navigating to repairs</description>
+   <description>Steps for navigating to repairs</description>
    <name>steps_Navigate to Repairs</name>
    <tag></tag>
    <comment></comment>

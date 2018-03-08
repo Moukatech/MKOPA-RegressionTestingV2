@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>ID:16405
-Adding a kingfisher item type</description>
+Adding a kingfisher  metered item type</description>
    <name>verify_Add Kingfisher metered item type</name>
    <tag></tag>
    <comment></comment>

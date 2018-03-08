@@ -28,3 +28,5 @@ WebUI.click(findTestObject('Inventory Module/WareHouse Operations/button_Load'))
 
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Check stock/error Messages'), 2)
 
+WebUI.closeBrowser()
+

@@ -44,3 +44,5 @@ WebUI.click(findTestObject('Inventory Module/Add Item Type/button_Cretate'))
 
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Add Item Type/Error message'), 2)
 
+WebUI.closeBrowser()
+

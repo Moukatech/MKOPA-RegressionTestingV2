@@ -57,7 +57,7 @@
       <guid>16bf310d-3a7a-47ce-b81f-c38cb754e897</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Repair Pool Transfers/verify_Repair Pool Transfers In</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Repair Pool Transfers/steps_Repair Pool Transfers In</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -75,6 +75,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>453be2a4-71c9-4efb-bb1c-17b7bf99b370</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9059b29-d4eb-416a-b245-e30c7e884a4e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

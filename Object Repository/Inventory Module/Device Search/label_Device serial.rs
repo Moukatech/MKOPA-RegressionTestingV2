@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+         <value> //h1[contains(.,'Serial: ${serialNumber}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h1[contains(.,'Serial:: ${serialNumber}')]</value>
+      <value> //h1[contains(.,'Serial: ${serialNumber}')]</value>
    </webElementProperties>
 </WebElementEntity>

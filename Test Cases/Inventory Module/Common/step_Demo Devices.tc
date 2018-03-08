@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Test Case ID: 412
 Test Description: Test Step that Lists Demo Devices. It also captures test case ID 412</description>
-   <name>step_DemoDevices</name>
+   <name>step_Demo Devices</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4a419b92-45c3-4f4d-804c-8c5c5f014053</testCaseGuid>

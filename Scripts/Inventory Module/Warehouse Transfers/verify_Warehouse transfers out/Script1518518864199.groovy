@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Inventory Module/Transfers Out/dropdown_DeviceType')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Transfers Out/select_DeviceType', [('select_devicetype') : select_devicetype]))
+WebUI.click(findTestObject('Inventory Module/Transfers Out/select_DeviceType', [('select_devicetype') : deviceType]))
 
 WebUI.delay(2)
 
@@ -40,12 +40,12 @@ WebUI.click(findTestObject('Inventory Module/Transfers Out/dropdown_WarehouseTo'
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Transfers Out/select_WarehouseTo', [('select_warehouseto') : select_warehouseto]))
+WebUI.click(findTestObject('Inventory Module/Transfers Out/select_WarehouseTo', [('select_warehouseto') : warehouseToTransfer]))
 
 WebUI.setText(findTestObject('Inventory Module/Transfers Out/input_ModeOfTransfer', [('input_modeoftransfer') : input_modeoftransfer]), 
-    input_modeoftransfer)
+    modeOfTransfer)
 
-WebUI.setText(findTestObject('Inventory Module/Transfers Out/input_PlannedQuantity'), input_plannedquantity)
+WebUI.setText(findTestObject('Inventory Module/Transfers Out/input_PlannedQuantity'), plannedQuantity)
 
 WebUI.click(findTestObject('Inventory Module/Transfers Out/button_AddTransfer'))
 
@@ -61,10 +61,10 @@ WebUI.click(findTestObject('Inventory Module/Transfers Out/dropdown_Packaging'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Transfers Out/select_Packaging', [('select_packaging') : select_packaging]))
+WebUI.click(findTestObject('Inventory Module/Transfers Out/select_Packaging', [('select_packaging') : packaging]))
 
 WebUI.setText(findTestObject('Inventory Module/Transfers Out/input_SerialNumber', [('input_serialnumber') : input_serialnumber]), 
-    input_serialnumber)
+    serialNumber)
 
 WebUI.click(findTestObject('Inventory Module/Transfers Out/button_AddTransferItem'))
 

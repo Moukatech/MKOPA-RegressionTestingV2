@@ -8,7 +8,7 @@ verifying hat you cannot send credits to a blocked account</description>
    <testCaseGuid>c80f525f-b18e-4879-9e91-78f53ffd55a2</testCaseGuid>
    <variable>
       <defaultValue>'24991346'</defaultValue>
-      <description></description>
+      <description>m-kopa 4 customer</description>
       <id>81446ef2-a87f-4383-b6c3-52f63aa4fb16</id>
       <masked>false</masked>
       <name>customerAccount</name>

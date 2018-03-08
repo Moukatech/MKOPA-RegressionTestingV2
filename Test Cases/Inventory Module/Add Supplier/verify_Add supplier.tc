@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>Validate_Supplier is Added</name>
+   <description>TC ID: 110
+verifying that a supplier has ben added</description>
+   <name>verify_Add supplier</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1bf6b2a9-ec96-4b3c-8eed-4532a5c4f971</testCaseGuid>

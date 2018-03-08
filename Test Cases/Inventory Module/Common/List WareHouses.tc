@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test case ID 129</description>
+   <description>Test case ID: 129
+
+Steps to list all the ware houses available</description>
    <name>List WareHouses</name>
    <tag></tag>
    <comment></comment>

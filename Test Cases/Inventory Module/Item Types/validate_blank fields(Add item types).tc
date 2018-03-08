@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Checking for validations message displayed upon submitting blank fields for add item type</description>
    <name>validate_blank fields(Add item types)</name>
    <tag></tag>
    <comment></comment>
