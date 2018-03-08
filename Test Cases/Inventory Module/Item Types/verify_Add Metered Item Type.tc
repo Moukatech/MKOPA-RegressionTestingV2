@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>adding a new item type</description>
-   <name>verify_Add Item Type</name>
+   <description>Test Case ID: 120
+
+Adding a new item type</description>
+   <name>verify_Add Metered Item Type</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fd1453af-c730-47cc-bedc-8de161ab9711</testCaseGuid>
