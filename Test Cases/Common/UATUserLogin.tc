@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UATUserLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1e1cba9-5af5-4644-a858-62888506de99</testCaseGuid>
+   <variable>
+      <defaultValue>'Kennedy.Mwangi@m-kopa.com'</defaultValue>
+      <description></description>
+      <id>e683926e-a217-42eb-a8a0-3766179dda26</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ken0726//'</defaultValue>
+      <description></description>
+      <id>fa81f9a2-8e8f-4fcd-9cb0-a0f352f42ac5</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

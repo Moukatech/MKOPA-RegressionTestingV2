@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 417
+Test Case Description: Validates display of error 'Item not found in this warehouse'</description>
+   <name>validate_IssueDemoDeviceToOutletItemNotFound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d961f3e3-b356-4707-8d04-a111b9020571</testCaseGuid>
+   <variable>
+      <defaultValue>'Outlet'</defaultValue>
+      <description></description>
+      <id>df5e7034-d365-4edf-8c01-5c14bdd33440</id>
+      <masked>false</masked>
+      <name>EntityType</name>
+   </variable>
+   <variable>
+      <defaultValue>'SC001 M-KOPA Shop Meru'</defaultValue>
+      <description></description>
+      <id>9efc58a3-7572-4acc-8cd6-0d084b27eec1</id>
+      <masked>false</masked>
+      <name>DealerName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sc001 M-Kopa Shop Meru'</defaultValue>
+      <description></description>
+      <id>7181f27e-cd91-4d75-b0fa-85048ff03e8f</id>
+      <masked>false</masked>
+      <name>Outlet</name>
+   </variable>
+   <variable>
+      <defaultValue>'0715010701-000359'</defaultValue>
+      <description></description>
+      <id>b5d13506-c4ba-470f-8559-28dc1739ae00</id>
+      <masked>false</masked>
+      <name>SerialNo</name>
+   </variable>
+</TestCaseEntity>

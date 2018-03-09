@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Receipt of Consignment" time="83" tests="1" failures="0" errors="0">
+   <testsuite name="Receipt of Consignment" tests="1" failures="0" errors="0" time="83" timestamp="2018-02-23 07:34:42" hostname="Charles.Chweyaa - KE-HQ-001644.M-KOPA.local" id="Test Suites/Demo Suite/Inventory/Receipt of Consignment/Receipt of Consignment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\charles.chweyaa.M-KOPA\\git\\MKOPA-RegressionTestingVersion2\\Reports\\Demo Suite\\Inventory\\Receipt of Consignment\\Receipt of Consignment\\20180223_073438"/>
+         <property name="logFiles" value="C:\\Users\\charles.chweyaa.M-KOPA\\git\\MKOPA-RegressionTestingVersion2\\Reports\\Demo Suite\\Inventory\\Receipt of Consignment\\Receipt of Consignment\\20180223_073438\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Charles.Chweyaa - KE-HQ-001644.M-KOPA.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.167"/>
+         <property name="hostAddress" value="192.168.160.133"/>
+         <property name="sessionId" value="8db2962ea991f812f49ff4f0d268c54f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Inventory Module/Manifest Upload/validate_Shipping Date Required" classname="Test Cases/Inventory Module/Manifest Upload/validate_Shipping Date Required" status="PASSED">
+         <system-out><![CDATA[2018-02-23 07:34:43 - [TEST_CASE][PASSED] - Test Cases/Inventory Module/Manifest Upload/validate_Shipping Date Required: Test Cases/Inventory Module/Manifest Upload/validate_Shipping Date Required
+
+2018-02-23 07:34:43 - [TEST_STEP][PASSED] - manifestUploads.PrimaryDevice.primaryDevice: manifestUploads.PrimaryDevice.primaryDevice is PASSED
+
+2018-02-23 07:34:44 - [MESSAGE][PASSED] - manifestUploads.PrimaryDevice.primaryDevice is PASSED
+
+2018-02-23 07:34:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:34:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:34:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/UserLogin' successfully
+
+2018-02-23 07:34:46 - [TEST_CASE][PASSED] - Test Cases/Common/UserLogin: Test Cases/Common/UserLogin
+
+2018-02-23 07:34:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://nm.m-kopa.net/'
+
+2018-02-23 07:35:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://nm.m-kopa.net/'
+
+2018-02-23 07:35:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-23 07:35:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-23 07:35:15 - [TEST_STEP][PASSED] - setText: Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-02-23 07:35:16 - [MESSAGE][PASSED] - Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-02-23 07:35:16 - [TEST_STEP][PASSED] - setText: Text 'Ken0726*-' is set on object 'Object Repository/Login/input_Password'
+
+2018-02-23 07:35:17 - [MESSAGE][PASSED] - Text 'Ken0726*-' is set on object 'Object Repository/Login/input_Password'
+
+2018-02-23 07:35:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-02-23 07:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-02-23 07:35:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/UserLogin' successfully
+
+2018-02-23 07:35:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Inventory Module/Manifest Upload/steps_manifest Upload' successfully
+
+2018-02-23 07:35:22 - [TEST_CASE][PASSED] - Test Cases/Inventory Module/Manifest Upload/steps_manifest Upload: Test Cases/Inventory Module/Manifest Upload/steps_manifest Upload
+
+2018-02-23 07:35:23 - [TEST_STEP][PASSED] - Statement - If (consignmentNo == null): null
+
+2018-02-23 07:35:23 - [TEST_STEP][PASSED] - Statement - location = java.lang.System.getenv("USERPROFILE"): null
+
+2018-02-23 07:35:23 - [TEST_STEP][PASSED] - Statement - filePath = location + "/git/MKOPA-RegressionTestingV2/Manifest Files/primaryDeviceManifest.csv": null
+
+2018-02-23 07:35:23 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory' is hovered
+
+2018-02-23 07:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory' is hovered
+
+2018-02-23 07:35:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:35:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:35:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_Operations' is hovered
+
+2018-02-23 07:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Operations' is hovered
+
+2018-02-23 07:35:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:35:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:35:28 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory Items' is hovered
+
+2018-02-23 07:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory Items' is hovered
+
+2018-02-23 07:35:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:35:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:35:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Inventory/link_Upload Manifest' is clicked on
+
+2018-02-23 07:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Upload Manifest' is clicked on
+
+2018-02-23 07:35:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type ' is clicked on
+
+2018-02-23 07:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type ' is clicked on
+
+2018-02-23 07:35:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:35:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:35:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_Manifest Type' is clicked on
+
+2018-02-23 07:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_Manifest Type' is clicked on
+
+2018-02-23 07:35:37 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Shipping Date'
+
+2018-02-23 07:35:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Shipping Date'
+
+2018-02-23 07:35:39 - [TEST_STEP][PASSED] - setText: Text 'DAFWT2YQGQI' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Consignment No'
+
+2018-02-23 07:35:39 - [MESSAGE][PASSED] - Text 'DAFWT2YQGQI' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Consignment No'
+
+2018-02-23 07:35:39 - [TEST_STEP][PASSED] - setText: Text '200' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Loan Draw'
+
+2018-02-23 07:35:40 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Loan Draw'
+
+2018-02-23 07:35:40 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory Items' is hovered
+
+2018-02-23 07:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory Items' is hovered
+
+2018-02-23 07:35:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:35:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:35:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType' is clicked on
+
+2018-02-23 07:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType' is clicked on
+
+2018-02-23 07:35:42 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-02-23 07:35:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-02-23 07:35:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_itemType' is clicked on
+
+2018-02-23 07:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_itemType' is clicked on
+
+2018-02-23 07:35:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/dropdown_Select Supplier' is clicked on
+
+2018-02-23 07:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/dropdown_Select Supplier' is clicked on
+
+2018-02-23 07:35:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:35:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:35:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_supplier' is clicked on
+
+2018-02-23 07:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_supplier' is clicked on
+
+2018-02-23 07:35:55 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Inventory Module/Device Manifest Upload/checkerbox_Send to Production' is checked
+
+2018-02-23 07:35:55 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory Module/Device Manifest Upload/checkerbox_Send to Production' is checked
+
+2018-02-23 07:35:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-23 07:36:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-23 07:36:00 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\charles.chweyaa.M-KOPA/git/MKOPA-RegressionTestingV2/Manifest Files/primaryDeviceManifest.csv' sent to object: 'Object Repository/Inventory Module/Device Manifest Upload/button_Select'
+
+2018-02-23 07:36:00 - [MESSAGE][PASSED] - File 'C:\Users\charles.chweyaa.M-KOPA/git/MKOPA-RegressionTestingV2/Manifest Files/primaryDeviceManifest.csv' sent to object: 'Object Repository/Inventory Module/Device Manifest Upload/button_Select'
+
+2018-02-23 07:36:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/button_Upload' is clicked on
+
+2018-02-23 07:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/button_Upload' is clicked on
+
+2018-02-23 07:36:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-23 07:36:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-23 07:36:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inventory Module/Manifest Upload/steps_manifest Upload' successfully
+
+2018-02-23 07:36:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Inventory Module/Device Manifest Upload/errorMsg_Select the Shipping Date' is visible
+
+2018-02-23 07:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory Module/Device Manifest Upload/errorMsg_Select the Shipping Date' is visible
+
+2018-02-23 07:36:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-23 07:36:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-23 07:34:42 - [TEST_SUITE][PASSED] - Receipt of Consignment: Test Cases/Inventory Module/Manifest Upload/validate_Shipping Date Required]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_LoanPaymentPlanDetails</name>
+   <tag></tag>
+   <elementGuidId>46ca075b-a3d6-4a9a-aa37-02c42d993281</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='divBodyForm']//b[text()='${loan_PaymentPlanName}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='divBodyForm']//b[text()='${loan_PaymentPlanName}']</value>
+   </webElementProperties>
+</WebElementEntity>

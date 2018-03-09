@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ApprovedSerialNumber</name>
+   <tag></tag>
+   <elementGuidId>9e521ec6-a697-45e0-8d96-91d23a5e5175</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='DemoDevicesList']/table/tbody/tr[td[text()='0315020301-000162']]</value>
+   </webElementProperties>
+</WebElementEntity>

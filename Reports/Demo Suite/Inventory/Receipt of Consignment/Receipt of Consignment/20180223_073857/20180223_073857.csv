@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Receipt of Consignment,Chrome 64.0.3282.167,,2018-02-23 07:38:59,2018-02-23 07:40:00,1m - 0.673s,PASSED
+,,,,,,
+Test Cases/Inventory Module/Manifest Upload/validate_Duplicate Consignment No,Chrome 64.0.3282.167,Validates the consignment Number should be Unique,2018-02-23 07:39:00,2018-02-23 07:40:00,1m - 0.191s,PASSED
+manifestUploads.PrimaryDevice.primaryDevice,Chrome 64.0.3282.167,,2018-02-23 07:39:01,2018-02-23 07:39:01,0.216s,PASSED
+delay,Chrome 64.0.3282.167,,2018-02-23 07:39:01,2018-02-23 07:39:04,2.251s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-02-23 07:39:04,2018-02-23 07:39:23,19.218s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-02-23 07:39:23,2018-02-23 07:39:59,36.053s,PASSED
+verifyElementVisible,Chrome 64.0.3282.167,,2018-02-23 07:39:59,2018-02-23 07:39:59,0.146s,PASSED
+closeBrowser,Chrome 64.0.3282.167,,2018-02-23 07:39:59,2018-02-23 07:40:00,0.921s,PASSED

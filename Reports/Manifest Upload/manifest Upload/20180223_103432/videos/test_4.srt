@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,145
+0. closeBrowser
+
+2
+00:00:00,147 --> 00:00:00,178
+1. Statement - location = java.lang.System.getenv("USERPROFILE")
+
+3
+00:00:00,186 --> 00:00:00,221
+2. Statement - fileLocation = location + "/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx"
+
+4
+00:00:00,221 --> 00:00:00,256
+3. manifestUploads.wrongfileFormat.wrongfileFormat
+
+5
+00:00:00,266 --> 00:00:00,408
+4. delay
+
+6
+00:00:00,422 --> 00:00:19,419
+5. callTestCase
+
+7
+00:00:19,438 --> 00:00:56,914
+6. callTestCase
+
+8
+00:00:56,957 --> 00:00:57,193
+7. verifyElementVisible
+
+9
+00:00:57,214 --> 00:00:57,892
+8. closeBrowser
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo Devices" time="32" tests="1" failures="0" errors="0">
+   <testsuite name="Demo Devices" tests="1" failures="0" errors="0" time="32" timestamp="2018-02-20 08:48:26" hostname="Charles.Chweyaa - KE-HQ-001644.M-KOPA.local" id="Test Suites/Inventory module/Demo Devices/Demo Devices">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\charles.chweyaa.M-KOPA\\git\\MKOPA-RegressionTestingVersion2\\Reports\\Inventory module\\Demo Devices\\Demo Devices\\20180220_084823"/>
+         <property name="logFiles" value="C:\\Users\\charles.chweyaa.M-KOPA\\git\\MKOPA-RegressionTestingVersion2\\Reports\\Inventory module\\Demo Devices\\Demo Devices\\20180220_084823\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Charles.Chweyaa - KE-HQ-001644.M-KOPA.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.167"/>
+         <property name="hostAddress" value="192.168.160.133"/>
+         <property name="sessionId" value="1bef5937a934e25f1d7129a1cfbbb862"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Inventory Module/Demo Devices/verify_CreditsQueued" classname="Test Cases/Inventory Module/Demo Devices/verify_CreditsQueued" status="PASSED">
+         <system-out><![CDATA[2018-02-20 08:48:26 - [TEST_CASE][PASSED] - Test Cases/Inventory Module/Demo Devices/verify_CreditsQueued: Test Cases/Inventory Module/Demo Devices/verify_CreditsQueued
+
+2018-02-20 08:48:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/UserLogin' successfully
+
+2018-02-20 08:48:27 - [TEST_CASE][PASSED] - Test Cases/Common/UserLogin: Test Cases/Common/UserLogin
+
+2018-02-20 08:48:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-02-20 08:48:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://keuat.kopasolar.net'
+
+2018-02-20 08:48:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-20 08:48:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-20 08:48:39 - [TEST_STEP][PASSED] - setText: Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-02-20 08:48:40 - [MESSAGE][PASSED] - Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-02-20 08:48:40 - [TEST_STEP][PASSED] - setText: Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-02-20 08:48:40 - [MESSAGE][PASSED] - Text 'Ken0726//' is set on object 'Object Repository/Login/input_Password'
+
+2018-02-20 08:48:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-02-20 08:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-02-20 08:48:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/UserLogin' successfully
+
+2018-02-20 08:48:43 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory' is hovered
+
+2018-02-20 08:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory' is hovered
+
+2018-02-20 08:48:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-20 08:48:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-20 08:48:46 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_DemoDevices' is hovered
+
+2018-02-20 08:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_DemoDevices' is hovered
+
+2018-02-20 08:48:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-20 08:48:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-20 08:48:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Inventory/link_SendWeeklyCredit' is clicked on
+
+2018-02-20 08:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_SendWeeklyCredit' is clicked on
+
+2018-02-20 08:48:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-20 08:48:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-20 08:48:57 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Weekly Credit Send' is present on page  using regular expression
+
+2018-02-20 08:48:57 - [MESSAGE][PASSED] - Text 'Weekly Credit Send' is present on page  using regular expression
+
+2018-02-20 08:48:57 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-02-20 08:48:57 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-20 08:48:26 - [TEST_SUITE][PASSED] - Demo Devices: Test Cases/Inventory Module/Demo Devices/verify_CreditsQueued]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

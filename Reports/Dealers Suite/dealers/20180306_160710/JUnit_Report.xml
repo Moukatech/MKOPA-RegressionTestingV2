@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dealers" time="189" tests="1" failures="0" errors="0">
+   <testsuite name="dealers" tests="1" failures="0" errors="0" time="189" timestamp="2018-03-06 16:07:16" hostname="Charles.Chweyaa - KE-HQ-001644.M-KOPA.local" id="Test Suites/Dealers Suite/dealers">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\charles.chweyaa.M-KOPA\\git\\MKOPA-RegressionTestingVersion2\\Reports\\Dealers Suite\\dealers\\20180306_160710"/>
+         <property name="logFiles" value="C:\\Users\\charles.chweyaa.M-KOPA\\git\\MKOPA-RegressionTestingVersion2\\Reports\\Dealers Suite\\dealers\\20180306_160710\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Charles.Chweyaa - KE-HQ-001644.M-KOPA.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.160.133"/>
+         <property name="sessionId" value="31ac75ed2c355116970313d4da2dd0d9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dealers Module/Dealer/verify_AddDealer" classname="Test Cases/Dealers Module/Dealer/verify_AddDealer" status="PASSED">
+         <system-out><![CDATA[2018-03-06 16:07:17 - [TEST_CASE][PASSED] - Test Cases/Dealers Module/Dealer/verify_AddDealer: Test Cases/Dealers Module/Dealer/verify_AddDealer
+
+2018-03-06 16:07:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/UserLogin' successfully
+
+2018-03-06 16:07:19 - [TEST_CASE][PASSED] - Test Cases/Common/UserLogin: Test Cases/Common/UserLogin
+
+2018-03-06 16:07:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://nm.m-kopa.net/'
+
+2018-03-06 16:08:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://nm.m-kopa.net/'
+
+2018-03-06 16:08:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-06 16:08:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-06 16:08:31 - [TEST_STEP][PASSED] - setText: Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-03-06 16:08:38 - [MESSAGE][PASSED] - Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-03-06 16:08:38 - [TEST_STEP][PASSED] - setText: Text 'Ken0726*-' is set on object 'Object Repository/Login/input_Password'
+
+2018-03-06 16:08:38 - [MESSAGE][PASSED] - Text 'Ken0726*-' is set on object 'Object Repository/Login/input_Password'
+
+2018-03-06 16:08:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-03-06 16:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-03-06 16:08:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/UserLogin' successfully
+
+2018-03-06 16:08:53 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Dealers/Link_Dealers' is hovered
+
+2018-03-06 16:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Dealers/Link_Dealers' is hovered
+
+2018-03-06 16:08:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:08:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:08:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Dealers/link_AddDealer' is clicked on
+
+2018-03-06 16:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Dealers/link_AddDealer' is clicked on
+
+2018-03-06 16:09:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_DealershipType' is clicked on
+
+2018-03-06 16:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_DealershipType' is clicked on
+
+2018-03-06 16:09:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/select_DealershipType' is clicked on
+
+2018-03-06 16:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/select_DealershipType' is clicked on
+
+2018-03-06 16:09:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_RecruitingAgent' is clicked on
+
+2018-03-06 16:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_RecruitingAgent' is clicked on
+
+2018-03-06 16:09:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/select_RecruitingAgent' is clicked on
+
+2018-03-06 16:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/select_RecruitingAgent' is clicked on
+
+2018-03-06 16:09:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_SalesArea' is clicked on
+
+2018-03-06 16:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_SalesArea' is clicked on
+
+2018-03-06 16:09:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/select_SalesArea' is clicked on
+
+2018-03-06 16:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/select_SalesArea' is clicked on
+
+2018-03-06 16:09:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_SalesSub-Area' is clicked on
+
+2018-03-06 16:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_SalesSub-Area' is clicked on
+
+2018-03-06 16:09:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/select_SalesSub-Area' is clicked on
+
+2018-03-06 16:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/select_SalesSub-Area' is clicked on
+
+2018-03-06 16:09:36 - [TEST_STEP][PASSED] - setText: Text 'Automation Business Name' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BusinessName'
+
+2018-03-06 16:09:42 - [MESSAGE][PASSED] - Text 'Automation Business Name' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BusinessName'
+
+2018-03-06 16:09:42 - [TEST_STEP][PASSED] - setText: Text '36366 M-Kopa' is set on object 'Object Repository/Dealers Module/Add Dealer/text_PostalAddress'
+
+2018-03-06 16:09:43 - [MESSAGE][PASSED] - Text '36366 M-Kopa' is set on object 'Object Repository/Dealers Module/Add Dealer/text_PostalAddress'
+
+2018-03-06 16:09:43 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BusinessPermit'
+
+2018-03-06 16:09:44 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BusinessPermit'
+
+2018-03-06 16:09:44 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BusinessPin'
+
+2018-03-06 16:09:45 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BusinessPin'
+
+2018-03-06 16:09:45 - [TEST_STEP][PASSED] - setText: Text 'CBA' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BankName'
+
+2018-03-06 16:09:46 - [MESSAGE][PASSED] - Text 'CBA' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BankName'
+
+2018-03-06 16:09:46 - [TEST_STEP][PASSED] - setText: Text 'CBA' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BranchName'
+
+2018-03-06 16:09:46 - [MESSAGE][PASSED] - Text 'CBA' is set on object 'Object Repository/Dealers Module/Add Dealer/text_BranchName'
+
+2018-03-06 16:09:46 - [TEST_STEP][PASSED] - setText: Text '78798768797' is set on object 'Object Repository/Dealers Module/Add Dealer/text_AccountNumber'
+
+2018-03-06 16:09:47 - [MESSAGE][PASSED] - Text '78798768797' is set on object 'Object Repository/Dealers Module/Add Dealer/text_AccountNumber'
+
+2018-03-06 16:09:47 - [TEST_STEP][PASSED] - setText: Text '963' is set on object 'Object Repository/Dealers Module/Add Dealer/text_SwiftCode'
+
+2018-03-06 16:09:47 - [MESSAGE][PASSED] - Text '963' is set on object 'Object Repository/Dealers Module/Add Dealer/text_SwiftCode'
+
+2018-03-06 16:09:47 - [TEST_STEP][PASSED] - setText: Text 'Doe' is set on object 'Object Repository/Dealers Module/Add Dealer/text_Surname'
+
+2018-03-06 16:09:48 - [MESSAGE][PASSED] - Text 'Doe' is set on object 'Object Repository/Dealers Module/Add Dealer/text_Surname'
+
+2018-03-06 16:09:48 - [TEST_STEP][PASSED] - setText: Text 'Jane' is set on object 'Object Repository/Dealers Module/Add Dealer/text_OtherNames'
+
+2018-03-06 16:09:50 - [MESSAGE][PASSED] - Text 'Jane' is set on object 'Object Repository/Dealers Module/Add Dealer/text_OtherNames'
+
+2018-03-06 16:09:50 - [TEST_STEP][PASSED] - setText: Text '12654789' is set on object 'Object Repository/Dealers Module/Add Dealer/text_IDNumber'
+
+2018-03-06 16:09:50 - [MESSAGE][PASSED] - Text '12654789' is set on object 'Object Repository/Dealers Module/Add Dealer/text_IDNumber'
+
+2018-03-06 16:09:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_IDType' is clicked on
+
+2018-03-06 16:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_IDType' is clicked on
+
+2018-03-06 16:09:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/select_IDType' is clicked on
+
+2018-03-06 16:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/select_IDType' is clicked on
+
+2018-03-06 16:09:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:09:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:09:57 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Dealers Module/Add Dealer/checkbox_IDCopyReceived' is checked
+
+2018-03-06 16:09:59 - [MESSAGE][PASSED] - Object 'Object Repository/Dealers Module/Add Dealer/checkbox_IDCopyReceived' is checked
+
+2018-03-06 16:09:59 - [TEST_STEP][PASSED] - setText: Text 'Kenyan' is set on object 'Object Repository/Dealers Module/Add Dealer/text_Citizenship'
+
+2018-03-06 16:10:00 - [MESSAGE][PASSED] - Text 'Kenyan' is set on object 'Object Repository/Dealers Module/Add Dealer/text_Citizenship'
+
+2018-03-06 16:10:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_Gender' is clicked on
+
+2018-03-06 16:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_Gender' is clicked on
+
+2018-03-06 16:10:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:10:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:10:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/select_Gender' is clicked on
+
+2018-03-06 16:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/select_Gender' is clicked on
+
+2018-03-06 16:10:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:10:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:10:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_Language' is clicked on
+
+2018-03-06 16:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/dropdown_Language' is clicked on
+
+2018-03-06 16:10:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-06 16:10:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-06 16:10:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dealers Module/Add Dealer/select_Language' is clicked on
+
+2018-03-06 16:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dealers Module/Add Dealer/select_Language' is clicked on
+
+2018-03-06 16:10:10 - [TEST_STEP][PASSED] - setText: Text '0778959590' is set on object 'Object Repository/Dealers Module/Add Dealer/text_PhoneNumber'
+
+2018-03-06 16:10:10 - [MESSAGE][PASSED] - Text '0778959590' is set on object 'Object Repository/Dealers Module/Add Dealer/text_PhoneNumber'
+
+2018-03-06 16:10:10 - [TEST_STEP][PASSED] - setText: Text '0755282326' is set on object 'Object Repository/Dealers Module/Add Dealer/text_Alternatephone'
+
+2018-03-06 16:10:11 - [MESSAGE][PASSED] - Text '0755282326' is set on object 'Object Repository/Dealers Module/Add Dealer/text_Alternatephone'
+
+2018-03-06 16:10:11 - [TEST_STEP][PASSED] - setText: Text 'automation9@test.com' is set on object 'Object Repository/Dealers Module/Add Dealer/text_EmailAddress'
+
+2018-03-06 16:10:12 - [MESSAGE][PASSED] - Text 'automation9@test.com' is set on object 'Object Repository/Dealers Module/Add Dealer/text_EmailAddress'
+
+2018-03-06 16:10:12 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-06 16:10:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-06 16:10:12 - [TEST_STEP][NOT_RUN] - verifyElementVisible: NOT_RUN: verifyElementVisible
+
+2018-03-06 16:10:12 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible
+
+2018-03-06 16:10:12 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-03-06 16:10:12 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-06 16:07:16 - [TEST_SUITE][PASSED] - dealers: Test Cases/Dealers Module/Dealer/verify_AddDealer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

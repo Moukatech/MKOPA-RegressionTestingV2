@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_BusinessName</name>
+   <tag></tag>
+   <elementGuidId>05ef42d3-70cb-4703-af10-0553bca5f9c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;divBodyMain&quot;]/h1[contains(normalize-space(),'${BusinessName}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;divBodyMain&quot;]/h1[contains(normalize-space(),'${BusinessName}')]</value>
+   </webElementProperties>
+</WebElementEntity>

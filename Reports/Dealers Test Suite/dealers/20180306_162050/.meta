@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180306_162050</name>
+   <tag></tag>
+   <displayName>20180306_162050</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Dealers Module/Dealer/verify_AddDealer</testCaseId>
+      <testCaseName>verify_AddDealer</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>
