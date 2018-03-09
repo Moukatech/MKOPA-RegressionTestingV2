@@ -29,3 +29,5 @@ stateSent = WebUI.getText(findTestObject('Customer Module/Device Details Page/td
 
 WebUI.verifyEqual(stateSent, '2')
 
+WebUI.closeBrowser()
+

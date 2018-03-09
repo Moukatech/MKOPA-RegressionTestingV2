@@ -29,3 +29,5 @@ WebUI.click(findTestObject('Customer Module/Device Details Page/button_State sen
 
 WebUI.verifyElementPresent(findTestObject('Customer Module/Device Landing Page/label_state sent history'), 2)
 
+WebUI.closeBrowser()
+

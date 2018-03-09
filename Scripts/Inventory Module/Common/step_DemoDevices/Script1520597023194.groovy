@@ -19,30 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/Link-Customer'))
-
-WebUI.delay(2)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/link_Products'))
-
-WebUI.delay(2)
-
-WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/link_Approvals'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page Header and Menu/Customers/link_Block Account Request'))
-
-WebUI.click(findTestObject('MKOPA IV Module/Blocked accounts request for approval/link_Approve', [('customerAccount') : customerAccount]))
-
-WebUI.setText(findTestObject('MKOPA IV Module/Blocked accounts request for approval/input_Approval Notes'), approvalNotes)
-
-WebUI.click(findTestObject('MKOPA IV Module/Blocked accounts request for approval/button_Save'))
-
-WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Blocked accounts request for approval/ErrorMsg_fill approval notes'), 
-    2)
-
-WebUI.closeBrowser()
-
