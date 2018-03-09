@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 14844
+Test Case Description: Verifies if the application add a new product successfully</description>
+   <name>Verify_MKOPA 400 Upgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5004c70f-6bee-46b7-9f8e-0ccb964cbf92</testCaseGuid>
+</TestCaseEntity>

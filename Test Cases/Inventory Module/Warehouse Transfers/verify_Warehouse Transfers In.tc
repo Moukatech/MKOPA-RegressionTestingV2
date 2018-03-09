@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>ID:160
-Receive devices sent from warehouse 'xxx'</description>
+
+Receiving devices sent from a given warehouse </description>
    <name>verify_Warehouse Transfers In</name>
    <tag></tag>
    <comment></comment>
@@ -18,13 +19,20 @@ Receive devices sent from warehouse 'xxx'</description>
       <description></description>
       <id>9e5295a9-7509-48f8-af80-47ce7a0423ee</id>
       <masked>false</masked>
-      <name>select_status</name>
+      <name>status</name>
    </variable>
    <variable>
       <defaultValue>'automation test'</defaultValue>
       <description></description>
       <id>3c62fb8b-5844-4acf-a41e-67934e608fa3</id>
       <masked>false</masked>
-      <name>input_comment</name>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'WAHo009'</defaultValue>
+      <description></description>
+      <id>683ed9ce-7732-4bb1-99ae-741c8711cbbd</id>
+      <masked>false</masked>
+      <name>warehouseCode</name>
    </variable>
 </TestCaseEntity>

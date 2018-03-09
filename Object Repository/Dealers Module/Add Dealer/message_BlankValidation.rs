@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='divBodyMain']/form/div/div/div/ul[contains(normalize-space(),'ss')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='divBodyMain']/form/div/div/div/ul/li[text()=&quot;'Business Name' should not be empty.&quot; or text()=&quot;'Surname' should not be empty.&quot; or text()=&quot;'Other Names' should not be empty.&quot; or text()=&quot;Enter ID number&quot; or text()=&quot;'Citizenship' should not be empty.&quot; or text()=&quot;Enter phone number&quot; or text()=&quot;Enter alternative phone number&quot; or text()=&quot;'Email Address' should not be empty.&quot;]</value>
+      <value>.//*[@id='divBodyMain']/form/div/div/div/ul[contains(normalize-space(),'ss')]</value>
    </webElementProperties>
 </WebElementEntity>

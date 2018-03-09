@@ -14,7 +14,7 @@
       <guid>394b8b59-fbbb-4186-97f4-51687c725ebf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Add Supplier/Validate_Supplier is Added</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Add Supplier/verify_Add supplier</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

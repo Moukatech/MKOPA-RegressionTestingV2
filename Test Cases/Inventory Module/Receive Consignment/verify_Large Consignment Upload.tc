@@ -57,7 +57,7 @@ These are the steps to follow when uploading a Large Consignment Manifest</descr
       <name>selectId</name>
    </variable>
    <variable>
-      <defaultValue>'NMA12MIMIOKAY13'</defaultValue>
+      <defaultValue>'AFBNOGVYRTHN23'</defaultValue>
       <description></description>
       <id>6aca1ac4-eaff-4b6a-9fb2-f9bfae11f361</id>
       <masked>false</masked>

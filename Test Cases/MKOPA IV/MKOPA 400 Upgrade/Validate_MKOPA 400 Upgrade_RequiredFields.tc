@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 14844
+Test Case Description: Validates if the application throws an error on empty fields submission</description>
+   <name>Validate_MKOPA 400 Upgrade_RequiredFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>443bea5c-77f1-49d7-9639-dcd4f70f17d8</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>9a516374-ab7e-4367-8f1a-8cafef4e0555</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Finished Payment'</defaultValue>
+      <description></description>
+      <id>17cd01a8-823a-486e-baba-f522f1ca9c49</id>
+      <masked>false</masked>
+      <name>loan_Status</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 15187
+Test Case Description: Verifies if Upgrade link is present in MK + 400 New Loan customers</description>
+   <name>verify_UpgradeLinkPresentInLoanCustomers_New</name>
+   <tag></tag>
+   <comment>MKOPA 4 New Cash Customer
+MKOPA 4 New Loan Customer</comment>
+   <testCaseGuid>eab8d11a-5e21-4685-b5a4-cb93f24a0337</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>309a1e75-4e78-4db3-8d3f-1a777cb27baa</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'18999.00'</defaultValue>
+      <description></description>
+      <id>b442a97e-02f4-40a4-b4d5-ea3338a219b7</id>
+      <masked>false</masked>
+      <name>total_Price</name>
+   </variable>
+   <variable>
+      <defaultValue>'18250.00'</defaultValue>
+      <description></description>
+      <id>deed3f0d-f47f-4b9b-9ad7-18c0cc0081c9</id>
+      <masked>false</masked>
+      <name>total_Loan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Finished Payment'</defaultValue>
+      <description></description>
+      <id>1e0a6e21-ab61-4dd4-9f22-517b7a1ca2de</id>
+      <masked>false</masked>
+      <name>loan_Status</name>
+   </variable>
+</TestCaseEntity>

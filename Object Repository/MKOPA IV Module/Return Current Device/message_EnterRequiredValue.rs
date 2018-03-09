@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_EnterRequiredValue</name>
+   <tag></tag>
+   <elementGuidId>73d66b94-e109-4a9e-8b62-3968b14bec46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;divBodyForm&quot;]/div/div/ul/li[contains(normalize-space(),'a')]</value>
+   </webElementProperties>
+</WebElementEntity>

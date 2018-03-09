@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_WarehouseProduct</name>
+   <tag></tag>
+   <elementGuidId>c0322dfc-eb5e-4f47-99a5-6d8c105ee254</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='main-content-panel']/div/div/div[2]//span/b[text()='${warehouse_Product}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='main-content-panel']/div/div/div[2]//span/b[text()='${warehouse_Product}']</value>
+   </webElementProperties>
+</WebElementEntity>

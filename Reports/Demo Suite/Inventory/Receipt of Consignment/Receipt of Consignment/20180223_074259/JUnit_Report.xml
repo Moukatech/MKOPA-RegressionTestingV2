@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Receipt of Consignment" time="51" tests="1" failures="0" errors="0">
+   <testsuite name="Receipt of Consignment" tests="1" failures="0" errors="0" time="51" timestamp="2018-02-23 07:43:01" hostname="Charles.Chweyaa - KE-HQ-001644.M-KOPA.local" id="Test Suites/Demo Suite/Inventory/Receipt of Consignment/Receipt of Consignment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\charles.chweyaa.M-KOPA\\git\\MKOPA-RegressionTestingVersion2\\Reports\\Demo Suite\\Inventory\\Receipt of Consignment\\Receipt of Consignment\\20180223_074259"/>
+         <property name="logFiles" value="C:\\Users\\charles.chweyaa.M-KOPA\\git\\MKOPA-RegressionTestingVersion2\\Reports\\Demo Suite\\Inventory\\Receipt of Consignment\\Receipt of Consignment\\20180223_074259\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Charles.Chweyaa - KE-HQ-001644.M-KOPA.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.167"/>
+         <property name="hostAddress" value="192.168.160.133"/>
+         <property name="sessionId" value="17e0ad96aab1c110537fd00a38393747"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Inventory Module/Manifest Upload/validate_csv File Extension Required" classname="Test Cases/Inventory Module/Manifest Upload/validate_csv File Extension Required" status="PASSED">
+         <system-out><![CDATA[2018-02-23 07:43:02 - [TEST_CASE][PASSED] - Test Cases/Inventory Module/Manifest Upload/validate_csv File Extension Required: Test Cases/Inventory Module/Manifest Upload/validate_csv File Extension Required
+
+2018-02-23 07:43:03 - [TEST_STEP][PASSED] - Statement - location = java.lang.System.getenv("USERPROFILE"): null
+
+2018-02-23 07:43:03 - [TEST_STEP][PASSED] - Statement - fileLocation = location + "/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx": null
+
+2018-02-23 07:43:03 - [TEST_STEP][PASSED] - manifestUploads.wrongfileFormat.wrongfileFormat: manifestUploads.wrongfileFormat.wrongfileFormat is PASSED
+
+2018-02-23 07:43:03 - [MESSAGE][PASSED] - manifestUploads.wrongfileFormat.wrongfileFormat is PASSED
+
+2018-02-23 07:43:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:43:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:43:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/UserLogin' successfully
+
+2018-02-23 07:43:06 - [TEST_CASE][PASSED] - Test Cases/Common/UserLogin: Test Cases/Common/UserLogin
+
+2018-02-23 07:43:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://nm.m-kopa.net/'
+
+2018-02-23 07:43:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://nm.m-kopa.net/'
+
+2018-02-23 07:43:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-23 07:43:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-23 07:43:15 - [TEST_STEP][PASSED] - setText: Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-02-23 07:43:16 - [MESSAGE][PASSED] - Text 'Kennedy.Mwangi@m-kopa.com' is set on object 'Object Repository/Login/input_Username'
+
+2018-02-23 07:43:16 - [TEST_STEP][PASSED] - setText: Text 'Ken0726*-' is set on object 'Object Repository/Login/input_Password'
+
+2018-02-23 07:43:16 - [MESSAGE][PASSED] - Text 'Ken0726*-' is set on object 'Object Repository/Login/input_Password'
+
+2018-02-23 07:43:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-02-23 07:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_SignIn' is clicked on
+
+2018-02-23 07:43:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/UserLogin' successfully
+
+2018-02-23 07:43:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Inventory Module/Manifest Upload/Steps_wrong file Format Extension' successfully
+
+2018-02-23 07:43:19 - [TEST_CASE][PASSED] - Test Cases/Inventory Module/Manifest Upload/Steps_wrong file Format Extension: Test Cases/Inventory Module/Manifest Upload/Steps_wrong file Format Extension
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - consignmentNo = randomGenerator("QWERTYUIOP1234567890LKJHGFDSAZXCVBNM", 9): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - rand = new java.util.Random(): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb = new java.lang.StringBuilder(): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < length, (i++)]): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - sb.append(chars.charAt(rand.nextInt(chars.length()))): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - return sb.toString(): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - location = java.lang.System.getenv("USERPROFILE"): null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - Statement - fileLocation = location + "/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx": null
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory' is hovered
+
+2018-02-23 07:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory' is hovered
+
+2018-02-23 07:43:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:43:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:43:22 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_Operations' is hovered
+
+2018-02-23 07:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Operations' is hovered
+
+2018-02-23 07:43:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:43:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:43:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory Items' is hovered
+
+2018-02-23 07:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Inventory Items' is hovered
+
+2018-02-23 07:43:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:43:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:43:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page Header and Menu/Inventory/link_Upload Manifest' is clicked on
+
+2018-02-23 07:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Header and Menu/Inventory/link_Upload Manifest' is clicked on
+
+2018-02-23 07:43:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type ' is clicked on
+
+2018-02-23 07:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/dropdown_Select Manifest Type ' is clicked on
+
+2018-02-23 07:43:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:43:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:43:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_Manifest Type' is clicked on
+
+2018-02-23 07:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_Manifest Type' is clicked on
+
+2018-02-23 07:43:30 - [TEST_STEP][PASSED] - setText: Text '2018-03-29 00:00:00' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Shipping Date'
+
+2018-02-23 07:43:31 - [MESSAGE][PASSED] - Text '2018-03-29 00:00:00' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Shipping Date'
+
+2018-02-23 07:43:31 - [TEST_STEP][PASSED] - setText: Text 'JJ64N8EVA' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Consignment No'
+
+2018-02-23 07:43:31 - [MESSAGE][PASSED] - Text 'JJ64N8EVA' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Consignment No'
+
+2018-02-23 07:43:31 - [TEST_STEP][PASSED] - setText: Text '12098' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Loan Draw'
+
+2018-02-23 07:43:32 - [MESSAGE][PASSED] - Text '12098' is set on object 'Object Repository/Inventory Module/Device Manifest Upload/input_Loan Draw'
+
+2018-02-23 07:43:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:43:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:43:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType' is clicked on
+
+2018-02-23 07:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/Page_Upload device manifest  M-KOPA/dropdown_selectItemType' is clicked on
+
+2018-02-23 07:43:34 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-02-23 07:43:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-02-23 07:43:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_itemType' is clicked on
+
+2018-02-23 07:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_itemType' is clicked on
+
+2018-02-23 07:43:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/dropdown_Select Supplier' is clicked on
+
+2018-02-23 07:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/dropdown_Select Supplier' is clicked on
+
+2018-02-23 07:43:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:43:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:43:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_supplier' is clicked on
+
+2018-02-23 07:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/label_supplier' is clicked on
+
+2018-02-23 07:43:46 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Inventory Module/Device Manifest Upload/checkerbox_Send to Production' is checked
+
+2018-02-23 07:43:46 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory Module/Device Manifest Upload/checkerbox_Send to Production' is checked
+
+2018-02-23 07:43:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-23 07:43:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-23 07:43:48 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\charles.chweyaa.M-KOPA/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx' sent to object: 'Object Repository/Inventory Module/Device Manifest Upload/button_Select'
+
+2018-02-23 07:43:49 - [MESSAGE][PASSED] - File 'C:\Users\charles.chweyaa.M-KOPA/git/MKOPA-RegressionTestingV2/Manifest Files/wrongformat.docx' sent to object: 'Object Repository/Inventory Module/Device Manifest Upload/button_Select'
+
+2018-02-23 07:43:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Inventory Module/Device Manifest Upload/button_Upload' is clicked on
+
+2018-02-23 07:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory Module/Device Manifest Upload/button_Upload' is clicked on
+
+2018-02-23 07:43:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-23 07:43:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-23 07:43:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Inventory Module/Manifest Upload/Steps_wrong file Format Extension' successfully
+
+2018-02-23 07:43:52 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Inventory Module/Device Manifest Upload/errorMsg_The file extension for the uploaded file is not .csv' is visible
+
+2018-02-23 07:43:52 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory Module/Device Manifest Upload/errorMsg_The file extension for the uploaded file is not .csv' is visible
+
+2018-02-23 07:43:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-23 07:43:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-23 07:43:01 - [TEST_SUITE][PASSED] - Receipt of Consignment: Test Cases/Inventory Module/Manifest Upload/validate_csv File Extension Required]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

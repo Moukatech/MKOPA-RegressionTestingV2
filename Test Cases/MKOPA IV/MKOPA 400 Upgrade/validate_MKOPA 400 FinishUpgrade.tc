@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID:14844
+Test Description: Validate if the system throws an error when upgrading Product using empty fields</description>
+   <name>validate_MKOPA 400 FinishUpgrade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>798f5955-c15f-435e-8323-2cda2d8e86fa</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>ace6f2ab-e67a-49db-964b-a077c07ce083</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'1971956 ( MK3 DSR v1 )'</defaultValue>
+      <description></description>
+      <id>17342cbe-37f3-4a43-95d9-cd84c6ec1642</id>
+      <masked>false</masked>
+      <name>old_ProductAccount</name>
+   </variable>
+</TestCaseEntity>

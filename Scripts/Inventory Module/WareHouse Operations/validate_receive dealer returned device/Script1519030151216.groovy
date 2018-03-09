@@ -41,3 +41,5 @@ WebUI.click(findTestObject('Inventory Module/Dealer Device Returns to Receive/bu
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Dealer Device Returns to Receive/errorMsg_Select Condition Received in'), 
     2)
 
+WebUI.closeBrowser()
+

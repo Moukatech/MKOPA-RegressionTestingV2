@@ -116,5 +116,8 @@ WebUI.setText(findTestObject('Dealers Module/Add Dealer/text_EmailAddress', [('E
 
 WebUI.click(findTestObject('Dealers Module/Add Dealer/button_save'))
 
-WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealers Page/grid_dealer', [('BusinessName') : BusinessName]))
+WebUI.verifyElementPresent(findTestObject('Dealers Module/Dealers Page/label_BusinessName', [('BusinessName') : BusinessName]), 
+    0)
+
+WebUI.closeBrowser()
 

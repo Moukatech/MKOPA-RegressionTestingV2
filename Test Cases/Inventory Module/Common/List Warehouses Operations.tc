@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>List of all the ware house operations in a given ware house</description>
    <name>List Warehouses Operations</name>
    <tag></tag>
    <comment></comment>

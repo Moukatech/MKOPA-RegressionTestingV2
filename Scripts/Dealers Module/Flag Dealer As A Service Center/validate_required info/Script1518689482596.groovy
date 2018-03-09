@@ -34,3 +34,5 @@ WebUI.verifyAlertPresent(3)
 
 WebUI.acceptAlert()
 
+WebUI.closeBrowser()
+

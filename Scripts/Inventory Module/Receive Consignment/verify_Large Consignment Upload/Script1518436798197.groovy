@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Larg
         , ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw
         , ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/radio_Close Consignment', [('condition') : condition]))
 

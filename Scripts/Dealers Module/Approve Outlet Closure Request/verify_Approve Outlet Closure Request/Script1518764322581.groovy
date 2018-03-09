@@ -50,3 +50,5 @@ WebUI.delay(2)
 
 WebUI.verifyTextNotPresent(OutletCode, false)
 
+WebUI.closeBrowser()
+

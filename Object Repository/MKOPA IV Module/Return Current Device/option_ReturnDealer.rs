@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[contains(normalize-space(),'FT Gakundo Co-Op')]/div/ul/li</value>
+      <value>/html/body/div[14]/div/ul/li[contains(normalize-space(),'${return_DealerSelection}')]</value>
    </webElementProperties>
 </WebElementEntity>

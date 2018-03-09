@@ -19,15 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Dealer/verify_ListDealer'), [('dealerNo') : '00975'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dealers Module/Dealer/verify_ListDealer'), [('dealerNo') : findTestData('Dealers/Add Dealer').getValue(16, 1)
+        , ('delay') : '3'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Dealers Module/Dealer List/link_Details', [('dealerNo') : dealerNo]))
 
-WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealers Page/grid_dealer', [('BusinessName') : BusinessName]))
+WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealers Page/label_BusinessName', [('BusinessName') : BusinessName]))
 
 WebUI.back()
 
-WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealer List/grid_DealersList'))
+WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealer List/label_DealerList'))
 
 WebUI.closeBrowser()
 

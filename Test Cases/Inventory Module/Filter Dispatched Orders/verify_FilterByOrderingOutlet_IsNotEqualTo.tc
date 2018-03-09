@@ -14,7 +14,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOut
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
+      <defaultValue>'M-KOPA HOUSE'</defaultValue>
       <description></description>
       <id>e9f695ea-3994-4a39-8e85-36e25623be61</id>
       <masked>false</masked>

@@ -34,3 +34,5 @@ if (returnee == 'Customer Return Tickets') {
         2)
 }
 
+WebUI.closeBrowser()
+

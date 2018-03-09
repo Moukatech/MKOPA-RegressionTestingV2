@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 474
+Test Case Description: validates Add a Dealer</description>
+   <name>validate_AddDealerBlankSave</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbbdbf65-de4f-44e0-8f83-e57589c7bd71</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>a88a1fae-3942-4a68-acb3-6e677611bfbd</id>
+      <masked>false</masked>
+      <name>Delay</name>
+   </variable>
+</TestCaseEntity>

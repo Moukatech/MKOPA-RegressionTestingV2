@@ -17,7 +17,7 @@
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'0116010701-009081'</defaultValue>
+      <defaultValue>findTestData('Inventory/Susspend_Unsuspend Device').getValue(1, 1)</defaultValue>
       <description></description>
       <id>d7fa0540-1ce2-46c4-8001-b2c80de4209f</id>
       <masked>false</masked>

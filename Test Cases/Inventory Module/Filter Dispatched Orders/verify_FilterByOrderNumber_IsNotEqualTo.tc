@@ -23,7 +23,7 @@ Note: Operator_IsNotEqualTo</description>
       <name>order_Number</name>
    </variable>
    <variable>
-      <defaultValue>'Does not contain'</defaultValue>
+      <defaultValue>'Is not equal to'</defaultValue>
       <description></description>
       <id>a38e6d6a-7b97-4e95-9c80-1c481a2e80c2</id>
       <masked>false</masked>

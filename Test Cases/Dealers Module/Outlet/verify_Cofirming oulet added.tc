@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>ID:481
-confirming whether the added outlet appears in the outlet list</description>
+
+Confirming whether the added outlet appears in the outlet list</description>
    <name>verify_Cofirming oulet added</name>
    <tag></tag>
    <comment></comment>

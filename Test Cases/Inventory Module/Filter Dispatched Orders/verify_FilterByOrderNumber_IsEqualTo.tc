@@ -14,7 +14,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using OrderNumber
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'KE0337186-01'</defaultValue>
+      <defaultValue>'KE0337180-01'</defaultValue>
       <description></description>
       <id>a0f8be88-559c-47ba-bf65-d44ba712bbb9</id>
       <masked>false</masked>

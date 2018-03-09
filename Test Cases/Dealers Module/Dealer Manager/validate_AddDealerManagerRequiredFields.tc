@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 478
+Test Description: Validates Adding Dealer Manager throws an error when saving empty fields</description>
+   <name>validate_AddDealerManagerRequiredFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e63b393-1b04-4d95-a963-5f16fa9c3e20</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>26545324-6811-44ed-8eef-f36be27801ee</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+</TestCaseEntity>

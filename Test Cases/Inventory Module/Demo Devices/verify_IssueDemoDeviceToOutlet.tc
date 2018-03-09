@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case ID: 417
-Test Case Description: Issue Demo device to Outlet</description>
+Test Case Description: Verifies Issue Demo device to Outlet is processed successfully</description>
    <name>verify_IssueDemoDeviceToOutlet</name>
    <tag></tag>
    <comment></comment>
@@ -21,14 +21,14 @@ Test Case Description: Issue Demo device to Outlet</description>
       <name>DealerName</name>
    </variable>
    <variable>
-      <defaultValue>'Sc001 M-Kopa Shop Meru'</defaultValue>
+      <defaultValue>'Dsr Cherotich Purity'</defaultValue>
       <description></description>
       <id>433d87e1-2102-4497-adb6-2093d5fce150</id>
       <masked>false</masked>
       <name>Outlet</name>
    </variable>
    <variable>
-      <defaultValue>'0715010701-000359'</defaultValue>
+      <defaultValue>findTestData('Inventory/Issue Demo Device Data').getValue(1, 1)</defaultValue>
       <description></description>
       <id>85622210-4557-4f0a-b292-839620aaf22c</id>
       <masked>false</masked>

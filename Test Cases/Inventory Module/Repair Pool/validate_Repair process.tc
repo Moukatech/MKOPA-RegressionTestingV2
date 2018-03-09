@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>checking the validations upon submiting blank fields(item type and packaging)</description>
+   <description>checking the validations upon submiting blank fields(item type and packaging fields)</description>
    <name>validate_Repair process</name>
    <tag></tag>
    <comment></comment>

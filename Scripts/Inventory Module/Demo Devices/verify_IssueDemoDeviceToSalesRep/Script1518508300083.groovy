@@ -19,16 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
 WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
+        , ('serial_Number') : '0715010701-000309', ('code') : 'WAHo009', ('demo_device') : '04a58263-0097-e411-80ed-00155d83faa4'], 
+=======
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Demo Devices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
         , ('serial_Number') : '0715010701-000309', ('code') : 'SC001', ('demo_device') : '903a220c-6c89-e311-942c-000c29c12997'], 
+>>>>>>> branch 'master' of https://github.com/TezzaBusinessSolutions/MKOPA-RegressionTestingV2.git
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_IssueDemoDevice'))
-
-WebUI.verifyElementPresent(findTestObject('Inventory Module/Issue Demo Device/grid_IsuueDemoDevice'), 0)
 
 WebUI.click(findTestObject('Inventory Module/Issue Demo Device/dropdown_EntityBeingAllocated', [('EntityType') : EntityType]))
 
@@ -50,6 +53,8 @@ WebUI.getText(findTestObject('Inventory Module/Demo Device Allocation Success/me
 
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Demo Device Allocation Success/message_DemoDeviceAllocationSuccess'), 
     0)
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

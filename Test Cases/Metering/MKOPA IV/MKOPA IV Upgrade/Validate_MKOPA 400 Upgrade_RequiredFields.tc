@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 14844
+Test Case Description: Validates if the application throws an error when trying to upgrade an account without entering required fields</description>
+   <name>Validate_MKOPA 400 Upgrade_RequiredFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d9223d9-3593-4d86-9390-3377ec5ac4de</testCaseGuid>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>95849d0b-c557-4016-90d0-d0dee27c4580</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Finished Payment'</defaultValue>
+      <description></description>
+      <id>e2ffee59-0c24-453c-b8cb-50f0dc27b147</id>
+      <masked>false</masked>
+      <name>loan_Status</name>
+   </variable>
+</TestCaseEntity>

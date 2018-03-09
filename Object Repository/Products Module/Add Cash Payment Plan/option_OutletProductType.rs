@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='ProductTypesToAdd']/option[text()='${outletproducttype}']</value>
+         <value>//*[@id=&quot;ProductTypesToAdd&quot;]/option[contains(normalize-space(),'${outletproducttype}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='ProductTypesToAdd']/option[text()='${outletproducttype}']</value>
+      <value>//*[@id=&quot;ProductTypesToAdd&quot;]/option[contains(normalize-space(),'${outletproducttype}')]</value>
    </webElementProperties>
 </WebElementEntity>

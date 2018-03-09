@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>checking that when approving a repair, the apprval status is required</description>
+   <description>Checking that when approving a repair, the apprval status field is required</description>
    <name>validate_Approval status is a required field</name>
    <tag></tag>
    <comment></comment>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using Servicing Warehouse_IsEqualTo</description>
    <name>verify_FilterByServicingWarehouse_IsEqualTo</name>
    <tag></tag>
    <comment></comment>

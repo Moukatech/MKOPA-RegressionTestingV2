@@ -7,7 +7,7 @@ Test Case Description: Approve Demo Device creation request</description>
    <comment></comment>
    <testCaseGuid>08400f64-3530-405a-8c31-272c1f6b165d</testCaseGuid>
    <variable>
-      <defaultValue>'Test'</defaultValue>
+      <defaultValue>'Approver Test Notes'</defaultValue>
       <description></description>
       <id>57e4fdf8-6c25-45b9-9799-f26cde3c9034</id>
       <masked>false</masked>

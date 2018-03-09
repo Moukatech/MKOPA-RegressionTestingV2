@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test case 3044: 
+
 Approving outlet closure</description>
    <name>verify_Approve Outlet Closure Request</name>
    <tag></tag>

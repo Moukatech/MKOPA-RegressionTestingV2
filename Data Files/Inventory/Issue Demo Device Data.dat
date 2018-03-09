@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Data that contains data required when issuing Demo device</description>
+   <name>Issue Demo Device Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8ccabf77-c5e7-4ae2-a47d-01c88bffee5f</dataFileGUID>
+   <dataSourceUrl>C:\Users\charles.chweyaa.M-KOPA\git\MKOPA-RegressionTestingVersion2\Data Files\Inventory\IssueDemoDevices.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180220_071516</name>
+   <tag></tag>
+   <displayName>20180220_071516</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Inventory Module/Demo Devices/verify_OutletDemoDeviceSerialSearch</testCaseId>
+      <testCaseName>verify_OutletDemoDeviceSerialSearch</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

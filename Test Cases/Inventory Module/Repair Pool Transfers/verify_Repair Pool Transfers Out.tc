@@ -11,41 +11,41 @@ Transfer Devices in repair pool to another warehouse</description>
       <description></description>
       <id>8f78c998-731f-4090-b10f-b65368da0296</id>
       <masked>false</masked>
-      <name>repair_transfers_out</name>
+      <name>transfersOut</name>
    </variable>
    <variable>
       <defaultValue>'M-KOPA 4'</defaultValue>
       <description></description>
       <id>ddbfb64d-7d24-4c7e-9a4a-2c654b786dd1</id>
       <masked>false</masked>
-      <name>select_devicetype</name>
+      <name>deviceType</name>
    </variable>
    <variable>
       <defaultValue>'M-Kopa House'</defaultValue>
       <description></description>
       <id>e3ce3c04-c215-4ebe-beb5-89d990f9ec4d</id>
       <masked>false</masked>
-      <name>select_warehouseto</name>
+      <name>warehouseTo</name>
    </variable>
    <variable>
       <defaultValue>'road'</defaultValue>
       <description></description>
       <id>112bf9ea-f377-46c6-83b2-31705d41219c</id>
       <masked>false</masked>
-      <name>input_modeoftransfer</name>
+      <name>modeOfTransfer</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
       <id>8547c393-065d-4bd2-9d79-a227985ef124</id>
       <masked>false</masked>
-      <name>input_plannedquantity</name>
+      <name>plannedQuantity</name>
    </variable>
    <variable>
       <defaultValue>'1215010701-009253'</defaultValue>
       <description></description>
       <id>f1c4910b-d26c-4f9c-a2f9-b0883fd77101</id>
       <masked>false</masked>
-      <name>input_serialnumber</name>
+      <name>serialNumber</name>
    </variable>
 </TestCaseEntity>

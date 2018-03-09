@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>checking fo validations when receiving a customer returned device</description>
+   <description>checking fo validations when receiving a customer returned device(receive notes field required)</description>
    <name>validate_Receive customer returned device</name>
    <tag></tag>
    <comment></comment>

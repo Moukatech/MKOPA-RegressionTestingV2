@@ -28,8 +28,8 @@ WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/verify_Rec
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Send State Link/steps_Send State'), [('imei') : imei, ('reason') : 'I have assigned the State'
-        , ('state') : 'Activated', ('searchBy') : 'IMEI'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Send State Link/steps_Send State'), [('imei') : imei, ('reason') : reason
+        , ('state') : state, ('searchBy') : searchBy], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 

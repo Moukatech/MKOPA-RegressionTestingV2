@@ -19,15 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Products/Payment Plans/Loan Payment Plan/step_AddLoanPaymentPlan'), [('delay') : '5', ('loan_PaymentPlanName') : 'LoanReview'
-        , ('loan_PaymentDisplayName') : 'Loan Display Name', ('outletproducttype') : 'BluetoothTVOpt', ('loan_Deposit') : '100'
+WebUI.callTestCase(findTestCase('Products/Payment Plans/Loan Payment Plan/step_AddLoanPaymentPlan'), [('delay') : '5', ('loan_PaymentPlanName') : 'TrialLoanTest5'
+        , ('loan_PaymentDisplayName') : 'Loan Display Name', ('outletproducttype') : 'M-KOPA 300', ('loan_Deposit') : '100'
         , ('costpercredit') : '15', ('loan_Duration') : '5', ('requester_Notes') : 'Loan Payment Plan', ('total_Price') : '56'
         , ('free_Activation') : '5', ('loan_Type') : 'HirePurchase'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(delay)
+
+WebUI.getText(findTestObject('Products Module/Loan Payment Plan Details/label_LoanPaymentPlanDetails', [('loan_PaymentPlanName') : loan_PaymentPlanName]))
+
+WebUI.verifyElementPresent(findTestObject('Products Module/Loan Payment Plan Details/label_LoanPaymentPlanDetails', [('loan_PaymentPlanName') : loan_PaymentPlanName]), 
+    0)
 
 WebUI.closeBrowser()
 

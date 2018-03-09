@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Step Description: A step that verifies if the device state is set</description>
+   <name>step_ManualStateSet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eff0be07-f3b2-43b5-96d6-8ce4e64763cc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8a3b32f-5666-4511-8087-758cffca0e77</id>
+      <masked>false</masked>
+      <name>device_Serial</name>
+   </variable>
+</TestCaseEntity>

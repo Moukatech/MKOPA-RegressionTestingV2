@@ -42,7 +42,7 @@ successMessage = WebUI.getText(findTestObject('Inventory Module/Device Manifest 
 
 WebUI.verifyEqual(successMessage, statusMessage)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

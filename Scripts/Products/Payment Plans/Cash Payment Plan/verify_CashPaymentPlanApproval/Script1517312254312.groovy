@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Products/Payment Plans/Cash Payment Plan/step_ApprovePaymentPlan'), [('delay') : '5', ('plan_toApprove') : 'AddNew'
+WebUI.callTestCase(findTestCase('Products/Payment Plans/Cash Payment Plan/step_ApprovePaymentPlan'), [('delay') : '5', ('plan_toApprove') : 'AddNew8'
         , ('approver_notes') : 'Approve Notes'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(delay)

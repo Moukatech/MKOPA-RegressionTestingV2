@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>step_Device Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>785e18fa-367d-4e00-86da-d3f7e2089ea3</testCaseGuid>
+   <variable>
+      <defaultValue>'0916011601-011852'</defaultValue>
+      <description></description>
+      <id>7d466aa4-de72-4436-93a3-efdb9fe9e006</id>
+      <masked>false</masked>
+      <name>serialnumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'SerialNumber'</defaultValue>
+      <description></description>
+      <id>59934f33-9b03-4c6d-a766-eb0d4832686d</id>
+      <masked>false</masked>
+      <name>searchBy</name>
+   </variable>
+</TestCaseEntity>

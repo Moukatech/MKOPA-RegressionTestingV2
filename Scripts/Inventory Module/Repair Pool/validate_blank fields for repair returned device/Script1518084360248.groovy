@@ -46,3 +46,5 @@ WebUI.click(findTestObject('Inventory Module/Repair Device/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Repair Device/errorMsg_Enter repair notes'), 2)
 
+WebUI.closeBrowser()
+

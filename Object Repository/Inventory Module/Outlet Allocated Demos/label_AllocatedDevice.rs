@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_AllocatedDevice</name>
+   <tag></tag>
+   <elementGuidId>dd0682cc-f97c-49f3-b1be-243ba514783d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='DemoDevicesList']/table/tbody/tr[td[contains(normalize-space(),'${SerialNo}')]]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='DemoDevicesList']/table/tbody/tr[td[contains(normalize-space(),'${SerialNo}')]]</value>
+   </webElementProperties>
+</WebElementEntity>

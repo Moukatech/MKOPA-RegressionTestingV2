@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_ReturnOutlet</name>
+   <tag></tag>
+   <elementGuidId>36aa0793-15f4-4c49-932f-4cddd3872af6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[15]/div/ul/li[contains(normalize-space(),'${return_OutletSelection}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[15]/div/ul/li[contains(normalize-space(),'${return_OutletSelection}')]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,214
+0. verifyElementVisible
+
+2
+00:00:00,229 --> 00:00:00,256
+1. manifestUploads.PrimaryDevice.primaryDevice
+
+3
+00:00:00,261 --> 00:00:00,372
+2. delay
+
+4
+00:00:00,391 --> 00:00:16,504
+3. callTestCase
+
+5
+00:00:16,515 --> 00:00:56,473
+4. callTestCase
+
+6
+00:00:56,496 --> 00:00:56,817
+5. verifyElementVisible
+
+7
+00:00:56,844 --> 00:00:57,633
+6. closeBrowser
+

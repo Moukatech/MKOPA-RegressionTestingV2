@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Products Module/Add Cash Payment Plan/input_Paymen
 
 WebUI.delay(delay)
 
-WebUI.scrollToElement(findTestObject('Products Module/Add Cash Payment Plan/option_OutletProductType', [('outletproducttype') : outletproducttype]), 
+not_run: WebUI.scrollToElement(findTestObject('Products Module/Add Cash Payment Plan/option_OutletProductType', [('outletproducttype') : outletproducttype]), 
     0)
 
 WebUI.click(findTestObject('Products Module/Add Cash Payment Plan/option_OutletProductType', [('outletproducttype') : outletproducttype]), 

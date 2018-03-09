@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>ca4ba94c-894d-4a8e-9ab5-c8af07aa0cb3</testCaseGuid>
    <variable>
-      <defaultValue>'LoanTest7'</defaultValue>
+      <defaultValue>'LoanReview3'</defaultValue>
       <description></description>
       <id>531d93f3-1823-4bd9-af76-7e0664f1bfe4</id>
       <masked>false</masked>

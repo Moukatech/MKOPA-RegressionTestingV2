@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>id(&quot;upgradeForm&quot;)/div[@id=&quot;divBodyForm&quot;]/div[@class=&quot;full-div&quot;]/div[@class=&quot;t-widget t-dropdown t-header&quot;]/div[@class=&quot;t-dropdown-wrap t-state-default&quot;]/span[@class=&quot;t-select&quot;]/span[@class=&quot;t-icon t-arrow-down&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id=&quot;divBodyForm&quot;]/div/div[2]/div/span[2]/span</value>
+      <value>id(&quot;upgradeForm&quot;)/div[@id=&quot;divBodyForm&quot;]/div[@class=&quot;full-div&quot;]/div[@class=&quot;t-widget t-dropdown t-header&quot;]/div[@class=&quot;t-dropdown-wrap t-state-default&quot;]/span[@class=&quot;t-select&quot;]/span[@class=&quot;t-icon t-arrow-down&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

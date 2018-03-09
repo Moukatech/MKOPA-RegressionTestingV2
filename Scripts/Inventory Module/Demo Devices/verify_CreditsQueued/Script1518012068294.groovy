@@ -36,3 +36,5 @@ WebUI.delay(delay)
 
 WebUI.verifyTextPresent('Weekly Credit Send', true)
 
+WebUI.closeBrowser()
+

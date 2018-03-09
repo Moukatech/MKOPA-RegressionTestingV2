@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='frm-add-product']//div[contains(normalize-space(),'Dealership')]/div/div/div/span/span</value>
+         <value>id(&quot;frm-add-product&quot;)/div[2]/fieldset[1]/div[@class=&quot;div-strip&quot;]/div[@class=&quot;first-half&quot;]/div[@class=&quot;div-value value-width&quot;]/div[@class=&quot;t-widget t-combobox t-header&quot;]/div[@class=&quot;t-dropdown-wrap t-state-default&quot;]/span[@class=&quot;t-select t-header&quot;]/span[@class=&quot;t-icon t-arrow-down&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='frm-add-product']//div[contains(normalize-space(),'Dealership')]/div/div/div/span/span</value>
+      <value>id(&quot;frm-add-product&quot;)/div[2]/fieldset[1]/div[@class=&quot;div-strip&quot;]/div[@class=&quot;first-half&quot;]/div[@class=&quot;div-value value-width&quot;]/div[@class=&quot;t-widget t-combobox t-header&quot;]/div[@class=&quot;t-dropdown-wrap t-state-default&quot;]/span[@class=&quot;t-select t-header&quot;]/span[@class=&quot;t-icon t-arrow-down&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
