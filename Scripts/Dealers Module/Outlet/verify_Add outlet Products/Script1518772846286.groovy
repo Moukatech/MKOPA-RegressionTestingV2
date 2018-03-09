@@ -42,3 +42,5 @@ WebUI.click(findTestObject('Dealers Module/Outlet Details/link_Products', [('out
 WebUI.verifyElementPresent(findTestObject('Dealers Module/Outlet Details/link_OutletProduct', [('outletProduct') : outletProduct]), 
     2)
 
+WebUI.closeBrowser()
+

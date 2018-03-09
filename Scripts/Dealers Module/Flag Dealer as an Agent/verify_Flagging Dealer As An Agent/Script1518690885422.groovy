@@ -40,3 +40,5 @@ WebUI.acceptAlert()
 
 WebUI.verifyElementVisible(findTestObject('Dealers Module/Change Type/confirm_DealershipTypeChanged', [('confirm_dealershipchanged') : confirm_dealershipchanged]))
 
+WebUI.closeBrowser()
+

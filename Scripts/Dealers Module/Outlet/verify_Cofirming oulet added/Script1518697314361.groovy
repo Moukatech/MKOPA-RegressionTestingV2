@@ -31,3 +31,5 @@ WebUI.delay(5)
 WebUI.verifyElementPresent(findTestObject('Dealers Module/Dealer Outlets/label_Outlet', [('outletName') : outletName]), 
     2)
 
+WebUI.closeBrowser()
+

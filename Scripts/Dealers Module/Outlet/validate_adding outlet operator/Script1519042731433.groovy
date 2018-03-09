@@ -40,3 +40,5 @@ WebUI.click(findTestObject('Dealers Module/Add Operator/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('Dealers Module/Add Operator/Error Messages'), 2)
 
+WebUI.closeBrowser()
+

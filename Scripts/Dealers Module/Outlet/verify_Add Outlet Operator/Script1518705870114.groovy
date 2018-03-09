@@ -83,3 +83,5 @@ WebUI.click(findTestObject('Dealers Module/Add Operator/button_Save'))
 WebUI.verifyElementPresent(findTestObject('Dealers Module/Operator details/label_Operator name', [('surname') : surname]), 
     2)
 
+WebUI.closeBrowser()
+
