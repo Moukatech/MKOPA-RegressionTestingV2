@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test case 789</description>
+   <description>Test case 789. To dispatch orders that have been serviced</description>
    <name>Dispatch Checked order</name>
    <tag></tag>
    <comment></comment>

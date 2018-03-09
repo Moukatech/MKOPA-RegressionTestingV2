@@ -19,8 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/WareHouse Operators/Steps_addWareHouseOperator'), [('operator') : operator], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Payments/Link-Payments'))
 
-WebUI.verifyTextPresent('New warehouse operator created successfully.', false)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page Header and Menu/Payments/Link-Search For Payment'))
+
+WebUI.setText(findTestObject('Payments Module/Search for Payments/Input-ReceiptNumber'), receiptNo)
+
+WebUI.click(findTestObject('Payments Module/Search for Payments/Btn-Submit'))
 

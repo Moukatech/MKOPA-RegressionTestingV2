@@ -19,18 +19,36 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Service Order/Steps_Service Order'), [('wareHouseCode') : warehousecode
-        , ('orderNumber') : ordernumber, ('packaging') : packaging, ('serialNumber') : serialnumber], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Kindly enter a serial #', false)
+WebUI.comment('MKOPA 4 New Cash Customer')
 
-WebUI.delay(3)
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : '23671128'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Inventory Module/Service Orders/input_serialNumber'), '0416110139-090784')
+WebUI.delay(delay)
 
-WebUI.click(findTestObject('Inventory Module/Service Orders/Button_add'))
+String Amount_Paid = total_Price
 
-WebUI.verifyTextPresent('Kindly select the packaging', false)
+WebUI.verifyElementText(findTestObject('MKOPA IV Module/Customers Dashboard/label_AmountPaid', [('total_Price') : total_Price]), 
+    Amount_Paid)
+
+WebUI.mouseOver(findTestObject('MKOPA IV Module/Customers Dashboard/image_hamburger_menu'))
+
+WebUI.verifyElementNotPresent(findTestObject('MKOPA IV Module/Customers Dashboard/button_StartUpgrade'), 3)
+
+WebUI.comment('MKOPA 4 New Loan Customer')
+
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : '28009912'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Customers Dashboard/label_LoanStatus', [('loan_Status') : loan_Status]), 
+    0)
+
+WebUI.mouseOver(findTestObject('MKOPA IV Module/Customers Dashboard/image_hamburger_menu'))
+
+WebUI.delay(delay)
+
+WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Customers Dashboard/button_StartUpgrade'), 3)
 
 WebUI.closeBrowser()
 

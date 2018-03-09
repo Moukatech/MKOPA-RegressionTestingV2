@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>validate_stock Marked for sale</name>
+   <description>test  case ID 16394 Mark stock as ok for sale</description>
+   <name>verify_stock Marked for sale</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>df6efaa7-4193-46b3-bee4-529bf3418d32</testCaseGuid>

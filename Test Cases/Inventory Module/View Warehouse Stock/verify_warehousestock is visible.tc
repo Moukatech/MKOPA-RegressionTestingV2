@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test  ID 16395</description>
-   <name>verify_warehousestock is visable</name>
+   <description>Test  ID 16395 verify a warehouse has stock</description>
+   <name>verify_warehousestock is visible</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>faeb108d-d24d-4e43-938a-075528ed6875</testCaseGuid>

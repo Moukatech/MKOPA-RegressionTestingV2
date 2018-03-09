@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Steps to Serach Payment made by the Customer or Dealer</description>
+   <name>steps_Search Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>186341ef-4622-4400-9725-e6b1324849d3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7189118f-bf8e-404c-83b9-99ffdd934399</id>
+      <masked>false</masked>
+      <name>receiptNo</name>
+   </variable>
+</TestCaseEntity>

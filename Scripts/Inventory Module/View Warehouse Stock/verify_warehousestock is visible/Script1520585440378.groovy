@@ -19,19 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(account, phone, amount, receiptNumber)
-
-WebUI.delay(5)
-
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Comment') : 'Nice and paid on time'], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
-WebUI.callTestCase(findTestCase('Payments/Search For Payments/Search For Payment Using a Receipt Number'), [('Receiptno') : receiptNumber], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
-WebUI.verifyElementVisible(findTestObject('Payments Module/Payment Search Results/grid_ReceiptNumber', [('receiptNumber') : receiptNumber]))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Operations'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page Header and Menu/Inventory/link_Warehousestock'))
 
 WebUI.closeBrowser()
 
