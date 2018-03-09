@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>checking that the resolution field and resolution reason fields  are required</description>
+   <description>checking that the resolution and resolution reason fields  are required</description>
    <name>validate_resolution field is required</name>
    <tag></tag>
    <comment></comment>

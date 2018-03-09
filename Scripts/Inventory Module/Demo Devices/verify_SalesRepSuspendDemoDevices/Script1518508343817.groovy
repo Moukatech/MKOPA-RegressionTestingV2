@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_SaleRepDemoDeviceManagement'), [('delay') : '3', ('device_serialNumber') : '0715010701000105'], 
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Sale Rep Demo Device Management'), [('delay') : '3', ('device_serialNumber') : '0715010701000105'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/tab_CreditsSent'))

@@ -39,3 +39,5 @@ WebUI.click(findTestObject('Inventory Module/Approve Repair/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Approve Repair/errorMsg_Approver Notes required'), 2)
 
+WebUI.closeBrowser()
+

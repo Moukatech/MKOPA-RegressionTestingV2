@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>ID:4260
-Receive devices transferred from repair pool</description>
-   <name>verify_Repair Pool Transfers In</name>
+   <description>Receiving  devices transferred from repair pool</description>
+   <name>steps_Repair Pool Transfers In</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e5b187c4-03b9-4046-8768-8a0673188ea0</testCaseGuid>
@@ -11,20 +10,27 @@ Receive devices transferred from repair pool</description>
       <description></description>
       <id>aee1c82a-d3b2-4f00-95b0-f46ea4e1669d</id>
       <masked>false</masked>
-      <name>repair_transfers_out</name>
+      <name>transfersOut</name>
    </variable>
    <variable>
       <defaultValue>'ReceivedOk'</defaultValue>
       <description></description>
       <id>17150d63-b3d7-4378-9b16-a39b6d66c35b</id>
       <masked>false</masked>
-      <name>select_status</name>
+      <name>status</name>
    </variable>
    <variable>
       <defaultValue>'automation Test'</defaultValue>
       <description></description>
       <id>453be2a4-71c9-4efb-bb1c-17b7bf99b370</id>
       <masked>false</masked>
-      <name>input_comment</name>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'DLR001'</defaultValue>
+      <description></description>
+      <id>c9059b29-d4eb-416a-b245-e30c7e884a4e</id>
+      <masked>false</masked>
+      <name>wareHouseCode</name>
    </variable>
 </TestCaseEntity>

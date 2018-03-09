@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>ID:18154
 confirming that the MK +400 account is cancelled first before downgrding/re-allocating an old device</description>
-   <name>verify_that MK 400 account has been cancelled before</name>
+   <name>verify_that MK 400 account has been cancelled before downgrade</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d265140c-c580-4368-9edc-e0bbabe51ac1</testCaseGuid>

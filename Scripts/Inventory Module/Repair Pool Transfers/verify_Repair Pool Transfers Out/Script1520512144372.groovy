@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operati
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_RepairTransfersOut', [('repair_transfers_out') : repair_transfers_out]))
+WebUI.click(findTestObject('Inventory Module/WareHouse Operations/link_RepairTransfersOut', [('repair_transfers_out') : transfersOut]))
 
 WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/button_NewTransfer'))
 
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/dropdown_
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/select_DeviceType', [('select_devicetype') : select_devicetype]))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/select_DeviceType', [('select_devicetype') : deviceType]))
 
 WebUI.delay(1)
 
@@ -39,12 +39,12 @@ WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/dropdown_
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/select_WarehouseTo', [('select_warehouseto') : select_warehouseto]))
+WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/select_WarehouseTo', [('select_warehouseto') : warehouseTo]))
 
 WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_ModeOfTransfer', [('input_modeoftransfer') : input_modeoftransfer]), 
-    input_modeoftransfer)
+    modeOfTransfer)
 
-WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_PlannedQuantity'), input_plannedquantity)
+WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_PlannedQuantity'), plannedQuantity)
 
 WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/button_AddRepairPoolTransfer'))
 
@@ -57,7 +57,7 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/click_TopMostOrder'))
 
 WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_SerialNumber', [('input_serialnumber') : input_serialnumber]), 
-    input_serialnumber)
+    serialNumber)
 
 WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/button_AddRepairPoolTransferItem'))
 

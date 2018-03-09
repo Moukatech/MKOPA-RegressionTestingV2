@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test Case ID 110</description>
+   <description>Steps to navigate to add supplier page</description>
    <name>Steps_add Supplier</name>
    <tag></tag>
    <comment></comment>

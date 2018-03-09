@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Id: 2755
+
+Upload a Payment File for a dealer</description>
+   <name>Verify_Upload Dealers Payment File</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b5955fe-9a44-4c02-987a-6674b86ac2f4</testCaseGuid>
+   <variable>
+      <defaultValue>'K0877'</defaultValue>
+      <description></description>
+      <id>c8a4d4b3-9141-4e5f-91ac-a941b7504023</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+   <variable>
+      <defaultValue>'299'</defaultValue>
+      <description></description>
+      <id>a5689380-8620-4693-a594-400ce9bddd50</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'MNAO20USN1123'</defaultValue>
+      <description></description>
+      <id>3558edc4-ac71-42a7-b511-a70b397d29f7</id>
+      <masked>false</masked>
+      <name>receiptNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'254724777045'</defaultValue>
+      <description></description>
+      <id>69fe1a63-4839-4c04-a05f-1e8df9dad060</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Makes Dealer Payments'</defaultValue>
+      <description></description>
+      <id>fa21010d-cb63-45cf-8fc7-ea207ca5945e</id>
+      <masked>false</masked>
+      <name>comments</name>
+   </variable>
+</TestCaseEntity>

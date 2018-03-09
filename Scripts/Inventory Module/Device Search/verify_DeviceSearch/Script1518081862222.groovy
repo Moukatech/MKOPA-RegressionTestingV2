@@ -22,24 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page Header and Menu/Inventory/link_DeviceSearch'))
-
-WebUI.click(findTestObject('Inventory Module/Device Search/dropdown_SearchBy'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Inventory Module/Device Search/select_SearchBy', [('searchBy') : searchBy]))
-
-WebUI.setText(findTestObject('Inventory Module/Device Search/input_serialnumber'), serialnumber)
-
-WebUI.click(findTestObject('Inventory Module/Device Search/button_Search'))
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Device Search'), [('serialnumber') : serialnumber, ('searchBy') : searchBy], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Search/label_Device serial', [('serialNumber') : serialnumber]), 
     3)
+
+WebUI.closeBrowser()
 

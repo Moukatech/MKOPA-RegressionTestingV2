@@ -26,3 +26,5 @@ WebUI.delay(6)
 
 WebUI.verifyTextNotPresent(serialnumber, false)
 
+WebUI.closeBrowser()
+

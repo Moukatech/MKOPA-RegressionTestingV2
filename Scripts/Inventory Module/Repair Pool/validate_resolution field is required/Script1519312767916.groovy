@@ -34,3 +34,5 @@ WebUI.click(findTestObject('Inventory Module/Repair Device/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Repair Device/errorMsg_Select resolution reason'), 2)
 
+WebUI.closeBrowser()
+

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Steps to navigate a list of  all the ware house operators</description>
    <name>Steps_Warehouse Operator</name>
    <tag></tag>
    <comment></comment>

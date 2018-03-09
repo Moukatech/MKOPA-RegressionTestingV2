@@ -19,9 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Add Supplier/Steps_add Supplier'), [('description') : description], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'manifestUploads.largeConsignmentManifest.largeConsignmentManifest'()
 
-WebUI.delay(4)
+WebUI.delay(20)
 
-WebUI.verifyTextPresent(description, false)
+WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Large Consignment Manifest Upload'), [('itemType') : itemType
+        , ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw
+        , ('selectId') : selectId, ('consignmentNo') : consignmentNo], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/radio_Close Consignment', [('condition') : condition]))
+
+WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/button_Save'))
+
+WebUI.delay(2)
+
+successMessage = WebUI.getText(findTestObject('Inventory Module/Device Manifest Upload/section_Manifest Details'))
+
+WebUI.verifyTextPresent(successMessage, false)
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

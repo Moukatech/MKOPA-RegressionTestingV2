@@ -64,3 +64,5 @@ WebUI.click(findTestObject('Inventory Module/WareHouses/link_Operations', [('cod
 WebUI.verifyElementPresent(findTestObject('Inventory Module/WareHouse Operations/label_ToBeChecked', [('tobechecked') : tobechecked]), 
     2)
 
+WebUI.closeBrowser()
+

@@ -22,8 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
 WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
         , ('serial_Number') : '0416010902-000005', ('code') : 'WaHo008', ('demo_device') : '89df7262-166c-e411-80d8-00155d83e77c'], 
+=======
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Demo Devices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
+        , ('serial_Number') : '0416010902-000005', ('code') : 'PRD-LINE', ('demo_device') : '54ff0494-32c0-e511-8288-d4c9ef67fe6f'], 
+>>>>>>> branch 'master' of https://github.com/TezzaBusinessSolutions/MKOPA-RegressionTestingV2.git
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(delay)

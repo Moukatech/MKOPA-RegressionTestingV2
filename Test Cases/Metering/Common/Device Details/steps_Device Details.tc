@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigates one to a device details</description>
+   <name>steps_Device Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed8a5d1b-3451-4b0a-a178-b2d31707e22f</testCaseGuid>
+   <variable>
+      <defaultValue>'6120984'</defaultValue>
+      <description></description>
+      <id>4843bb6a-fe6a-4d57-99ee-dbb7efae7a4a</id>
+      <masked>false</masked>
+      <name>customerToSearch</name>
+   </variable>
+</TestCaseEntity>
