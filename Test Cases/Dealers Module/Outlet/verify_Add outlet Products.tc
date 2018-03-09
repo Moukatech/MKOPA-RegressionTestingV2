@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>ID:5582
+
 adding a product to an outlet</description>
    <name>verify_Add outlet Products</name>
    <tag></tag>
