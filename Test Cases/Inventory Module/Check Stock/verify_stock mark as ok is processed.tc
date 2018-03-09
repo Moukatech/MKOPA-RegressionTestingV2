@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>tes case id 153</description>
+   <description>tes case id 153 Ensure marked stock is process</description>
    <name>verify_stock mark as ok is processed</name>
    <tag></tag>
    <comment></comment>
