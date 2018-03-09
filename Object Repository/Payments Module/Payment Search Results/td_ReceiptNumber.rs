@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>grid_ReceiptNumber</name>
+   <name>td_ReceiptNumber</name>
    <tag></tag>
    <elementGuidId>846db216-fe3d-4d2b-987d-2df9015c61bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

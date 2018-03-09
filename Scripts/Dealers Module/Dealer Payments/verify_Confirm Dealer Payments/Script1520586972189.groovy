@@ -26,12 +26,11 @@ WebUI.delay(5)
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Comment') : 'Nice and paid on time'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Comment') : comment], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Payments/Search For Payments/Search For Payment Using a Receipt Number'), [('Receiptno') : receiptNumber], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/steps_Search Payment'), [('receiptNo') : receiptNumber], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Payments Module/Payment Search Results/grid_ReceiptNumber', [('receiptNumber') : receiptNumber]))
+WebUI.verifyElementVisible(findTestObject('Payments Module/Payment Search Results/td_ReceiptNumber', [('receiptNumber') : receiptNumber]))
 
 WebUI.closeBrowser()
 
