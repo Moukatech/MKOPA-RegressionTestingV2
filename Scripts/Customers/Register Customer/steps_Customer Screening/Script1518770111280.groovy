@@ -71,9 +71,9 @@ WebUI.click(findTestObject('Customer Module/Screen Customer/label_CCR Opinion', 
 
 WebUI.setText(findTestObject('Customer Module/Screen Customer/input_CCR opinion'), opinionCCR)
 
-WebUI.click(findTestObject('Customer Module/Screen Customer/button_Save'))
+not_run: WebUI.click(findTestObject('Customer Module/Screen Customer/button_Save'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('Customer Module/Screen Customer/button_Save'))
+not_run: WebUI.click(findTestObject('Customer Module/Screen Customer/button_Save'))
 

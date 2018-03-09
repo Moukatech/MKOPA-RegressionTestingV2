@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test case ID: 4173
-Test Case Description: Verifies dispatched order is filtered using date dispatched equal to a given date.</description>
+Test Case Description: Verifies dispatched order is filtered using order date before or equal to a given date.</description>
    <name>verify-FilterByOrderDate_Is before or equal to</name>
    <tag></tag>
    <comment></comment>
@@ -28,7 +28,7 @@ Test Case Description: Verifies dispatched order is filtered using date dispatch
       <name>option_Operator</name>
    </variable>
    <variable>
-      <defaultValue>'2018-02-03 19:42:45'</defaultValue>
+      <defaultValue>'2017-12-07 15:54:47'</defaultValue>
       <description></description>
       <id>50377ce9-686c-446a-ae17-458cdba82ae3</id>
       <masked>false</masked>

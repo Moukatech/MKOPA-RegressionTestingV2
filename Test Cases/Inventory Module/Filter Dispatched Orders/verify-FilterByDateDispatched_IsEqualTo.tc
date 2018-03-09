@@ -17,7 +17,7 @@ Note: Uses IsEqualTo Operator
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'2017-12-07 '</defaultValue>
+      <defaultValue>'2018-02-15'</defaultValue>
       <description></description>
       <id>462a5274-c666-40bf-a8e3-ebe440158653</id>
       <masked>false</masked>

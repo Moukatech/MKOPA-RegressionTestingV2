@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Products/Link-Products'))
@@ -42,9 +42,11 @@ WebUI.setText(findTestObject('Products Module/Add Cash Payment Plan/input_Reques
 
 WebUI.click(findTestObject('Products Module/Add Loan Payment Plan/button_SaveLoanPaymentPlan'))
 
-WebUI.getText(findTestObject('Products Module/Add Loan Payment Plan/message_ValidLoanType'))
+not_run: WebUI.getText(findTestObject('Products Module/Add Loan Payment Plan/message_ValidLoanType'))
 
-String error = 'Please supply a valid loan type'
+not_run: String error = 'Please supply a valid loan type'
 
-WebUI.verifyElementText(findTestObject('Products Module/Add Loan Payment Plan/message_ValidLoanType'), error)
+not_run: WebUI.verifyElementText(findTestObject('Products Module/Add Loan Payment Plan/message_ValidLoanType'), error)
+
+WebUI.closeBrowser()
 

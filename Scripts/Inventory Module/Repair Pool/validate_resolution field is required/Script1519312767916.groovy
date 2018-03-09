@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Inventory Module/Repair pool devices/link_Repair', [
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Inventory Module/Repair Device/input_Repair Notes'), repairNotes )
+WebUI.setText(findTestObject('Inventory Module/Repair Device/input_Repair Notes'), repairNotes)
 
 WebUI.click(findTestObject('Inventory Module/Repair Device/button_Save'))
 

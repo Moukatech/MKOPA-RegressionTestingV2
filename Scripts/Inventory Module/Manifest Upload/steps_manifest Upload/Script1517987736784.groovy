@@ -71,7 +71,7 @@ WebUI.click(findTestObject('Inventory Module/Device Manifest Upload/label_suppli
 
 WebUI.check(findTestObject('Inventory Module/Device Manifest Upload/checkerbox_Send to Production'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.uploadFile(findTestObject('Inventory Module/Device Manifest Upload/button_Select', [('selectId') : selectId]), filePath)
 

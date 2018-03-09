@@ -42,5 +42,7 @@ WebUI.setText(findTestObject('Inventory Module/Dispatched Orders/input_DateDispa
 
 WebUI.click(findTestObject('Inventory Module/Dispatched Orders/button_Filter'))
 
+WebUI.delay(8)
+
 WebUI.closeBrowser()
 

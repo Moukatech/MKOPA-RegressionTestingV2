@@ -32,7 +32,5 @@ WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealer List/link_Detai
 
 WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealer List/link_Edit', [('dealerNo') : dealerNo]), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('Dealers Module/Dealer List/grid_DealersList'))
-
-WebUI.verifyElementPresent(findTestObject('Dealers Module/Dealer List/grid_DealersList'), 0)
+WebUI.verifyElementPresent(findTestObject('Dealers Module/Dealer List/label_DealerList'), 0)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='divBodyMain']//ul[contains(normalize-space(),'Please')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='divBodyMain']//li[text()='Please supply a valid loan type']</value>
+      <value>.//*[@id='divBodyMain']//ul[contains(normalize-space(),'Please')]</value>
    </webElementProperties>
 </WebElementEntity>

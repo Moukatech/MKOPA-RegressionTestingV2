@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='divBodyMain']/form/div/ul/li[text()='A value is required.']</value>
+         <value>//*[@id=&quot;divBodyMain&quot;]//li[text()='Approver notes required']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='divBodyMain']/form/div/ul/li[text()='A value is required.']</value>
+      <value>//*[@id=&quot;divBodyMain&quot;]//li[text()='Approver notes required']</value>
    </webElementProperties>
 </WebElementEntity>

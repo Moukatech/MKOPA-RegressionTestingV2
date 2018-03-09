@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID :4173
+Test Case Description: Verifies Filtering of Dispatched Orders Using ServicingWarehouse_Contains</description>
    <name>verify_FilterByServicingWarehouse_Contains</name>
    <tag></tag>
    <comment></comment>
@@ -27,7 +28,7 @@
       <name>option_Operator</name>
    </variable>
    <variable>
-      <defaultValue>'KE0401010-01'</defaultValue>
+      <defaultValue>'KE0336828-01'</defaultValue>
       <description></description>
       <id>344291d3-1114-489e-ba98-0e7a561d6eab</id>
       <masked>false</masked>

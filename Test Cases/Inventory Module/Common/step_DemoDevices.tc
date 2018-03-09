@@ -28,14 +28,14 @@ Test Description: Test Step that Lists Demo Devices. It also captures test case 
       <name>serial_Number</name>
    </variable>
    <variable>
-      <defaultValue>'PRD-LINE\t'</defaultValue>
+      <defaultValue>'WaHo008'</defaultValue>
       <description></description>
       <id>d522ea08-b062-4ac4-b4ec-72f71336d76b</id>
       <masked>false</masked>
       <name>code</name>
    </variable>
    <variable>
-      <defaultValue>'54ff0494-32c0-e511-8288-d4c9ef67fe6f'</defaultValue>
+      <defaultValue>'89df7262-166c-e411-80d8-00155d83e77c'</defaultValue>
       <description></description>
       <id>b8e4531b-3f99-409f-91ff-8592c02672cf</id>
       <masked>false</masked>

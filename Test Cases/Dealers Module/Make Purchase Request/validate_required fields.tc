@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>034db121-1bad-45c3-9864-9211db7e7cea</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'01314'</defaultValue>
       <description></description>
       <id>ab32d066-01a3-4677-8b75-7e1160b53029</id>
       <masked>false</masked>
@@ -39,5 +39,12 @@
       <id>3df8c4c1-197b-4d2c-94e5-69ed843a7799</id>
       <masked>false</masked>
       <name>producttype</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>f8eca9e6-f377-4ef2-b80a-9805137e925d</id>
+      <masked>false</masked>
+      <name>delay</name>
    </variable>
 </TestCaseEntity>

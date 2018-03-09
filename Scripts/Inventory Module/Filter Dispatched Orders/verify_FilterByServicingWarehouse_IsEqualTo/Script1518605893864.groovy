@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
@@ -48,7 +48,7 @@ WebUI.setText(findTestObject('Inventory Module/Dispatched Orders/input_OrderNumb
 
 WebUI.click(findTestObject('Inventory Module/Dispatched Orders/button_Filter'))
 
-WebUI.delay(delay)
+WebUI.delay(8)
 
 String order_Number = order_Number
 

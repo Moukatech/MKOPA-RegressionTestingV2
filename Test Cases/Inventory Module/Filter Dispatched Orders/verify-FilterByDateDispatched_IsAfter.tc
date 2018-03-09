@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test case ID: 4173
-Test Case Description: Verifies dispatched order is filtered using date dispatched equal to a given date.
+Test Case Description: Verifies dispatched order is filtered using date dispatched is after a given date.
 Note: It uses IsAfter Operator</description>
    <name>verify-FilterByDateDispatched_IsAfter</name>
    <tag></tag>
@@ -15,7 +15,7 @@ Note: It uses IsAfter Operator</description>
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'2017-12-07'</defaultValue>
+      <defaultValue>'2017-12-07 15:54:47'</defaultValue>
       <description></description>
       <id>6eaa18f4-a0b3-4b88-a23b-5000add65e67</id>
       <masked>false</masked>

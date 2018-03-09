@@ -19,11 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'PRD-LINE', ('demo_device') : '54ff0494-32c0-e511-8288-d4c9ef67fe6f'], 
+WebUI.callTestCase(findTestCase('Inventory Module/WareHouse Operations/verify_ViewDemoDevices'), [('serial_Number') : findTestData('Inventory/List Demo Devices').getValue(1, 1)
+        , ('delay') : '3', ('code') : findTestData('Inventory/List Demo Devices').getValue(2, 1), ('demo_device') : findTestData('Inventory/List Demo Devices').getValue(3, 1)], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_PickNewDemoDevice'))
@@ -58,5 +55,13 @@ WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/select_Availa
 
 WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_AddDeviceToRequest'))
 
-not_run: WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_PlaceRequest'))
+WebUI.click(findTestObject('Inventory Module/Pick New Demo Devices/button_PlaceRequest'))
+
+WebUI.getText(findTestObject('Inventory Module/Pick New Demo Devices/message_SuccessRequestPlacement'))
+
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Pick New Demo Devices/message_SuccessRequestPlacement'), 0)
+
+WebUI.delay(delay)
+
+not_run: WebUI.closeBrowser()
 

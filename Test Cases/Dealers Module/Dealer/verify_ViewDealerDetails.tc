@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case ID: 476
-Test Case Description: View Dealer details</description>
+Test Case Description: Verifies Viewing of  Dealer details</description>
    <name>verify_ViewDealerDetails</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7ae22b76-cf8b-4a37-a06c-c31da5c9bba8</testCaseGuid>
    <variable>
-      <defaultValue>'01314'</defaultValue>
+      <defaultValue>findTestData('Dealers/Add Dealer').getValue(16, 1)</defaultValue>
       <description></description>
       <id>24913243-b054-487d-bf65-6ed3ccf02948</id>
       <masked>false</masked>
       <name>dealerNo</name>
    </variable>
    <variable>
-      <defaultValue>'AG Nobert Ochieng Sewe'</defaultValue>
+      <defaultValue>'Achievers Sacco'</defaultValue>
       <description></description>
       <id>2eee2156-c191-44f0-a623-d3ffea588a50</id>
       <masked>false</masked>

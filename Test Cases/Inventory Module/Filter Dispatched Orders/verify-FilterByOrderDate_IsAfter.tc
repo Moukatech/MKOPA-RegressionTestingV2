@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test case ID: 4173
-Test Case Description: Verifies dispatched order is filtered using date dispatched equal to a given date.</description>
+Test Case Description: Verifies dispatched order is filtered using order date after a given date.</description>
    <name>verify-FilterByOrderDate_IsAfter</name>
    <tag></tag>
    <comment></comment>

@@ -7,21 +7,21 @@ Test Description: Verifies Dealer Manager is added successfully</description>
    <comment></comment>
    <testCaseGuid>d26f207e-0a42-4154-b565-e23147a64c91</testCaseGuid>
    <variable>
-      <defaultValue>'Surname1'</defaultValue>
+      <defaultValue>findTestData('Dealers/Add DealerManager').getValue(1, 1)</defaultValue>
       <description></description>
       <id>0c99e7c4-6fc1-437c-8528-93843ec8ef50</id>
       <masked>false</masked>
       <name>surname</name>
    </variable>
    <variable>
-      <defaultValue>'Other Names'</defaultValue>
+      <defaultValue>findTestData('Dealers/Add DealerManager').getValue(2, 1)</defaultValue>
       <description></description>
       <id>1f95ddef-37d3-4e38-b71f-97808399c407</id>
       <masked>false</masked>
       <name>other_Names</name>
    </variable>
    <variable>
-      <defaultValue>'267865235'</defaultValue>
+      <defaultValue>findTestData('Dealers/Add DealerManager').getValue(3, 1)</defaultValue>
       <description></description>
       <id>a236e088-9a30-4346-b84a-82d100e4381f</id>
       <masked>false</masked>
@@ -35,14 +35,14 @@ Test Description: Verifies Dealer Manager is added successfully</description>
       <name>identification</name>
    </variable>
    <variable>
-      <defaultValue>'0724165222'</defaultValue>
+      <defaultValue>findTestData('Dealers/Add DealerManager').getValue(4, 1)</defaultValue>
       <description></description>
       <id>d6c6b8ee-8f46-4d22-98d0-ae8328399820</id>
       <masked>false</masked>
       <name>phone_Number</name>
    </variable>
    <variable>
-      <defaultValue>'0722165229'</defaultValue>
+      <defaultValue>findTestData('Dealers/Add DealerManager').getValue(5, 1)</defaultValue>
       <description></description>
       <id>eab78c9a-be4e-4072-9d5a-f6146f6b128b</id>
       <masked>false</masked>
@@ -77,7 +77,7 @@ Test Description: Verifies Dealer Manager is added successfully</description>
       <name>citizenship</name>
    </variable>
    <variable>
-      <defaultValue>'Test1@m-kopa.com'</defaultValue>
+      <defaultValue>findTestData('Dealers/Add DealerManager').getValue(6, 1)</defaultValue>
       <description></description>
       <id>0babeb27-f06d-481d-aa5f-e1f712cbd8c9</id>
       <masked>false</masked>

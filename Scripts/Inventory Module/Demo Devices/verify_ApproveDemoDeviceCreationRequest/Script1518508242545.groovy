@@ -22,7 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'PRD-LINE', ('demo_device') : '54ff0494-32c0-e511-8288-d4c9ef67fe6f'], 
+        , ('serial_Number') : '0416010902-000005', ('code') : 'WaHo008', ('demo_device') : '89df7262-166c-e411-80d8-00155d83e77c'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_ApproveDemoDevices'))
@@ -43,8 +43,12 @@ WebUI.click(findTestObject('Inventory Module/Approve Demo Devices Request/button
 
 WebUI.getText(findTestObject('Inventory Module/Demo Devices Approval Requests/message_DemoApprovalSuccessful'))
 
+WebUI.delay(3)
+
 WebUI.verifyElementPresent(findTestObject('Inventory Module/Demo Devices Approval Requests/message_DemoApprovalSuccessful'), 
     0)
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

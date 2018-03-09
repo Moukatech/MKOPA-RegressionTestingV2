@@ -7,7 +7,7 @@ Test Case Description : Verify Request to Create Demo Device is placed successfu
    <comment></comment>
    <testCaseGuid>46fb0327-ee31-4fa1-9823-e83d63854bb3</testCaseGuid>
    <variable>
-      <defaultValue>'QA Testing'</defaultValue>
+      <defaultValue>findTestData('Inventory/PickNewDemoDevices').getValue(1, 1)</defaultValue>
       <description></description>
       <id>27de75b5-a924-4533-b240-1b5b0e9e02a0</id>
       <masked>false</masked>
@@ -21,21 +21,21 @@ Test Case Description : Verify Request to Create Demo Device is placed successfu
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'0416310199-038934'</defaultValue>
+      <defaultValue>findTestData('Inventory/PickNewDemoDevices').getValue(2, 1)</defaultValue>
       <description></description>
       <id>a8025260-f2b7-445e-8a40-e7f5dca066b4</id>
       <masked>false</masked>
       <name>serial_Number</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA 400'</defaultValue>
+      <defaultValue>findTestData('Inventory/PickNewDemoDevices').getValue(3, 1)</defaultValue>
       <description></description>
       <id>2043e814-f65d-475a-a2ca-65a2bf06bef5</id>
       <masked>false</masked>
       <name>device_type</name>
    </variable>
    <variable>
-      <defaultValue>'Unit'</defaultValue>
+      <defaultValue>findTestData('Inventory/PickNewDemoDevices').getValue(4, 1)</defaultValue>
       <description></description>
       <id>aa03d6a8-dda3-4a1f-8169-d7cb38ccb033</id>
       <masked>false</masked>

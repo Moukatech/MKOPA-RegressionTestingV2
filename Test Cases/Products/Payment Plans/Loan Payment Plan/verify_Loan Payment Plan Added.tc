@@ -15,7 +15,7 @@ This test case validates if a loan payment plan has been added successfully</des
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'Loan'</defaultValue>
+      <defaultValue>'TrialLoanTest5'</defaultValue>
       <description></description>
       <id>4d089558-2a1c-474a-911c-616f7066ca54</id>
       <masked>false</masked>

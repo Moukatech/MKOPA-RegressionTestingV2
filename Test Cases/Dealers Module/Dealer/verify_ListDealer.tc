@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case ID: 475
-Test Case Description: List Dealers</description>
+Test Case Description: Verifies if the List f Dealers is displayed</description>
    <name>verify_ListDealer</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b5f4a127-a0b6-4100-bc1f-917f34b35cb1</testCaseGuid>
    <variable>
-      <defaultValue>'00975'</defaultValue>
+      <defaultValue>findTestData('Dealers/Add Dealer').getValue(16, 1)</defaultValue>
       <description></description>
       <id>ec9d316e-4a56-401c-8348-69df16725ef5</id>
       <masked>false</masked>
       <name>dealerNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>3403eca3-8f10-4931-a27e-57054954cbec</id>
+      <masked>false</masked>
+      <name>delay</name>
    </variable>
 </TestCaseEntity>

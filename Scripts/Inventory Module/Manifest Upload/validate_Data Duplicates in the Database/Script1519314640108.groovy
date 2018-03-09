@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_Duplicat
         , ('supplier') : supplier, ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw
         , ('selectId') : selectId], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMessage_Data exists in the Database'))
 
