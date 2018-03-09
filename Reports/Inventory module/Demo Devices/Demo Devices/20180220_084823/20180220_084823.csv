@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo Devices,Chrome 64.0.3282.167,,2018-02-20 08:48:26,2018-02-20 08:48:58,32.167s,PASSED
+,,,,,,
+Test Cases/Inventory Module/Demo Devices/verify_CreditsQueued,Chrome 64.0.3282.167,Test Case ID: 2359\nTest Case Description: Verifies Number of credits queed for Demo devices,2018-02-20 08:48:26,2018-02-20 08:48:57,30.685s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-02-20 08:48:27,2018-02-20 08:48:43,15.551s,PASSED
+mouseOver,Chrome 64.0.3282.167,,2018-02-20 08:48:43,2018-02-20 08:48:43,0.138s,PASSED
+delay,Chrome 64.0.3282.167,,2018-02-20 08:48:43,2018-02-20 08:48:46,3.017s,PASSED
+mouseOver,Chrome 64.0.3282.167,,2018-02-20 08:48:46,2018-02-20 08:48:46,0.091s,PASSED
+delay,Chrome 64.0.3282.167,,2018-02-20 08:48:46,2018-02-20 08:48:49,3.005s,PASSED
+click,Chrome 64.0.3282.167,,2018-02-20 08:48:49,2018-02-20 08:48:54,4.473s,PASSED
+delay,Chrome 64.0.3282.167,,2018-02-20 08:48:54,2018-02-20 08:48:57,3.007s,PASSED
+verifyTextPresent,Chrome 64.0.3282.167,,2018-02-20 08:48:57,2018-02-20 08:48:57,0.179s,PASSED
+closeBrowser,Chrome 64.0.3282.167,,2018-02-20 08:48:57,2018-02-20 08:48:57,0.002s,NOT_RUN
