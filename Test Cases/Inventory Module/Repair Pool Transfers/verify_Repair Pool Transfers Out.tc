@@ -14,7 +14,7 @@ Transfer Devices in repair pool to another warehouse</description>
       <name>transfersOut</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA 4'</defaultValue>
+      <defaultValue>'M-KOPA III'</defaultValue>
       <description></description>
       <id>ddbfb64d-7d24-4c7e-9a4a-2c654b786dd1</id>
       <masked>false</masked>

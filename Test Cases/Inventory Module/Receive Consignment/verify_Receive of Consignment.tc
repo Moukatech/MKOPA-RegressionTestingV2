@@ -29,7 +29,7 @@ the Receipt of Consignment</description>
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>'B62HDVW92G101GSA'</defaultValue>
+      <defaultValue>'P09123BNNSDBAS'</defaultValue>
       <description></description>
       <id>87271348-97c9-4ce6-9d4a-09c7823b2a1f</id>
       <masked>false</masked>

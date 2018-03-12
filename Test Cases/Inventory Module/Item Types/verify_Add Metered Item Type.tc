@@ -15,14 +15,14 @@ Adding a new item type</description>
       <name>classification</name>
    </variable>
    <variable>
-      <defaultValue>'control unit'</defaultValue>
+      <defaultValue>'Solar '</defaultValue>
       <description></description>
       <id>8ef3e011-353d-4168-a2c7-9f375402b0b7</id>
       <masked>false</masked>
       <name>partNumber</name>
    </variable>
    <variable>
-      <defaultValue>'control unit'</defaultValue>
+      <defaultValue>'Delight Solar Panel'</defaultValue>
       <description></description>
       <id>50bb76cb-7b42-4ac9-ba0a-d5d532644fbb</id>
       <masked>false</masked>

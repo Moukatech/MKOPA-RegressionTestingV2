@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>93a1e9b8-8ca3-40f3-bd0b-a5fc977b87e7</dataFileGUID>
-   <dataSourceUrl>C:\Users\dennis.gituto\git\MKOPA-REGRESSION-REPOSITORY\Data Files\Payments\Credit Purchase Payment Upload\Credit Purchase.csv</dataSourceUrl>
+   <dataSourceUrl>../../../dennis.gituto/git/MKOPA-REGRESSION-REPOSITORY/Data Files/Payments/Credit Purchase Payment Upload/Credit Purchase.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>

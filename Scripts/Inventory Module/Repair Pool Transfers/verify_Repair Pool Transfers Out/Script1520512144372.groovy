@@ -41,7 +41,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/select_WarehouseTo', [('select_warehouseto') : warehouseTo]))
 
-WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_ModeOfTransfer', [('input_modeoftransfer') : input_modeoftransfer]), 
+WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_ModeOfTransfer', [('input_modeoftransfer') : modeOfTransfer]), 
     modeOfTransfer)
 
 WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_PlannedQuantity'), plannedQuantity)
@@ -56,7 +56,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/click_TopMostOrder'))
 
-WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_SerialNumber', [('input_serialnumber') : input_serialnumber]), 
+WebUI.setText(findTestObject('Inventory Module/Repair Pool Transfers Out/input_SerialNumber', [('input_serialnumber') : serialNumber]), 
     serialNumber)
 
 WebUI.click(findTestObject('Inventory Module/Repair Pool Transfers Out/button_AddRepairPoolTransferItem'))
