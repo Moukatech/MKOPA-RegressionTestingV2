@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-<<<<<<< HEAD
-   <description>tes case id 153 Ensure marked stock is process</description>
-=======
-   <description>test case id: 153, 16392
-
-Verifying stock marked as ok is processed</description>
->>>>>>> branch 'master' of https://github.com/TezzaBusinessSolutions/MKOPA-RegressionTestingV2
+<description>Verifying stock marked as ok is processed. test case id: 153, 16392</description>
    <name>verify_stock mark as ok is processed</name>
    <tag></tag>
    <comment></comment>
