@@ -284,7 +284,7 @@
       <guid>6eb3ed1b-c8f7-46f1-b57a-c3f9d81a6c25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Receive Consignment/verify_Large Consignment Upload</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Receive Consignment/steps_Large Consignment Upload</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
