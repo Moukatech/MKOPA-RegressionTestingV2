@@ -23,7 +23,7 @@ CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(acc
 
 WebUI.delay(5)
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UATUserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Comment') : comment], FailureHandling.STOP_ON_FAILURE)

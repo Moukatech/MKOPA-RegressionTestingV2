@@ -21,7 +21,7 @@ Test Description: Verifies Sales Area is added successfully</description>
       <name>area_Name</name>
    </variable>
    <variable>
-      <defaultValue>'0002'</defaultValue>
+      <defaultValue>'0013'</defaultValue>
       <description></description>
       <id>8c4de4ed-44dc-4771-a938-3391bd5c6caf</id>
       <masked>false</masked>

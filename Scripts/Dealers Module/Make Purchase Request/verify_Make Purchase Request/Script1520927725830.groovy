@@ -25,3 +25,5 @@ WebUI.callTestCase(findTestCase('Dealers Module/Make Purchase Request/Steps_Make
 
 WebUI.verifyTextPresent('Purchase request placed successfully.', false)
 
+WebUI.closeBrowser()
+

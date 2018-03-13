@@ -7,24 +7,24 @@ Converting a dealership to a service center</description>
    <comment></comment>
    <testCaseGuid>f23a78a8-bcd6-4ce2-a9e0-9d88932e920d</testCaseGuid>
    <variable>
-      <defaultValue>'K0705'</defaultValue>
+      <defaultValue>'K0402'</defaultValue>
       <description></description>
       <id>126ae66d-ed62-4770-a732-e4c3838b9f9b</id>
       <masked>false</masked>
-      <name>dealer_AccountNumber</name>
+      <name>accountNumber</name>
    </variable>
    <variable>
       <defaultValue>'ServiceCenter'</defaultValue>
       <description></description>
       <id>12b790db-822a-485d-b3ba-6e7dce942d91</id>
       <masked>false</masked>
-      <name>select_dealershipType</name>
+      <name>dealershipType</name>
    </variable>
    <variable>
       <defaultValue>'ServiceCenter'</defaultValue>
       <description></description>
       <id>55b64f22-bb1e-4c80-9323-48454ebe1d9a</id>
       <masked>false</masked>
-      <name>confirm_dealershipchanged</name>
+      <name>dealershipChanged</name>
    </variable>
 </TestCaseEntity>

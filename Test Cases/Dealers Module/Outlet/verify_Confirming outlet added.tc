@@ -3,7 +3,7 @@
    <description>ID:481
 
 Confirming whether the added outlet appears in the outlet list</description>
-   <name>verify_Cofirming oulet added</name>
+   <name>verify_Confirming outlet added</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>678c42cd-f1e5-4237-9457-673d9061f4a0</testCaseGuid>

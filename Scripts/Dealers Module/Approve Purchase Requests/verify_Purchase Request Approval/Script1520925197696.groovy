@@ -19,15 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps_to Decline an Order'), [('ordernumber') : ordernumber], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dealers Module/Approve Purchase Requests/Steps_approve purchase requests'), [('ordernumber') : ordernumber], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyAlertPresent(3)
+WebUI.verifyTextPresent('Order was successfully approved', false)
 
-WebUI.acceptAlert()
-
-WebUI.delay(3)
-
-WebUI.refresh()
-
-WebUI.verifyTextNotPresent(ordernumber, false)
+WebUI.closeBrowser()
 

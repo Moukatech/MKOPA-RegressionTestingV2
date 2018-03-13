@@ -28,3 +28,5 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent(code, false)
 
+WebUI.closeBrowser()
+

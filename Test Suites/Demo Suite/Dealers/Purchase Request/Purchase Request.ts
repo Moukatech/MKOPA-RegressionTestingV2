@@ -56,7 +56,7 @@
       <guid>466a9571-51e4-4d1d-8b50-23f3fd31ccaa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealers Module/Make Purchase Request/validate_Request is successfully</testCaseId>
+      <testCaseId>Test Cases/Dealers Module/Make Purchase Request/verify_Make Purchase Request</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -92,7 +92,7 @@
       <guid>1e12bee1-5372-498c-9867-ae04a2d1f648</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealers Module/Approve Purchase Requests/verify_Approval is Sucessfull</testCaseId>
+      <testCaseId>Test Cases/Dealers Module/Approve Purchase Requests/verify_Purchase Request Approval</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -19,16 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Payments/Link-Payments'))
+WebUI.callTestCase(findTestCase('Dealers Module/Return Stock Request/Steps to Place Return Stock Request'), [('dealernumber') : ''
+        , ('businessname') : ' M-KOPA RETAIL', ('phonenumber') : '', ('returnType') : 'VoluntaryReturn', ('outlet') : 'M-KOPA NAIROBI'
+        , ('outletProductType') : ' M-KOPA 4 SC ', ('serialnumber') : '0716010701-009441'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page Header and Menu/Payments/Link_Dealers Payments List'))
-
-WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealer Payments/grid_DealerPayments'))
+WebUI.verifyTextPresent('Placed Successfully', false)
 
 WebUI.closeBrowser()
 

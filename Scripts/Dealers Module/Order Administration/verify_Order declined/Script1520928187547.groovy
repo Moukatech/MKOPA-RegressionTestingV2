@@ -19,9 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Return Stock Request/Steps to Place Return Stock Request'), [('dealernumber') : ''
-        , ('businessname') : ' M-KOPA RETAIL', ('phonenumber') : '', ('returnType') : 'VoluntaryReturn', ('outlet') : 'M-KOPA NAIROBI'
-        , ('outletProductType') : ' M-KOPA 4 SC ', ('serialnumber') : '0716010701-009441'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps_to Decline an Order'), [('ordernumber') : ordernumber], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Placed Successfully', false)
+WebUI.verifyAlertPresent(3)
+
+WebUI.acceptAlert()
+
+WebUI.delay(3)
+
+WebUI.refresh()
+
+WebUI.verifyTextNotPresent(ordernumber, false)
+
+WebUI.closeBrowser()
 
