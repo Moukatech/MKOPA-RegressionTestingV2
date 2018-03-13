@@ -50,11 +50,7 @@ WebUI.click(findTestObject('Dealers Module/Add Operator/select_ID type', [('idTy
 
 WebUI.setText(findTestObject('Dealers Module/Add Operator/input_PhoneNumber'), phoneNumber)
 
-WebUI.click(findTestObject('Dealers Module/Add Operator/link_calender'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Dealers Module/Add Operator/label_DateOfBirth', [('dob') : dob]))
+WebUI.setText(findTestObject('Dealers Module/Add Operator/input_DateOfBirth'), dateOfBirth)
 
 WebUI.click(findTestObject('Dealers Module/Add Operator/dropDwn_Gender'))
 

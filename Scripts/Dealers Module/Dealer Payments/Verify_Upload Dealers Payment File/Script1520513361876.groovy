@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(account, phone, amount, receiptNo)
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UATUserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Comment') : comments], FailureHandling.STOP_ON_FAILURE)

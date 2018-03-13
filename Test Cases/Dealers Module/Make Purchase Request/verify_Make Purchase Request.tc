@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>test case id 16401</description>
-   <name>validate_Request is successfully</name>
+   <name>verify_Make Purchase Request</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4ab30686-b997-4bed-9c4c-e6e79949aef1</testCaseGuid>

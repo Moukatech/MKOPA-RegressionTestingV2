@@ -19,8 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Approve Purchase Requests/Steps_approve purchase requests'), [('ordernumber') : ordernumber], 
+WebUI.callTestCase(findTestCase('Common/UATUserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Order was successfully approved', false)
+WebUI.mouseOver(findTestObject('Page Header and Menu/Payments/Link-Payments'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page Header and Menu/Payments/Link_Dealers Payments List'))
+
+WebUI.verifyElementVisible(findTestObject('Dealers Module/Dealer Payments/grid_DealerPayments'))
+
+WebUI.closeBrowser()
 

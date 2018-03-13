@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>verify_Request placed successfully</name>
+   <description>ID: 1667</description>
+   <name>verify_Return Stock Request</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e1d50f53-3e9f-412d-816d-0f58ea8d2913</testCaseGuid>
