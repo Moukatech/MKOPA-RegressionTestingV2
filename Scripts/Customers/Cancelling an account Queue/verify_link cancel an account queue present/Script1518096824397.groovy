@@ -40,3 +40,5 @@ WebUI.click(findTestObject('Customer Module/Customer List/button_CancelAddon'))
 
 WebUI.verifyAlertPresent(3)
 
+WebUI.closeBrowser()
+

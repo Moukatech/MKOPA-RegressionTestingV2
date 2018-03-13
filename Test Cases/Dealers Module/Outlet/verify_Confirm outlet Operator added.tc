@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>ID:484
+
 Confirming that the added outlet operator appears in the operators list
 </description>
    <name>verify_Confirm outlet Operator added</name>

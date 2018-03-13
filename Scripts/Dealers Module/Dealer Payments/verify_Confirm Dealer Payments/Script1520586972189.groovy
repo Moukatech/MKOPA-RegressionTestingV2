@@ -19,10 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Mark Stock For Sale/steps_markstockfor sale'), [('warehousecode') : warehousecode
-        , ('packaging') : packaging, ('itemType') : itemtype, ('serialNumber') : serialNumber], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'csvCreatorPackage.paymentFileGenerator.paymentFileGenerator'(account, phone, amount, receiptNumber)
 
-WebUI.verifyAlertPresent(4)
+WebUI.delay(5)
 
-WebUI.acceptAlert()
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Comment') : comment], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Common/steps_Search Payment'), [('receiptNo') : receiptNumber], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Payments Module/Payment Search Results/td_ReceiptNumber', [('receiptNumber') : receiptNumber]))
+
+WebUI.closeBrowser()
 

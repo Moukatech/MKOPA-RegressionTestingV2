@@ -35,7 +35,7 @@ The repair process that a returned device goes through</description>
       <name>deviceID</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001710'</defaultValue>
+      <defaultValue>'0118033201-001721'</defaultValue>
       <description></description>
       <id>b5031cf1-43cd-45ee-a843-211f0a3a261a</id>
       <masked>false</masked>

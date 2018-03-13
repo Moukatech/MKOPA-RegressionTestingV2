@@ -44,3 +44,5 @@ WebUI.refresh()
 
 WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Customers Dashboard/img_Cancelled'), 2)
 
+WebUI.closeBrowser()
+

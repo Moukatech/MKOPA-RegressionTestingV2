@@ -44,3 +44,5 @@ WebUI.click(findTestObject('MKOPA IV Module/Blocked accounts request for approva
 WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Blocked accounts request for approval/ErrorMsg_fill approval notes'), 
     2)
 
+WebUI.closeBrowser()
+

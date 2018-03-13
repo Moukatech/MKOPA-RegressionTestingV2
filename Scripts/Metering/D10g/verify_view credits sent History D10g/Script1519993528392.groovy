@@ -29,3 +29,5 @@ WebUI.click(findTestObject('Customer Module/Device Landing Page/button_Credits S
 
 WebUI.verifyElementPresent(findTestObject('Customer Module/Device Landing Page/label_credits sent history'), 2)
 
+WebUI.closeBrowser()
+

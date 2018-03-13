@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test case 158</description>
+   <description>Test case 158 Ensure maked cartons as ready for sale is processed</description>
    <name>verify_marked cartons as ready for sale</name>
    <tag></tag>
    <comment></comment>
@@ -27,7 +27,7 @@
       <name>packaging</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001695'</defaultValue>
+      <defaultValue>'0118033201-001704'</defaultValue>
       <description></description>
       <id>05ab05ed-7dd6-4b1c-9597-f71a72408c45</id>
       <masked>false</masked>

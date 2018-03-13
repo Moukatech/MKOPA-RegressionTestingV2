@@ -43,3 +43,5 @@ WebUI.click(findTestObject('Products Module/Compatible plans/link_Add this plan'
 WebUI.verifyElementPresent(findTestObject('Products Module/Compatible plans/label_compatible plan', [('compatibleAddon') : compatibleAddon]), 
     3)
 
+WebUI.closeBrowser()
+

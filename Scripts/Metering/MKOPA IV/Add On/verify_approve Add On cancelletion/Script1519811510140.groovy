@@ -46,3 +46,5 @@ WebUI.click(findTestObject('Customer Module/Cancel AddOn/button_Approve'))
 WebUI.verifyElementNotPresent(findTestObject('Customer Module/Cancel AddOn/link_Approve', [('customerAccount') : cutomerAccount]), 
     2)
 
+WebUI.closeBrowser()
+

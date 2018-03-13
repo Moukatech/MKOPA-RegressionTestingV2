@@ -32,3 +32,5 @@ WebUI.click(findTestObject('Inventory Module/Service Orders/Button_add'))
 
 WebUI.verifyTextPresent('Kindly select the packaging', false)
 
+WebUI.closeBrowser()
+

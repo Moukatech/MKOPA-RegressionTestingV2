@@ -44,5 +44,5 @@ WebUI.delay(3)
 
 WebUI.check(findTestObject('Inventory Module/Check stock/Checkbox_MarkAsOk', [('serialnumber') : serialNumber]))
 
-not_run: WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
+WebUI.click(findTestObject('Inventory Module/Check stock/Button_ProcessStock'))
 

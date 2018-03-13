@@ -27,6 +27,8 @@ WebUI.callTestCase(findTestCase('Inventory Module/Receive Consignment/steps_Rece
 
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page Header and Menu/Inventory/link_WarehouseOperations'))
 
 WebUI.delay(2)

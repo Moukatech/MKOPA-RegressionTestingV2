@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>test case id: 153, 16392
-
-Verifying stock marked as ok is processed</description>
+   <description>Verifying stock marked as ok is processed. test case id: 153, 16392</description>
    <name>verify_stock mark as ok is processed</name>
    <tag></tag>
    <comment></comment>
@@ -29,7 +27,7 @@ Verifying stock marked as ok is processed</description>
       <name>packaging</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001697'</defaultValue>
+      <defaultValue>'0118033201-001714'</defaultValue>
       <description></description>
       <id>1acad8df-a46d-41ed-bdb4-a7065e552e45</id>
       <masked>false</masked>

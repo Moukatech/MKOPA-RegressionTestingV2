@@ -22,3 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Inventory Module/Common/List Warehouses Operations'), [('wareHouseCode') : wareHouseCode], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Mark Stock For sale/unitsReadyfor Sale'), 3)
+
+WebUI.closeBrowser()
+

@@ -44,3 +44,5 @@ WebUI.switchToWindowTitle(windowTitle)
 
 WebUI.click(findTestObject('Customer Module/Device Landing Page/button_Credits Sent'))
 
+WebUI.closeBrowser()
+

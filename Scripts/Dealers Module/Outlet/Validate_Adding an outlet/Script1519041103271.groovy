@@ -42,3 +42,5 @@ WebUI.click(findTestObject('Dealers Module/Add Outlet/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('Dealers Module/Add Outlet/Error message'), 2)
 
+WebUI.closeBrowser()
+

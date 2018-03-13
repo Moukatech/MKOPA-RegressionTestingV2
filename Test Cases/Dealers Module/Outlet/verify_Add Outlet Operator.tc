@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>ID:483
+
 adding an outlet operator</description>
    <name>verify_Add Outlet Operator</name>
    <tag></tag>
