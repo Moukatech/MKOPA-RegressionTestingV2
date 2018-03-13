@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case ID: 412
+Test case description: Verifies listing of all warehouse stock demo devices</description>
+   <name>step_ViewDemoDevices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e8e8125-2e46-403b-a17b-dd39e9e167f8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Inventory/List Demo Devices').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9e9b8c51-884b-4b0e-b6c1-6ac7f9edd2e2</id>
+      <masked>false</masked>
+      <name>serial_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>220b4745-65d2-442e-aec3-2a6fac4ed425</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Inventory/List Demo Devices').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>77161755-c7dc-42e3-a7da-16651e6fcd13</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Inventory/List Demo Devices').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>9e02e41d-214c-40ae-961e-fc9fe4e92263</id>
+      <masked>false</masked>
+      <name>demo_device</name>
+   </variable>
+</TestCaseEntity>

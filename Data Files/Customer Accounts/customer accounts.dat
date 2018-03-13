@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>e309a9a9-4191-4eb0-8291-1d5bbe26bdf3</dataFileGUID>
-   <dataSourceUrl>Data Files/Customer Accounts/customer Accounts.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\charles.chweyaa.M-KOPA\git\MKOPA-RegressionTestingVersion2\Data Files\Customer Accounts\customer Accounts.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Test Case: 3316
 
-Test Description: Verify the search returns outlet demo devices using serial number</description>
+Test Description: Verify the search returns outlet demo devices using AllocatedTo</description>
    <name>verify_OutletDemoDeviceAllocatedToSearch</name>
    <tag></tag>
    <comment></comment>
@@ -15,7 +15,7 @@ Test Description: Verify the search returns outlet demo devices using serial num
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA HOUSE'</defaultValue>
+      <defaultValue>findTestData('Inventory/DemosSearch').getValue(4, 1)</defaultValue>
       <description></description>
       <id>e5bac7f9-57fd-4ea2-973c-586f7606a57a</id>
       <masked>false</masked>

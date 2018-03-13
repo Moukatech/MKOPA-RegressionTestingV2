@@ -21,7 +21,7 @@ Test Case Description:Validates Issue of Demo device to Sales Rep successfully</
       <name>SalesRep</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Inventory/Issue Demo Device Data').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('Inventory/Issue Demo Device Data').getValue(2, 1)</defaultValue>
       <description></description>
       <id>45ce6c43-59fb-44c4-89ef-916f082a13ad</id>
       <masked>false</masked>

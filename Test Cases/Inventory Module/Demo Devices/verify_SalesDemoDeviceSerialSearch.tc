@@ -15,7 +15,7 @@ Test Case Description: Verifies filtering of Sales demo devices using serial num
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'0617001801-056576'</defaultValue>
+      <defaultValue>findTestData('Inventory/DemosSearch').getValue(1, 1)</defaultValue>
       <description></description>
       <id>f758748e-3b87-4e89-ae62-21ce7a019545</id>
       <masked>false</masked>

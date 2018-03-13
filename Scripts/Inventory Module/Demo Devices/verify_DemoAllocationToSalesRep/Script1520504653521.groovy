@@ -22,9 +22,9 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'WAHo009', ('demo_device') : '04a58263-0097-e411-80ed-00155d83faa4'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Demo Devices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
+        , ('serial_Number') : findTestData('Inventory/List Demo Devices').getValue(1, 1), ('code') : findTestData('Inventory/List Demo Devices').getValue(2, 1)
+        , ('demo_device') : findTestData('Inventory/List Demo Devices').getValue(3, 1)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_SalesRepDemoDevices'))
 

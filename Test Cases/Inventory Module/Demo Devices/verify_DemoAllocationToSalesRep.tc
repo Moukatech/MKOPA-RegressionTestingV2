@@ -7,7 +7,7 @@ Test Case Description: Confirm demo device allocation to Sales Rep</description>
    <comment></comment>
    <testCaseGuid>ab700fba-e740-4b56-8394-2be1a3624034</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('Inventory/Issue Demo Device Data').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('Inventory/Issue Demo Device Data').getValue(2, 1)</defaultValue>
       <description></description>
       <id>0ad4db6b-611d-4115-a96f-92407036adf9</id>
       <masked>false</masked>

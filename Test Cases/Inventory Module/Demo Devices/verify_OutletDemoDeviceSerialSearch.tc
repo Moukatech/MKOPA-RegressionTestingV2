@@ -15,7 +15,7 @@ Test Description: Verify the search returns outlet demo devices using serial num
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'0416010901-001723'</defaultValue>
+      <defaultValue>findTestData('Inventory/DemosSearch').getValue(3, 1)</defaultValue>
       <description></description>
       <id>f0fa9416-7366-453c-bb74-f0215d71d2a7</id>
       <masked>false</masked>

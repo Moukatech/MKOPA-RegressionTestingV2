@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ID: 3545
+searching for a device</description>
+   <name>verify_SalesRepDeviceSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c430d2b-94b9-4e4a-a4a4-2b0352ec0fa8</testCaseGuid>
+   <variable>
+      <defaultValue>'0715010701-000359'</defaultValue>
+      <description></description>
+      <id>da76658f-dfc6-45c5-bb5f-fb053e19eec8</id>
+      <masked>false</masked>
+      <name>serialnumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'SerialNumber'</defaultValue>
+      <description></description>
+      <id>75f5320d-ca10-4c6b-8673-1b83bb88d74b</id>
+      <masked>false</masked>
+      <name>searchBy</name>
+   </variable>
+</TestCaseEntity>
