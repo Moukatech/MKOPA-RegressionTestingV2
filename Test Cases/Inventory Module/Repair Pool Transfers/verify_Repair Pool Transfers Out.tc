@@ -7,42 +7,42 @@ Transfer Devices in repair pool to another warehouse</description>
    <comment></comment>
    <testCaseGuid>b86c2bc3-8c38-48d9-adf6-b4972f4d1d97</testCaseGuid>
    <variable>
-      <defaultValue>'903a220c-6c89-e311-942c-000c29c12997'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pool Transfers/Repair Pool Transfers Out').getValue(1, 1)</defaultValue>
       <description></description>
       <id>8f78c998-731f-4090-b10f-b65368da0296</id>
       <masked>false</masked>
       <name>transfersOut</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA III'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pool Transfers/Repair Pool Transfers Out').getValue(2, 1)</defaultValue>
       <description></description>
       <id>ddbfb64d-7d24-4c7e-9a4a-2c654b786dd1</id>
       <masked>false</masked>
       <name>deviceType</name>
    </variable>
    <variable>
-      <defaultValue>'M-Kopa House'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pool Transfers/Repair Pool Transfers Out').getValue(3, 1)</defaultValue>
       <description></description>
       <id>e3ce3c04-c215-4ebe-beb5-89d990f9ec4d</id>
       <masked>false</masked>
       <name>warehouseTo</name>
    </variable>
    <variable>
-      <defaultValue>'road'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pool Transfers/Repair Pool Transfers Out').getValue(4, 1)</defaultValue>
       <description></description>
       <id>112bf9ea-f377-46c6-83b2-31705d41219c</id>
       <masked>false</masked>
       <name>modeOfTransfer</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pool Transfers/Repair Pool Transfers Out').getValue(5, 1)</defaultValue>
       <description></description>
       <id>8547c393-065d-4bd2-9d79-a227985ef124</id>
       <masked>false</masked>
       <name>plannedQuantity</name>
    </variable>
    <variable>
-      <defaultValue>'1115010701-006848'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pool Transfers/Repair Pool Transfers Out').getValue(6, 1)</defaultValue>
       <description></description>
       <id>f1c4910b-d26c-4f9c-a2f9-b0883fd77101</id>
       <masked>false</masked>

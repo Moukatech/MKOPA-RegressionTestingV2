@@ -8,49 +8,49 @@ Uploading a Primary Device Item Manifest that is Correctly Formatted and in csv 
    <comment></comment>
    <testCaseGuid>b4c765dd-4c32-4aa6-af32-dab5aa55687a</testCaseGuid>
    <variable>
-      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/Metered Item Manifest').getValue(1, 1)</defaultValue>
       <description></description>
       <id>4487e167-1b1a-4595-9663-8a3d37b7ef52</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
-      <defaultValue>'OEL'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/Metered Item Manifest').getValue(2, 1)</defaultValue>
       <description></description>
       <id>e3b07fcc-6e1a-4519-a7c2-bbb43da8b2fb</id>
       <masked>false</masked>
       <name>supplier</name>
    </variable>
    <variable>
-      <defaultValue>'Primary Device'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/Metered Item Manifest').getValue(3, 1)</defaultValue>
       <description></description>
       <id>fde994af-3f3d-49f6-80d8-b5da681ae173</id>
       <masked>false</masked>
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>'10000'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/Metered Item Manifest').getValue(4, 1)</defaultValue>
       <description></description>
       <id>8ac3c015-5b94-4d82-9ac6-07b9a1670dcd</id>
       <masked>false</masked>
       <name>loanDraw</name>
    </variable>
    <variable>
-      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/Metered Item Manifest').getValue(5, 1)</defaultValue>
       <description></description>
       <id>e7941fd5-3852-4df8-8b05-733aa5351c53</id>
       <masked>false</masked>
       <name>shippingDate</name>
    </variable>
    <variable>
-      <defaultValue>'True'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/Metered Item Manifest').getValue(6, 1)</defaultValue>
       <description></description>
       <id>fecada69-5f9b-46d7-a22a-6260c63a9de3</id>
       <masked>false</masked>
       <name>condition</name>
    </variable>
    <variable>
-      <defaultValue>'meteredItemManifests'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/Metered Item Manifest').getValue(7, 1)</defaultValue>
       <description></description>
       <id>10a4b878-9c74-4303-be4a-231453302b18</id>
       <masked>false</masked>
@@ -64,7 +64,7 @@ Uploading a Primary Device Item Manifest that is Correctly Formatted and in csv 
       <name>consignmentNo</name>
    </variable>
    <variable>
-      <defaultValue>'Consignment closed successfully!'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/Metered Item Manifest').getValue(8, 1)</defaultValue>
       <description></description>
       <id>6d85c58b-ac96-4604-8a6b-029d648925d8</id>
       <masked>false</masked>

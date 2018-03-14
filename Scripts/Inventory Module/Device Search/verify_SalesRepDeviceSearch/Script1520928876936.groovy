@@ -27,8 +27,8 @@ WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Device Search'), [
 
 WebUI.delay(5)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Search/label_Device serial', [('serialNumber') : serialnumber]), 
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Search/label_Device serial', [('serialNumber') : serialnumber]), 
     3)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

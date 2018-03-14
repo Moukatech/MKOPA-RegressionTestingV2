@@ -22,13 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Device Search'), [('serialnumber') : findTestData('Inventory/Susspend_Unsuspend Device').getValue(1, 1)
-        , ('searchBy') : 'SerialNumber'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Device Search'), [('serialnumber') : findTestData('Inventory/Susspend_Unsuspend Device').getValue(
+            1, 1), ('searchBy') : 'SerialNumber'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Search/label_Device serial', [('serialNumber') : serialnumber]), 
+WebUI.verifyElementPresent(findTestObject('Inventory Module/Device Search/label_Device serial', [('serialNumber') : serialnumber]), 
     3)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

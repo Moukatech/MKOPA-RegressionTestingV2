@@ -6,28 +6,28 @@
    <comment></comment>
    <testCaseGuid>df6efaa7-4193-46b3-bee4-529bf3418d32</testCaseGuid>
    <variable>
-      <defaultValue>'PRD-LINE'</defaultValue>
+      <defaultValue>findTestData('Inventory/Mark Stock For Sale/Stock Marked For Sale').getValue(1, 1)</defaultValue>
       <description></description>
       <id>2af24020-dc25-4ad5-971a-34aa25407510</id>
       <masked>false</masked>
       <name>warehousecode</name>
    </variable>
    <variable>
-      <defaultValue>'20-Inch TV'</defaultValue>
+      <defaultValue>findTestData('Inventory/Mark Stock For Sale/Stock Marked For Sale').getValue(2, 1)</defaultValue>
       <description></description>
       <id>1d4a225a-c46a-4eaa-9910-b1b6016ad702</id>
       <masked>false</masked>
       <name>itemtype</name>
    </variable>
    <variable>
-      <defaultValue>'Unit'</defaultValue>
+      <defaultValue>findTestData('Inventory/Mark Stock For Sale/Stock Marked For Sale').getValue(3, 1)</defaultValue>
       <description></description>
       <id>5ebbca8e-0c94-42bc-aadd-e858e2ec9f1f</id>
       <masked>false</masked>
       <name>packaging</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-000582'</defaultValue>
+      <defaultValue>findTestData('Inventory/Mark Stock For Sale/Stock Marked For Sale').getValue(4, 1)</defaultValue>
       <description></description>
       <id>861f087d-f664-4776-9bd4-70d9ba81a33d</id>
       <masked>false</masked>

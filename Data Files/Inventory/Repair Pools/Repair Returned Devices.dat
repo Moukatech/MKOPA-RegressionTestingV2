@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Test Data for Verify Repair Returned Devices Test Case</description>
+   <name>Repair Returned Devices</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>874f648e-d337-4885-890c-7bc4dec489c5</dataFileGUID>
+   <dataSourceUrl>Data Files/Inventory/Repair Pools/Repair Pools.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Repair Returned Devices</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

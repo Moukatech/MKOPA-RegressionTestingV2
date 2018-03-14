@@ -7,28 +7,28 @@ recieving devices returned by dealers</description>
    <comment></comment>
    <testCaseGuid>2d20aa2f-69c3-4077-a60f-8eed276d988a</testCaseGuid>
    <variable>
-      <defaultValue>'SC006'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Operations/Receive Dealer Returned Devices').getValue(1, 1)</defaultValue>
       <description></description>
       <id>b13a9f63-deaf-4097-ab17-bfdbdbcded16</id>
       <masked>false</masked>
       <name>wareHouseCode</name>
    </variable>
    <variable>
-      <defaultValue>'0715010701-000878'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Operations/Receive Dealer Returned Devices').getValue(2, 1)</defaultValue>
       <description></description>
       <id>689fa54a-d3d8-43d1-bbe6-0c12c0eeec74</id>
       <masked>false</masked>
       <name>itemSerial</name>
    </variable>
    <variable>
-      <defaultValue>'received'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Operations/Receive Dealer Returned Devices').getValue(3, 1)</defaultValue>
       <description></description>
       <id>7bee99aa-e8e5-4ec0-8c59-e8c7b6ad6025</id>
       <masked>false</masked>
       <name>notes</name>
    </variable>
    <variable>
-      <defaultValue>'Faulty'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Operations/Receive Dealer Returned Devices').getValue(4, 1)</defaultValue>
       <description></description>
       <id>d93927ec-8230-43a0-a3b9-53d8c9a2a040</id>
       <masked>false</masked>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Test data for Verify Kingfisher Item Manifest</description>
+   <name>KingFisher Item Manifest</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ab563db9-b3dc-44bf-b5f5-cddec415f00b</dataFileGUID>
+   <dataSourceUrl>Data Files/Inventory/Manifest Uploads/Manifest Uploads.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Kingfisher Item Manifest</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

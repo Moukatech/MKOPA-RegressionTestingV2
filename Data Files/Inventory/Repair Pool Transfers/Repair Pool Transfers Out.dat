@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Test Data for Verify Repair Pool Transfers Out.</description>
+   <name>Repair Pool Transfers Out</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>34970f1a-9d55-4c46-874e-12640e965660</dataFileGUID>
+   <dataSourceUrl>Data Files/Inventory/Repair Pool Transfers/Repair Pool Transfers.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Repair Pool Transfers Out</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

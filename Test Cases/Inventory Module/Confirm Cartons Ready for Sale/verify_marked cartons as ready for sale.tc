@@ -6,35 +6,35 @@
    <comment></comment>
    <testCaseGuid>146bf900-bccb-4b4e-8cfc-5ff406a825ed</testCaseGuid>
    <variable>
-      <defaultValue>'PRD-LINE'</defaultValue>
+      <defaultValue>findTestData('Inventory/Confirm Cartons ready for Sale/Marked Cartons Ready for sale').getValue(1, 1)</defaultValue>
       <description></description>
       <id>bee5517c-4500-4b6b-b46e-41551860cfb1</id>
       <masked>false</masked>
       <name>warehousecode</name>
    </variable>
    <variable>
-      <defaultValue>'20-Inch TV'</defaultValue>
+      <defaultValue>findTestData('Inventory/Confirm Cartons ready for Sale/Marked Cartons Ready for sale').getValue(2, 1)</defaultValue>
       <description></description>
       <id>86a39095-83f1-4e33-b8e4-3549436fef72</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
-      <defaultValue>'Unit'</defaultValue>
+      <defaultValue>findTestData('Inventory/Confirm Cartons ready for Sale/Marked Cartons Ready for sale').getValue(3, 1)</defaultValue>
       <description></description>
       <id>d68051ef-0039-48fa-ab7c-2972496f2612</id>
       <masked>false</masked>
       <name>packaging</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001704'</defaultValue>
+      <defaultValue>findTestData('Inventory/Confirm Cartons ready for Sale/Marked Cartons Ready for sale').getValue(4, 1)</defaultValue>
       <description></description>
       <id>05ab05ed-7dd6-4b1c-9597-f71a72408c45</id>
       <masked>false</masked>
       <name>serialnumber</name>
    </variable>
    <variable>
-      <defaultValue>'7'</defaultValue>
+      <defaultValue>findTestData('Inventory/Confirm Cartons ready for Sale/Marked Cartons Ready for sale').getValue(5, 1)</defaultValue>
       <description></description>
       <id>0113e47a-c0b6-4017-b212-a1763a637f70</id>
       <masked>false</masked>

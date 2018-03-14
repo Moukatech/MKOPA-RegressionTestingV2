@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Test Data for verify Metered Uploaded Item List</description>
+   <name>Metered Uploaded Item List</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>204fb33a-c47f-4744-99a7-3a2638c7b3f2</dataFileGUID>
+   <dataSourceUrl>Data Files/Inventory/Manifest Uploads/Manifest Uploads.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Metered Uploaded Item List</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

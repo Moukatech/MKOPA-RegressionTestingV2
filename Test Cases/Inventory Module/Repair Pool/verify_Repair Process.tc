@@ -7,42 +7,42 @@ The repair process that a returned device goes through</description>
    <comment></comment>
    <testCaseGuid>c9fe5fe6-e46f-4764-a1b7-f323bba246cd</testCaseGuid>
    <variable>
-      <defaultValue>'PRD-LINE'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Process').getValue(1, 1)</defaultValue>
       <description></description>
       <id>182d19f3-5c5f-42a2-883c-42d6b3aa7e5e</id>
       <masked>false</masked>
       <name>wareHouseCode</name>
    </variable>
    <variable>
-      <defaultValue>'20-Inch TV'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Process').getValue(2, 1)</defaultValue>
       <description></description>
       <id>c2d579f3-7fc3-4d7b-8860-e479385888b5</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
-      <defaultValue>'Unit'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Process').getValue(3, 1)</defaultValue>
       <description></description>
       <id>8f4fe6ab-9187-4737-a5ba-8240e06c5ff8</id>
       <masked>false</masked>
       <name>packaging</name>
    </variable>
    <variable>
-      <defaultValue>'HK-259'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Process').getValue(4, 1)</defaultValue>
       <description></description>
       <id>884522ab-9edf-40e2-8a00-5ed3e8156f7d</id>
       <masked>false</masked>
       <name>deviceID</name>
    </variable>
    <variable>
-      <defaultValue>'0118033201-001721'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Process').getValue(5, 1)</defaultValue>
       <description></description>
       <id>b5031cf1-43cd-45ee-a843-211f0a3a261a</id>
       <masked>false</masked>
       <name>serialNumber</name>
    </variable>
    <variable>
-      <defaultValue>'1,585'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Process').getValue(6, 1)</defaultValue>
       <description></description>
       <id>fb7907d8-258e-4f2d-a0e1-699f3945f52a</id>
       <masked>false</masked>
