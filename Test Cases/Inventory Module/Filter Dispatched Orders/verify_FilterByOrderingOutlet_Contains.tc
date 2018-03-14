@@ -14,7 +14,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOut
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(5, 1)</defaultValue>
       <description></description>
       <id>3745d285-9824-4427-b93d-d14b9e1b6c6e</id>
       <masked>false</masked>
@@ -28,7 +28,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOut
       <name>option_Operator</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA HOUSE'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(4, 1)</defaultValue>
       <description></description>
       <id>896c2ae8-c891-40f5-9eab-31d543bb2869</id>
       <masked>false</masked>

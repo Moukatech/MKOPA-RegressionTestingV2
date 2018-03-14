@@ -22,6 +22,9 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Inventory Module/Mark Stock For Sale/verify_stock Marked for sale'), [('warehousecode') : warehousecode
         , ('itemtype') : itemType, ('packaging') : packaging, ('serialNumber') : serialnumber], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.mouseOver(findTestObject('Page Header and Menu/Inventory/link_Inventory'))
 
 WebUI.delay(3)

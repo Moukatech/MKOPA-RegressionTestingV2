@@ -29,7 +29,7 @@ In the warehouse dashboard device details should be present</description>
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>'BANAIOQHSQQJS019'</defaultValue>
+      <defaultValue>'POALDNCBSIWBCIQ'</defaultValue>
       <description></description>
       <id>79e2b513-7466-47bd-9117-429568bbc488</id>
       <masked>false</masked>

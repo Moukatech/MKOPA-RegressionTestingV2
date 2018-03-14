@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case ID: 5503
-Test Case Description: Verify Demo Device is Suspended</description>
+Test Case Description: Verify Outlet Demo Device is Suspended Successfully</description>
    <name>verify_SuspendDemoDevices</name>
    <tag></tag>
    <comment></comment>

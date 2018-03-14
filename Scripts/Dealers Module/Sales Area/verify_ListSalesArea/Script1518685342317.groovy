@@ -40,3 +40,5 @@ String salesareaheader = 'Sales Area List'
 
 WebUI.verifyElementText(findTestObject('Dealers Module/Sales Area List/header_SalesAreaList'), salesareaheader)
 
+WebUI.closeBrowser()
+

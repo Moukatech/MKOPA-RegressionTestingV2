@@ -8,7 +8,7 @@ Converting a dealer to an agent</description>
    <comment></comment>
    <testCaseGuid>7e49a517-69c7-4d86-8f73-b8976c3dbfa6</testCaseGuid>
    <variable>
-      <defaultValue>'K0705'</defaultValue>
+      <defaultValue>'K0605'</defaultValue>
       <description></description>
       <id>30fe14bc-2c62-4e39-a1bc-d6f3306d0c0f</id>
       <masked>false</masked>

@@ -19,11 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Inventory Module/Demo Devices/verify_SuspendDemoDevices'), [('delay') : '5'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Inventory Module/Demo Devices/verify_SuspendDemoDevices'), [('delay') : '5', ('last_Credit') : ''], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Inventory Module/Device Search/verify_DeviceSearch'), [('serialnumber') : '0715010701-000359'
+        , ('searchBy') : 'SerialNumber'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Inventory Module/Device Landing Page/tab_AuditLog'))
+
+WebUI.delay(15)
+
+WebUI.scrollToElement(findTestObject('Inventory Module/Device Landing Page/grid_SuspendedDemoDevice'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Landing Page/grid_SuspendedDemoDevice'))
+
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Landing Page/grid_UnsuspendedDemoDevice'))
+
+WebUI.closeBrowser()
 
 WebUI.callTestCase(findTestCase('Inventory Module/Demo Devices/verify_UnSuspendDemoDevices'), [('delay') : '5'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Inventory Module/Device Search/verify_DeviceSearch'), [('serialnumber') : '0517011501-001252'
+WebUI.callTestCase(findTestCase('Inventory Module/Device Search/verify_DeviceSearch'), [('serialnumber') : '0715010701-000359'
         , ('searchBy') : 'SerialNumber'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Device Landing Page/tab_AuditLog'))

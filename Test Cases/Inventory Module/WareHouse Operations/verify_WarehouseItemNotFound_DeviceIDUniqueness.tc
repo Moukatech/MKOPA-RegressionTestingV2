@@ -7,7 +7,7 @@ Verify the Error message Warehouse not found when trying to transfer out a devic
    <comment></comment>
    <testCaseGuid>c8ea7840-ffe0-4a33-aa77-49d6dda266e3</testCaseGuid>
    <variable>
-      <defaultValue>'54ff0494-32c0-e511-8288-d4c9ef67fe6f'</defaultValue>
+      <defaultValue>'63e45348-c133-e611-80d4-000d3a2453d9'</defaultValue>
       <description></description>
       <id>9cd08a83-4ac7-4305-8495-404d30398cf7</id>
       <masked>false</masked>

@@ -19,17 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-<<<<<<< HEAD
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_DemoDevices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'WaHo008', ('demo_device') : '04a58263-0097-e411-80ed-00155d83faa4'], 
-=======
 WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Demo Devices'), [('request_Notes') : 'QA Testing', ('delay') : '5'
-        , ('serial_Number') : '0416010902-000005', ('code') : 'SC001', ('demo_device') : '903a220c-6c89-e311-942c-000c29c12997'], 
->>>>>>> branch 'master' of https://github.com/TezzaBusinessSolutions/MKOPA-RegressionTestingV2.git
-    FailureHandling.STOP_ON_FAILURE)
+        , ('serial_Number') : findTestData('Inventory/List Demo Devices').getValue(1, 1), ('code') : findTestData('Inventory/List Demo Devices').getValue(
+            2, 1), ('demo_device') : findTestData('Inventory/List Demo Devices').getValue(3, 1)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Devices List/link_IssueDemoDevice'))
 

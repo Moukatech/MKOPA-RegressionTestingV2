@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>785e18fa-367d-4e00-86da-d3f7e2089ea3</testCaseGuid>
    <variable>
-      <defaultValue>'0916011601-011852'</defaultValue>
+      <defaultValue>findTestData('Inventory/Susspend_Unsuspend Device').getValue(1, 1)</defaultValue>
       <description></description>
       <id>7d466aa4-de72-4436-93a3-efdb9fe9e006</id>
       <masked>false</masked>

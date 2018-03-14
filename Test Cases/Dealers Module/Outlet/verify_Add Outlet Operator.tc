@@ -22,11 +22,11 @@ adding an outlet operator</description>
       <name>idType</name>
    </variable>
    <variable>
-      <defaultValue>'Tuesday, February 01, 2000'</defaultValue>
+      <defaultValue>'2000-02-29 00:00:00'</defaultValue>
       <description></description>
       <id>74534c09-094a-437e-b9b2-66dcc76a30c2</id>
       <masked>false</masked>
-      <name>dob</name>
+      <name>dateOfBirth</name>
    </variable>
    <variable>
       <defaultValue>'Male'</defaultValue>
@@ -64,14 +64,14 @@ adding an outlet operator</description>
       <name>otherNames</name>
    </variable>
    <variable>
-      <defaultValue>'29364586'</defaultValue>
+      <defaultValue>'27000012'</defaultValue>
       <description></description>
       <id>4cbf6f74-91d2-4d4a-bb95-5ea0ab908afe</id>
       <masked>false</masked>
       <name>idNumber</name>
    </variable>
    <variable>
-      <defaultValue>'0726395485'</defaultValue>
+      <defaultValue>'0717221448'</defaultValue>
       <description></description>
       <id>767c7522-79ee-4cf7-bac6-7a63d9ad8cc7</id>
       <masked>false</masked>

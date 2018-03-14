@@ -88,5 +88,3 @@ WebUI.check(findTestObject('Dealers Module/Outlet Details/check_Outlet Product',
 
 WebUI.click(findTestObject('Dealers Module/Outlet Details/button_Save'))
 
-WebUI.closeBrowser()
-

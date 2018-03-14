@@ -22,7 +22,7 @@ adding a product to an outlet</description>
       <name>outletCode</name>
    </variable>
    <variable>
-      <defaultValue>'SHS d20g vSC Live'</defaultValue>
+      <defaultValue>'M-KOPA III'</defaultValue>
       <description></description>
       <id>7f786e9d-bb0d-4dea-940a-ddd5b6c4e055</id>
       <masked>false</masked>

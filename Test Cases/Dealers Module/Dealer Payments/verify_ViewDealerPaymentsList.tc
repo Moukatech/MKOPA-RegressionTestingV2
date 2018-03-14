@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Case ID: 534
-Test Case Description: View  Dealer Payments List</description>
-   <name>verify_ViewDealerPaymentsList</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e69a9fa8-e26e-45c6-a851-9a8fd0b85371</testCaseGuid>
-</TestCaseEntity>

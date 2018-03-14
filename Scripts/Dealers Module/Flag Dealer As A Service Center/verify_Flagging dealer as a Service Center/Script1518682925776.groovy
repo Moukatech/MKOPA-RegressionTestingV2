@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to particuler dealers page'), [('dealernumber') : dealer_AccountNumber], 
+WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to particuler dealers page'), [('dealernumber') : accountNumber], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Dealers Module/Dealer Account/link_Change Type'))
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Dealers Module/Change Type/dropdown_DealershipType')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dealers Module/Change Type/select_DealershipType', [('select_dealershipType') : select_dealershipType]))
+WebUI.click(findTestObject('Dealers Module/Change Type/select_DealershipType', [('select_dealershipType') : dealershipType]))
 
 WebUI.click(findTestObject('Dealers Module/Change Type/button_Change'))
 
@@ -38,7 +38,7 @@ WebUI.delay(2)
 
 WebUI.acceptAlert()
 
-WebUI.verifyElementVisible(findTestObject('Dealers Module/Change Type/confirm_DealershipTypeChanged', [('confirm_dealershipchanged') : confirm_dealershipchanged]))
+WebUI.verifyElementVisible(findTestObject('Dealers Module/Change Type/confirm_DealershipTypeChanged', [('confirm_dealershipchanged') : dealershipChanged]))
 
 WebUI.closeBrowser()
 

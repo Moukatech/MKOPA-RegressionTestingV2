@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to particuler deale
 
 BalanceBefore = WebUI.getText(findTestObject('Dealers Module/Order Administration/Text_AccountBalancefor dealer'))
 
-WebUI.callTestCase(findTestCase('Dealers Module/Order Administration/validate_order declined'), [('ordernumber') : ordernumber], 
+WebUI.callTestCase(findTestCase('Dealers Module/Order Administration/verify_Order declined'), [('ordernumber') : ordernumber], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Dealers Module/Common/Steps to particuler dealers page'), [('dealernumber') : dealernumber], 

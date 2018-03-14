@@ -140,7 +140,7 @@
       <guid>aa64169c-ca19-481d-ac61-74f7c22a23c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/validates_EnterValidSerial_PickNewDemoDevices</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/validate_ValidSerial_PickNewDemoDevices</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -176,7 +176,7 @@
       <guid>b40158c9-43f4-4183-a3d1-daf61b37fafa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/validate_Addatleastonedemodevice_PickNewDemoDevices</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/validate_AtleastOneDemoDevice</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

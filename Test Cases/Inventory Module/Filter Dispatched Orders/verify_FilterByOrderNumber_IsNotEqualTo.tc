@@ -16,7 +16,7 @@ Note: Operator_IsNotEqualTo</description>
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'KE0337185-01'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(1, 1)</defaultValue>
       <description></description>
       <id>ae7d6b84-7d74-4211-bc89-5037d3bcf1de</id>
       <masked>false</masked>

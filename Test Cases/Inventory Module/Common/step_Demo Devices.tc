@@ -21,21 +21,21 @@ Test Description: Test Step that Lists Demo Devices. It also captures test case 
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'0416010902-000005'</defaultValue>
+      <defaultValue>findTestData('Inventory/List Demo Devices').getValue(1, 1)</defaultValue>
       <description></description>
       <id>a0a84990-c36e-4a0f-9653-a5424feabc84</id>
       <masked>false</masked>
       <name>serial_Number</name>
    </variable>
    <variable>
-      <defaultValue>'PRD-LINE\t'</defaultValue>
+      <defaultValue>findTestData('Inventory/List Demo Devices').getValue(2, 1)</defaultValue>
       <description></description>
       <id>d522ea08-b062-4ac4-b4ec-72f71336d76b</id>
       <masked>false</masked>
       <name>code</name>
    </variable>
    <variable>
-      <defaultValue>'54ff0494-32c0-e511-8288-d4c9ef67fe6f'</defaultValue>
+      <defaultValue>findTestData('Inventory/List Demo Devices').getValue(3, 1)</defaultValue>
       <description></description>
       <id>b8e4531b-3f99-409f-91ff-8592c02672cf</id>
       <masked>false</masked>

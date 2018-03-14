@@ -19,11 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-<<<<<<< HEAD
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_SaleRepDemoDeviceManagement'), [('delay') : '3', ('device_serialNumber') : '1015010701-000609'], 
-=======
-WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Sale Rep Demo Device Management'), [('delay') : '3', ('device_serialNumber') : '0517011501-001607'], 
->>>>>>> branch 'master' of https://github.com/TezzaBusinessSolutions/MKOPA-RegressionTestingV2.git
+WebUI.callTestCase(findTestCase('Inventory Module/Common/step_Sale Rep Demo Device Management'), [('delay') : '3', ('device_serialNumber') : findTestData('Inventory/Susspend_Unsuspend Device').getValue(2, 1)], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/tab_CreditsSent'))
@@ -31,6 +27,8 @@ WebUI.click(findTestObject('Inventory Module/Demo Device Management/tab_CreditsS
 WebUI.delay(delay)
 
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/tab_StatesSent'))
+
+WebUI.delay(delay)
 
 WebUI.click(findTestObject('Inventory Module/Demo Device Management/link_UnsuspendLink'))
 

@@ -30,13 +30,7 @@ WebUI.verifyTextPresent('An outlet is required', false)
 
 WebUI.verifyTextPresent('The outlet product is required', false)
 
-not_run: WebUI.click(findTestObject('Dealers Module/Make Purchase Request/Dropdowns_outlet'))
-
-not_run: WebUI.click(findTestObject('Dealers Module/Make Purchase Request/dropdown_producttype'))
-
-not_run: WebUI.verifyAlertPresent(3)
-
-not_run: WebUI.acceptAlert()
-
 WebUI.delay(delay)
+
+WebUI.closeBrowser()
 

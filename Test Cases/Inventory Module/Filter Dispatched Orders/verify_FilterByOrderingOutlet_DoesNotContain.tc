@@ -14,7 +14,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOut
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA HOUSE'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(4, 1)</defaultValue>
       <description></description>
       <id>36037f5b-f026-4e65-a515-2b0d85639746</id>
       <masked>false</masked>

@@ -159,7 +159,7 @@
       <guid>54cd5a42-985e-4908-851e-5b19dd764d62</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Demo Devices/validate_ApproveDemoDeviceCreationRequestBlankSave</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Demo Devices/validate_ApproveDemoDeviceCreationRequest</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -189,7 +189,7 @@
       <guid>e0c3ba6d-2a89-4831-8dc2-bf965de603bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Demo Devices/verify_ConfirmDemoDeviceApproval</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Demo Devices/verify_DemoDeviceApproval</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -207,7 +207,7 @@
       <guid>397a7168-04f5-4983-ba81-a0920eb9464e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Demo Devices/validate_IssueDemoDeviceToOutletItemNotFound</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Demo Devices/validate_IssueDemoDeviceToOutlet</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -267,7 +267,7 @@
       <guid>4f311412-b0c2-4021-84f8-7771dbe8c01f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Demo Devices/validate_IssueDemoDeviceToSalesRepBlankSave</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Demo Devices/validate_IssueDemoDeviceToSalesRep</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -351,7 +351,7 @@
       <guid>904292a0-6721-41c1-8e3e-6f1cf8bf86be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Demo Devices/verify_SalesRepSuspendDemoDevices</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Demo Devices/verify_SuspendSalesRepDemoDevices</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

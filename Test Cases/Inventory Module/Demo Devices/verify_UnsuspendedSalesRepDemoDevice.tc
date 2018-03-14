@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test Case ID: 5503
+Test Case Description: Verify Sales Rep Demo Device is UnSuspended Successfully</description>
    <name>verify_UnsuspendedSalesRepDemoDevice</name>
    <tag></tag>
    <comment></comment>
