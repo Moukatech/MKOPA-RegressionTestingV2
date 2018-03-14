@@ -30,3 +30,5 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('MKOPA IV Module/Change light Port Status/statessent_Element'), 3)
 
+WebUI.closeBrowser()
+

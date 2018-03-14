@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>f737633d-954d-4b4e-a36a-9157ccb4e0a2</testCaseGuid>
    <variable>
-      <defaultValue>'0715010701000007'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/change light port status').getValue(1, 1)</defaultValue>
       <description></description>
       <id>eb9d2b05-cb48-4d24-8cee-1d15d267b4ef</id>
       <masked>false</masked>
