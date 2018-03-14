@@ -30,7 +30,8 @@ WebUI.callTestCase(findTestCase('Inventory Module/Manifest Upload/steps_manifest
         , ('manifestType') : manifestType, ('shippingDate') : shippingDate, ('loanDraw') : loanDraw, ('selectId') : selectId
         , ('consignmentNo') : 'DAFWT2YQGQI'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select Item Type'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Inventory Module/Device Manifest Upload/errorMsg_Select the Shipping Date'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

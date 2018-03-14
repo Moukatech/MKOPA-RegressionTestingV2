@@ -203,43 +203,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e67cfce-9d04-40f7-a8ac-dd0b7eb2a0c2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Manifest Upload/validate_EnterLoanDrawRequired</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3ed8a83f-ba87-4463-b972-6147db83703a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7fdaa753-057e-41d8-9380-a06f44c53258</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ae8e4d15-62b4-41ae-9382-4a35f91bc55d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6f91d004-84b9-4cd8-a645-5884fd066807</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>15ac49f8-2494-4739-9101-1964295c3188</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c4928f2e-2fe7-4380-b32c-7e03b8d97150</guid>
+      <guid>fd879fa6-d4c1-467c-a539-6359e9de20c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Inventory Module/Manifest Upload/validate_Shipping Date Required</testCaseId>
@@ -278,6 +242,42 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>653db032-af61-4586-a61a-c85428a845f2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9e67cfce-9d04-40f7-a8ac-dd0b7eb2a0c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Inventory Module/Manifest Upload/validate_EnterLoanDrawRequired</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3ed8a83f-ba87-4463-b972-6147db83703a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7fdaa753-057e-41d8-9380-a06f44c53258</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae8e4d15-62b4-41ae-9382-4a35f91bc55d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6f91d004-84b9-4cd8-a645-5884fd066807</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15ac49f8-2494-4739-9101-1964295c3188</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

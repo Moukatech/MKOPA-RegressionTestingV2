@@ -167,36 +167,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ed6196b-edbf-4435-97b9-292f2e16aa34</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealers Module/Sales Sub-Areas/Steps_add SubArea</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d77780e2-1603-4fcc-9fdb-e77bc69acb33</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2dddc1a0-8c9c-4913-a176-1453825895f9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b4f25a3a-9173-4a52-b327-3d789cdd3ed0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a3f5f6be-0930-4548-879b-0d442918347e</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5b8643ca-14d2-4ded-a387-4ea2d2ffa35a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

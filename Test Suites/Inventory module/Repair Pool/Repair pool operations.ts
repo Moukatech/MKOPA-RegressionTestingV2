@@ -239,36 +239,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8e918e14-4ccc-4f54-87ea-14e8b038a8f9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/Repair Pool Transfers/steps_Repair Pool Transfers In</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>aee1c82a-d3b2-4f00-95b0-f46ea4e1669d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>17150d63-b3d7-4378-9b16-a39b6d66c35b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>453be2a4-71c9-4efb-bb1c-17b7bf99b370</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c9059b29-d4eb-416a-b245-e30c7e884a4e</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>461b9647-5ac0-4945-8448-a4d42bcf0e71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -308,6 +278,36 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>f1c4910b-d26c-4f9c-a2f9-b0883fd77101</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e918e14-4ccc-4f54-87ea-14e8b038a8f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Inventory Module/Repair Pool Transfers/steps_Repair Pool Transfers In</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aee1c82a-d3b2-4f00-95b0-f46ea4e1669d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17150d63-b3d7-4378-9b16-a39b6d66c35b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>453be2a4-71c9-4efb-bb1c-17b7bf99b370</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9059b29-d4eb-416a-b245-e30c7e884a4e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

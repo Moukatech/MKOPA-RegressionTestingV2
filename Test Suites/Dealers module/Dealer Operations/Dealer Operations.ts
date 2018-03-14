@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>Executes all the dealer operations i.e. adding dealers and managing them.</description>
-   <name>Dealer Operaions</name>
+   <name>Dealer Operations</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>

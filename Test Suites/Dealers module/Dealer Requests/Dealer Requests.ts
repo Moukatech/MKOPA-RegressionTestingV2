@@ -53,42 +53,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>81e3cd53-ad04-40c0-b51c-c3e1e6329ec9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealers Module/Make Purchase Request/Steps_Make purchase Request</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b56089cb-dbe2-4b30-816c-5d888d8563ec</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5e2cee84-5447-4cb3-b909-27bb86744d33</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c8e2e542-e8ef-497f-b52f-10b07dcab77c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>44d99ff8-c236-4eda-ab56-887b24f2bd3d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0222f677-5cd4-4e96-b1a2-4ea1d527af5b</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4d0d3722-a998-4f13-a9d0-bcca33f28425</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -122,18 +86,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>6843a631-80f3-49bd-95b0-03a14220fc33</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>192e8a5a-f437-41ac-ba4f-976b47ce311e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealers Module/Approve Purchase Requests/Steps_approve purchase requests</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>36f3c818-fc6a-4780-9d8b-0b6885f1cd51</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -206,66 +158,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>ed91b87a-030f-4872-b2d6-15372ce0ed64</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f8d572ba-51a3-4721-bf09-5514ea76e935</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealers Module/Return Stock Request/Steps to Place Return Stock Request</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f5d36247-9a20-458b-b81d-82d472e3b5c5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>921e8365-b968-40b9-ac59-8876d49872b9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>87310c46-6317-44cb-b702-8eb323487637</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b3b3ff22-c89b-4bf1-b736-0213dbf7f3cd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5f766722-88e6-4d53-b68c-6f7b6668e08f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f1085dec-610c-434c-8272-492f7373c491</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6e46a812-6837-44ed-a636-6f4c1076e079</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b238d4d6-da95-41cb-a3ef-8bd85cbdbf53</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealers Module/Return Stock Request/Steps_approve Return Request</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1a8ba859-c178-4ac6-b9d0-b925a8f3a1a4</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
