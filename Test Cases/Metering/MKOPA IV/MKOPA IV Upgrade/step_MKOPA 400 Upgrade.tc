@@ -20,35 +20,42 @@
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'SC001 M-KOPA Shop Meru (01063)'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Upgrades').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e4c7d83e-69bb-42a3-b8a1-a4ffe2b4bf0d</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA IV/Upgrades').getValue(2, 1)</defaultValue>
       <description></description>
       <id>41e0aff9-2f82-49a7-a7cd-fae02887726a</id>
       <masked>false</masked>
       <name>dealership</name>
    </variable>
    <variable>
-      <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Upgrades').getValue(3, 1)</defaultValue>
       <description></description>
       <id>623908b5-55a4-46ca-a3a8-84c9f894bfa4</id>
       <masked>false</masked>
       <name>outlet</name>
    </variable>
    <variable>
-      <defaultValue>'Loan'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Upgrades').getValue(4, 1)</defaultValue>
       <description></description>
       <id>e5f167d4-87f4-49e0-82c6-1ed7d38b3e47</id>
       <masked>false</masked>
       <name>plan_Type</name>
    </variable>
    <variable>
-      <defaultValue>'Njoki Maureen'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Upgrades').getValue(5, 1)</defaultValue>
       <description></description>
       <id>6d19e69a-da91-4e0b-884a-6ffbd535fce5</id>
       <masked>false</masked>
       <name>operator</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA +400 v4 (M-KOPA +400 ZERO deposit + 50 for 850 days)'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Upgrades').getValue(6, 1)</defaultValue>
       <description></description>
       <id>7744acfd-055e-4bb2-8dac-87236cd0e9b9</id>
       <masked>false</masked>

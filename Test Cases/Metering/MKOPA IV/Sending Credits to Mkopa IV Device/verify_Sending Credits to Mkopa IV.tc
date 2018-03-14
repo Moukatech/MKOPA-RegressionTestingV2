@@ -6,21 +6,21 @@
    <comment></comment>
    <testCaseGuid>e634a008-4e9b-4860-8f89-5fd4de0bf687</testCaseGuid>
    <variable>
-      <defaultValue>'4866974'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Send credits and states').getValue(1, 2)</defaultValue>
       <description></description>
       <id>41988d06-5061-4780-899d-8af9f2242a1e</id>
       <masked>false</masked>
       <name>customerToSearch</name>
    </variable>
    <variable>
-      <defaultValue>'0616010701-011135'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Send credits and states').getValue(2, 2)</defaultValue>
       <description></description>
       <id>9f0c6473-f4fc-47b1-95e1-374e683d2bda</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Send credits and states').getValue(3, 2)</defaultValue>
       <description></description>
       <id>ffdf0bc2-b5f8-4e13-8372-30a9f6c8424e</id>
       <masked>false</masked>

@@ -19,10 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726//'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : '23008785'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/step_SearchCustomer'), [('customerToSearch') : customerAccount], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(delay)
 
@@ -77,5 +77,5 @@ WebUI.click(findTestObject('MKOPA IV Module/Create New Product/option_PaymentPla
 
 WebUI.setText(findTestObject('MKOPA IV Module/Create New Product/input_RequestNotes'), request_Notes)
 
-WebUI.click(findTestObject('MKOPA IV Module/Create New Product/button_SubmitAddProduct'))
+not_run: WebUI.click(findTestObject('MKOPA IV Module/Create New Product/button_SubmitAddProduct'))
 

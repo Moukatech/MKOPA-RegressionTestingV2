@@ -8,21 +8,21 @@ Send states manuallyand automatically to Mkopa IV Device. The states should refl
    <comment></comment>
    <testCaseGuid>95540549-22d0-41ad-b158-fb8535d12974</testCaseGuid>
    <variable>
-      <defaultValue>'6120984'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Send credits and states').getValue(1, 5)</defaultValue>
       <description></description>
       <id>a5b7c26c-d23a-46b8-91dd-af584f8b7937</id>
       <masked>false</masked>
       <name>customerToSearch</name>
    </variable>
    <variable>
-      <defaultValue>'0616010701-001094'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Send credits and states').getValue(2, 5)</defaultValue>
       <description></description>
       <id>eb942b86-2a98-45ad-b42d-8e83e1397934</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Send credits and states').getValue(3, 5)</defaultValue>
       <description></description>
       <id>1d1b72c5-5428-44ed-b37f-aba23e1517db</id>
       <masked>false</masked>
