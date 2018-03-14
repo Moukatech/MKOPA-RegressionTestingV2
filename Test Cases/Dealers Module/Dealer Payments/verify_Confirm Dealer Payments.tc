@@ -7,35 +7,35 @@ Test Case Description: Confirm Dealer Payments</description>
    <comment></comment>
    <testCaseGuid>a8196f31-26f3-4d8b-adab-942752d06014</testCaseGuid>
    <variable>
-      <defaultValue>'01314'</defaultValue>
+      <defaultValue>findTestData('Dealers/Dealer Payments/Confirming dealer payment').getValue(1, 1)</defaultValue>
       <description></description>
       <id>49d50912-cb75-46f7-8091-4d237cfdcde4</id>
       <masked>false</masked>
       <name>account</name>
    </variable>
    <variable>
-      <defaultValue>'0711671652'</defaultValue>
+      <defaultValue>findTestData('Dealers/Dealer Payments/Confirming dealer payment').getValue(2, 1)</defaultValue>
       <description></description>
       <id>2de65672-3f1e-4cb2-a969-3c1c912b0538</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
-      <defaultValue>'110'</defaultValue>
+      <defaultValue>findTestData('Dealers/Dealer Payments/Confirming dealer payment').getValue(3, 1)</defaultValue>
       <description></description>
       <id>199f43cd-1414-415a-9cfd-db8239212e9a</id>
       <masked>false</masked>
       <name>amount</name>
    </variable>
    <variable>
-      <defaultValue>'AAOSJDKWOWJSPOA'</defaultValue>
+      <defaultValue>findTestData('Dealers/Dealer Payments/Confirming dealer payment').getValue(4, 1)</defaultValue>
       <description></description>
       <id>16297e89-9182-4818-a6d5-9732fdf2c401</id>
       <masked>false</masked>
       <name>receiptNumber</name>
    </variable>
    <variable>
-      <defaultValue>'Confirming Dealer Payments'</defaultValue>
+      <defaultValue>findTestData('Dealers/Dealer Payments/Confirming dealer payment').getValue(5, 1)</defaultValue>
       <description></description>
       <id>e39493d9-9db1-4e85-8575-99a4a299a55b</id>
       <masked>false</masked>

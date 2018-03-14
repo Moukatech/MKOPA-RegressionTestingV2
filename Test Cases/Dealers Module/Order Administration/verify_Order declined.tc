@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>39a3d52f-1507-441f-9c4d-e09a836f296d</testCaseGuid>
    <variable>
-      <defaultValue>'KE0401042-01'</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Decline Orders').getValue(1, 1)</defaultValue>
       <description></description>
       <id>f069ee3a-97a5-4f38-b19f-4a5f7fb5672d</id>
       <masked>false</masked>

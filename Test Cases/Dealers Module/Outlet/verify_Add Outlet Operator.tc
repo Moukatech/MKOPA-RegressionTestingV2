@@ -8,70 +8,70 @@ adding an outlet operator</description>
    <comment></comment>
    <testCaseGuid>717d9389-e5be-4c4e-af1d-67c3984a3dd6</testCaseGuid>
    <variable>
-      <defaultValue>'K0714'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(1, 1)</defaultValue>
       <description></description>
       <id>b9e877ce-067b-4861-be1c-9f960c87bbdd</id>
       <masked>false</masked>
       <name>dealerAcc</name>
    </variable>
    <variable>
-      <defaultValue>'National ID'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(2, 1)</defaultValue>
       <description></description>
       <id>ba8e7a55-068e-4653-bc59-7608d882a0a9</id>
       <masked>false</masked>
       <name>idType</name>
    </variable>
    <variable>
-      <defaultValue>'2000-02-29 00:00:00'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(3, 1)</defaultValue>
       <description></description>
       <id>74534c09-094a-437e-b9b2-66dcc76a30c2</id>
       <masked>false</masked>
       <name>dateOfBirth</name>
    </variable>
    <variable>
-      <defaultValue>'Male'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(4, 1)</defaultValue>
       <description></description>
       <id>86bd4d05-6cfb-4f2f-8cb9-28220e2c3100</id>
       <masked>false</masked>
       <name>gender</name>
    </variable>
    <variable>
-      <defaultValue>'English'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(5, 1)</defaultValue>
       <description></description>
       <id>a8c67d88-8e71-468c-b5e2-6ae444ee669b</id>
       <masked>false</masked>
       <name>language</name>
    </variable>
    <variable>
-      <defaultValue>'DSR'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(6, 1)</defaultValue>
       <description></description>
       <id>ba77dae7-ed60-49fc-90c8-98493d7e8ce2</id>
       <masked>false</masked>
       <name>operatorType</name>
    </variable>
    <variable>
-      <defaultValue>'Mutai '</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(7, 1)</defaultValue>
       <description></description>
       <id>3747777d-9ca6-4900-adb2-388974072fd4</id>
       <masked>false</masked>
       <name>surname</name>
    </variable>
    <variable>
-      <defaultValue>'Enock Kiptum'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(8, 1)</defaultValue>
       <description></description>
       <id>10a24d87-80fb-4cad-868c-b355b4e67402</id>
       <masked>false</masked>
       <name>otherNames</name>
    </variable>
    <variable>
-      <defaultValue>'27000012'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(9, 1)</defaultValue>
       <description></description>
       <id>4cbf6f74-91d2-4d4a-bb95-5ea0ab908afe</id>
       <masked>false</masked>
       <name>idNumber</name>
    </variable>
    <variable>
-      <defaultValue>'0717221448'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Add outlet Operator').getValue(10, 1)</defaultValue>
       <description></description>
       <id>767c7522-79ee-4cf7-bac6-7a63d9ad8cc7</id>
       <masked>false</masked>

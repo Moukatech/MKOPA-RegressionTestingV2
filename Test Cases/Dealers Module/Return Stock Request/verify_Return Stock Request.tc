@@ -6,49 +6,49 @@
    <comment></comment>
    <testCaseGuid>e1d50f53-3e9f-412d-816d-0f58ea8d2913</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Return Stock Request').getValue(1, 1)</defaultValue>
       <description></description>
       <id>aa8b2e8f-e400-4b90-baa9-997359d69823</id>
       <masked>false</masked>
       <name>dealernumber</name>
    </variable>
    <variable>
-      <defaultValue>' M-KOPA RETAIL'</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Return Stock Request').getValue(2, 1)</defaultValue>
       <description></description>
       <id>81713693-512d-423e-81cb-17804058f52c</id>
       <masked>false</masked>
       <name>businessname</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Return Stock Request').getValue(3, 1)</defaultValue>
       <description></description>
       <id>dd0ca290-f2b4-47e1-920e-dd45f64b811e</id>
       <masked>false</masked>
       <name>phonenumber</name>
    </variable>
    <variable>
-      <defaultValue>'VoluntaryReturn'</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Return Stock Request').getValue(4, 1)</defaultValue>
       <description></description>
       <id>9fe0a56a-cc45-4e18-af8f-14bd530307d9</id>
       <masked>false</masked>
       <name>returnType</name>
    </variable>
    <variable>
-      <defaultValue>'M-KOPA NAIROBI'</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Return Stock Request').getValue(5, 1)</defaultValue>
       <description></description>
       <id>48c0958e-7c02-4d14-88c9-0788cc563d85</id>
       <masked>false</masked>
       <name>outlet</name>
    </variable>
    <variable>
-      <defaultValue>' M-KOPA 4 SC '</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Return Stock Request').getValue(6, 1)</defaultValue>
       <description></description>
       <id>d2e3b7f1-f117-4907-ae69-68e620f9e2b8</id>
       <masked>false</masked>
       <name>outletProductType</name>
    </variable>
    <variable>
-      <defaultValue>'0716010701-009441'</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Return Stock Request').getValue(7, 1)</defaultValue>
       <description></description>
       <id>5a11f912-edf7-4e0a-98f2-700b1fa06c54</id>
       <masked>false</masked>
