@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Blocking an mkopa 4 account</description>
+   <name>Block Account</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>5028bf3c-105f-4442-8616-cb4bdfbe182d</testSuiteGuid>
+   <testCaseLink>
+      <guid>34176a5a-92e6-491e-bee1-7ba6b9453a16</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Metering/MKOPA IV/Block acccount/validate_required fields for block account aproval</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e19993f-806e-4887-bf11-34e1b9566201</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5daf9424-f7ba-4ff1-a176-6f267d7e42a0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45a536cb-acb0-414e-ae92-c061f46af52f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Metering/MKOPA IV/Block acccount/verify_Block account request for m-kopa 4 account</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>35539444-8f26-4b70-851b-06661a864c32</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2fe6623a-eeda-4009-9b33-bd51b2476a0c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>573ae49d-1edb-4cd6-945b-d58ff271db7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>489c6676-0c4a-43a0-a079-f12fa81f5d4d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69e099c9-ba70-4d68-922f-c645d8e6e117</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Metering/MKOPA IV/Block acccount/verify_Block acccount request approval</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c771c91-2112-4be5-870e-9362a3e95043</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf6520a8-c40e-40e6-a09b-ab40e36040ca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4fb9c9e1-6ddc-4197-a335-d3f2e2bd2b9e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71e52742-c5bd-4db6-a324-361475675515</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Metering/MKOPA IV/Block acccount/verify_Credits and States Cannot be Send to a Blocked M-kopa 4 Account</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81446ef2-a87f-4383-b6c3-52f63aa4fb16</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

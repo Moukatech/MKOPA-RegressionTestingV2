@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Executes a list of ware house operations</description>
-   <name>Warehouse operations</name>
+   <description>sending state links</description>
+   <name>Send state links</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,131 +9,125 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>1cc9b13a-707e-4ffc-a181-25efd97b06b6</testSuiteGuid>
+   <testSuiteGuid>dcb4b8cb-03f8-47c6-9e09-36f2950a88aa</testSuiteGuid>
    <testCaseLink>
-      <guid>ecc016f8-416f-4d20-943c-c4c918c21f1a</guid>
+      <guid>d938870a-38c0-4568-a254-6bb619279452</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/verify_View Return Tickets</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/Send State Link/verify_Send State Link Works</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>54340856-6976-410f-8b61-94024cfd0a9b</variableId>
+         <variableId>5da9805c-851c-4f50-8cfa-0ae796eb62b7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d520bc47-ecf0-4ce7-84c9-83ca03ae8257</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2d88de17-0980-46e5-8e08-6907d86c67ce</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/validate_Receive customer returned device</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>235eaab8-aee2-4bc8-a893-d4a26ce38424</variableId>
+         <variableId>1581b96a-083b-466d-84e0-91f7a33f3640</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f47f11aa-dfaf-46c4-95bc-2ca6d5fc9726</variableId>
+         <variableId>d045fc81-2a04-4a8b-8efe-10630e5cc377</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2e84de61-ba50-4c04-bcb2-da37e63b6e04</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>42fe23d4-3700-4293-b340-f748578bc19f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/verify_Receive customer returned devices</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e6cad9ca-d561-45f9-9bc4-09a6e407912d</variableId>
+         <variableId>82c3a786-768b-49e5-aed9-f0a259df48df</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d3f4bbb9-5b2a-48d2-abab-8a14d54ef186</variableId>
+         <variableId>a3a1c49f-b0ae-442a-acf5-b4a2d2adda89</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4ee4ed9c-cd95-4564-9fa6-47f8dd66d885</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6193455b-e522-4955-a69e-a23801655d8e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/validate_receive dealer returned device</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a2fd0a36-9c71-491f-9e38-1485a5f3b15d</variableId>
+         <variableId>b9e20f3b-a91c-414d-87a4-58286d055b5c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fafe16ee-de13-4a22-8350-317c61dfa9bc</variableId>
+         <variableId>6e2ac078-8f4a-4490-aec1-7b2fb7df656c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0b026346-185d-4844-9f12-b9b3a19ea56e</variableId>
+         <variableId>71035ee8-a9ad-4755-a587-6c1610790334</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1d1d804a-9122-4703-90a6-4bf18c09aec3</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e027b3e9-3d9d-484b-bf63-16907aefc37a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/WareHouse Operations/verify_Receive Dealer returned device</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b13a9f63-deaf-4097-ab17-bfdbdbcded16</variableId>
+         <variableId>2c1679d7-261f-454f-a6d3-3feda84331d7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>689fa54a-d3d8-43d1-bbe6-0c12c0eeec74</variableId>
+         <variableId>450e2bff-dc64-4f75-8a77-be04433b5fe4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7bee99aa-e8e5-4ec0-8c59-e8c7b6ad6025</variableId>
+         <variableId>d440eb47-6960-4b30-bac7-8602d776b493</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d93927ec-8230-43a0-a3b9-53d8c9a2a040</variableId>
+         <variableId>a0e9f257-62fc-47b3-8b9d-1b75259e021a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16ed2f42-8506-4de6-a154-990d0621cd91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>72598be2-7ac2-4302-a46a-b5a262bebbb4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aad6a8e4-a7a2-4cd5-9929-787db4034bee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>47861b8e-0c12-44c3-93ac-3b059296919b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>64b40e4e-9efa-4766-8923-889757314cf3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0271c86-e389-4156-b5c5-977394ebed63</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>09c48030-581e-4887-91f3-e280b956c31a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

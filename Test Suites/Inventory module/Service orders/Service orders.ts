@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Executing operarions on serving orders</description>
+   <name>Service orders</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>295c3c7c-7e82-44e3-886f-a942b3b934e7</testSuiteGuid>
+   <testCaseLink>
+      <guid>68e76087-ea41-4c27-8f3e-ea928ae8a42f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Inventory Module/Service Order/Steps_Service Order</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>043ba446-9bae-4215-8c47-71c69f9b2aad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b860a8a-4689-43c9-9bb7-44d586c26a50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d0aa5a0-696e-45a4-9f27-0301f2796444</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5df04f24-9ed6-44a0-922b-0dd4e00e5d24</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9178c0e-92b8-43f6-bce0-925624ed77e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Inventory Module/Service Order/Validate_Required Fields</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a62aad9f-f0f8-4fb2-92d1-f8900445d9ee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3381cf3-4940-4f15-9eac-d309995a896e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8f95fb41-af28-4c4b-bb7c-2fc7d7eb7af3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0001f0c-d708-4450-b23b-684c636fcb84</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

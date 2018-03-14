@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Executes all the dealer payments operations made by dealers</description>
+   <name>Dealer Payments</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>5324415f-00cb-49cd-b849-1cdcb2f7f972</testSuiteGuid>
+   <testCaseLink>
+      <guid>4dde388e-f986-4e76-b8d2-2f99d04631b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dealers Module/Dealer Payments/Verify_Upload Dealers Payment File</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8a4d4b3-9141-4e5f-91ac-a941b7504023</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a5689380-8620-4693-a594-400ce9bddd50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3558edc4-ac71-42a7-b511-a70b397d29f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69fe1a63-4839-4c04-a05f-1e8df9dad060</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa21010d-cb63-45cf-8fc7-ea207ca5945e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>60834667-b0f3-4ea2-ab3d-af7b626e4711</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dealers Module/Dealer Payments/verify_Confirm Dealer Payments</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49d50912-cb75-46f7-8091-4d237cfdcde4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2de65672-3f1e-4cb2-a969-3c1c912b0538</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>199f43cd-1414-415a-9cfd-db8239212e9a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16297e89-9182-4818-a6d5-9732fdf2c401</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e39493d9-9db1-4e85-8575-99a4a299a55b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f217b9d-65f8-4bdd-a031-26eabb1a13f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dealers Module/Dealer Payments/verify_View Dealer Payments List</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>
