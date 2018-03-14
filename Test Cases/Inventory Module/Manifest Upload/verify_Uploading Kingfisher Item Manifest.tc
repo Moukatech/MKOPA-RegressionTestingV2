@@ -8,49 +8,49 @@ Upload a Metered Item Manifest and the Item Type Should be  KingFisher</descript
    <comment></comment>
    <testCaseGuid>e8689c1e-92d7-45d7-8156-6c25ac685105</testCaseGuid>
    <variable>
-      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/KingFisher Item Manifest').getValue(1, 1)</defaultValue>
       <description></description>
       <id>4c270069-d9bf-449b-9bdb-fc17602df126</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
-      <defaultValue>'OEL'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/KingFisher Item Manifest').getValue(2, 1)</defaultValue>
       <description></description>
       <id>c8f9ef3e-55d7-468f-9fb9-45235c5201e2</id>
       <masked>false</masked>
       <name>supplier</name>
    </variable>
    <variable>
-      <defaultValue>'Primary Device'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/KingFisher Item Manifest').getValue(3, 1)</defaultValue>
       <description></description>
       <id>5fd17f2a-e84c-4d8b-86dc-32c053359646</id>
       <masked>false</masked>
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>'10000'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/KingFisher Item Manifest').getValue(4, 1)</defaultValue>
       <description></description>
       <id>09b3901b-9bbf-4cd4-8d1d-bb618db5e1ef</id>
       <masked>false</masked>
       <name>loanDraw</name>
    </variable>
    <variable>
-      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/KingFisher Item Manifest').getValue(5, 1)</defaultValue>
       <description></description>
       <id>fceadc92-5b9e-4116-8000-20f5a05a3d63</id>
       <masked>false</masked>
       <name>shippingDate</name>
    </variable>
    <variable>
-      <defaultValue>'True'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/KingFisher Item Manifest').getValue(6, 1)</defaultValue>
       <description></description>
       <id>0903e21e-b1dc-4219-92fb-05778518a4d7</id>
       <masked>false</masked>
       <name>condition</name>
    </variable>
    <variable>
-      <defaultValue>'meteredItemManifests'</defaultValue>
+      <defaultValue>findTestData('Inventory/Manifest Uploads/KingFisher Item Manifest').getValue(7, 1)</defaultValue>
       <description></description>
       <id>7d994605-7927-448f-87a0-3791547537ba</id>
       <masked>false</masked>

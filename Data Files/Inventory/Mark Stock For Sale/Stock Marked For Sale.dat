@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Test Data for Verify_Sock Marked for Sale</description>
+   <name>Stock Marked For Sale</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>15371d95-bdfb-4b0b-b924-262bf188451b</dataFileGUID>
+   <dataSourceUrl>Data Files/Inventory/Mark Stock For Sale/Mark Stock For Sale.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Stock Marked for Sale</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

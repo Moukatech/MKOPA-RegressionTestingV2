@@ -7,35 +7,35 @@ Repairing a returned device</description>
    <comment></comment>
    <testCaseGuid>67bcdc7a-e472-4e37-af6d-de8b453b2044</testCaseGuid>
    <variable>
-      <defaultValue>'1215010701-012805'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Returned Devices').getValue(1, 1)</defaultValue>
       <description></description>
       <id>92861f34-f8ac-4b2d-837b-bd5d75e65b2b</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Fixed'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Returned Devices').getValue(2, 1)</defaultValue>
       <description></description>
       <id>a041bf62-ba62-497f-8d57-0dd9f28a8181</id>
       <masked>false</masked>
       <name>resolution</name>
    </variable>
    <variable>
-      <defaultValue>'faulty device repaired'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Returned Devices').getValue(3, 1)</defaultValue>
       <description></description>
       <id>0d521269-fe53-4dd8-af84-488823505190</id>
       <masked>false</masked>
       <name>repairNotes</name>
    </variable>
    <variable>
-      <defaultValue>'SC009'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Returned Devices').getValue(4, 1)</defaultValue>
       <description></description>
       <id>fbfef6f7-e259-4c48-9b69-348e2e0d1725</id>
       <masked>false</masked>
       <name>wareHouseCode</name>
    </variable>
    <variable>
-      <defaultValue>'Tested OK, repair not required'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Repair Returned Devices').getValue(5, 1)</defaultValue>
       <description></description>
       <id>56ccd3fe-ccf0-4c4e-b386-87ac95271b96</id>
       <masked>false</masked>

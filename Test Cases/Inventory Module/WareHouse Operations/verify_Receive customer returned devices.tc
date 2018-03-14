@@ -7,21 +7,21 @@ recieving devices that customer has returned</description>
    <comment></comment>
    <testCaseGuid>b3271ba6-9804-40dd-bba9-d71feb7129a6</testCaseGuid>
    <variable>
-      <defaultValue>'SC005'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Operations/Receive Customer Returned Devices').getValue(1, 1)</defaultValue>
       <description></description>
       <id>e6cad9ca-d561-45f9-9bc4-09a6e407912d</id>
       <masked>false</masked>
       <name>wareHouseCode</name>
    </variable>
    <variable>
-      <defaultValue>'082012-0016393'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Operations/Receive Customer Returned Devices').getValue(2, 1)</defaultValue>
       <description></description>
       <id>d3f4bbb9-5b2a-48d2-abab-8a14d54ef186</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'received'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Operations/Receive Customer Returned Devices').getValue(3, 1)</defaultValue>
       <description></description>
       <id>4ee4ed9c-cd95-4564-9fa6-47f8dd66d885</id>
       <masked>false</masked>

@@ -7,21 +7,21 @@ approving a repaired device</description>
    <comment></comment>
    <testCaseGuid>f0fec6b0-49bb-44c9-9f0a-e73a87a0ebf1</testCaseGuid>
    <variable>
-      <defaultValue>'Declined'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Approve Device Repair').getValue(1, 1)</defaultValue>
       <description></description>
       <id>fb67a162-75c7-4f53-8411-597641352122</id>
       <masked>false</masked>
       <name>approvalStatus</name>
    </variable>
    <variable>
-      <defaultValue>'i have approved this repair'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Approve Device Repair').getValue(2, 1)</defaultValue>
       <description></description>
       <id>dc182a92-a511-4c42-9787-2354e139150a</id>
       <masked>false</masked>
       <name>approvalNotes</name>
    </variable>
    <variable>
-      <defaultValue>'0316010701-000206'</defaultValue>
+      <defaultValue>findTestData('Inventory/Repair Pools/Approve Device Repair').getValue(3, 1)</defaultValue>
       <description></description>
       <id>53e77f96-98f5-46b7-8036-146cb6d9f1fb</id>
       <masked>false</masked>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Test Data for Verify Receive Customer Returned Devices</description>
+   <name>Receive Customer Returned Devices</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b97fce75-e995-405d-9aa5-1e73738299d7</dataFileGUID>
+   <dataSourceUrl>Data Files/Inventory/Warehouse Operations/WareHouse Operations.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Recieve Cust. Returned Devices</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

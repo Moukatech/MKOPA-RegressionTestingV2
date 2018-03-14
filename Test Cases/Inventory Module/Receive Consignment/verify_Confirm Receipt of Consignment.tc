@@ -8,91 +8,91 @@ In the warehouse dashboard device details should be present</description>
    <comment></comment>
    <testCaseGuid>01adce50-fc71-4f97-b0e8-fb1d4e9a8f15</testCaseGuid>
    <variable>
-      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(1, 1)</defaultValue>
       <description></description>
       <id>91e16598-8613-4c8c-84d5-6f5da274ed40</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
-      <defaultValue>'OEL'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(2, 1)</defaultValue>
       <description></description>
       <id>bb1b7338-5450-4132-b03f-f2c92515ca25</id>
       <masked>false</masked>
       <name>supplier</name>
    </variable>
    <variable>
-      <defaultValue>'Primary Device'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(3, 1)</defaultValue>
       <description></description>
       <id>f3f8236f-b2c9-4680-bf5b-373fac58d54d</id>
       <masked>false</masked>
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>'POALDNCBSIWBCIQ'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(4, 1)</defaultValue>
       <description></description>
       <id>79e2b513-7466-47bd-9117-429568bbc488</id>
       <masked>false</masked>
       <name>consignmentNo</name>
    </variable>
    <variable>
-      <defaultValue>'1000'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(5, 1)</defaultValue>
       <description></description>
       <id>6d544743-6ba9-4a2e-9986-692764325005</id>
       <masked>false</masked>
       <name>loanDraw</name>
    </variable>
    <variable>
-      <defaultValue>'True'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(6, 1)</defaultValue>
       <description></description>
       <id>59ac0289-8f67-41a9-b171-2f86c6b54b5c</id>
       <masked>false</masked>
       <name>condition</name>
    </variable>
    <variable>
-      <defaultValue>'meteredItemManifests'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(7, 1)</defaultValue>
       <description></description>
       <id>09c2eb24-42cc-49d1-9ab9-0f31703237b6</id>
       <masked>false</masked>
       <name>selectId</name>
    </variable>
    <variable>
-      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(8, 1)</defaultValue>
       <description></description>
       <id>0ee2d8d1-eec4-4eea-ad4b-d3f878c8e4e6</id>
       <masked>false</masked>
       <name>shippingDate</name>
    </variable>
    <variable>
-      <defaultValue>'SC004'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(9, 1)</defaultValue>
       <description></description>
       <id>e16108be-e303-4269-a77b-276a0d7ea8f2</id>
       <masked>false</masked>
       <name>code</name>
    </variable>
    <variable>
-      <defaultValue>'f12a2060-6d89-e311-942c-000c29c12997'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(10, 1)</defaultValue>
       <description></description>
       <id>2fe2b0f9-02e3-46d1-b075-f7e5626dcdbe</id>
       <masked>false</masked>
       <name>receiptId</name>
    </variable>
    <variable>
-      <defaultValue>'2018-02-08 00:00:00'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(11, 1)</defaultValue>
       <description></description>
       <id>fcd790d8-3c72-41d3-83c2-1a4bbf2f2c62</id>
       <masked>false</masked>
       <name>receiptDate</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(12, 1)</defaultValue>
       <description></description>
       <id>4942f2b6-169c-45a8-9d67-3ad4d286f906</id>
       <masked>false</masked>
       <name>receiptCartonUnit</name>
    </variable>
    <variable>
-      <defaultValue>'We are finalizing in receiving the Consigment'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(13, 1)</defaultValue>
       <description></description>
       <id>36f8e699-15d4-4890-a118-724e41dc3baa</id>
       <masked>false</masked>
@@ -106,7 +106,7 @@ In the warehouse dashboard device details should be present</description>
       <name>imei</name>
    </variable>
    <variable>
-      <defaultValue>'Consignment closed successfully!'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Confirm Receipt of Consignment').getValue(14, 1)</defaultValue>
       <description></description>
       <id>d94bb4d5-b59c-4300-b5c0-f60704e47f39</id>
       <masked>false</masked>

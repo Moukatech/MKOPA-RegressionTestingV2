@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Test data for Verify Cartons Marked ok Ready for sale</description>
+   <name>Marked Cartons Ready for sale</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>63567821-574e-4647-8a03-e76baa8d542c</dataFileGUID>
+   <dataSourceUrl>Data Files/Inventory/Confirm Cartons ready for Sale/Confirm Cartons Ready for Sale.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Marked Cartons Ready For Sale</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

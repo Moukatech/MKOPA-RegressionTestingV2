@@ -8,49 +8,49 @@ Adding a new item type</description>
    <comment></comment>
    <testCaseGuid>fd1453af-c730-47cc-bedc-8de161ab9711</testCaseGuid>
    <variable>
-      <defaultValue>'PrimaryDevice'</defaultValue>
+      <defaultValue>findTestData('Inventory/Item Types/Add Metered Item Type').getValue(1, 1)</defaultValue>
       <description></description>
       <id>c9b9658d-5eda-4337-a3e2-6872701488b0</id>
       <masked>false</masked>
       <name>classification</name>
    </variable>
    <variable>
-      <defaultValue>'Solar '</defaultValue>
+      <defaultValue>findTestData('Inventory/Item Types/Add Metered Item Type').getValue(2, 1)</defaultValue>
       <description></description>
       <id>8ef3e011-353d-4168-a2c7-9f375402b0b7</id>
       <masked>false</masked>
       <name>partNumber</name>
    </variable>
    <variable>
-      <defaultValue>'Delight Solar Panel'</defaultValue>
+      <defaultValue>findTestData('Inventory/Item Types/Add Metered Item Type').getValue(3, 1)</defaultValue>
       <description></description>
       <id>50bb76cb-7b42-4ac9-ba0a-d5d532644fbb</id>
       <masked>false</masked>
       <name>partDescription</name>
    </variable>
    <variable>
-      <defaultValue>'Apalis'</defaultValue>
+      <defaultValue>findTestData('Inventory/Item Types/Add Metered Item Type').getValue(4, 1)</defaultValue>
       <description></description>
       <id>0650e121-fa18-40d2-889c-ca8c98ebeb7b</id>
       <masked>false</masked>
       <name>firmware</name>
    </variable>
    <variable>
-      <defaultValue>'added primary device as an item'</defaultValue>
+      <defaultValue>findTestData('Inventory/Item Types/Add Metered Item Type').getValue(5, 1)</defaultValue>
       <description></description>
       <id>5bd0ebfd-62e8-411a-940c-c2cd59a8a2ff</id>
       <masked>false</masked>
       <name>itemDescription</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>findTestData('Inventory/Item Types/Add Metered Item Type').getValue(6, 1)</defaultValue>
       <description></description>
       <id>68fea8e0-908a-4791-a09f-caee4cd621a0</id>
       <masked>false</masked>
       <name>quantity</name>
    </variable>
    <variable>
-      <defaultValue>'sample test (3698)'</defaultValue>
+      <defaultValue>findTestData('Inventory/Item Types/Add Metered Item Type').getValue(7, 1)</defaultValue>
       <description></description>
       <id>f54d7cbd-97a5-426b-9330-2e7ced502353</id>
       <masked>false</masked>

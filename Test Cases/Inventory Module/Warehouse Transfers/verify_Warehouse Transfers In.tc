@@ -8,28 +8,28 @@ Receiving devices sent from a given warehouse </description>
    <comment></comment>
    <testCaseGuid>2abf3ec3-2600-4a12-9bdb-8fe166dea2d0</testCaseGuid>
    <variable>
-      <defaultValue>'04a58263-0097-e411-80ed-00155d83faa4'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Transfers/Warehouse Transfers In').getValue(1, 1)</defaultValue>
       <description></description>
       <id>50308daf-5b42-40ce-9250-e39913476807</id>
       <masked>false</masked>
       <name>transfers_in</name>
    </variable>
    <variable>
-      <defaultValue>'ReceivedOk'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Transfers/Warehouse Transfers In').getValue(2, 1)</defaultValue>
       <description></description>
       <id>9e5295a9-7509-48f8-af80-47ce7a0423ee</id>
       <masked>false</masked>
       <name>status</name>
    </variable>
    <variable>
-      <defaultValue>'automation test'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Transfers/Warehouse Transfers In').getValue(3, 1)</defaultValue>
       <description></description>
       <id>3c62fb8b-5844-4acf-a41e-67934e608fa3</id>
       <masked>false</masked>
       <name>comment</name>
    </variable>
    <variable>
-      <defaultValue>'WAHo009'</defaultValue>
+      <defaultValue>findTestData('Inventory/Warehouse Transfers/Warehouse Transfers In').getValue(4, 1)</defaultValue>
       <description></description>
       <id>683ed9ce-7732-4bb1-99ae-741c8711cbbd</id>
       <masked>false</masked>

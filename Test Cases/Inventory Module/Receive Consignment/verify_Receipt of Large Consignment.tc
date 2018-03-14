@@ -8,91 +8,91 @@ Receiving a Consignment of more than 4000 items</description>
    <comment></comment>
    <testCaseGuid>a2a7d62f-675b-4afd-bcf6-bb2a73607fcd</testCaseGuid>
    <variable>
-      <defaultValue>'M-KOPA 400 : M-KOPA 400'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(1, 1)</defaultValue>
       <description></description>
       <id>6f2f3f5d-ee46-4e80-8652-b377e185a095</id>
       <masked>false</masked>
       <name>itemType</name>
    </variable>
    <variable>
-      <defaultValue>'OEL'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(2, 1)</defaultValue>
       <description></description>
       <id>cea46a56-e2ce-48be-99ef-81553d6da353</id>
       <masked>false</masked>
       <name>supplier</name>
    </variable>
    <variable>
-      <defaultValue>'Primary Device'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(3, 1)</defaultValue>
       <description></description>
       <id>9b5d708c-e0ee-450f-9349-896b11ba1e03</id>
       <masked>false</masked>
       <name>manifestType</name>
    </variable>
    <variable>
-      <defaultValue>'POAHQ28WYDH1WERY'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(4, 1)</defaultValue>
       <description></description>
       <id>d094372b-85de-4673-9b4e-6249f73d5f22</id>
       <masked>false</masked>
       <name>consignmentNo</name>
    </variable>
    <variable>
-      <defaultValue>'1200'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(5, 1)</defaultValue>
       <description></description>
       <id>6e7bc004-6e36-484b-a666-069cce926aea</id>
       <masked>false</masked>
       <name>loanDraw</name>
    </variable>
    <variable>
-      <defaultValue>'True'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(6, 1)</defaultValue>
       <description></description>
       <id>7acd30e1-414d-4166-8509-911fe745b4ce</id>
       <masked>false</masked>
       <name>condition</name>
    </variable>
    <variable>
-      <defaultValue>'meteredItemManifests'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(7, 1)</defaultValue>
       <description></description>
       <id>487f8ac1-d7b7-477f-8bd9-1e48d2a2efdb</id>
       <masked>false</masked>
       <name>selectId</name>
    </variable>
    <variable>
-      <defaultValue>'2018-03-29 00:00:00'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(8, 1)</defaultValue>
       <description></description>
       <id>601c6155-3fec-4e4c-b8c3-705e7847e8d5</id>
       <masked>false</masked>
       <name>shippingDate</name>
    </variable>
    <variable>
-      <defaultValue>'SC004'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(9, 1)</defaultValue>
       <description></description>
       <id>b7e2a2d8-f06f-4dae-9c8e-f42623c11365</id>
       <masked>false</masked>
       <name>code</name>
    </variable>
    <variable>
-      <defaultValue>'f12a2060-6d89-e311-942c-000c29c12997'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(10, 1)</defaultValue>
       <description></description>
       <id>a53a59d3-01cf-4d95-8f00-17bdd143fa2c</id>
       <masked>false</masked>
       <name>receiptId</name>
    </variable>
    <variable>
-      <defaultValue>'2018-02-08 00:00:00'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(11, 1)</defaultValue>
       <description></description>
       <id>9e71993e-4a79-4269-956e-e2011ff4aa15</id>
       <masked>false</masked>
       <name>receiptDate</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(12, 1)</defaultValue>
       <description></description>
       <id>3c8f7c59-0032-4d48-a24e-df79b063f753</id>
       <masked>false</masked>
       <name>receiptCartonUnit</name>
    </variable>
    <variable>
-      <defaultValue>'We are finalizing in receiving the Consigment'</defaultValue>
+      <defaultValue>findTestData('Inventory/Receive Consignment/Receipt of Large Consignment').getValue(13, 1)</defaultValue>
       <description></description>
       <id>95827ca7-fb92-4de2-b3dc-21357254197f</id>
       <masked>false</masked>
