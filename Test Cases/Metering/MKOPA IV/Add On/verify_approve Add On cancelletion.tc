@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>4041f673-227e-4556-a615-70f84ca77913</testCaseGuid>
    <variable>
-      <defaultValue>'13295551'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/add On').getValue(1, 1)</defaultValue>
       <description></description>
       <id>68e1dec5-e00d-40dd-bf88-31f1c38a8c97</id>
       <masked>false</masked>

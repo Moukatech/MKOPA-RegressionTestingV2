@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ID 2760</description>
+   <name>verify_View states sent History MKOPA III</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>205bbd9e-5f93-40fd-8b03-36be1807350a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>eabbfe0f-6dcc-4c72-903c-c85d1981d28f</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>71ecabc8-92a1-432c-b1b2-cebd46af4558</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>dfde8c6b-9a5c-474c-8495-b9bbef396842</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sends States to MKOPA III'</defaultValue>
+      <description></description>
+      <id>9db39f75-decf-4f71-892a-fb2f0ff98756</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>'Activated'</defaultValue>
+      <description></description>
+      <id>9ff39fe2-7302-454e-bc9d-fee7d9cf1c0b</id>
+      <masked>false</masked>
+      <name>stateToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>6a56bdeb-59f5-4f50-9222-f59cda68c297</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>36164167-8130-4d3c-be3c-d4fe94ea51d3</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>df34c153-cb99-42b4-a571-cfa8dbd944f4</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
+</TestCaseEntity>

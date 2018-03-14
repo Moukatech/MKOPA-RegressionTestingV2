@@ -19,7 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Metering/MKOPA IV/Sending Credits to Mkopa IV Device/steps_Send Credits Manualy to Mkopa IV'), 
-    [('customerToSearch') : '7954414', ('deviceSerial') : '1016011601-000823', ('windowTitle') : 'Inventory item details | M-KOPAnet'
-        , ('creditsToSend') : '10', ('reason') : 'I have Sent the Credits'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Metering/Common/Send Credits/steps_Send Credits Manualy'), [('customerToSearch') : customerToSearch
+        , ('deviceSerial') : deviceSerial, ('windowTitle') : windowTitle, ('creditsToSend') : creditsToSend, ('reason') : reason], 
+    FailureHandling.STOP_ON_FAILURE)
 

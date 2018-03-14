@@ -7,14 +7,14 @@ sending state to a device manually</description>
    <comment></comment>
    <testCaseGuid>e8eb1a47-b658-4133-a83c-9dbc648b83ef</testCaseGuid>
    <variable>
-      <defaultValue>'28842662'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(1, 2)</defaultValue>
       <description></description>
       <id>881327e7-68d3-43f8-b888-55515df2f6e3</id>
       <masked>false</masked>
       <name>customerAccount</name>
    </variable>
    <variable>
-      <defaultValue>'032013-0005423'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(2, 2)</defaultValue>
       <description></description>
       <id>ba654c42-73df-44da-a700-5a675a00dd97</id>
       <masked>false</masked>
@@ -35,10 +35,24 @@ sending state to a device manually</description>
       <name>reason</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(3, 2)</defaultValue>
       <description></description>
       <id>a38b3276-b12d-47e8-b1e0-19be2a7104ca</id>
       <masked>false</masked>
       <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>c78fa085-c893-437b-928e-68abbe7e6755</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>cd37d538-89aa-4cbd-8b5a-01fc88ea0a41</id>
+      <masked>false</masked>
+      <name>row</name>
    </variable>
 </TestCaseEntity>

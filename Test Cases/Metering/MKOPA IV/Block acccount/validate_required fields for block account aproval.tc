@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>bb9ec3c1-c149-4d3f-a9b3-87cdaf70e812</testCaseGuid>
    <variable>
-      <defaultValue>'9020790'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Block account').getValue(1, 1)</defaultValue>
       <description></description>
       <id>5e19993f-806e-4887-bf11-34e1b9566201</id>
       <masked>false</masked>

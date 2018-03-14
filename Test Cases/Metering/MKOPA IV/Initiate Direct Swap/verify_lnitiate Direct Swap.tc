@@ -8,14 +8,14 @@ Search for an active Customer and on his account initiate a direct swap.</descri
    <comment></comment>
    <testCaseGuid>785b9f94-8354-4bb1-a8c7-fc14b38f9c5d</testCaseGuid>
    <variable>
-      <defaultValue>'Hammerkop Prod'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/initiate Direct swap').getValue(2, 1)</defaultValue>
       <description></description>
       <id>40ee8410-a279-4351-a301-5c2d761d7bea</id>
       <masked>false</masked>
       <name>itemToSwap</name>
    </variable>
    <variable>
-      <defaultValue>'12582063'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/initiate Direct swap').getValue(1, 1)</defaultValue>
       <description></description>
       <id>14ad965d-2a88-4c1f-a396-e9064e310cc1</id>
       <masked>false</masked>

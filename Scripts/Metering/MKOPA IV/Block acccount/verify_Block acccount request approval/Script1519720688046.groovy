@@ -25,7 +25,7 @@ WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/Link-Customer'))
 
 WebUI.delay(2)
 
-WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/link_Products'))
+WebUI.mouseOver(findTestObject('Page Header and Menu/Customers/link_Product'))
 
 WebUI.delay(2)
 

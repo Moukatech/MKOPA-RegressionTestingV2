@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>f8c54f2d-f6a3-4e1e-9e1a-73d57edfcf8d</testCaseGuid>
    <variable>
-      <defaultValue>'21983822'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Downgrade Mkopa 400').getValue(1, 2)</defaultValue>
       <description></description>
       <id>56f341ef-fdeb-4ab5-ada9-8407ce6db1b9</id>
       <masked>false</masked>

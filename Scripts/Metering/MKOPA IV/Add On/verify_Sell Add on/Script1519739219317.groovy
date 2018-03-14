@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Customer Module/Sell Add On/select_Sales operator', 
 
 WebUI.setText(findTestObject('Customer Module/Sell Add On/input-Comment'), comment)
 
-WebUI.click(findTestObject('Customer Module/Sell Add On/Button-Sell'))
+not_run: WebUI.click(findTestObject('Customer Module/Sell Add On/Button-Sell'))
 
 WebUI.delay(2)
 

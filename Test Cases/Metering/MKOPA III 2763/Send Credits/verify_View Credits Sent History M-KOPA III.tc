@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ID 2763</description>
+   <name>verify_View Credits Sent History M-KOPA III</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b256fc08-b214-4970-ac7d-516b9dbed6e4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f4c005a8-8505-49e7-91fe-650840f075bd</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>f909bd86-6565-4bb0-bf04-63b32fff9232</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>f76c3bf7-f4c2-45bf-9cfb-a2b1f9d96bd5</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing if one can View Credits Sent History'</defaultValue>
+      <description></description>
+      <id>47171a78-b6fb-46f0-98d4-a2cc7d05e9b0</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>7b16a040-4cc0-4568-ba73-e89e1cd9f13d</id>
+      <masked>false</masked>
+      <name>creditsToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>4828a5ec-b7d7-4a6e-bf88-7186f52cf6c2</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>7172fd3d-66fe-4e8c-a795-634fb4163bc2</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
+</TestCaseEntity>

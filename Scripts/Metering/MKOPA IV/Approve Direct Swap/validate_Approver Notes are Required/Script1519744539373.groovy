@@ -21,8 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/CheckerLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Metering/MKOPA IV/Approve Direct Swap/steps_Approve Direct Swap'), [('status') : status, ('deviceSerial') : deviceSerial
-        , ('approverNotes') : approverNotes], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Metering/MKOPA IV/Approve Direct Swap/steps_Approve Direct Swap'), [('status') : status
+        , ('deviceSerial') : deviceSerial, ('approverNotes') : approverNotes], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

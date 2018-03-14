@@ -8,21 +8,21 @@ Send Credits in d20g device and the customer credits should increase</descriptio
    <comment></comment>
    <testCaseGuid>5cc8dc6b-ab32-4ce3-b1c7-40af0d29d59c</testCaseGuid>
    <variable>
-      <defaultValue>'21694153'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(1, 5)</defaultValue>
       <description></description>
       <id>df5b54a9-b5b4-470c-845d-7a5b80299900</id>
       <masked>false</masked>
       <name>customerToSearch</name>
    </variable>
    <variable>
-      <defaultValue>'092013-0300776'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(2, 5)</defaultValue>
       <description></description>
       <id>68d4282c-cb87-4965-bcb4-08ccb05c3445</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(3, 5)</defaultValue>
       <description></description>
       <id>eaec796f-8171-429a-8e99-8e8421b0974a</id>
       <masked>false</masked>

@@ -14,7 +14,7 @@
       <guid>9e31c505-4652-458c-b61a-5dba1a702bad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Inventory Module/WareHouse Operators/validate_An Operator is Successfully allocated to a Warehouse</testCaseId>
+      <testCaseId>Test Cases/Inventory Module/WareHouse Operators/verify_An Operator is Successfully allocated to a Warehouse</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

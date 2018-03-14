@@ -8,21 +8,21 @@ Send Credits to an d20g Customer and View if they reflect on the States sent tab
    <comment></comment>
    <testCaseGuid>e9956689-4dd1-41a6-9a8d-3213aef62194</testCaseGuid>
    <variable>
-      <defaultValue>'23455626'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(1, 6)</defaultValue>
       <description></description>
       <id>c2171a26-0d75-4881-9059-a90d1046da14</id>
       <masked>false</masked>
       <name>customerToSearch</name>
    </variable>
    <variable>
-      <defaultValue>'092013-0040126'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(2, 6)</defaultValue>
       <description></description>
       <id>befef4a1-ec7f-43ce-8284-6efbcc8d15fc</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(3, 5)</defaultValue>
       <description></description>
       <id>8385a3ca-4587-44b9-afa3-d065e18f2372</id>
       <masked>false</masked>

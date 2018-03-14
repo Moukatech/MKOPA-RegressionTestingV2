@@ -6,35 +6,35 @@
    <comment></comment>
    <testCaseGuid>1e686122-c5fc-4325-b80d-b35fdad63f4f</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(1, 1)</defaultValue>
       <description></description>
       <id>86dcf391-6f78-44df-bdce-a5c50c3a86f5</id>
       <masked>false</masked>
       <name>customerToSearch</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(2, 1)</defaultValue>
       <description></description>
       <id>c6117bd6-dd25-4904-bc46-d69e703f70e4</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(3, 1)</defaultValue>
       <description></description>
       <id>5c7b728b-73ca-4bb6-a01f-d7d2ab9e457a</id>
       <masked>false</masked>
       <name>windowTitle</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'5'</defaultValue>
       <description></description>
       <id>c85983eb-9b78-4b47-a91c-14e289b18817</id>
       <masked>false</masked>
       <name>creditsToSend</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Credits sent for MKOPA III'</defaultValue>
       <description></description>
       <id>a2aaad9b-cecd-4c84-8954-b0630bdad9d9</id>
       <masked>false</masked>

@@ -13,7 +13,7 @@
       <name>status</name>
    </variable>
    <variable>
-      <defaultValue>'0216021201-000502'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Approve Direct Swap').getValue(1, 2)</defaultValue>
       <description></description>
       <id>0dbc00d7-0b7e-4734-82ac-ca36c5071934</id>
       <masked>false</masked>
