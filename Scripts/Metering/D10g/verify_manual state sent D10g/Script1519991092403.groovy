@@ -25,7 +25,8 @@ WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwang
 WebUI.callTestCase(findTestCase('Metering/Common/Send State/steps_Send State'), [('customerToSearch') : customerAccount, ('deviceSerial') : deviceSerial
         , ('windowsTitle') : windowTitle, ('reason') : reason, ('stateToSend') : stateToSend], FailureHandling.STOP_ON_FAILURE)
 
-stateSent = WebUI.getText(findTestObject('Customer Module/Device Details Page/td_Sent State'), FailureHandling.STOP_ON_FAILURE)
+stateSent = WebUI.getText(findTestObject('Customer Module/Device Details Page/td_Sent State', [('column') : column, ('row') : row]), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyEqual(stateSent, '2')
 

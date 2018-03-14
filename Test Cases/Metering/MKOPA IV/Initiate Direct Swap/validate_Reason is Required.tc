@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>5aae7c27-3bac-4893-964f-ade049310075</testCaseGuid>
    <variable>
-      <defaultValue>'Hammerkop Prod'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/initiate Direct swap').getValue(2, 1)</defaultValue>
       <description></description>
       <id>c9757973-4348-4290-9ff6-76a5bfa98f3e</id>
       <masked>false</masked>
       <name>itemToSwap</name>
    </variable>
    <variable>
-      <defaultValue>'12582063'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/initiate Direct swap').getValue(1, 1)</defaultValue>
       <description></description>
       <id>1c9b9eac-76d0-4427-89c2-05a31fde1df1</id>
       <masked>false</masked>

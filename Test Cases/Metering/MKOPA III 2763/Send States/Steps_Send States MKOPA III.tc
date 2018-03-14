@@ -5,4 +5,60 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7d2fb168-f641-4502-9357-1766fab5a81c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>abc0859f-f112-48ff-bb1b-aaafb6683c13</id>
+      <masked>false</masked>
+      <name>customerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>99f4709f-e3ee-4586-8aa4-aef623ec8b13</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Metering/MKOPA III/MKOPA III').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>e89d5d60-7c04-42e2-8cb1-fd74fef9e5e5</id>
+      <masked>false</masked>
+      <name>deviceSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sends States to MKOPA III'</defaultValue>
+      <description></description>
+      <id>e655795a-c2c8-4c93-a111-c5ff27d5048f</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>'Activated'</defaultValue>
+      <description></description>
+      <id>decd86ec-60f9-4be8-a4af-f7b55625183d</id>
+      <masked>false</masked>
+      <name>stateToSend</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>12513635-e755-488a-80f0-4927994bf9d4</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>7ba14586-0c76-4f6e-92be-c9a63611de20</id>
+      <masked>false</masked>
+      <name>row</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>96c1d222-8fa5-4fce-af06-6891efa7f3f1</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
 </TestCaseEntity>

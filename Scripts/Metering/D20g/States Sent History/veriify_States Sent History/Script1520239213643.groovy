@@ -30,5 +30,5 @@ sentState = WebUI.getText(findTestObject('Customer Module/Device Details Page/td
 
 WebUI.verifyEqual(sentState, state)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

@@ -7,7 +7,7 @@ Cancellation of AddOn sold to an M-kopa 4 customer</description>
    <comment></comment>
    <testCaseGuid>b30ba139-a232-4709-bd51-dc9c87b15b15</testCaseGuid>
    <variable>
-      <defaultValue>'13295551'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/add On').getValue(1, 1)</defaultValue>
       <description></description>
       <id>bd184a5e-edba-4243-92be-c9d792833b54</id>
       <masked>false</masked>
@@ -21,7 +21,7 @@ Cancellation of AddOn sold to an M-kopa 4 customer</description>
       <name>addOnName</name>
    </variable>
    <variable>
-      <defaultValue>'828399'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/add On').getValue(2, 1)</defaultValue>
       <description></description>
       <id>19100add-fa2c-40d0-b53e-3402f52deab3</id>
       <masked>false</masked>

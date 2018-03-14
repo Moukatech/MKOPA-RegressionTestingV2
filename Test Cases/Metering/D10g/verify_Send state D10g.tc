@@ -7,21 +7,21 @@ sending state to D10g device</description>
    <comment></comment>
    <testCaseGuid>fe77b1b5-05d5-4ba3-8191-e176243057a5</testCaseGuid>
    <variable>
-      <defaultValue>'28842662'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(1, 2)</defaultValue>
       <description></description>
       <id>6b514895-4d89-4e87-ba74-594027d2dd6a</id>
       <masked>false</masked>
       <name>customerAccount</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(3, 2)</defaultValue>
       <description></description>
       <id>2d6c6d9a-f4e8-408c-9b23-823226684a17</id>
       <masked>false</masked>
       <name>windowTitle</name>
    </variable>
    <variable>
-      <defaultValue>'032013-0005423'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(2, 2)</defaultValue>
       <description></description>
       <id>a01a786c-43d8-4aa0-adde-64780a3070f0</id>
       <masked>false</masked>

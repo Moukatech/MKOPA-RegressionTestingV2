@@ -13,7 +13,7 @@
       <name>itemToSwap</name>
    </variable>
    <variable>
-      <defaultValue>'12582063'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/initiate Direct swap').getValue(1, 1)</defaultValue>
       <description></description>
       <id>a2f83c5e-5cfe-43cf-8f45-c6f716e56ef3</id>
       <masked>false</masked>

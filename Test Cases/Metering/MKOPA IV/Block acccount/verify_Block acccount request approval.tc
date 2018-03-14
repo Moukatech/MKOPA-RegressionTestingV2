@@ -7,7 +7,7 @@ Approving an account  block request</description>
    <comment></comment>
    <testCaseGuid>b6878e56-11bd-49a3-8a7c-eec5011c0fc9</testCaseGuid>
    <variable>
-      <defaultValue>'21645554'</defaultValue>
+      <defaultValue>findTestData('Metering/MKOPA IV/Block account').getValue(1, 2)</defaultValue>
       <description></description>
       <id>4c771c91-2112-4be5-870e-9362a3e95043</id>
       <masked>false</masked>

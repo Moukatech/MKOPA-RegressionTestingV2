@@ -9,21 +9,21 @@ Sending states in D20g Customer. The sent states should be viewed in the product
    <comment></comment>
    <testCaseGuid>9e241eae-f827-4ebc-9e54-bb77aaa54a14</testCaseGuid>
    <variable>
-      <defaultValue>'23455626'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(1, 6)</defaultValue>
       <description></description>
       <id>38da6fd3-abc0-4da5-88ec-1af3583f87a4</id>
       <masked>false</masked>
       <name>customerToSearch</name>
    </variable>
    <variable>
-      <defaultValue>'092013-0040126'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(2, 6)</defaultValue>
       <description></description>
       <id>252fb612-9d4e-46d7-af90-e83e7dd683ac</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(3, 5)</defaultValue>
       <description></description>
       <id>ab5ce4ff-6373-44ec-b556-6a683132b9a4</id>
       <masked>false</masked>

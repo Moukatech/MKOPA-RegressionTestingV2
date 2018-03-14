@@ -19,7 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Metering/Common/Send State/steps_Send State'), [('customerToSearch') : '21694153', ('deviceSerial') : '092013-0300776'
-        , ('windowsTitle') : 'Inventory item details | M-KOPAnet', ('reason') : 'test', ('stateToSend') : 'Activated'], 
+WebUI.callTestCase(findTestCase('Common/UserLogin'), [('Email') : 'Kennedy.Mwangi@m-kopa.com', ('Password') : 'Ken0726*-'], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Metering/Common/Send State/steps_Send State'), [('customerToSearch') : customerAccount, ('deviceSerial') : deviceSerial
+        , ('windowsTitle') : windowTitle, ('reason') : reason, ('stateToSend') : stateToSend], FailureHandling.STOP_ON_FAILURE)
 

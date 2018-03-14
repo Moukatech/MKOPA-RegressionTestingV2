@@ -14,7 +14,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using ServicingWa
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'Kisii'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(6, 1)</defaultValue>
       <description></description>
       <id>b31fcae1-597f-4c70-bb7f-a2caeaae1b5a</id>
       <masked>false</masked>
@@ -28,7 +28,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using ServicingWa
       <name>option_Operator</name>
    </variable>
    <variable>
-      <defaultValue>'SC011 M-KOPA Shop Kisii'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(4, 1)</defaultValue>
       <description></description>
       <id>2e0e0bcf-8bf7-43ed-84c8-a53a52b7e7f4</id>
       <masked>false</masked>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180219_110042</name>
+   <tag></tag>
+   <displayName>20180219_110042</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Inventory Module/Check Stock/Steps_check stock</testCaseId>
+      <testCaseName>Steps_check stock</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Inventory Module/Mark Stock For Sale/steps_markstockfor sale</testCaseId>
+      <testCaseName>steps_markstockfor sale</testCaseName>
+      <videoLocation>videos/test_2.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

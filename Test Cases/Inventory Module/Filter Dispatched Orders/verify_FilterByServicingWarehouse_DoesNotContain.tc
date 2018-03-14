@@ -14,7 +14,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using ServicingWa
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'SC045 M-KOPA Shop Kajiado '</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(4, 1)</defaultValue>
       <description></description>
       <id>091d5761-cadd-4ed5-9859-036c1d9c5dcc</id>
       <masked>false</masked>

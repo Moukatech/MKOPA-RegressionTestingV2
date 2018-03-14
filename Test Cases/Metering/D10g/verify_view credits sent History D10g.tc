@@ -7,21 +7,21 @@ viewing the history of all credits sent to a D10g devce</description>
    <comment></comment>
    <testCaseGuid>71133ef5-2d88-4ff6-859b-339ca06fc208</testCaseGuid>
    <variable>
-      <defaultValue>'28842662'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(1, 2)</defaultValue>
       <description></description>
       <id>726b4d60-4279-4ffb-95a9-f9e5d2224e55</id>
       <masked>false</masked>
       <name>customerAccount</name>
    </variable>
    <variable>
-      <defaultValue>'032013-0005423'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(2, 2)</defaultValue>
       <description></description>
       <id>250ced16-cd46-4cb1-b5d8-e96d0f7c0e9f</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(3, 2)</defaultValue>
       <description></description>
       <id>159a4d02-55e5-48f8-91b9-61610a11238e</id>
       <masked>false</masked>

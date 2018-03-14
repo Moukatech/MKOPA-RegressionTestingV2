@@ -9,21 +9,21 @@ Navigate to the Device Landing Page and confirm if the History of Credit sents a
    <comment></comment>
    <testCaseGuid>08759576-d616-4edf-8e3b-7cf5dfb0d7d9</testCaseGuid>
    <variable>
-      <defaultValue>'21694153'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(1, 5)</defaultValue>
       <description></description>
       <id>c83e2e4d-11a6-49cc-932c-20919b8b061e</id>
       <masked>false</masked>
       <name>customerToSearch</name>
    </variable>
    <variable>
-      <defaultValue>'092013-0300776'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(2, 5)</defaultValue>
       <description></description>
       <id>00e18692-5ac8-4c01-a7c8-3e862a93b8a5</id>
       <masked>false</masked>
       <name>deviceSerial</name>
    </variable>
    <variable>
-      <defaultValue>'Inventory item details | M-KOPAnet'</defaultValue>
+      <defaultValue>findTestData('Metering/D10g/D10g').getValue(3, 5)</defaultValue>
       <description></description>
       <id>03e81abb-73b3-44fd-8ddf-baee25d66a21</id>
       <masked>false</masked>
