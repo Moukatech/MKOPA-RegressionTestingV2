@@ -6,28 +6,28 @@
    <comment></comment>
    <testCaseGuid>f69fde35-853b-44df-b3f1-ef747f9835bd</testCaseGuid>
    <variable>
-      <defaultValue>'Chania Place'</defaultValue>
+      <defaultValue>findTestData('Dealers/Sales/Add sales sub-Areas').getValue(1, 1)</defaultValue>
       <description></description>
       <id>a7bfad82-1dbb-4c6e-b7a7-bfbaa5533886</id>
       <masked>false</masked>
       <name>subAreaName</name>
    </variable>
    <variable>
-      <defaultValue>'079'</defaultValue>
+      <defaultValue>findTestData('Dealers/Sales/Add sales sub-Areas').getValue(2, 1)</defaultValue>
       <description></description>
       <id>f26ccfb9-039b-47de-a251-ce604723dd0a</id>
       <masked>false</masked>
       <name>code</name>
    </variable>
    <variable>
-      <defaultValue>'Along Chania Road Kile'</defaultValue>
+      <defaultValue>findTestData('Dealers/Sales/Add sales sub-Areas').getValue(3, 1)</defaultValue>
       <description></description>
       <id>4fc93505-37bc-4c49-bb5f-8b1513713f8f</id>
       <masked>false</masked>
       <name>description</name>
    </variable>
    <variable>
-      <defaultValue>'Nakuru'</defaultValue>
+      <defaultValue>findTestData('Dealers/Sales/Add sales sub-Areas').getValue(4, 1)</defaultValue>
       <description></description>
       <id>a058d097-a5b1-4395-9514-a431d8939939</id>
       <masked>false</masked>

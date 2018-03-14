@@ -8,21 +8,21 @@ Approving outlet closure</description>
    <comment></comment>
    <testCaseGuid>c772c054-323d-43e9-82ba-d7bd6934af59</testCaseGuid>
    <variable>
-      <defaultValue>'01118-103'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Approve outlet closure').getValue(1, 1)</defaultValue>
       <description></description>
       <id>0d5c5721-e4f3-4d9f-a441-c367980d5de1</id>
       <masked>false</masked>
       <name>OutletCode</name>
    </variable>
    <variable>
-      <defaultValue>'Approved'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Approve outlet closure').getValue(2, 1)</defaultValue>
       <description></description>
       <id>cc0e5183-cd22-4750-8c75-951cbcf120ec</id>
       <masked>false</masked>
       <name>approvalStatus</name>
    </variable>
    <variable>
-      <defaultValue>'automation Test'</defaultValue>
+      <defaultValue>findTestData('Dealers/outlets/Approve outlet closure').getValue(3, 1)</defaultValue>
       <description></description>
       <id>5696027d-8751-4e8a-bae9-94d9fd1cdb5a</id>
       <masked>false</masked>

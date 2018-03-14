@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>14b9ac34-88b1-4ed2-9c5b-69774e6e7a76</testCaseGuid>
    <variable>
-      <defaultValue>'KE0401172-01'</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Cancel Approved dealer order').getValue(1, 1)</defaultValue>
       <description>in the order administration table</description>
       <id>ac054794-605f-4325-a07a-e97803b9d2f6</id>
       <masked>false</masked>
       <name>ordernumber</name>
    </variable>
    <variable>
-      <defaultValue>'K0877'</defaultValue>
+      <defaultValue>findTestData('Dealers/Request/Cancel Approved dealer order').getValue(2, 1)</defaultValue>
       <description>dealer account number</description>
       <id>ed91b87a-030f-4872-b2d6-15372ce0ed64</id>
       <masked>false</masked>
