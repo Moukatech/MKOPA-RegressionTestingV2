@@ -14,7 +14,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using OrderingOut
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'SC001 Meru Rimbere Enterprise'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(4, 1)</defaultValue>
       <description></description>
       <id>1bd9bd2d-1b39-4443-a2d9-0efe1a5e75d3</id>
       <masked>false</masked>

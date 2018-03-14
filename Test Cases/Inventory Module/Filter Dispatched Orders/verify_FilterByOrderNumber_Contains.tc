@@ -14,7 +14,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using OrderNumber
       <name>delay</name>
    </variable>
    <variable>
-      <defaultValue>'KE0337185'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(2, 1)</defaultValue>
       <description></description>
       <id>bde9eb34-179e-42d9-bdd6-b890c779fa6c</id>
       <masked>false</masked>
@@ -28,7 +28,7 @@ Test Case Description: Verifies Filtering of Dispatched Orders Using OrderNumber
       <name>option_Operator</name>
    </variable>
    <variable>
-      <defaultValue>'KE0337185-01'</defaultValue>
+      <defaultValue>findTestData('Inventory/FilterAndSort').getValue(1, 1)</defaultValue>
       <description></description>
       <id>a4d12bb1-dbaf-4c5c-b592-bc14012ffb1d</id>
       <masked>false</masked>
