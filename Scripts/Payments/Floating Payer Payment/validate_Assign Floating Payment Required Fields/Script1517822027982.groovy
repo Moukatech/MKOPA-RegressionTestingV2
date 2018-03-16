@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/1Common/step_Assign Floating Payment'), [('receiptNumber') : receiptNumber, ('payerReference') : payerReference
+WebUI.callTestCase(findTestCase('Payments/Common/step_Assign Floating Payment'), [('receiptNumber') : receiptNumber, ('payerReference') : payerReference
         , ('productAccount') : productAccount, ('comments') : comments], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent(Error Message, false)

@@ -19,6 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Customers/RefundPayment/verify_ValidCredentials'), [('inputAmount') : inputAmount, ('input_Notes') : input_Notes
+WebUI.callTestCase(findTestCase('Payments/Refund Payments/verify_ValidCredentials'), [('inputAmount') : inputAmount, ('input_Notes') : input_Notes
         , ('delay') : delay, ('success') : success], FailureHandling.STOP_ON_FAILURE)
 

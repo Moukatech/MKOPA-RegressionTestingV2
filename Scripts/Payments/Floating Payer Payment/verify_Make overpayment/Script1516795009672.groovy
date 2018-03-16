@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('Common/steps_Upload Payments File'), [('Amount'
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('Payments/1Common/steps_Navigate to floating payments'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Payments/Common/steps_Navigate to floating payments'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(6)
 
